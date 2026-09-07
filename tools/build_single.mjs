@@ -59,3 +59,14 @@ for (const icon of ['icons/icon-192.png', 'icons/apple-touch-icon.png']) {
 await mkdir(new URL('dist/', root), { recursive: true });
 await writeFile(new URL('dist/single.html', root), out);
 console.log(`wrote dist/single.html (${(out.length / 1024).toFixed(0)} KB, ${sets.length} sets)`);
+
+// Claude Artifact 版：发布时会被套上 html/head/body 外壳，所以只留 title + style + body 内容
+const title = out.match(/<title>[\s\S]*?<\/title>/)[0];
+const style = out.match(/<style>[\s\S]*?<\/style>/)[0];
+const bodyInner = out.match(/<body>([\s\S]*)<\/body>/)[1].trim();
+const artifact = `${title}
+${style}
+${bodyInner}
+`;
+await writeFile(new URL('dist/artifact.html', root), artifact);
+console.log(`wrote dist/artifact.html (${(artifact.length / 1024).toFixed(0)} KB)`);

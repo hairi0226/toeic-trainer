@@ -135,8 +135,8 @@ function applyMerged(merged) {
 function applyPrefs() {
   const meta = getMeta();
   const root = document.documentElement;
-  if (meta.theme === 'light' || meta.theme === 'dark') root.dataset.theme = meta.theme;
-  else delete root.dataset.theme;
+  if (meta.theme === 'light' || meta.theme === 'dark') { root.dataset.theme = meta.theme; root.dataset.themeBy = 'app'; }
+  else if (root.dataset.themeBy === 'app') { delete root.dataset.theme; delete root.dataset.themeBy; }
   root.dataset.fs = meta.fontSize || 'm';
 }
 
