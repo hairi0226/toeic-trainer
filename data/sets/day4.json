@@ -58,7 +58,30 @@
             }
           ],
           "answer": "B",
-          "explain": "plan to do"
+          "explain": "plan to do",
+          "zh": {
+            "stem": "公司计划在机场附近开一家新分店。",
+            "options": {
+              "A": "动名词/现在分词：开设（-ing 形式），plan 后面不接 -ing，只接 to do",
+              "B": "动词原形：开设、开张，plan to open = 计划开设 ✓",
+              "C": "过去式/过去分词：开设了，plan to 后面不能接过去式",
+              "D": "名词：开放、坦率，跟\"开分店\"完全不搭"
+            },
+            "vocab": [
+              {
+                "word": "branch",
+                "zh": "分店、分公司、分支机构"
+              },
+              {
+                "word": "plan to do",
+                "zh": "计划做某事（plan 后面固定接 to do）"
+              },
+              {
+                "word": "open a branch",
+                "zh": "开一家分店"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q2",
@@ -87,7 +110,34 @@
             }
           ],
           "answer": "C",
-          "explain": "ahead of schedule = 提前"
+          "explain": "ahead of schedule = 提前",
+          "zh": {
+            "stem": "这批货比预定时间提前两天到了。",
+            "options": {
+              "A": "介词短语：紧挨着、在……旁边，next to the door = 门旁边",
+              "B": "介词短语：除了……之外，except for one error = 除了一个错误",
+              "C": "介词短语：在……之前、领先于，ahead of schedule = 比计划提前 ✓",
+              "D": "介词短语：因为、由于，because of the rain = 因为下雨"
+            },
+            "vocab": [
+              {
+                "word": "shipment",
+                "zh": "一批货、货运"
+              },
+              {
+                "word": "schedule",
+                "zh": "日程、计划表"
+              },
+              {
+                "word": "behind schedule",
+                "zh": "比计划晚（ahead of schedule 的反义）"
+              },
+              {
+                "word": "on schedule",
+                "zh": "按计划、准时"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q3",
@@ -116,7 +166,34 @@
             }
           ],
           "answer": "D",
-          "explain": "submitted 由副词 promptly 修饰。"
+          "explain": "submitted 由副词 promptly 修饰。",
+          "zh": {
+            "stem": "经理要求把修改后的提案尽快提交上来。",
+            "options": {
+              "A": "形容词：迅速的、及时的（也可作动词\"促使\"），a prompt reply = 及时的回复",
+              "B": "名词：迅速、及时",
+              "C": "动词第三人称单数 / 名词复数：促使；提示",
+              "D": "副词：迅速地、立刻，修饰动词 submitted ✓"
+            },
+            "vocab": [
+              {
+                "word": "request that ... be done",
+                "zh": "要求……被做（虚拟语气，that 从句里动词用原形，所以是 be submitted 不是 is submitted）"
+              },
+              {
+                "word": "revised",
+                "zh": "修改过的、修订后的"
+              },
+              {
+                "word": "proposal",
+                "zh": "提案、建议书"
+              },
+              {
+                "word": "submit",
+                "zh": "提交"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q4",
@@ -145,7 +222,34 @@
             }
           ],
           "answer": "A",
-          "explain": "obtain approval"
+          "explain": "obtain approval",
+          "zh": {
+            "stem": "员工出差前必须获得书面批准。",
+            "options": {
+              "A": "名词：批准、认可，obtain/get approval = 获得批准 ✓",
+              "B": "动词：批准，approve a plan = 批准一项计划",
+              "C": "过去式/过去分词：已批准的，approved budget = 已获批的预算",
+              "D": "现在分词/形容词：赞许的，an approving nod = 赞许地点头"
+            },
+            "vocab": [
+              {
+                "word": "obtain",
+                "zh": "获得、取得（get 的正式说法）"
+              },
+              {
+                "word": "written",
+                "zh": "书面的"
+              },
+              {
+                "word": "on company business",
+                "zh": "因公、出差"
+              },
+              {
+                "word": "employee",
+                "zh": "员工、雇员"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q5",
@@ -174,7 +278,34 @@
             }
           ],
           "answer": "B",
-          "explain": "since 引导的时间段常对应现在完成时。"
+          "explain": "since 引导的时间段常对应现在完成时。",
+          "zh": {
+            "stem": "自从实验室开张以来，项目数量一直在稳步增长。",
+            "options": {
+              "A": "一般过去时：增加了，和 since 表示的\"从过去到现在\"不搭",
+              "B": "现在完成时：（从过去到现在）一直在增加，since ... 常配现在完成时 ✓",
+              "C": "将来时：将会增加，和 since 矛盾",
+              "D": "语法错误：现在进行时不能配 yesterday"
+            },
+            "vocab": [
+              {
+                "word": "since",
+                "zh": "自从（引导时间从句时，主句常用现在完成时 has/have done）"
+              },
+              {
+                "word": "laboratory",
+                "zh": "实验室（口语常说 lab）"
+              },
+              {
+                "word": "the number of",
+                "zh": "……的数量（主语是 number，动词用单数）"
+              },
+              {
+                "word": "steadily",
+                "zh": "稳步地、持续地"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q6",
@@ -203,7 +334,42 @@
             }
           ],
           "answer": "C",
-          "explain": "主语 substitute 为单数"
+          "explain": "主语 substitute 为单数",
+          "zh": {
+            "stem": "您要的商品目前没货，但我们推荐了一款合适的替代品。",
+            "options": {
+              "A": "动词 have，主语 substitute 是单数第三人称，不能用 have",
+              "B": "be 动词复数形式，主语是单数，不能用 are",
+              "C": "be 动词单数形式，a substitute is recommended = 推荐了一款替代品（被动语态）✓",
+              "D": "动词原形，不能单独作谓语"
+            },
+            "vocab": [
+              {
+                "word": "substitute",
+                "zh": "替代品（名词）；替换（动词）"
+              },
+              {
+                "word": "unavailable",
+                "zh": "没货的、无法提供的"
+              },
+              {
+                "word": "suitable",
+                "zh": "合适的"
+              },
+              {
+                "word": "requested",
+                "zh": "被要求的、所要的"
+              },
+              {
+                "word": "item",
+                "zh": "商品、物品、一项"
+              },
+              {
+                "word": "recommend",
+                "zh": "推荐"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q7",
@@ -232,7 +398,38 @@
             }
           ],
           "answer": "D",
-          "explain": ""
+          "explain": "funds for + 用途 = 用于……的资金，for 表目的；at/among/until 都接不上。",
+          "zh": {
+            "stem": "年度预算中包含了用于设备维护的资金。",
+            "options": {
+              "A": "介词：在（地点/时间点），at the office = 在办公室",
+              "B": "介词：在……之中（三者以上），among the staff = 在员工中",
+              "C": "介词/连词：直到……为止，wait until Friday = 等到周五",
+              "D": "介词：用于、为了（表用途），funds for maintenance = 用于维护的资金 ✓"
+            },
+            "vocab": [
+              {
+                "word": "annual",
+                "zh": "年度的、每年的"
+              },
+              {
+                "word": "budget",
+                "zh": "预算"
+              },
+              {
+                "word": "funds",
+                "zh": "资金、款项"
+              },
+              {
+                "word": "equipment",
+                "zh": "设备（不可数）"
+              },
+              {
+                "word": "maintenance",
+                "zh": "维护、保养"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q8",
@@ -261,7 +458,30 @@
             }
           ],
           "answer": "A",
-          "explain": "not...until = 直到……才。"
+          "explain": "not...until = 直到……才。",
+          "zh": {
+            "stem": "会议要等委员会主席到了才会开始。",
+            "options": {
+              "A": "连词/介词：直到……才，not ... until = 直到……才……，后面可以接句子 ✓",
+              "B": "介词：在……期间，只能接名词，during the meeting = 会议期间",
+              "C": "介词：尽管，只能接名词，despite the rain = 尽管下雨",
+              "D": "介词：在……旁边，beside the door = 门旁边"
+            },
+            "vocab": [
+              {
+                "word": "committee",
+                "zh": "委员会"
+              },
+              {
+                "word": "chair",
+                "zh": "主席（= chairperson，这里不是\"椅子\"）"
+              },
+              {
+                "word": "arrive",
+                "zh": "到达、到场"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q9",
@@ -290,7 +510,34 @@
             }
           ],
           "answer": "B",
-          "explain": ""
+          "explain": "describe 是动词，动词要用副词修饰，选 -ly 的 clearly。",
+          "zh": {
+            "stem": "申请人应清楚地描述自己的相关资历。",
+            "options": {
+              "A": "形容词：清楚的（也可作动词\"清理\"），a clear answer = 清楚的回答",
+              "B": "副词：清楚地，修饰动词 describe ✓",
+              "C": "名词：清晰（很少用，一般说 clarity）",
+              "D": "动词过去式/过去分词：清理了、批准了，cleared the table = 收拾了桌子"
+            },
+            "vocab": [
+              {
+                "word": "applicant",
+                "zh": "申请人"
+              },
+              {
+                "word": "describe",
+                "zh": "描述"
+              },
+              {
+                "word": "relevant",
+                "zh": "相关的"
+              },
+              {
+                "word": "qualification",
+                "zh": "资格、资历（常用复数）"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q10",
@@ -319,7 +566,34 @@
             }
           ],
           "answer": "C",
-          "explain": "be likely to do = 很可能"
+          "explain": "be likely to do = 很可能",
+          "zh": {
+            "stem": "这些文件很可能包含机密信息。",
+            "options": {
+              "A": "介词/动词：像；喜欢，be like = 像……",
+              "B": "名词：可能性，the likelihood of success = 成功的可能性",
+              "C": "形容词：很可能的，be likely to do = 很可能做某事 ✓",
+              "D": "副词：同样地、也，I likewise agree = 我也同意"
+            },
+            "vocab": [
+              {
+                "word": "document",
+                "zh": "文件"
+              },
+              {
+                "word": "contain",
+                "zh": "包含"
+              },
+              {
+                "word": "confidential",
+                "zh": "机密的、保密的"
+              },
+              {
+                "word": "information",
+                "zh": "信息（不可数）"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q11",
@@ -348,7 +622,38 @@
             }
           ],
           "answer": "D",
-          "explain": "provided that = 条件是/只要。"
+          "explain": "provided that = 条件是/只要。",
+          "zh": {
+            "stem": "只要附上原始收据，公司就会报销这些费用。",
+            "options": {
+              "A": "连词：尽管、即使，even though it rained = 尽管下雨了（语义不通）",
+              "B": "而不是，tea rather than coffee = 要茶不要咖啡",
+              "C": "介词短语：因为，后面只能接名词，不能接完整句子",
+              "D": "连词：只要、条件是（= if / as long as），后面接完整句子 ✓"
+            },
+            "vocab": [
+              {
+                "word": "reimburse",
+                "zh": "报销、偿还（费用）"
+              },
+              {
+                "word": "costs",
+                "zh": "费用、成本"
+              },
+              {
+                "word": "receipt",
+                "zh": "收据（p 不发音）"
+              },
+              {
+                "word": "original",
+                "zh": "原始的、原件的"
+              },
+              {
+                "word": "include",
+                "zh": "包含、附上"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q12",
@@ -377,7 +682,34 @@
             }
           ],
           "answer": "A",
-          "explain": ""
+          "explain": "both A and B 固定搭配，看到 both 直接找 and。",
+          "zh": {
+            "stem": "这个职位既需要技术知识，也需要很强的沟通能力。",
+            "options": {
+              "A": "连词：和，both A and B = A 和 B 都…… ✓",
+              "B": "连词：但是，not A but B = 不是 A 而是 B",
+              "C": "连词：或者，either A or B = 要么 A 要么 B",
+              "D": "连词：所以，表结果，跟 both 不搭"
+            },
+            "vocab": [
+              {
+                "word": "position",
+                "zh": "职位（这里不是\"位置\"）"
+              },
+              {
+                "word": "require",
+                "zh": "需要、要求"
+              },
+              {
+                "word": "technical",
+                "zh": "技术的"
+              },
+              {
+                "word": "communication skills",
+                "zh": "沟通能力"
+              }
+            ]
+          }
         }
       ]
     },
@@ -389,7 +721,8 @@
       "passages": [
         {
           "title": "Questions 13-17",
-          "text": "ORDER STATUS UPDATE\nThank you for order 7842. Two items are temporarily [13] because a shipment from our supplier has been delayed. We expect the new stock [14] next Tuesday. [15] If you prefer not to wait, contact a customer service representative [16] Friday to request a substitute or a refund. We apologize for the inconvenience and appreciate your [17]."
+          "text": "ORDER STATUS UPDATE\nThank you for order 7842. Two items are temporarily [13] because a shipment from our supplier has been delayed. We expect the new stock [14] next Tuesday. [15] If you prefer not to wait, contact a customer service representative [16] Friday to request a substitute or a refund. We apologize for the inconvenience and appreciate your [17].",
+          "zh": "订单状态更新\n感谢您的订单 7842。由于供应商的一批货延误了，有两件商品暂时 [13] 缺货。我们预计新货 [14] 将于下周二到达。[15] 其余商品将立即发出。如果您不想等待，请 [16] 最迟在周五之前联系客服代表，申请换货或退款。给您带来不便，我们深表歉意，并感谢您的 [17] 理解。"
         }
       ],
       "questions": [
@@ -420,7 +753,34 @@
             }
           ],
           "answer": "C",
-          "explain": "unavailable 与延迟到货一致"
+          "explain": "unavailable 与延迟到货一致",
+          "zh": {
+            "stem": "由于供应商的一批货延误了，有两件商品暂时缺货。",
+            "options": {
+              "A": "名词：有货情况、可获得性，check availability = 查一下有没有货",
+              "B": "形容词：有货的、可用的，意思反了（货延误了怎么会有货）",
+              "C": "形容词：没货的、无法提供的，temporarily unavailable = 暂时缺货 ✓",
+              "D": "副词：（几乎不用的词），are 后面不能接副词"
+            },
+            "vocab": [
+              {
+                "word": "temporarily",
+                "zh": "暂时地"
+              },
+              {
+                "word": "shipment",
+                "zh": "一批货、货运"
+              },
+              {
+                "word": "supplier",
+                "zh": "供应商"
+              },
+              {
+                "word": "be delayed",
+                "zh": "被延误、推迟"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q14",
@@ -449,7 +809,30 @@
             }
           ],
           "answer": "A",
-          "explain": "expect something to arrive。"
+          "explain": "expect something to arrive。",
+          "zh": {
+            "stem": "我们预计新货将于下周二到达。",
+            "options": {
+              "A": "不定式：到达，expect sth to do = 预计某物会…… ✓",
+              "B": "过去式/过去分词：到达了，expect 后面不接过去式",
+              "C": "名词：到达，the new stock arrival 连在一起不通",
+              "D": "现在分词 + at：到达（某地），at 后面必须跟地点，这里跟的是时间"
+            },
+            "vocab": [
+              {
+                "word": "expect",
+                "zh": "预计、期待"
+              },
+              {
+                "word": "stock",
+                "zh": "库存、存货（new stock = 新到的货）"
+              },
+              {
+                "word": "next Tuesday",
+                "zh": "下周二"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q15",
@@ -478,7 +861,34 @@
             }
           ],
           "answer": "D",
-          "explain": "D 承接部分发货"
+          "explain": "D 承接部分发货",
+          "zh": {
+            "stem": "语境：前一句\"我们预计新货将于下周二到达\"，后一句\"如果您不想等，请最迟周五前联系客服申请换货或退款\"。选 D\"其余商品将立即发出\"——前面说两件商品缺货，D 顺着讲\"剩下没缺货的商品马上发\"，跟订单状态主题接得上；A/B/C 讲开店年数、网站改版、供应商人数，和订单状态毫无关系。",
+            "options": {
+              "A": "本店五年前开业。",
+              "B": "我们的网站换了新设计。",
+              "C": "该供应商有 50 名员工。",
+              "D": "其余商品将立即发出。✓"
+            },
+            "vocab": [
+              {
+                "word": "remaining",
+                "zh": "剩下的、其余的"
+              },
+              {
+                "word": "immediately",
+                "zh": "立刻、马上"
+              },
+              {
+                "word": "prefer not to do",
+                "zh": "不想做、宁愿不做"
+              },
+              {
+                "word": "employ",
+                "zh": "雇用"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q16",
@@ -507,7 +917,38 @@
             }
           ],
           "answer": "B",
-          "explain": "by Friday = 最迟周五"
+          "explain": "by Friday = 最迟周五",
+          "zh": {
+            "stem": "如果您不想等待，请最迟在周五之前联系客服代表，申请换货或退款。",
+            "options": {
+              "A": "介词：在……之中，接复数名词，不能接时间点",
+              "B": "介词：最迟在……之前，by Friday = 周五前（含周五）✓",
+              "C": "介词：在……期间，接一段时间，during the week = 这一周里",
+              "D": "介词：在……旁边，接地点"
+            },
+            "vocab": [
+              {
+                "word": "customer service representative",
+                "zh": "客服代表"
+              },
+              {
+                "word": "request",
+                "zh": "申请、要求"
+              },
+              {
+                "word": "substitute",
+                "zh": "替代品"
+              },
+              {
+                "word": "refund",
+                "zh": "退款"
+              },
+              {
+                "word": "prefer",
+                "zh": "更喜欢、宁愿"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q17",
@@ -536,7 +977,30 @@
             }
           ],
           "answer": "C",
-          "explain": "understanding 是名词。"
+          "explain": "understanding 是名词。",
+          "zh": {
+            "stem": "给您带来不便，我们深表歉意，并感谢您的理解。",
+            "options": {
+              "A": "动词原形：理解，your 后面要接名词",
+              "B": "过去式/过去分词：理解了",
+              "C": "名词：理解、体谅，appreciate your understanding = 感谢您的理解（客服信件万能结尾）✓",
+              "D": "副词：可以理解地"
+            },
+            "vocab": [
+              {
+                "word": "apologize for",
+                "zh": "为……道歉"
+              },
+              {
+                "word": "inconvenience",
+                "zh": "不便、麻烦"
+              },
+              {
+                "word": "appreciate",
+                "zh": "感激、感谢"
+              }
+            ]
+          }
         }
       ]
     },
@@ -548,7 +1012,8 @@
       "passages": [
         {
           "title": "Questions 18-20 refer to the following e-mail.",
-          "text": "From: Training Office\nTo: Workshop Participants\nSubject: Schedule Change\nThe project management workshop originally scheduled for August 22 has been moved to August 29. It will be held in Room 310 instead of Room 204, but the time remains 1:00 to 4:00 P.M. Course materials will be sent by e-mail. Anyone unable to attend should request the recorded session by August 25."
+          "text": "From: Training Office\nTo: Workshop Participants\nSubject: Schedule Change\nThe project management workshop originally scheduled for August 22 has been moved to August 29. It will be held in Room 310 instead of Room 204, but the time remains 1:00 to 4:00 P.M. Course materials will be sent by e-mail. Anyone unable to attend should request the recorded session by August 25.",
+          "zh": "发件人：培训办公室\n收件人：研讨班学员\n主题：日程变更\n原定于 8 月 22 日举行的项目管理研讨班改到 8 月 29 日。地点改为 310 室（原为 204 室），时间不变，仍是下午 1 点到 4 点。课程资料将通过电子邮件发送。无法参加的人请在 8 月 25 日前申请录播课程。"
         }
       ],
       "questions": [
@@ -579,7 +1044,42 @@
             }
           ],
           "answer": "B",
-          "explain": ""
+          "explain": "问目的先看主题行 Schedule Change，再看首句 moved to August 29，即宣布日程变更。",
+          "zh": {
+            "stem": "这封邮件是为什么而发的？",
+            "options": {
+              "A": "取消一场研讨班（是改期，不是取消）",
+              "B": "通知研讨班的变动 ✓",
+              "C": "要求缴纳课程费用",
+              "D": "聘请一名培训师"
+            },
+            "vocab": [
+              {
+                "word": "workshop",
+                "zh": "研讨班、工作坊（短期培训课）"
+              },
+              {
+                "word": "originally",
+                "zh": "原本、最初"
+              },
+              {
+                "word": "scheduled for",
+                "zh": "定于（某日）"
+              },
+              {
+                "word": "be moved to",
+                "zh": "改到（某日/某地）"
+              },
+              {
+                "word": "be held",
+                "zh": "举行"
+              },
+              {
+                "word": "instead of",
+                "zh": "而不是、代替"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q19",
@@ -608,7 +1108,30 @@
             }
           ],
           "answer": "C",
-          "explain": ""
+          "explain": "定位第二句 Room 310 instead of Room 204，instead of 后面是旧地点，别选反。",
+          "zh": {
+            "stem": "研讨班将在哪里举行？",
+            "options": {
+              "A": "204 室（旧地点，instead of 后面的是原来的）",
+              "B": "301 室（数字干扰项，原文没有）",
+              "C": "310 室 ✓",
+              "D": "培训办公室（这是发件人，不是地点）"
+            },
+            "vocab": [
+              {
+                "word": "A instead of B",
+                "zh": "用 A 不用 B（B 是被换掉的）"
+              },
+              {
+                "word": "remain",
+                "zh": "保持不变"
+              },
+              {
+                "word": "course materials",
+                "zh": "课程资料"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q20",
@@ -637,7 +1160,34 @@
             }
           ],
           "answer": "A",
-          "explain": ""
+          "explain": "定位末句 Anyone unable to attend should request the recorded session by August 25。",
+          "zh": {
+            "stem": "不能参加的人应该怎么做？",
+            "options": {
+              "A": "在 8 月 25 日前申请录播 ✓",
+              "B": "退还课程资料",
+              "C": "8 月 22 日参加（那是旧日期）",
+              "D": "打电话到 204 室"
+            },
+            "vocab": [
+              {
+                "word": "attend",
+                "zh": "参加、出席"
+              },
+              {
+                "word": "unable to do",
+                "zh": "无法做……"
+              },
+              {
+                "word": "recorded session",
+                "zh": "录播课"
+              },
+              {
+                "word": "by + 日期",
+                "zh": "最迟到某日"
+              }
+            ]
+          }
         }
       ]
     },
@@ -649,11 +1199,13 @@
       "passages": [
         {
           "title": "Questions 21-24: Notice",
-          "text": "CATERING SERVICE\nOrders must be placed at least 48 hours in advance, with a minimum of ten guests. The standard lunch costs $18 per person, and vegetarian meals are available at the same price. Delivery is free for orders over $200; otherwise, a $20 delivery charge applies."
+          "text": "CATERING SERVICE\nOrders must be placed at least 48 hours in advance, with a minimum of ten guests. The standard lunch costs $18 per person, and vegetarian meals are available at the same price. Delivery is free for orders over $200; otherwise, a $20 delivery charge applies.",
+          "zh": "餐饮服务\n订餐须至少提前 48 小时，且至少 10 人起订。标准午餐每人 18 美元，素食餐同价供应。订单金额超过 200 美元免配送费；否则收取 20 美元配送费。"
         },
         {
           "title": "Questions 21-24: Message",
-          "text": "To: Catering Team\nPlease prepare lunch for 12 researchers at noon this Wednesday. Three guests need vegetarian meals. I will place the final order on Monday morning. Our total budget is $250, and delivery should be made to Laboratory Building B. - Nari"
+          "text": "To: Catering Team\nPlease prepare lunch for 12 researchers at noon this Wednesday. Three guests need vegetarian meals. I will place the final order on Monday morning. Our total budget is $250, and delivery should be made to Laboratory Building B. - Nari",
+          "zh": "致：餐饮团队\n请为 12 位研究人员准备本周三中午的午餐。其中 3 位需要素食餐。我会在周一上午下最终订单。我们的总预算是 250 美元，请送到实验楼 B 座。—— Nari"
         }
       ],
       "questions": [
@@ -684,7 +1236,38 @@
             }
           ],
           "answer": "B",
-          "explain": "先算 12 x 18 = 216，再判断超过 200 可免配送费。"
+          "explain": "双篇互证：Notice 要求 at least 48 hours in advance，Message 说 noon this Wednesday，往前推 48 小时 = Monday at noon。",
+          "zh": {
+            "stem": "最迟什么时候可以下单？",
+            "options": {
+              "A": "周日中午",
+              "B": "周一中午（周三中午往前推 48 小时）✓",
+              "C": "周二上午",
+              "D": "周三上午"
+            },
+            "vocab": [
+              {
+                "word": "place an order",
+                "zh": "下订单"
+              },
+              {
+                "word": "in advance",
+                "zh": "提前"
+              },
+              {
+                "word": "at least",
+                "zh": "至少"
+              },
+              {
+                "word": "latest",
+                "zh": "最晚的"
+              },
+              {
+                "word": "noon",
+                "zh": "中午 12 点"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q22",
@@ -713,7 +1296,34 @@
             }
           ],
           "answer": "C",
-          "explain": "先算 12 x 18 = 216，再判断超过 200 可免配送费。"
+          "explain": "定位 Message 第二句 Three guests need vegetarian meals，原词对应 C。",
+          "zh": {
+            "stem": "需要什么特殊餐食？",
+            "options": {
+              "A": "无麸质（不含小麦蛋白）",
+              "B": "低钠（低盐）",
+              "C": "素食 ✓",
+              "D": "海鲜"
+            },
+            "vocab": [
+              {
+                "word": "catering",
+                "zh": "餐饮服务（上门供餐）"
+              },
+              {
+                "word": "vegetarian",
+                "zh": "素食的；素食者"
+              },
+              {
+                "word": "special meal",
+                "zh": "特殊餐食"
+              },
+              {
+                "word": "guest",
+                "zh": "客人"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q23",
@@ -742,7 +1352,38 @@
             }
           ],
           "answer": "A",
-          "explain": "先算 12 x 18 = 216，再判断超过 200 可免配送费。"
+          "explain": "先算 12 x 18 = 216，再判断超过 200 可免配送费。",
+          "zh": {
+            "stem": "不算配送费，午餐一共多少钱？",
+            "options": {
+              "A": "216 美元（12 人 × 18 美元）✓",
+              "B": "220 美元（没有依据）",
+              "C": "236 美元（216 + 20 配送费，但题目说不算配送费）",
+              "D": "250 美元（这是预算，不是费用）"
+            },
+            "vocab": [
+              {
+                "word": "cost",
+                "zh": "花费、价格是"
+              },
+              {
+                "word": "per person",
+                "zh": "每人"
+              },
+              {
+                "word": "delivery charge",
+                "zh": "配送费"
+              },
+              {
+                "word": "standard",
+                "zh": "标准的"
+              },
+              {
+                "word": "budget",
+                "zh": "预算"
+              }
+            ]
+          }
         },
         {
           "id": "day4-q24",
@@ -771,7 +1412,38 @@
             }
           ],
           "answer": "D",
-          "explain": "先算 12 x 18 = 216，再判断超过 200 可免配送费。"
+          "explain": "先算 12 x 18 = 216，再判断超过 200 可免配送费。",
+          "zh": {
+            "stem": "为什么配送很可能是免费的？",
+            "options": {
+              "A": "订单是给研究人员的（和免配送费无关）",
+              "B": "含有素食餐（无关）",
+              "C": "是周一下的单（无关）",
+              "D": "餐费超过 200 美元（216 > 200，符合免配送条件）✓"
+            },
+            "vocab": [
+              {
+                "word": "most likely",
+                "zh": "很可能"
+              },
+              {
+                "word": "delivery",
+                "zh": "配送、送货"
+              },
+              {
+                "word": "over",
+                "zh": "超过"
+              },
+              {
+                "word": "otherwise",
+                "zh": "否则"
+              },
+              {
+                "word": "apply",
+                "zh": "（规定、收费）适用"
+              }
+            ]
+          }
         }
       ]
     }

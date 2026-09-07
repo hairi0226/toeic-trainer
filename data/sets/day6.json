@@ -58,7 +58,34 @@
             }
           ],
           "answer": "D",
-          "explain": "subject to = 以……为条件/经修改"
+          "explain": "subject to = 以……为条件/经修改",
+          "zh": {
+            "stem": "董事会批准了这项提案，但前提是要做几处小改动。",
+            "options": {
+              "A": "介词：除……之外，everyone except me = 除我以外的所有人",
+              "B": "介词：在……之中（三者以上），among the staff = 在员工当中",
+              "C": "介词：在……期间，during the meeting = 开会期间",
+              "D": "词组：以……为条件、须经……，subject to approval = 须经批准 ✓"
+            },
+            "vocab": [
+              {
+                "word": "board",
+                "zh": "董事会（不是木板）"
+              },
+              {
+                "word": "approve",
+                "zh": "批准、同意"
+              },
+              {
+                "word": "proposal",
+                "zh": "提案、建议书"
+              },
+              {
+                "word": "minor",
+                "zh": "小的、次要的（反义 major）"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q2",
@@ -87,7 +114,34 @@
             }
           ],
           "answer": "A",
-          "explain": "should 后接动词原形 present。"
+          "explain": "should 后接动词原形 present。",
+          "zh": {
+            "stem": "想退货的顾客应出示原始收据。",
+            "options": {
+              "A": "动词原形：出示、提交，present your ID = 出示证件；should 后接原形 ✓",
+              "B": "过去式/过去分词：should 后面不能接",
+              "C": "名词：演示、汇报，give a presentation = 做汇报",
+              "D": "动名词/现在分词：should 后面不能接 -ing"
+            },
+            "vocab": [
+              {
+                "word": "return a product",
+                "zh": "退货"
+              },
+              {
+                "word": "receipt",
+                "zh": "收据（p 不发音）"
+              },
+              {
+                "word": "original",
+                "zh": "原始的、原来的"
+              },
+              {
+                "word": "wishing to",
+                "zh": "想要……的（= who wish to，修饰前面的 customers）"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q3",
@@ -116,7 +170,38 @@
             }
           ],
           "answer": "B",
-          "explain": "to accommodate 表示目的"
+          "explain": "to accommodate 表示目的",
+          "zh": {
+            "stem": "为了容纳不断增加的员工，实验室搬到了更大的场地。",
+            "options": {
+              "A": "介词：为了，后面接名词（for the staff），不能直接接动词原形",
+              "B": "不定式 to + 动词：为了……（表目的），to accommodate = 为了容纳 ✓",
+              "C": "介词：通过、在……之前，by doing sth = 通过做某事",
+              "D": "连词：所以，后面要接完整句子；so that = 以便"
+            },
+            "vocab": [
+              {
+                "word": "laboratory",
+                "zh": "实验室（简称 lab）"
+              },
+              {
+                "word": "facility",
+                "zh": "设施、场所"
+              },
+              {
+                "word": "accommodate",
+                "zh": "容纳、为……提供空间"
+              },
+              {
+                "word": "staff",
+                "zh": "员工（集合名词，全体员工）"
+              },
+              {
+                "word": "growing",
+                "zh": "不断增长的"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q4",
@@ -145,7 +230,34 @@
             }
           ],
           "answer": "C",
-          "explain": "upon request = 应要求。"
+          "explain": "upon request = 应要求。",
+          "zh": {
+            "stem": "额外的培训资料可应要求提供。",
+            "options": {
+              "A": "介词：在（两者）之间，between A and B",
+              "B": "介词：在……旁边，beside the door = 门旁边（注意 besides 是「除了」）",
+              "C": "介词：在……时、一……就，upon request = 应要求，upon arrival = 一到达 ✓",
+              "D": "介词：直到……为止，until Friday = 直到周五"
+            },
+            "vocab": [
+              {
+                "word": "additional",
+                "zh": "额外的、附加的"
+              },
+              {
+                "word": "training materials",
+                "zh": "培训资料"
+              },
+              {
+                "word": "available",
+                "zh": "可获得的、可提供的"
+              },
+              {
+                "word": "request",
+                "zh": "请求、要求（名词）"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q5",
@@ -174,7 +286,34 @@
             }
           ],
           "answer": "D",
-          "explain": "who 指代 applicants 并作从句主语"
+          "explain": "who 指代 applicants 并作从句主语",
+          "zh": {
+            "stem": "只有符合全部要求的申请人才会被联系。",
+            "options": {
+              "A": "关系代词：指物，不能指人",
+              "B": "关系代词：……的（所有格），后面要接名词，whose name = 他的名字",
+              "C": "关系代词：指人但作宾语；这里从句缺主语，不能用",
+              "D": "关系代词：指人，作从句主语，who meet = 那些符合……的人 ✓"
+            },
+            "vocab": [
+              {
+                "word": "applicant",
+                "zh": "申请人"
+              },
+              {
+                "word": "meet requirements",
+                "zh": "满足要求（meet 这里不是「见面」）"
+              },
+              {
+                "word": "requirement",
+                "zh": "要求、条件"
+              },
+              {
+                "word": "contact",
+                "zh": "联系（动词）"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q6",
@@ -203,7 +342,30 @@
             }
           ],
           "answer": "A",
-          "explain": "reviewed 由副词 carefully 修饰。"
+          "explain": "reviewed 由副词 carefully 修饰。",
+          "zh": {
+            "stem": "报告在发表前必须经过仔细审阅。",
+            "options": {
+              "A": "副词：仔细地，修饰动词 reviewed ✓",
+              "B": "形容词：仔细的，修饰名词或作表语，be careful",
+              "C": "名词/动词：关心、照料，take care of",
+              "D": "形容词：体贴的、有爱心的，a caring nurse"
+            },
+            "vocab": [
+              {
+                "word": "review",
+                "zh": "审阅、复查（动词）"
+              },
+              {
+                "word": "publication",
+                "zh": "出版、发表"
+              },
+              {
+                "word": "must be + 过去分词",
+                "zh": "必须被……（被动语态）"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q7",
@@ -232,7 +394,34 @@
             }
           ],
           "answer": "B",
-          "explain": ""
+          "explain": "regarding = 关于，后接名词短语；although/unless 是连词，后面必须接完整句。",
+          "zh": {
+            "stem": "关于拟议中的扩建，尚未做出最终决定。",
+            "options": {
+              "A": "介词：在……期间，during the trip = 旅行期间",
+              "B": "介词：关于（= about / concerning），regarding your order = 关于您的订单 ✓",
+              "C": "连词：虽然，后面必须接完整句子（主语 + 动词）",
+              "D": "连词：除非，后面必须接完整句子"
+            },
+            "vocab": [
+              {
+                "word": "make a decision",
+                "zh": "做决定"
+              },
+              {
+                "word": "final",
+                "zh": "最终的"
+              },
+              {
+                "word": "proposed",
+                "zh": "拟议的、提议中的"
+              },
+              {
+                "word": "expansion",
+                "zh": "扩张、扩建"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q8",
@@ -261,7 +450,30 @@
             }
           ],
           "answer": "C",
-          "explain": "fee 为单数，谓语 includes"
+          "explain": "fee 为单数，谓语 includes",
+          "zh": {
+            "stem": "会议注册费包含午餐和印刷资料。",
+            "options": {
+              "A": "动词原形：主语 fee 是单数，不能用原形",
+              "B": "介词/现在分词：包括……；用了它句子就没有谓语动词了",
+              "C": "第三人称单数：包含 ✓",
+              "D": "被动结构残缺，而且逻辑不通（费用「被」午餐包含？）"
+            },
+            "vocab": [
+              {
+                "word": "conference",
+                "zh": "（大型）会议"
+              },
+              {
+                "word": "registration fee",
+                "zh": "注册费、报名费"
+              },
+              {
+                "word": "printed materials",
+                "zh": "印刷资料"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q9",
@@ -290,7 +502,38 @@
             }
           ],
           "answer": "D",
-          "explain": "remain connected。"
+          "explain": "remain connected。",
+          "zh": {
+            "stem": "更新安装期间，所有设备应保持连接状态。",
+            "options": {
+              "A": "动词原形：连接；remain 后面不能接动词原形",
+              "B": "名词：连接，Internet connection = 网络连接",
+              "C": "现在分词：正在连接（主动），语义不对",
+              "D": "过去分词作形容词：处于已连接状态，remain connected = 保持连接 ✓"
+            },
+            "vocab": [
+              {
+                "word": "device",
+                "zh": "设备"
+              },
+              {
+                "word": "remain + 形容词",
+                "zh": "保持……状态，remain calm = 保持冷静"
+              },
+              {
+                "word": "update",
+                "zh": "更新"
+              },
+              {
+                "word": "install",
+                "zh": "安装"
+              },
+              {
+                "word": "is being installed",
+                "zh": "正在被安装（进行时的被动）"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q10",
@@ -319,7 +562,30 @@
             }
           ],
           "answer": "A",
-          "explain": ""
+          "explain": "be pleased with = 对……满意，固定搭配。",
+          "zh": {
+            "stem": "主管对团队的表现很满意。",
+            "options": {
+              "A": "介词：be pleased with = 对……满意，固定搭配 ✓",
+              "B": "介词：在（地点/时间）；be surprised at 才用 at",
+              "C": "介词：在……之中",
+              "D": "介词：直到"
+            },
+            "vocab": [
+              {
+                "word": "director",
+                "zh": "主管、主任、董事"
+              },
+              {
+                "word": "pleased",
+                "zh": "高兴的、满意的"
+              },
+              {
+                "word": "performance",
+                "zh": "表现、业绩"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q11",
@@ -348,7 +614,30 @@
             }
           ],
           "answer": "B",
-          "explain": ""
+          "explain": "be + 副词 + 形容词：widely 修饰 available，= 广泛供应。",
+          "zh": {
+            "stem": "预计新产品下个月将会广泛上市。",
+            "options": {
+              "A": "形容词：宽的，a wide road",
+              "B": "副词：广泛地，修饰形容词 available，widely used = 广泛使用 ✓",
+              "C": "名词：宽度",
+              "D": "动词：加宽、拓宽，widen the road"
+            },
+            "vocab": [
+              {
+                "word": "be expected to",
+                "zh": "预计会……"
+              },
+              {
+                "word": "available",
+                "zh": "可买到的、可获得的"
+              },
+              {
+                "word": "widely available",
+                "zh": "到处都能买到、广泛供应"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q12",
@@ -377,7 +666,38 @@
             }
           ],
           "answer": "C",
-          "explain": "although + 完整句，表示让步"
+          "explain": "although + 完整句，表示让步",
+          "zh": {
+            "stem": "虽然参加调查是自愿的，但仍鼓励员工作答。",
+            "options": {
+              "A": "介词：在……期间，后接名词，不能接句子",
+              "B": "连词：除非；逻辑不通（「除非是自愿的，否则鼓励回答」说不通）",
+              "C": "连词：虽然，接完整句，前后意思相反（让步）✓",
+              "D": "介词短语：由于，后接名词，不能接句子"
+            },
+            "vocab": [
+              {
+                "word": "participation",
+                "zh": "参与（participate 的名词）"
+              },
+              {
+                "word": "survey",
+                "zh": "调查、问卷"
+              },
+              {
+                "word": "optional",
+                "zh": "可选的、非强制的"
+              },
+              {
+                "word": "be encouraged to",
+                "zh": "被鼓励去……"
+              },
+              {
+                "word": "respond",
+                "zh": "回应、作答"
+              }
+            ]
+          }
         }
       ]
     },
@@ -389,7 +709,8 @@
       "passages": [
         {
           "title": "Questions 13-17",
-          "text": "PUBLIC HEALTH SEMINAR\nDue to an unforeseen scheduling conflict, the seminar originally planned for October 12 has been [13] to October 14. It will begin at 2:00 P.M. rather than 1:00 P.M. [14] Attendees who already registered do not need to register again. Anyone unable to attend on the new date may request a refund [15] October 10. The organizer will send an updated confirmation [16]. Thank you for your [17]."
+          "text": "PUBLIC HEALTH SEMINAR\nDue to an unforeseen scheduling conflict, the seminar originally planned for October 12 has been [13] to October 14. It will begin at 2:00 P.M. rather than 1:00 P.M. [14] Attendees who already registered do not need to register again. Anyone unable to attend on the new date may request a refund [15] October 10. The organizer will send an updated confirmation [16]. Thank you for your [17].",
+          "zh": "公共卫生研讨会\n由于出现了意料之外的日程冲突，原定于 10 月 12 日举行的研讨会已被 [13] 改期 到 10 月 14 日。开始时间将改为下午 2 点，而不是 1 点。[14] 活动地点仍然是 B 厅。 已经报名的参会者无需再次报名。无法在新日期出席的人可 [15] 最迟在 10 月 10 日之前申请退款。主办方 [16] 很快 会发送更新后的确认函。感谢您的 [17] 灵活配合。"
         }
       ],
       "questions": [
@@ -420,7 +741,38 @@
             }
           ],
           "answer": "D",
-          "explain": "has been moved 是被动语态。"
+          "explain": "has been moved 是被动语态。",
+          "zh": {
+            "stem": "由于出现了意料之外的日程冲突，原定于 10 月 12 日举行的研讨会已被改到 10 月 14 日。",
+            "options": {
+              "A": "动词原形：移动、改期；has been 后面不能接原形",
+              "B": "现在分词：has been moving = 一直在移动（主动进行），语义不对",
+              "C": "名词：运动、移动",
+              "D": "过去分词：has been moved = 已被改期（被动语态）✓"
+            },
+            "vocab": [
+              {
+                "word": "due to",
+                "zh": "由于"
+              },
+              {
+                "word": "unforeseen",
+                "zh": "未预料到的、意外的"
+              },
+              {
+                "word": "scheduling conflict",
+                "zh": "日程冲突、撞期"
+              },
+              {
+                "word": "seminar",
+                "zh": "研讨会"
+              },
+              {
+                "word": "originally",
+                "zh": "原本、最初"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q14",
@@ -449,7 +801,38 @@
             }
           ],
           "answer": "A",
-          "explain": "A 说明只有日期和时间改变"
+          "explain": "A 说明只有日期和时间改变",
+          "zh": {
+            "stem": "前一句：研讨会将在下午 2 点而不是 1 点开始。[14] 后一句：已经报名的参会者无需再次报名。—— 前面交代日期、时间怎么变，后面说报名不用重来，所以空格处最自然的是接着交代「什么没变」：地点仍是 B 厅。其他三句（演讲者写过几本书、车站附近有午餐、去年很受欢迎）跟改期通知完全不搭。",
+            "options": {
+              "A": "活动地点仍然是 B 厅。✓",
+              "B": "演讲者已经写了三本书。",
+              "C": "车站附近有午餐供应。",
+              "D": "去年这个研讨会很受欢迎。"
+            },
+            "vocab": [
+              {
+                "word": "rather than",
+                "zh": "而不是"
+              },
+              {
+                "word": "attendee",
+                "zh": "参会者、出席者"
+              },
+              {
+                "word": "register",
+                "zh": "注册、报名"
+              },
+              {
+                "word": "venue",
+                "zh": "活动场地、举办地点"
+              },
+              {
+                "word": "remain",
+                "zh": "仍然是、保持不变"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q15",
@@ -478,7 +861,34 @@
             }
           ],
           "answer": "B",
-          "explain": "by October 10 = 最迟 10 月 10 日。"
+          "explain": "by October 10 = 最迟 10 月 10 日。",
+          "zh": {
+            "stem": "无法在新日期出席的人可在 10 月 10 日之前申请退款。",
+            "options": {
+              "A": "介词：在……之中，不能接时间点",
+              "B": "介词：最迟在……之前，by October 10 = 10 月 10 日前（含当天）✓",
+              "C": "介词：在……期间，后接一段时间（during October），不接具体日期",
+              "D": "介词：在……旁边"
+            },
+            "vocab": [
+              {
+                "word": "unable to",
+                "zh": "无法……"
+              },
+              {
+                "word": "attend",
+                "zh": "出席、参加"
+              },
+              {
+                "word": "request",
+                "zh": "申请、要求（动词）"
+              },
+              {
+                "word": "refund",
+                "zh": "退款"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q16",
@@ -507,7 +917,34 @@
             }
           ],
           "answer": "C",
-          "explain": ""
+          "explain": "动词 send 后用副词 shortly（不久、很快）修饰，表示时间。",
+          "zh": {
+            "stem": "主办方很快会发送更新后的确认函。",
+            "options": {
+              "A": "形容词：短的、矮的，a short meeting",
+              "B": "名词：短缺、短促，shortness of breath = 气短",
+              "C": "副词：不久、很快（= soon），修饰动词 send ✓",
+              "D": "动词：缩短，shorten the meeting"
+            },
+            "vocab": [
+              {
+                "word": "organizer",
+                "zh": "组织者、主办方"
+              },
+              {
+                "word": "updated",
+                "zh": "更新后的"
+              },
+              {
+                "word": "confirmation",
+                "zh": "确认（函）"
+              },
+              {
+                "word": "shortly",
+                "zh": "注意：是「很快」，不是「简短地」"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q17",
@@ -536,7 +973,30 @@
             }
           ],
           "answer": "D",
-          "explain": ""
+          "explain": "Thank you for your + 名词：flexibility（配合/变通），呼应前文改期。",
+          "zh": {
+            "stem": "感谢您的灵活配合。",
+            "options": {
+              "A": "形容词：灵活的，flexible hours = 弹性工作时间",
+              "B": "副词：灵活地",
+              "C": "动词：弯曲、活动（肌肉）",
+              "D": "名词：灵活性、变通；your + 名词，Thank you for your flexibility 是改期通知的常见结尾 ✓"
+            },
+            "vocab": [
+              {
+                "word": "Thank you for your patience",
+                "zh": "感谢您的耐心（同类固定结尾）"
+              },
+              {
+                "word": "Thank you for your understanding",
+                "zh": "感谢您的理解"
+              },
+              {
+                "word": "Thank you for your cooperation",
+                "zh": "感谢您的配合"
+              }
+            ]
+          }
         }
       ]
     },
@@ -548,7 +1008,8 @@
       "passages": [
         {
           "title": "Questions 18-20 refer to the following announcement.",
-          "text": "ANNUAL RESEARCH FORUM\nThe forum will take place at the Weston Hotel on November 8. Registration opens at 8:00 A.M., and the opening presentation begins at 9:00. Poster presenters must finish setting up by 8:45. Attendees should wear their name badges throughout the event. Lunch is included, and parking vouchers may be collected from the registration desk."
+          "text": "ANNUAL RESEARCH FORUM\nThe forum will take place at the Weston Hotel on November 8. Registration opens at 8:00 A.M., and the opening presentation begins at 9:00. Poster presenters must finish setting up by 8:45. Attendees should wear their name badges throughout the event. Lunch is included, and parking vouchers may be collected from the registration desk.",
+          "zh": "年度研究论坛\n论坛将于 11 月 8 日在 Weston 酒店举行。注册于上午 8:00 开始，开幕演讲 9:00 开始。海报展示者必须在 8:45 前布置完毕。参会者在整个活动期间应佩戴名牌。午餐包含在内，停车券可到注册台领取。"
         }
       ],
       "questions": [
@@ -579,7 +1040,38 @@
             }
           ],
           "answer": "C",
-          "explain": ""
+          "explain": "purpose 题通看全文：日期、时间、名牌、午餐、停车券全是活动信息，选 C。",
+          "zh": {
+            "stem": "这则公告的目的是什么？",
+            "options": {
+              "A": "为了宣传酒店客房",
+              "B": "为了招募论坛演讲者",
+              "C": "为了提供活动信息 ✓",
+              "D": "为了更改停车政策"
+            },
+            "vocab": [
+              {
+                "word": "announcement",
+                "zh": "公告、通知"
+              },
+              {
+                "word": "purpose",
+                "zh": "目的"
+              },
+              {
+                "word": "annual",
+                "zh": "年度的、一年一次的"
+              },
+              {
+                "word": "forum",
+                "zh": "论坛、研讨会"
+              },
+              {
+                "word": "recruit",
+                "zh": "招募、招聘"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q19",
@@ -608,7 +1100,38 @@
             }
           ],
           "answer": "B",
-          "explain": ""
+          "explain": "定位第三句 must finish setting up by 8:45，by = 最迟不晚于。",
+          "zh": {
+            "stem": "海报最迟必须在几点前布置好？",
+            "options": {
+              "A": "上午 8:00（这是注册开始的时间）",
+              "B": "上午 8:45 ✓",
+              "C": "上午 9:00（这是开幕演讲开始的时间）",
+              "D": "中午"
+            },
+            "vocab": [
+              {
+                "word": "set up",
+                "zh": "布置、搭建"
+              },
+              {
+                "word": "poster presenter",
+                "zh": "海报展示者（学术会议上贴海报讲解的人）"
+              },
+              {
+                "word": "by + 时间",
+                "zh": "最迟在……之前"
+              },
+              {
+                "word": "registration",
+                "zh": "注册、签到"
+              },
+              {
+                "word": "opening presentation",
+                "zh": "开幕演讲"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q20",
@@ -637,7 +1160,42 @@
             }
           ],
           "answer": "A",
-          "explain": ""
+          "explain": "定位末句 parking vouchers may be collected from the registration desk。",
+          "zh": {
+            "stem": "停车券可以在哪里领取？",
+            "options": {
+              "A": "在注册台 ✓",
+              "B": "在酒店入口",
+              "C": "在海报区",
+              "D": "在午餐期间（这是时间不是地点，题目问的是 where）"
+            },
+            "vocab": [
+              {
+                "word": "parking voucher",
+                "zh": "停车券、停车抵用券"
+              },
+              {
+                "word": "obtain",
+                "zh": "获得、取得（get 的正式说法）"
+              },
+              {
+                "word": "collect",
+                "zh": "领取"
+              },
+              {
+                "word": "registration desk",
+                "zh": "注册台、签到处"
+              },
+              {
+                "word": "name badge",
+                "zh": "名牌、胸卡"
+              },
+              {
+                "word": "throughout",
+                "zh": "自始至终、整个……期间"
+              }
+            ]
+          }
         }
       ]
     },
@@ -649,11 +1207,13 @@
       "passages": [
         {
           "title": "Questions 21-24: Notice",
-          "text": "SPECTROMETER DEMONSTRATION\nA demonstration of the new spectrometer will be held Tuesday from 2:00 to 3:00 P.M. in Laboratory 12. Attendance is limited to eight people. Reserve a place by Monday. All participants must complete the online safety orientation before attending."
+          "text": "SPECTROMETER DEMONSTRATION\nA demonstration of the new spectrometer will be held Tuesday from 2:00 to 3:00 P.M. in Laboratory 12. Attendance is limited to eight people. Reserve a place by Monday. All participants must complete the online safety orientation before attending.",
+          "zh": "光谱仪演示\n新光谱仪的演示将于周二下午 2:00 至 3:00 在 12 号实验室举行。参加人数限 8 人。请在周一前预订名额。所有参与者在参加前必须完成线上安全培训。"
         },
         {
           "title": "Questions 21-24: Message",
-          "text": "To: Clara\nI completed the safety orientation last month. Could you reserve two places for me and our visiting student, Eric? Eric has not completed the orientation yet, so please send him the link today. If he cannot finish it in time, I will attend alone. - Priya"
+          "text": "To: Clara\nI completed the safety orientation last month. Could you reserve two places for me and our visiting student, Eric? Eric has not completed the orientation yet, so please send him the link today. If he cannot finish it in time, I will attend alone. - Priya",
+          "zh": "收件人：Clara\n我上个月已经完成了安全培训。能帮我和我们的访问学生 Eric 预订两个名额吗？Eric 还没完成培训，所以请今天就把链接发给他。如果他来不及完成，我就一个人去。—— Priya"
         }
       ],
       "questions": [
@@ -684,7 +1244,38 @@
             }
           ],
           "answer": "D",
-          "explain": ""
+          "explain": "定位 Notice 末句 must complete the online safety orientation before attending。",
+          "zh": {
+            "stem": "参加演示之前需要完成什么？",
+            "options": {
+              "A": "一份打印的报告",
+              "B": "一次实验室采购",
+              "C": "一次酒店预订",
+              "D": "一次线上安全培训 ✓"
+            },
+            "vocab": [
+              {
+                "word": "require",
+                "zh": "要求、需要"
+              },
+              {
+                "word": "demonstration",
+                "zh": "演示、示范（口语 demo）"
+              },
+              {
+                "word": "spectrometer",
+                "zh": "光谱仪"
+              },
+              {
+                "word": "orientation",
+                "zh": "入门培训、上岗指导"
+              },
+              {
+                "word": "be limited to",
+                "zh": "限制在……以内"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q22",
@@ -713,7 +1304,38 @@
             }
           ],
           "answer": "B",
-          "explain": "Eric 尚未完成强制培训，因此目前不能参加"
+          "explain": "Eric 尚未完成强制培训，因此目前不能参加",
+          "zh": {
+            "stem": "关于 Eric，文中表明了什么？",
+            "options": {
+              "A": "他上个月参加过了（上个月完成培训的是 Priya，不是 Eric）",
+              "B": "他目前还没有资格参加 ✓",
+              "C": "他在 12 号实验室工作",
+              "D": "他组织了这次演示"
+            },
+            "vocab": [
+              {
+                "word": "indicate",
+                "zh": "表明、暗示（Part 7 高频题干词，= 文中说明了什么）"
+              },
+              {
+                "word": "eligible",
+                "zh": "有资格的、符合条件的"
+              },
+              {
+                "word": "visiting student",
+                "zh": "访问学生、交换生"
+              },
+              {
+                "word": "not ... yet",
+                "zh": "还没有"
+              },
+              {
+                "word": "in time",
+                "zh": "及时、来得及"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q23",
@@ -742,7 +1364,34 @@
             }
           ],
           "answer": "A",
-          "explain": ""
+          "explain": "定位 Message 第二句 reserve two places；initially 提示后文“可能独自去”的变化。",
+          "zh": {
+            "stem": "Priya 最初申请了几个名额？",
+            "options": {
+              "A": "两个 ✓",
+              "B": "三个",
+              "C": "八个（这是演示的人数上限）",
+              "D": "十二个（这是实验室编号）"
+            },
+            "vocab": [
+              {
+                "word": "place",
+                "zh": "名额、位子（这里不是「地方」）"
+              },
+              {
+                "word": "initially",
+                "zh": "最初、一开始"
+              },
+              {
+                "word": "reserve",
+                "zh": "预订、预留"
+              },
+              {
+                "word": "attend alone",
+                "zh": "一个人去参加"
+              }
+            ]
+          }
         },
         {
           "id": "day6-q24",
@@ -771,7 +1420,38 @@
             }
           ],
           "answer": "C",
-          "explain": "预约截止到周一。"
+          "explain": "预约截止到周一。",
+          "zh": {
+            "stem": "Clara 应该在周一之前做什么？",
+            "options": {
+              "A": "购买一台光谱仪",
+              "B": "完成 Priya 的培训（Priya 自己早就完成了）",
+              "C": "预订名额 ✓",
+              "D": "更改演示时间"
+            },
+            "vocab": [
+              {
+                "word": "by Monday",
+                "zh": "最迟周一"
+              },
+              {
+                "word": "reserve a place",
+                "zh": "预订一个名额"
+              },
+              {
+                "word": "purchase",
+                "zh": "购买（buy 的正式说法）"
+              },
+              {
+                "word": "complete",
+                "zh": "完成"
+              },
+              {
+                "word": "participant",
+                "zh": "参与者"
+              }
+            ]
+          }
         }
       ]
     }

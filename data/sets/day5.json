@@ -58,7 +58,30 @@
             }
           ],
           "answer": "C",
-          "explain": "responses 是可数名词复数"
+          "explain": "responses 是可数名词复数",
+          "zh": {
+            "stem": "委员会将开会讨论员工调查问卷的回复。",
+            "options": {
+              "A": "动词：回答、回应，respond to a question = 回答问题；the 后面要名词，动词不行",
+              "B": "形容词：反应积极的、响应快的，a responsive team = 反应快的团队",
+              "C": "名词（可数，复数）：回复、答复，responses to the survey = 对调查的回复 ✓",
+              "D": "动名词/现在分词：正在回应；不能直接跟在 the 后面当宾语"
+            },
+            "vocab": [
+              {
+                "word": "committee",
+                "zh": "委员会"
+              },
+              {
+                "word": "survey",
+                "zh": "调查、问卷"
+              },
+              {
+                "word": "discuss",
+                "zh": "讨论（及物，后面直接接宾语，不加 about）"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q2",
@@ -87,7 +110,30 @@
             }
           ],
           "answer": "A",
-          "explain": "tonight 对应将来时 will begin。"
+          "explain": "tonight 对应将来时 will begin。",
+          "zh": {
+            "stem": "软件更新将在今晚午夜自动开始。",
+            "options": {
+              "A": "一般将来时：将开始，配 tonight、tomorrow 这类将来时间 ✓",
+              "B": "过去式：开始了，配 yesterday、last week 这类过去时间",
+              "C": "现在分词/动名词：单独不能做谓语，句子缺动词",
+              "D": "现在完成时不能和 yesterday 这种明确的过去时间连用，是错搭"
+            },
+            "vocab": [
+              {
+                "word": "software update",
+                "zh": "软件更新"
+              },
+              {
+                "word": "automatically",
+                "zh": "自动地"
+              },
+              {
+                "word": "midnight",
+                "zh": "午夜、半夜 12 点"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q3",
@@ -116,7 +162,30 @@
             }
           ],
           "answer": "D",
-          "explain": "during + 名词"
+          "explain": "during + 名词",
+          "zh": {
+            "stem": "装修期间实验室一直照常开放。",
+            "options": {
+              "A": "连词：除非，后接完整句子，unless you pay = 除非你付款",
+              "B": "介词：在……旁边，beside the door = 门旁边；意思不通",
+              "C": "连词：虽然，后接完整句子（主语+谓语），不能只接一个名词",
+              "D": "介词：在……期间，后接名词，during the meeting = 会议期间 ✓"
+            },
+            "vocab": [
+              {
+                "word": "laboratory",
+                "zh": "实验室（口语常缩写成 lab）"
+              },
+              {
+                "word": "remain open",
+                "zh": "保持开放；remain + 形容词 = 一直处于某状态"
+              },
+              {
+                "word": "renovation",
+                "zh": "装修、翻新"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q4",
@@ -145,7 +214,34 @@
             }
           ],
           "answer": "B",
-          "explain": "consistent 由副词 remarkably 修饰。"
+          "explain": "consistent 由副词 remarkably 修饰。",
+          "zh": {
+            "stem": "三次试验的结果都出奇地一致。",
+            "options": {
+              "A": "形容词：显著的、了不起的，a remarkable achievement = 了不起的成就；形容词不能修饰形容词",
+              "B": "副词：显著地、非常，修饰后面的形容词 consistent ✓",
+              "C": "动词/名词：评论、说，make a remark = 发表评论",
+              "D": "名词复数：评论；或动词第三人称单数，都放不进 were 和 consistent 之间"
+            },
+            "vocab": [
+              {
+                "word": "consistent",
+                "zh": "一致的、稳定的"
+              },
+              {
+                "word": "across",
+                "zh": "遍及、在……各处；across all three trials = 三次试验全都"
+              },
+              {
+                "word": "trial",
+                "zh": "试验、测试"
+              },
+              {
+                "word": "results",
+                "zh": "结果"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q5",
@@ -174,7 +270,34 @@
             }
           ],
           "answer": "C",
-          "explain": "ask someone to do"
+          "explain": "ask someone to do",
+          "zh": {
+            "stem": "主管要求技术员记录每台设备的序列号。",
+            "options": {
+              "A": "过去式/过去分词：ask sb 后面不接这个形式",
+              "B": "动名词/现在分词：ask sb 后面不接 -ing",
+              "C": "不定式：ask sb to do = 要求某人做某事，固定搭配 ✓",
+              "D": "动词原形：ask sb 后不能直接接原形（let/make 才可以）"
+            },
+            "vocab": [
+              {
+                "word": "supervisor",
+                "zh": "主管、上司"
+              },
+              {
+                "word": "technician",
+                "zh": "技术员、技术人员"
+              },
+              {
+                "word": "device",
+                "zh": "设备、装置"
+              },
+              {
+                "word": "serial number",
+                "zh": "序列号、产品编号"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q6",
@@ -203,7 +326,30 @@
             }
           ],
           "answer": "A",
-          "explain": "not...until = 直到……才。"
+          "explain": "not...until = 直到……才。",
+          "zh": {
+            "stem": "安全检查完成之前，这台设备不能使用。",
+            "options": {
+              "A": "连词/介词：直到……；not ... until = 直到……才，这里后面接的是完整句子 ✓",
+              "B": "介词：在……期间，只能接名词，不能接句子",
+              "C": "介词：在……之中（三者以上），among the staff = 在员工当中",
+              "D": "介词：尽管，despite the rain = 尽管下雨；只能接名词"
+            },
+            "vocab": [
+              {
+                "word": "equipment",
+                "zh": "设备（不可数名词，不加 s）"
+              },
+              {
+                "word": "safety check",
+                "zh": "安全检查"
+              },
+              {
+                "word": "complete",
+                "zh": "完成；be completed = 被完成"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q7",
@@ -232,7 +378,26 @@
             }
           ],
           "answer": "D",
-          "explain": ""
+          "explain": "make an announcement to + 人 = 向……宣布；announce 的对象用 to 引出。",
+          "zh": {
+            "stem": "昨天下午向全体员工宣布了这项通知。",
+            "options": {
+              "A": "介词：在（地点或时间点），at 3:00 = 三点",
+              "B": "介词：在……之中，among employees = 在员工当中；不表示宣布的对象",
+              "C": "介词：和……一起、带着",
+              "D": "介词：向、对，make an announcement to sb = 向某人宣布 ✓"
+            },
+            "vocab": [
+              {
+                "word": "announcement",
+                "zh": "通知、公告；make an announcement = 发布通知"
+              },
+              {
+                "word": "employee",
+                "zh": "员工、雇员"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q8",
@@ -261,7 +426,34 @@
             }
           ],
           "answer": "B",
-          "explain": "than 提示比较级 lower"
+          "explain": "than 提示比较级 lower",
+          "zh": {
+            "stem": "新供应商提供的价格比原来那家供应商的要低。",
+            "options": {
+              "A": "形容词原级：低的，不能和 than 搭配",
+              "B": "比较级：更低的，lower than = 比……低 ✓",
+              "C": "最高级：最低的，前面要加 the，后面不接 than",
+              "D": "形容词：地位低下的、卑微的，跟价格无关（注意它不是 low 的副词）"
+            },
+            "vocab": [
+              {
+                "word": "supplier",
+                "zh": "供应商"
+              },
+              {
+                "word": "offer",
+                "zh": "提供"
+              },
+              {
+                "word": "former",
+                "zh": "以前的、前任的"
+              },
+              {
+                "word": "those of",
+                "zh": "代替前面的 prices，those of the former supplier = 原供应商的价格"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q9",
@@ -290,7 +482,34 @@
             }
           ],
           "answer": "C",
-          "explain": "所有格后需要名词 signature。"
+          "explain": "所有格后需要名词 signature。",
+          "zh": {
+            "stem": "所有报销单都需要部门经理的签字。",
+            "options": {
+              "A": "动词：签名；名词：标志、招牌。这里要的是\"签字\"这个名词，sign 当名词不是这个意思",
+              "B": "过去式/过去分词：签过名的，a signed copy = 签好字的副本",
+              "C": "名词：签名、签字，manager's signature = 经理的签名 ✓",
+              "D": "动名词/名词：签署（这个动作），the signing of the contract = 合同的签署"
+            },
+            "vocab": [
+              {
+                "word": "reimbursement",
+                "zh": "报销"
+              },
+              {
+                "word": "form",
+                "zh": "表格、单据"
+              },
+              {
+                "word": "require",
+                "zh": "需要、要求"
+              },
+              {
+                "word": "department",
+                "zh": "部门"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q10",
@@ -319,7 +538,26 @@
             }
           ],
           "answer": "A",
-          "explain": ""
+          "explain": "make sure that 从句里 doors 与 lock 是被动关系，用过去分词 locked 作表语。",
+          "zh": {
+            "stem": "离开前请确保所有门都已锁好。",
+            "options": {
+              "A": "过去分词作表语：被锁上的，are locked = 处于锁着的状态 ✓",
+              "B": "现在分词：正在锁；门是被人锁的，不能自己去锁",
+              "C": "动词原形：are 后面不能直接接动词原形",
+              "D": "动词第三人称单数 / 名词复数（锁）：都放不进 are 后面"
+            },
+            "vocab": [
+              {
+                "word": "make sure (that)",
+                "zh": "确保、务必"
+              },
+              {
+                "word": "before leaving",
+                "zh": "离开之前（before + 动名词）"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q11",
@@ -348,7 +586,30 @@
             }
           ],
           "answer": "D",
-          "explain": ""
+          "explain": "spoke 是不及物动词，后面用副词 confidently 修饰，其他三项都不能修饰动词。",
+          "zh": {
+            "stem": "研究员自信地谈了初步研究结果。",
+            "options": {
+              "A": "名词：自信、信心，with confidence = 自信地",
+              "B": "形容词：自信的，be confident about = 对……有信心",
+              "C": "动词：吐露秘密，confide in sb = 向某人倾诉",
+              "D": "副词：自信地，修饰动词 spoke ✓"
+            },
+            "vocab": [
+              {
+                "word": "researcher",
+                "zh": "研究人员"
+              },
+              {
+                "word": "preliminary",
+                "zh": "初步的、初期的"
+              },
+              {
+                "word": "findings",
+                "zh": "研究结果、发现（常用复数）"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q12",
@@ -377,7 +638,34 @@
             }
           ],
           "answer": "B",
-          "explain": "because of + 名词；because 后应接完整句。"
+          "explain": "because of + 名词；because 后应接完整句。",
+          "zh": {
+            "stem": "由于报名人数不足，活动被取消了。",
+            "options": {
+              "A": "连词：因为，后接完整句子，because it rained",
+              "B": "介词短语：由于，后接名词，because of the rain ✓",
+              "C": "连词：虽然，后接句子",
+              "D": "连词：除非，后接句子"
+            },
+            "vocab": [
+              {
+                "word": "cancel",
+                "zh": "取消"
+              },
+              {
+                "word": "a lack of",
+                "zh": "缺乏、不足"
+              },
+              {
+                "word": "registration",
+                "zh": "报名、注册"
+              },
+              {
+                "word": "event",
+                "zh": "活动"
+              }
+            ]
+          }
         }
       ]
     },
@@ -389,7 +677,8 @@
       "passages": [
         {
           "title": "Questions 13-17",
-          "text": "CONFERENCE CHECK-IN\nAttendees who registered online may collect badges in the main lobby beginning at 7:30 A.M. To receive a badge, present a registration e-mail or photo identification. Those who have not paid the full fee will be asked to do so [13] receiving a badge. [14] Self-service kiosks are available for attendees [15] names have not changed. Help desk staff can assist with corrections. Badges should be worn [16] all sessions. We appreciate your [17]."
+          "text": "CONFERENCE CHECK-IN\nAttendees who registered online may collect badges in the main lobby beginning at 7:30 A.M. To receive a badge, present a registration e-mail or photo identification. Those who have not paid the full fee will be asked to do so [13] receiving a badge. [14] Self-service kiosks are available for attendees [15] names have not changed. Help desk staff can assist with corrections. Badges should be worn [16] all sessions. We appreciate your [17].",
+          "zh": "会议签到\n在线报名的与会者可从上午 7:30 起在主大厅领取胸牌。领取时请出示报名确认邮件或带照片的身份证件。尚未付清全额费用者，会被要求在领取胸牌 [13] 之前 先付款。[14] 预计 8:00 到 9:00 之间排队人数最多。 自助服务机可供 [15] 姓名（whose = ……的） 未变更的与会者使用。服务台工作人员可协助更正信息。[16] 在 所有会议场次期间都应佩戴胸牌。感谢您的 [17] 配合。"
         }
       ],
       "questions": [
@@ -420,7 +709,34 @@
             }
           ],
           "answer": "A",
-          "explain": ""
+          "explain": "先交费再领证：to do so before receiving a badge，before + 动名词。",
+          "zh": {
+            "stem": "尚未付清全额费用的人，会被要求在领取胸牌之前先付款。",
+            "options": {
+              "A": "介词/连词：在……之前，before + 动名词 receiving，先交费再领牌 ✓",
+              "B": "介词：在……期间；\"在领牌期间付款\"逻辑不通",
+              "C": "连词：除非，后接句子，不能接 -ing",
+              "D": "介词：在……旁边，跟动作无关"
+            },
+            "vocab": [
+              {
+                "word": "pay the full fee",
+                "zh": "付清全额费用"
+              },
+              {
+                "word": "do so",
+                "zh": "这样做，指代前面的 pay the full fee"
+              },
+              {
+                "word": "badge",
+                "zh": "胸牌、证件牌"
+              },
+              {
+                "word": "receive",
+                "zh": "领取、收到"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q14",
@@ -449,7 +765,34 @@
             }
           ],
           "answer": "C",
-          "explain": "C 提供排队时间信息"
+          "explain": "C 提供排队时间信息",
+          "zh": {
+            "stem": "前一句：没交齐费的人要先交费再领胸牌。后一句：自助服务机可供姓名没变的与会者使用。中间要插一句跟\"领牌/排队\"有关的话。C 说\"预计 8:00 到 9:00 之间排队人最多\"，正好承接前面的领牌流程，也自然引出后面\"想省时间可以用自助机\"。其他三句（去年在海外办、酒店免费早餐、大厅刚刷漆）跟签到流程完全无关。",
+            "options": {
+              "A": "去年的会议是在海外举办的。",
+              "B": "大多数酒店提供免费早餐。",
+              "C": "预计 8:00 到 9:00 之间排队的人最多。✓",
+              "D": "大厅最近刚粉刷过。"
+            },
+            "vocab": [
+              {
+                "word": "line",
+                "zh": "队伍（排队的那个队）"
+              },
+              {
+                "word": "be expected to",
+                "zh": "预计会……"
+              },
+              {
+                "word": "self-service kiosk",
+                "zh": "自助服务机"
+              },
+              {
+                "word": "overseas",
+                "zh": "海外的、在海外"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q15",
@@ -478,7 +821,30 @@
             }
           ],
           "answer": "B",
-          "explain": "whose names"
+          "explain": "whose names",
+          "zh": {
+            "stem": "姓名没有变更的与会者可以使用自助服务机。",
+            "options": {
+              "A": "关系代词：指人，在从句里做主语，attendees who arrive early = 早到的与会者",
+              "B": "关系代词：表所属\"……的\"，后面直接接名词，attendees whose names = 与会者的姓名 ✓",
+              "C": "关系代词：指物，不能指人",
+              "D": "关系代词：指人，在从句里做宾语，后面不能直接接名词 names"
+            },
+            "vocab": [
+              {
+                "word": "available",
+                "zh": "可用的、可获得的；available for sb = 供某人使用"
+              },
+              {
+                "word": "attendee",
+                "zh": "与会者、参加者"
+              },
+              {
+                "word": "kiosk",
+                "zh": "自助服务机、信息亭"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q16",
@@ -507,7 +873,26 @@
             }
           ],
           "answer": "D",
-          "explain": "during all sessions。"
+          "explain": "during all sessions。",
+          "zh": {
+            "stem": "所有会议场次期间都应佩戴胸牌。",
+            "options": {
+              "A": "介词：在……之中；\"在会议之中\"意思不通",
+              "B": "介词：直到，后面要接一个时间点，all sessions 不是时间点",
+              "C": "介词：在……旁边",
+              "D": "介词：在……期间，during all sessions = 所有场次期间 ✓"
+            },
+            "vocab": [
+              {
+                "word": "session",
+                "zh": "会议场次、一节（会议或活动）"
+              },
+              {
+                "word": "worn",
+                "zh": "wear 的过去分词；be worn = 被佩戴"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q17",
@@ -536,7 +921,34 @@
             }
           ],
           "answer": "A",
-          "explain": ""
+          "explain": "appreciate your + 名词，固定收尾句 We appreciate your cooperation（感谢配合）。",
+          "zh": {
+            "stem": "感谢您的配合。",
+            "options": {
+              "A": "名词：合作、配合，your cooperation = 您的配合，通知结尾的固定说法 ✓",
+              "B": "动词：合作，cooperate with sb = 与某人合作",
+              "C": "形容词：乐于合作的，a cooperative attitude = 配合的态度",
+              "D": "副词：合作地"
+            },
+            "vocab": [
+              {
+                "word": "appreciate",
+                "zh": "感激、感谢；后面接名词，不接 to do"
+              },
+              {
+                "word": "help desk",
+                "zh": "服务台、咨询台"
+              },
+              {
+                "word": "assist with",
+                "zh": "协助（做某事）"
+              },
+              {
+                "word": "correction",
+                "zh": "更正、修改"
+              }
+            ]
+          }
         }
       ]
     },
@@ -548,7 +960,8 @@
       "passages": [
         {
           "title": "Questions 18-20 refer to the following e-mail.",
-          "text": "From: North City Electronics\nTo: Customers\nSubject: Product Recall\nWe are recalling model HN-20 portable heaters because of a possible problem with the power cord. Stop using the heater immediately and return it to any North City Electronics store. A receipt is not required. Customers may choose either a full refund or a replacement. Visit our website to check affected serial numbers."
+          "text": "From: North City Electronics\nTo: Customers\nSubject: Product Recall\nWe are recalling model HN-20 portable heaters because of a possible problem with the power cord. Stop using the heater immediately and return it to any North City Electronics store. A receipt is not required. Customers may choose either a full refund or a replacement. Visit our website to check affected serial numbers.",
+          "zh": "发件人：North City Electronics（北城电子）\n收件人：各位顾客\n主题：产品召回\n由于电源线可能存在问题，我们正在召回 HN-20 型便携式取暖器。请立即停止使用，并将其退回任意一家 North City Electronics 门店。无需收据。顾客可选择全额退款或换新。请访问我们的网站查询受影响的序列号。"
         }
       ],
       "questions": [
@@ -579,7 +992,38 @@
             }
           ],
           "answer": "C",
-          "explain": ""
+          "explain": "先看 Subject: Product Recall，首句 We are recalling… 直接对应 announce a product recall。",
+          "zh": {
+            "stem": "这封邮件的目的是什么？",
+            "options": {
+              "A": "宣传一款取暖器",
+              "B": "更改门店营业时间",
+              "C": "通知产品召回 ✓",
+              "D": "请顾客写评价"
+            },
+            "vocab": [
+              {
+                "word": "purpose",
+                "zh": "目的"
+              },
+              {
+                "word": "recall",
+                "zh": "召回（有问题的产品）"
+              },
+              {
+                "word": "portable heater",
+                "zh": "便携式取暖器"
+              },
+              {
+                "word": "power cord",
+                "zh": "电源线"
+              },
+              {
+                "word": "immediately",
+                "zh": "立即、马上"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q19",
@@ -608,7 +1052,34 @@
             }
           ],
           "answer": "B",
-          "explain": ""
+          "explain": "定位邮件第三句 A receipt is not required，原句原词直接对应 B。",
+          "zh": {
+            "stem": "关于收据，邮件说了什么？",
+            "options": {
+              "A": "必须是原件",
+              "B": "不需要收据 ✓",
+              "C": "可以在网上获取",
+              "D": "换货需要收据"
+            },
+            "vocab": [
+              {
+                "word": "state",
+                "zh": "动词：陈述、说明（不是\"州\"）"
+              },
+              {
+                "word": "receipt",
+                "zh": "收据、小票"
+              },
+              {
+                "word": "required",
+                "zh": "必需的；is not required = 不需要"
+              },
+              {
+                "word": "obtain",
+                "zh": "获得、取得"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q20",
@@ -637,7 +1108,34 @@
             }
           ],
           "answer": "D",
-          "explain": ""
+          "explain": "定位倒数第二句 either a full refund or a replacement，对应 D 的二选一。",
+          "zh": {
+            "stem": "顾客可以得到什么？",
+            "options": {
+              "A": "只有一根电源线",
+              "B": "门店会员资格",
+              "C": "免费送货",
+              "D": "退款或换货 ✓"
+            },
+            "vocab": [
+              {
+                "word": "full refund",
+                "zh": "全额退款"
+              },
+              {
+                "word": "replacement",
+                "zh": "替换品、换新"
+              },
+              {
+                "word": "either ... or",
+                "zh": "两者选一"
+              },
+              {
+                "word": "affected",
+                "zh": "受影响的"
+              }
+            ]
+          }
         }
       ]
     },
@@ -649,11 +1147,13 @@
       "passages": [
         {
           "title": "Questions 21-24: Notice",
-          "text": "LABORATORY COURIER SERVICE\nPickups are made at 9:00 A.M. and 4:00 P.M. on weekdays. Request forms received at least 30 minutes before a pickup will be included. Hazardous materials require special labels. The courier does not operate on weekends."
+          "text": "LABORATORY COURIER SERVICE\nPickups are made at 9:00 A.M. and 4:00 P.M. on weekdays. Request forms received at least 30 minutes before a pickup will be included. Hazardous materials require special labels. The courier does not operate on weekends.",
+          "zh": "实验室快递服务\n工作日每天上午 9:00 和下午 4:00 各取件一次。取件前至少 30 分钟收到的申请单，会被纳入当次取件。危险品需要贴特殊标签。周末快递不运营。"
         },
         {
           "title": "Questions 21-24: Message",
-          "text": "To: Courier Desk\nIt is Monday at 3:20 P.M., and our samples are ready. I have completed the request form. The samples are not hazardous and need to reach the central laboratory by Tuesday morning. Please confirm that they can be included in today's final pickup. - Leo"
+          "text": "To: Courier Desk\nIt is Monday at 3:20 P.M., and our samples are ready. I have completed the request form. The samples are not hazardous and need to reach the central laboratory by Tuesday morning. Please confirm that they can be included in today's final pickup. - Leo",
+          "zh": "致：快递服务台\n现在是周一下午 3:20，我们的样本已经准备好了。我已填好申请单。样本没有危险性，需要在周二上午之前送到中心实验室。请确认它们能赶上今天最后一趟取件。—— Leo"
         }
       ],
       "questions": [
@@ -684,7 +1184,38 @@
             }
           ],
           "answer": "B",
-          "explain": "申请在 3:30 前提交即可赶上 4:00 取件，3:20 符合条件。"
+          "explain": "申请在 3:30 前提交即可赶上 4:00 取件，3:20 符合条件。",
+          "zh": {
+            "stem": "哪一趟取件可以带上 Leo 的样本？",
+            "options": {
+              "A": "周一上午 9:00",
+              "B": "周一下午 4:00 ✓",
+              "C": "周二下午 4:00",
+              "D": "周六上午"
+            },
+            "vocab": [
+              {
+                "word": "pickup",
+                "zh": "取件、上门收取"
+              },
+              {
+                "word": "at least",
+                "zh": "至少"
+              },
+              {
+                "word": "courier",
+                "zh": "快递（服务或快递员）"
+              },
+              {
+                "word": "sample",
+                "zh": "样本"
+              },
+              {
+                "word": "include",
+                "zh": "包含、纳入"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q22",
@@ -713,7 +1244,38 @@
             }
           ],
           "answer": "C",
-          "explain": ""
+          "explain": "定位 Message 的 The samples are not hazardous；Notice 说只有 hazardous materials 才要特殊标签。",
+          "zh": {
+            "stem": "为什么不需要特殊标签？",
+            "options": {
+              "A": "表格已填完整",
+              "B": "样本很紧急",
+              "C": "样本没有危险性 ✓",
+              "D": "快递员认识 Leo"
+            },
+            "vocab": [
+              {
+                "word": "hazardous",
+                "zh": "危险的、有害的"
+              },
+              {
+                "word": "label",
+                "zh": "标签"
+              },
+              {
+                "word": "unnecessary",
+                "zh": "不必要的"
+              },
+              {
+                "word": "material",
+                "zh": "材料、物质"
+              },
+              {
+                "word": "urgent",
+                "zh": "紧急的"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q23",
@@ -742,7 +1304,34 @@
             }
           ],
           "answer": "A",
-          "explain": ""
+          "explain": "定位 Message 的 reach the central laboratory by Tuesday morning，by = 最迟不晚于。",
+          "zh": {
+            "stem": "样本必须在什么时候送到中心实验室？",
+            "options": {
+              "A": "周二上午 ✓",
+              "B": "周二下午",
+              "C": "周五",
+              "D": "周末"
+            },
+            "vocab": [
+              {
+                "word": "reach",
+                "zh": "到达、送达"
+              },
+              {
+                "word": "by + 时间",
+                "zh": "最迟在……之前，by Tuesday morning = 周二上午前"
+              },
+              {
+                "word": "central",
+                "zh": "中心的、中央的"
+              },
+              {
+                "word": "confirm",
+                "zh": "确认"
+              }
+            ]
+          }
         },
         {
           "id": "day5-q24",
@@ -771,7 +1360,38 @@
             }
           ],
           "answer": "D",
-          "explain": ""
+          "explain": "定位 Notice 末句 does not operate on weekends = unavailable on weekends，同义替换。",
+          "zh": {
+            "stem": "关于快递服务，文中能看出什么？",
+            "options": {
+              "A": "填表要收费",
+              "B": "每天取件三次",
+              "C": "只处理危险品",
+              "D": "周末不提供服务 ✓"
+            },
+            "vocab": [
+              {
+                "word": "indicate",
+                "zh": "表明、暗示；What is indicated = 文中能看出什么"
+              },
+              {
+                "word": "operate",
+                "zh": "运营、运作"
+              },
+              {
+                "word": "weekday",
+                "zh": "工作日（周一到周五）"
+              },
+              {
+                "word": "charge",
+                "zh": "收费"
+              },
+              {
+                "word": "unavailable",
+                "zh": "不可用的、无法提供的"
+              }
+            ]
+          }
         }
       ]
     }

@@ -61,7 +61,7 @@ button { font: inherit; }
 /* ---------- 顶栏 ---------- */
 .topbar {
   position: sticky; top: 0; z-index: 20;
-  height: var(--topbar-h);
+  height: calc(var(--topbar-h) + env(safe-area-inset-top));
   display: flex; align-items: center; gap: 12px;
   padding: 0 14px;
   padding-top: env(safe-area-inset-top);
@@ -151,7 +151,7 @@ button { font: inherit; }
   background: var(--bg); padding: 8px 0; margin: -6px 0 8px;
   border-bottom: 1px solid var(--line);
 }
-.runner-top .title { font-weight: 600; }
+.runner-top .title { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 42%; }
 .runner-top .timer { font-variant-numeric: tabular-nums; font-weight: 600; margin-left: auto; padding: 2px 10px; border-radius: 8px; background: var(--pale); color: var(--teal); }
 .runner-top .timer.warn { background: var(--warn-bg); color: var(--warn); }
 .runner-top .timer.over { background: var(--bad-bg); color: var(--bad); }
@@ -161,7 +161,7 @@ button { font: inherit; }
 @media (max-width: 899px) {
   .runner .passage-col {
     position: sticky; top: calc(var(--topbar-h) + var(--runner-top-h) + env(safe-area-inset-top)); z-index: 5;
-    max-height: 42vh; overflow: auto; overscroll-behavior: contain;
+    max-height: 38vh; overflow: auto; overscroll-behavior: contain;
     background: var(--bg); padding-bottom: 4px;
   }
 }
@@ -210,11 +210,12 @@ button { font: inherit; }
 .actions {
   position: sticky; bottom: 0; z-index: 5;
   display: flex; gap: 8px; align-items: center;
-  margin-top: 14px;
-  padding: 10px 0 calc(10px + env(safe-area-inset-bottom));
-  background: linear-gradient(to top, var(--bg) 70%, transparent);
+  margin-top: 12px;
+  padding: 8px 0 calc(8px + env(safe-area-inset-bottom));
+  background: var(--bg);
+  border-top: 1px solid var(--line);
 }
-.actions .btn { flex: 1; min-height: 48px; }
+.actions .btn { flex: 1; min-height: 46px; }
 .actions .btn.ghost { flex: 0 0 auto; }
 .navgrid { display: grid; grid-template-columns: repeat(8, 1fr); gap: 6px; margin-top: 10px; }
 @media (min-width: 600px) { .navgrid { grid-template-columns: repeat(12, 1fr); } }
@@ -262,3 +263,19 @@ ol.steps li { margin: 6px 0; }
   background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 10px; font-size: 14px; z-index: 50;
   max-width: 90vw; box-shadow: 0 6px 20px rgba(0,0,0,.25);
 }
+
+/* ---------- 翻译与生词 ---------- */
+.options.compact { grid-template-columns: 1fr 1fr; }
+.options.compact .option { padding: 8px 10px; min-height: 50px; }
+details.zh { margin-top: 10px; border-top: 1px dashed var(--line); padding-top: 6px; }
+details.zh summary { cursor: pointer; font-size: 13px; color: var(--teal); list-style: none; }
+details.zh summary::-webkit-details-marker { display: none; }
+details.zh summary::before { content: "▸ "; }
+details.zh[open] summary::before { content: "▾ "; }
+.zh-stem { margin: 6px 0; font-size: 14.5px; color: var(--ink); }
+.zh-opts { margin: 4px 0; padding: 0; list-style: none; font-size: 14px; color: var(--ink); }
+.zh-opts li { padding: 2px 0; }
+.zh-opts .zh-sep { color: var(--muted); margin: 0 6px; }
+.zh-vocab { margin-top: 6px; line-height: 1.9; }
+.passage .zh-text { font-family: var(--font); color: var(--muted); font-size: .95rem; line-height: 1.7; white-space: pre-line; border-top: 1px dashed var(--line); margin-top: 8px; padding-top: 8px; }
+.passage .zh-btn { margin-top: 6px; }

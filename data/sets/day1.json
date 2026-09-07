@@ -59,7 +59,34 @@
             }
           ],
           "answer": "B",
-          "explain": "by + 时间点 = 最迟不晚于"
+          "explain": "by + 时间点 = 最迟不晚于",
+          "zh": {
+            "stem": "申请人必须在周五之前提交所有必需的文件。",
+            "options": {
+              "A": "介词：从……起（起点），from Monday = 从周一开始；只说开始，不说截止",
+              "B": "介词：最迟在……之前（截止时间点），by Friday = 周五前必须交 ✓",
+              "C": "介词：在……之中（三者以上），among the applicants = 在申请人当中；后面接一群人/物，不接时间",
+              "D": "介词：在……期间，during the meeting = 开会期间；后面接一段时间或事件，不接“周五”这种截止点"
+            },
+            "vocab": [
+              {
+                "word": "applicant",
+                "zh": "申请人（apply 申请 + -ant 人）"
+              },
+              {
+                "word": "submit",
+                "zh": "提交、上交"
+              },
+              {
+                "word": "required",
+                "zh": "必需的、被要求的"
+              },
+              {
+                "word": "document",
+                "zh": "文件、材料"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q2",
@@ -88,7 +115,34 @@
             }
           ],
           "answer": "C",
-          "explain": "more 后接形容词 reliable"
+          "explain": "more 后接形容词 reliable",
+          "zh": {
+            "stem": "这台新的实验室仪器比上一款型号更可靠。",
+            "options": {
+              "A": "动词：依赖、依靠，rely on sb. = 依靠某人；more 后面不能直接接动词",
+              "B": "副词：可靠地，works reliably = 运转可靠；副词不能放在 is 后面当表语",
+              "C": "形容词：可靠的、靠得住的，a reliable supplier = 靠谱的供应商；more + 形容词 = 比较级 ✓",
+              "D": "名词：依赖，reliance on imports = 对进口的依赖；“更依赖比上一款”说不通"
+            },
+            "vocab": [
+              {
+                "word": "laboratory",
+                "zh": "实验室（常缩写为 lab）"
+              },
+              {
+                "word": "instrument",
+                "zh": "仪器、器械（这里不是“乐器”）"
+              },
+              {
+                "word": "previous",
+                "zh": "之前的、上一个的"
+              },
+              {
+                "word": "model",
+                "zh": "型号（这里不是“模特”）"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q3",
@@ -117,7 +171,38 @@
             }
           ],
           "answer": "A",
-          "explain": "because 后接完整句"
+          "explain": "because 后接完整句",
+          "zh": {
+            "stem": "因为主讲嘉宾无法出席，研讨会被推迟了。",
+            "options": {
+              "A": "连词：因为，后面接完整句子（有主语有动词）✓",
+              "B": "介词：尽管，despite the rain = 尽管下雨；后面只能接名词，不能接句子",
+              "C": "介词：在……期间，during the seminar = 研讨会期间；接名词，不接句子",
+              "D": "连词：除非，unless you call = 除非你打电话；能接句子，但“除非讲者来不了就推迟”逻辑反了"
+            },
+            "vocab": [
+              {
+                "word": "seminar",
+                "zh": "研讨会、讲座"
+              },
+              {
+                "word": "postpone",
+                "zh": "推迟、延期（= put off）"
+              },
+              {
+                "word": "keynote speaker",
+                "zh": "主题演讲人、主讲嘉宾"
+              },
+              {
+                "word": "be unable to",
+                "zh": "无法、不能（able 的反义）"
+              },
+              {
+                "word": "attend",
+                "zh": "出席、参加"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q4",
@@ -146,7 +231,30 @@
             }
           ],
           "answer": "D",
-          "explain": "responsible for doing"
+          "explain": "responsible for doing",
+          "zh": {
+            "stem": "Patel 女士负责在发货前检查设备。",
+            "options": {
+              "A": "动词原形：检查、检验；介词 for 后面不能直接接动词原形",
+              "B": "过去式/过去分词：检查过（的）；介词后面不能接",
+              "C": "名词：检查（这件事），a safety inspection = 安全检查；语法上能接在 for 后，但名词后面不能再直接带宾语 the equipment",
+              "D": "动名词：检查，be responsible for doing = 负责做某事，后面还能带宾语 ✓"
+            },
+            "vocab": [
+              {
+                "word": "be responsible for",
+                "zh": "负责……、对……负责"
+              },
+              {
+                "word": "equipment",
+                "zh": "设备（不可数，不加 s）"
+              },
+              {
+                "word": "delivery",
+                "zh": "交货、送货（动词 deliver）"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q5",
@@ -175,7 +283,30 @@
             }
           ],
           "answer": "B",
-          "explain": ""
+          "explain": "before + 过去时从句（began），更早完成的动作用过去完成时 had reviewed。",
+          "zh": {
+            "stem": "会议开始之前，韩博士已经审阅过修改后的稿件了。",
+            "options": {
+              "A": "一般现在时：审阅；后面 began 是过去，时态对不上",
+              "B": "过去完成时：（在过去某个时间点之前）已经审阅过，“过去的过去”，before + 过去时从句就用它 ✓",
+              "C": "将来时：将要审阅；和过去的 began 冲突",
+              "D": "现在进行时：正在审阅；时态对不上"
+            },
+            "vocab": [
+              {
+                "word": "review",
+                "zh": "审阅、审查（动词；名词是“评审/评论”）"
+              },
+              {
+                "word": "revised",
+                "zh": "修改过的、修订的（revise 修改）"
+              },
+              {
+                "word": "manuscript",
+                "zh": "稿件、手稿（投稿论文常叫 manuscript）"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q6",
@@ -204,7 +335,30 @@
             }
           ],
           "answer": "A",
-          "explain": "within + 时间长度 = 在这段时间内。"
+          "explain": "within + 时间长度 = 在这段时间内。",
+          "zh": {
+            "stem": "所有费用报销单必须在出差结束后三天内提交。",
+            "options": {
+              "A": "介词：在……（一段时长）之内，within a week = 一周内 ✓",
+              "B": "介词：在……旁边，beside the desk = 桌子旁边；只表位置",
+              "C": "介词：在……之中（三者以上）；接人或物，不接时间",
+              "D": "介词：在……期间，during the trip = 出差期间；后面接某段时期或事件的名字，不能接“三天”这种数出来的时长"
+            },
+            "vocab": [
+              {
+                "word": "expense report",
+                "zh": "费用报销单、开支报告（expense 开销）"
+              },
+              {
+                "word": "be submitted",
+                "zh": "被提交（submit 的被动）"
+              },
+              {
+                "word": "trip",
+                "zh": "出差、行程（business trip 出差）"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q7",
@@ -233,7 +387,30 @@
             }
           ],
           "answer": "C",
-          "explain": "once + 完整句 = 一经/一旦"
+          "explain": "once + 完整句 = 一经/一旦",
+          "zh": {
+            "stem": "最终报告一经批准就会分发下去。",
+            "options": {
+              "A": "介词：在……期间；接名词，不能接句子",
+              "B": "介词：尽管；接名词，不能接句子",
+              "C": "连词：一旦、一经……就，once it is approved = 一经批准（口语常缩成 once approved）✓",
+              "D": "介词：除……之外，except Sunday = 周日除外；不能接句子"
+            },
+            "vocab": [
+              {
+                "word": "distribute",
+                "zh": "分发、发放"
+              },
+              {
+                "word": "approve",
+                "zh": "批准、通过（名词 approval）"
+              },
+              {
+                "word": "final report",
+                "zh": "最终报告、定稿"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q8",
@@ -262,7 +439,30 @@
             }
           ],
           "answer": "D",
-          "explain": "worked 需要副词 efficiently 修饰。"
+          "explain": "worked 需要副词 efficiently 修饰。",
+          "zh": {
+            "stem": "技术人员工作效率很高，提前完成了维修。",
+            "options": {
+              "A": "形容词：高效的，an efficient system = 高效的系统；形容词不能修饰动词 worked",
+              "B": "名词：效率，improve efficiency = 提高效率；worked 后面不需要名词",
+              "C": "形容词比较级：更高效的；还是形容词，照样不能修饰动词",
+              "D": "副词：高效地，work efficiently = 高效地工作；修饰动词用副词 ✓"
+            },
+            "vocab": [
+              {
+                "word": "technician",
+                "zh": "技术员、技工"
+              },
+              {
+                "word": "repairs",
+                "zh": "维修（名词常用复数；动词 repair 修理）"
+              },
+              {
+                "word": "ahead of schedule",
+                "zh": "比计划提前（反义 behind schedule = 落后于计划）"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q9",
@@ -291,7 +491,30 @@
             }
           ],
           "answer": "B",
-          "explain": ""
+          "explain": "present 后接名词 identification，名词前用形容词性物主代词 their。",
+          "zh": {
+            "stem": "访客必须在前台出示自己的身份证件。",
+            "options": {
+              "A": "主格代词：他们（做主语），they must present = 他们必须出示",
+              "B": "形容词性物主代词：他们的，后面必须接名词，their identification = 他们的证件 ✓",
+              "C": "宾格代词：他们（做宾语），call them = 给他们打电话",
+              "D": "名词性物主代词：他们的（那个东西），后面不接名词，the badges are theirs = 这些胸牌是他们的"
+            },
+            "vocab": [
+              {
+                "word": "present",
+                "zh": "出示（动词，重音在后 pre-SENT；名词“礼物/现在”重音在前）"
+              },
+              {
+                "word": "identification",
+                "zh": "身份证明、证件（常缩写 ID）"
+              },
+              {
+                "word": "reception desk",
+                "zh": "前台、接待处"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q10",
@@ -320,7 +543,38 @@
             }
           ],
           "answer": "A",
-          "explain": ""
+          "explain": "to + 动词原形表目的（为了防止）；so / for / by 后都不能直接接动词原形。",
+          "zh": {
+            "stem": "样品被存放在低温下，以防变质。",
+            "options": {
+              "A": "不定式：to + 动词原形表目的“为了……”，to prevent = 为了防止 ✓",
+              "B": "连词：所以/以便，so that we can... = 以便我们能……；so 后面要接完整句子，不能直接接动词",
+              "C": "介词：为了，for storage = 用于储存；后面接名词或 -ing，不接动词原形",
+              "D": "介词：通过（某种方式），by storing = 通过储存；后面接名词或 -ing"
+            },
+            "vocab": [
+              {
+                "word": "sample",
+                "zh": "样品、样本"
+              },
+              {
+                "word": "store",
+                "zh": "储存、存放（动词；名词是“商店”）"
+              },
+              {
+                "word": "temperature",
+                "zh": "温度"
+              },
+              {
+                "word": "prevent",
+                "zh": "防止、预防"
+              },
+              {
+                "word": "degradation",
+                "zh": "变质、降解、退化"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q11",
@@ -349,7 +603,30 @@
             }
           ],
           "answer": "C",
-          "explain": "should 后接动词原形"
+          "explain": "should 后接动词原形",
+          "zh": {
+            "stem": "任何需要进入档案室的员工都应联系经理。",
+            "options": {
+              "A": "过去式/过去分词：联系过；情态动词 should 后面不能用",
+              "B": "第三人称单数：联系；情态动词后面不能加 -s",
+              "C": "动词原形：联系，should contact = 应该联系 ✓",
+              "D": "现在分词/动名词：联系；情态动词后面不能用"
+            },
+            "vocab": [
+              {
+                "word": "employee",
+                "zh": "员工、雇员（employer 是雇主，别搞反）"
+              },
+              {
+                "word": "access to",
+                "zh": "进入/使用……的权限，have access to the files = 能查阅文件"
+              },
+              {
+                "word": "archive",
+                "zh": "档案室、档案库"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q12",
@@ -378,7 +655,34 @@
             }
           ],
           "answer": "B",
-          "explain": "later than expected 是固定省略结构。"
+          "explain": "later than expected 是固定省略结构。",
+          "zh": {
+            "stem": "由于运输延误，物资比预期到得晚。",
+            "options": {
+              "A": "动词原形：预期、期待；than 后面直接接动词原形不成立",
+              "B": "过去分词：（被）预期的，later than expected = 比预期晚，是 than (it was) expected 的省略，固定说法 ✓",
+              "C": "现在分词：正在期待；主动含义，这里要的是“被预期”",
+              "D": "名词：预期、期望，beyond expectations = 超出预期；later than expectation 不是地道说法"
+            },
+            "vocab": [
+              {
+                "word": "because of",
+                "zh": "由于（后面接名词，用法同 due to）"
+              },
+              {
+                "word": "shipping",
+                "zh": "运输、发货"
+              },
+              {
+                "word": "delay",
+                "zh": "延误、延迟"
+              },
+              {
+                "word": "supplies",
+                "zh": "物资、用品（复数）"
+              }
+            ]
+          }
         }
       ]
     },
@@ -390,7 +694,8 @@
       "passages": [
         {
           "title": "Staff Notice",
-          "text": "NOTICE TO ALL STAFF\nBeginning next Monday, the west entrance of the Dalton Research Center will be closed [13] repairs. Employees should use the east entrance [14] further notice. Visitors must sign in at the reception desk, where they will receive temporary badges. Because parking spaces near the east entrance are limited, staff members are [15] to use public transportation whenever possible. The work is expected to take approximately two weeks. [16] The center apologizes for any inconvenience this may [17]."
+          "text": "NOTICE TO ALL STAFF\nBeginning next Monday, the west entrance of the Dalton Research Center will be closed [13] repairs. Employees should use the east entrance [14] further notice. Visitors must sign in at the reception desk, where they will receive temporary badges. Because parking spaces near the east entrance are limited, staff members are [15] to use public transportation whenever possible. The work is expected to take approximately two weeks. [16] The center apologizes for any inconvenience this may [17].",
+          "zh": "全体员工通知\n从下周一起，Dalton 研究中心的西门将 [13] 由于 维修而关闭。员工请改走东门，[14] 直到 另行通知为止。访客必须在前台登记，并在那里领取临时胸牌。由于东门附近停车位有限，员工 [15] 被鼓励 尽量使用公共交通。施工预计大约需要两周。[16] 入口重新开放时会另行发通知。 本中心对此可能 [17] 造成 的任何不便深表歉意。"
         }
       ],
       "questions": [
@@ -421,7 +726,30 @@
             }
           ],
           "answer": "D",
-          "explain": "due to 后接名词 repairs。"
+          "explain": "due to 后接名词 repairs。",
+          "zh": {
+            "stem": "从下周一起，Dalton 研究中心的西门将因维修而关闭。",
+            "options": {
+              "A": "介词：在……之中（三者以上）；“在维修之中关闭”说不通",
+              "B": "连词：虽然，后面要接完整句子；repairs 只是个名词",
+              "C": "介词：从……（起点/来源）；closed from repairs 不成立",
+              "D": "介词短语：由于、因为，due to + 名词，due to repairs = 因维修 ✓"
+            },
+            "vocab": [
+              {
+                "word": "entrance",
+                "zh": "入口、大门（enter 进入）"
+              },
+              {
+                "word": "repairs",
+                "zh": "维修（名词，常用复数）"
+              },
+              {
+                "word": "beginning next Monday",
+                "zh": "从下周一开始（= starting next Monday）"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q14",
@@ -450,7 +778,34 @@
             }
           ],
           "answer": "A",
-          "explain": "until further notice = 另行通知前。"
+          "explain": "until further notice = 另行通知前。",
+          "zh": {
+            "stem": "在另行通知之前，员工请改走东门。",
+            "options": {
+              "A": "介词/连词：直到……为止，until further notice = 直到另行通知，固定搭配 ✓",
+              "B": "介词：在……期间；during further notice 不成立",
+              "C": "介词：在两者之间，between 9 and 5 = 9 点到 5 点之间；需要两个端点",
+              "D": "介词：在……旁边；只表位置"
+            },
+            "vocab": [
+              {
+                "word": "further notice",
+                "zh": "另行通知（further 进一步的，notice 通知）"
+              },
+              {
+                "word": "sign in",
+                "zh": "登记、签到"
+              },
+              {
+                "word": "temporary",
+                "zh": "临时的（反义 permanent 永久的）"
+              },
+              {
+                "word": "badge",
+                "zh": "胸牌、工作证"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q15",
@@ -479,7 +834,34 @@
             }
           ],
           "answer": "C",
-          "explain": "be encouraged to do = 被鼓励做"
+          "explain": "be encouraged to do = 被鼓励做",
+          "zh": {
+            "stem": "由于东门附近停车位有限，员工被鼓励尽可能使用公共交通。",
+            "options": {
+              "A": "动词原形：鼓励；are 后面不能直接接动词原形",
+              "B": "现在分词/形容词：令人鼓舞的，encouraging news = 令人振奋的消息；这里员工是“被”鼓励，不是主动去鼓励",
+              "C": "过去分词：被鼓励，be encouraged to do = 被鼓励做某事（被动）✓",
+              "D": "名词：鼓励，words of encouragement = 鼓励的话；“员工是鼓励”说不通"
+            },
+            "vocab": [
+              {
+                "word": "parking space",
+                "zh": "停车位"
+              },
+              {
+                "word": "limited",
+                "zh": "有限的、不多的"
+              },
+              {
+                "word": "public transportation",
+                "zh": "公共交通"
+              },
+              {
+                "word": "whenever possible",
+                "zh": "只要有可能、尽可能"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q16",
@@ -508,7 +890,34 @@
             }
           ],
           "answer": "B",
-          "explain": "只有 B 能承接维修结束后的安排。"
+          "explain": "只有 B 能承接维修结束后的安排。",
+          "zh": {
+            "stem": "空格前一句：“施工预计大约需要两周。”空格后一句：“本中心对此可能造成的任何不便深表歉意。”前面刚说维修要两周，接下来自然要交代“修好后怎么通知大家”，所以选 B“入口重新开放时会另行发通知”。A（中心几年前开的）、C（多数访客喜欢开车来）、D（前台在二楼）都跟维修进度没关系，插在这里很突兀。",
+            "options": {
+              "A": "本中心是几年前开放的。",
+              "B": "入口重新开放时会另行发通知。✓",
+              "C": "大多数访客更喜欢开车来中心。",
+              "D": "前台在二楼。"
+            },
+            "vocab": [
+              {
+                "word": "be expected to",
+                "zh": "预计会……、预期……"
+              },
+              {
+                "word": "approximately",
+                "zh": "大约（= about，书面语）"
+              },
+              {
+                "word": "reopen",
+                "zh": "重新开放"
+              },
+              {
+                "word": "notice",
+                "zh": "通知（名词；send a notice 发通知）"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q17",
@@ -537,7 +946,30 @@
             }
           ],
           "answer": "A",
-          "explain": "may 后接动词原形 cause"
+          "explain": "may 后接动词原形 cause",
+          "zh": {
+            "stem": "本中心对此可能造成的任何不便深表歉意。",
+            "options": {
+              "A": "动词原形：造成、引起，may cause problems = 可能引起问题；情态动词 may 后接原形 ✓",
+              "B": "第三人称单数：造成；may 后面不能加 -s",
+              "C": "过去式/过去分词：造成了；may 后面不能用",
+              "D": "现在分词：正在造成；may 后面不能用"
+            },
+            "vocab": [
+              {
+                "word": "apologize for",
+                "zh": "为……道歉"
+              },
+              {
+                "word": "inconvenience",
+                "zh": "不便、麻烦（convenience 方便 + in- 否定）"
+              },
+              {
+                "word": "any inconvenience this may cause",
+                "zh": "“这件事可能造成的任何不便”，this may cause 是修饰 inconvenience 的定语从句，中间省了 that；通知/邮件里的常用客套话"
+              }
+            ]
+          }
         }
       ]
     },
@@ -549,7 +981,8 @@
       "passages": [
         {
           "title": "Questions 18-20 refer to the following e-mail.",
-          "text": "From: Ava Lin <a.lin@northlab.org>\nTo: Research Team\nSubject: Centrifuge Training\nA required training session for the laboratory's new centrifuge will be held on Tuesday at 10:00 A.M. in Room B214. The session will last approximately one hour. Please bring your employee identification badge. Staff members who completed the manufacturer's online training last month do not need to attend. If you have a scheduling conflict, reply to this message by noon on Monday."
+          "text": "From: Ava Lin <a.lin@northlab.org>\nTo: Research Team\nSubject: Centrifuge Training\nA required training session for the laboratory's new centrifuge will be held on Tuesday at 10:00 A.M. in Room B214. The session will last approximately one hour. Please bring your employee identification badge. Staff members who completed the manufacturer's online training last month do not need to attend. If you have a scheduling conflict, reply to this message by noon on Monday.",
+          "zh": "发件人：Ava Lin <a.lin@northlab.org>\n收件人：研究团队\n主题：离心机培训\n实验室新离心机的必修培训将于周二上午 10:00 在 B214 室举行。培训大约持续一小时。请携带员工工牌。上个月已完成厂家线上培训的员工无需参加。如果时间上有冲突，请在周一中午前回复本邮件。"
         }
       ],
       "questions": [
@@ -580,7 +1013,38 @@
             }
           ],
           "answer": "C",
-          "explain": "先看 purpose / who / conflict，再回邮件定位。"
+          "explain": "先看 purpose / who / conflict，再回邮件定位。",
+          "zh": {
+            "stem": "这封邮件的目的是什么？",
+            "options": {
+              "A": "申请新设备",
+              "B": "更改房间预订",
+              "C": "通知一场必须参加的培训 ✓",
+              "D": "报告一起事故"
+            },
+            "vocab": [
+              {
+                "word": "purpose",
+                "zh": "目的"
+              },
+              {
+                "word": "required",
+                "zh": "必须的、强制的，required training = 必修培训"
+              },
+              {
+                "word": "training session",
+                "zh": "培训课、培训场次"
+              },
+              {
+                "word": "be held",
+                "zh": "举行（hold 的被动）"
+              },
+              {
+                "word": "centrifuge",
+                "zh": "离心机（实验室里把样品高速甩转分层的机器）"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q19",
@@ -609,7 +1073,34 @@
             }
           ],
           "answer": "A",
-          "explain": "先看 purpose / who / conflict，再回邮件定位。"
+          "explain": "先看 purpose / who / conflict，再回邮件定位。",
+          "zh": {
+            "stem": "谁不需要参加这次培训？",
+            "options": {
+              "A": "已经完成线上培训的员工 ✓",
+              "B": "带了证件的员工",
+              "C": "在 B214 室工作的人",
+              "D": "研究团队的新成员"
+            },
+            "vocab": [
+              {
+                "word": "attend",
+                "zh": "参加、出席"
+              },
+              {
+                "word": "manufacturer",
+                "zh": "制造商、厂家"
+              },
+              {
+                "word": "complete",
+                "zh": "完成（动词）"
+              },
+              {
+                "word": "employee identification badge",
+                "zh": "员工工牌"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q20",
@@ -638,7 +1129,34 @@
             }
           ],
           "answer": "D",
-          "explain": "先看 purpose / who / conflict，再回邮件定位。"
+          "explain": "先看 purpose / who / conflict，再回邮件定位。",
+          "zh": {
+            "stem": "时间上有冲突的员工应该怎么做？",
+            "options": {
+              "A": "联系制造商",
+              "B": "周二下午参加",
+              "C": "交回工牌",
+              "D": "周一中午前回复 ✓"
+            },
+            "vocab": [
+              {
+                "word": "scheduling conflict",
+                "zh": "时间冲突、日程撞车"
+              },
+              {
+                "word": "reply to",
+                "zh": "回复（reply to this message 回复本邮件）"
+              },
+              {
+                "word": "by noon",
+                "zh": "中午之前（by + 时间点 = 截止）"
+              },
+              {
+                "word": "last",
+                "zh": "持续（动词），will last one hour = 持续一小时"
+              }
+            ]
+          }
         }
       ]
     },
@@ -650,11 +1168,13 @@
       "passages": [
         {
           "title": "Questions 21-24: Notice",
-          "text": "CAMPUS SHUTTLE NOTICE\nDue to roadwork, the shuttle stop in front of Science Hall will be unavailable from August 24 through August 28. During this period, passengers should use the temporary stop at East Library. Shuttles will run every 20 minutes from 7:00 A.M. to 7:00 P.M. Normal service will resume on August 31. Passengers who need mobility assistance should call the transportation office at least one day in advance."
+          "text": "CAMPUS SHUTTLE NOTICE\nDue to roadwork, the shuttle stop in front of Science Hall will be unavailable from August 24 through August 28. During this period, passengers should use the temporary stop at East Library. Shuttles will run every 20 minutes from 7:00 A.M. to 7:00 P.M. Normal service will resume on August 31. Passengers who need mobility assistance should call the transportation office at least one day in advance.",
+          "zh": "校园班车通知\n由于道路施工，Science Hall（理学楼）门前的班车站将从 8 月 24 日至 8 月 28 日停用。在此期间，乘客请使用东图书馆的临时站点。班车早 7:00 至晚 7:00 每 20 分钟一班。正常服务将于 8 月 31 日恢复。需要行动协助的乘客请至少提前一天致电交通办公室。"
         },
         {
           "title": "Questions 21-24: Message",
-          "text": "To: Professor Kim\nMy train is scheduled to arrive at Central Station at 8:30 A.M. on Wednesday, August 26. I had planned to take the campus shuttle directly to Science Hall, but I saw the route notice. Since I will be carrying two equipment cases, could a laboratory member meet me at the East Library stop at about 9:00? I have an orientation meeting at 9:30 and would like to store the cases beforehand. - Leo Martin"
+          "text": "To: Professor Kim\nMy train is scheduled to arrive at Central Station at 8:30 A.M. on Wednesday, August 26. I had planned to take the campus shuttle directly to Science Hall, but I saw the route notice. Since I will be carrying two equipment cases, could a laboratory member meet me at the East Library stop at about 9:00? I have an orientation meeting at 9:30 and would like to store the cases beforehand. - Leo Martin",
+          "zh": "收件人：Kim 教授\n我的火车定于 8 月 26 日（周三）上午 8:30 到达中央车站。我原本打算直接坐校园班车到 Science Hall，但看到了线路变更通知。由于我会带着两个设备箱，能否请一位实验室成员 9:00 左右在东图书馆站接我？我 9:30 有一个入职说明会，想先把箱子存放好。 —— Leo Martin"
         }
       ],
       "questions": [
@@ -685,7 +1205,38 @@
             }
           ],
           "answer": "B",
-          "explain": "两篇材料共同定位；equipment cases 对应需要接应，beforehand 对应会前存放。"
+          "explain": "两篇材料共同定位；equipment cases 对应需要接应，beforehand 对应会前存放。",
+          "zh": {
+            "stem": "班车站为什么搬了？",
+            "options": {
+              "A": "正在举办一场会议",
+              "B": "正在进行道路施工 ✓",
+              "C": "图书馆关闭了",
+              "D": "一辆班车正在维修"
+            },
+            "vocab": [
+              {
+                "word": "shuttle",
+                "zh": "班车、摆渡车"
+              },
+              {
+                "word": "roadwork",
+                "zh": "道路施工"
+              },
+              {
+                "word": "unavailable",
+                "zh": "不可用、停用"
+              },
+              {
+                "word": "passenger",
+                "zh": "乘客"
+              },
+              {
+                "word": "in front of",
+                "zh": "在……前面"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q22",
@@ -714,7 +1265,34 @@
             }
           ],
           "answer": "C",
-          "explain": "两篇材料共同定位；equipment cases 对应需要接应，beforehand 对应会前存放。"
+          "explain": "两篇材料共同定位；equipment cases 对应需要接应，beforehand 对应会前存放。",
+          "zh": {
+            "stem": "正常班车服务什么时候恢复？",
+            "options": {
+              "A": "8 月 24 日（停用开始的日子）",
+              "B": "8 月 26 日（Martin 到达的日子）",
+              "C": "8 月 31 日 ✓",
+              "D": "9 月 1 日"
+            },
+            "vocab": [
+              {
+                "word": "resume",
+                "zh": "恢复、重新开始（动词；跟“简历”résumé 是两个词）"
+              },
+              {
+                "word": "normal service",
+                "zh": "正常运营"
+              },
+              {
+                "word": "from A through B",
+                "zh": "从 A 到 B（包含 B 那天）"
+              },
+              {
+                "word": "run every 20 minutes",
+                "zh": "每 20 分钟一班"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q23",
@@ -743,7 +1321,38 @@
             }
           ],
           "answer": "A",
-          "explain": "两篇材料共同定位；equipment cases 对应需要接应，beforehand 对应会前存放。"
+          "explain": "两篇材料共同定位；equipment cases 对应需要接应，beforehand 对应会前存放。",
+          "zh": {
+            "stem": "Martin 先生为什么请求帮助？",
+            "options": {
+              "A": "他会带着设备箱 ✓",
+              "B": "他找不到车站",
+              "C": "他需要行动协助",
+              "D": "他误了火车"
+            },
+            "vocab": [
+              {
+                "word": "request",
+                "zh": "请求（动词/名词）"
+              },
+              {
+                "word": "equipment case",
+                "zh": "设备箱"
+              },
+              {
+                "word": "carry",
+                "zh": "携带、搬运"
+              },
+              {
+                "word": "mobility assistance",
+                "zh": "行动协助（给行动不便的人的帮助）——这是通知里的干扰项，Martin 根本没提"
+              },
+              {
+                "word": "meet sb.",
+                "zh": "接某人（meet me at the stop = 到站接我）"
+              }
+            ]
+          }
         },
         {
           "id": "day1-q24",
@@ -772,7 +1381,38 @@
             }
           ],
           "answer": "D",
-          "explain": "两篇材料共同定位；equipment cases 对应需要接应，beforehand 对应会前存放。"
+          "explain": "两篇材料共同定位；equipment cases 对应需要接应，beforehand 对应会前存放。",
+          "zh": {
+            "stem": "Martin 先生在入职说明会之前最可能做什么？",
+            "options": {
+              "A": "给交通办公室打电话",
+              "B": "去中央车站",
+              "C": "修理实验室设备",
+              "D": "存放他的箱子 ✓"
+            },
+            "vocab": [
+              {
+                "word": "orientation",
+                "zh": "入职/迎新说明会"
+              },
+              {
+                "word": "beforehand",
+                "zh": "事先、提前"
+              },
+              {
+                "word": "store",
+                "zh": "存放（动词）"
+              },
+              {
+                "word": "be scheduled to",
+                "zh": "定于、按计划……"
+              },
+              {
+                "word": "most likely",
+                "zh": "最有可能"
+              }
+            ]
+          }
         }
       ]
     }

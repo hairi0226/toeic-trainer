@@ -59,7 +59,34 @@
             }
           ],
           "answer": "A",
-          "explain": "before doing = 在做某事之前"
+          "explain": "before doing = 在做某事之前",
+          "zh": {
+            "stem": "采购部门会在做出最终决定之前审核所有投标。",
+            "options": {
+              "A": "介词/连词：在……之前，before doing = 做某事之前 ✓",
+              "B": "介词：在（两者）之间，between A and B",
+              "C": "介词：在……旁边，beside the desk = 桌子旁边",
+              "D": "介词/连词：自从……以来；因为，since 2020 = 从 2020 年起"
+            },
+            "vocab": [
+              {
+                "word": "purchasing department",
+                "zh": "采购部门"
+              },
+              {
+                "word": "review",
+                "zh": "审核、审查"
+              },
+              {
+                "word": "bid",
+                "zh": "投标、报价"
+              },
+              {
+                "word": "final decision",
+                "zh": "最终决定"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q2",
@@ -88,7 +115,30 @@
             }
           ],
           "answer": "C",
-          "explain": "be reserved = 被预订"
+          "explain": "be reserved = 被预订",
+          "zh": {
+            "stem": "会议室目前已被预订，用于下午两点的一场会议。",
+            "options": {
+              "A": "动词原形：预订、保留，reserve a table = 订座",
+              "B": "名词：预订，make a reservation = 预订",
+              "C": "过去分词/形容词：已被预订的，be reserved for = 留给…… ✓",
+              "D": "现在分词/动名词：正在预订，前面没有 be 也没有宾语，不通"
+            },
+            "vocab": [
+              {
+                "word": "conference room",
+                "zh": "会议室"
+              },
+              {
+                "word": "currently",
+                "zh": "目前、当前"
+              },
+              {
+                "word": "P.M.",
+                "zh": "下午（A.M. = 上午）"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q3",
@@ -117,7 +167,30 @@
             }
           ],
           "answer": "B",
-          "explain": "if + 完整句表示条件"
+          "explain": "if + 完整句表示条件",
+          "zh": {
+            "stem": "如果你需要更改工作时间安排，请通知你的主管。",
+            "options": {
+              "A": "介词：尽管，后面只能接名词，despite the rain = 尽管下雨",
+              "B": "连词：如果，后面接完整句子 ✓",
+              "C": "介词：在……期间，后接名词，during the meeting = 会议期间",
+              "D": "介词/连词：直到……为止，until Friday = 直到周五"
+            },
+            "vocab": [
+              {
+                "word": "notify",
+                "zh": "通知（正式说法，= inform）"
+              },
+              {
+                "word": "supervisor",
+                "zh": "主管、直属上司"
+              },
+              {
+                "word": "work schedule",
+                "zh": "工作时间安排、排班"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q4",
@@ -146,7 +219,38 @@
             }
           ],
           "answer": "D",
-          "explain": "has not yet 后用过去分词 decided"
+          "explain": "has not yet 后用过去分词 decided",
+          "zh": {
+            "stem": "委员会尚未决定是否延长申请截止日期。",
+            "options": {
+              "A": "动词原形：决定，has 后面不能直接跟原形",
+              "B": "名词：决定，make a decision = 做决定",
+              "C": "现在分词/动名词：正在决定，has 后面接 -ing 不成立",
+              "D": "过去分词：has (not yet) decided = 现在完成时“还没决定” ✓"
+            },
+            "vocab": [
+              {
+                "word": "committee",
+                "zh": "委员会"
+              },
+              {
+                "word": "not yet",
+                "zh": "尚未、还没有"
+              },
+              {
+                "word": "whether to do",
+                "zh": "是否要做……"
+              },
+              {
+                "word": "extend",
+                "zh": "延长"
+              },
+              {
+                "word": "application deadline",
+                "zh": "申请截止日期"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q5",
@@ -175,7 +279,38 @@
             }
           ],
           "answer": "C",
-          "explain": "while 表示两件事同时进行。"
+          "explain": "while 表示两件事同时进行。",
+          "zh": {
+            "stem": "Rivera 女士会准备摘要，与此同时她的助理在更新图表。",
+            "options": {
+              "A": "过去式：更新了（过去发生的事），跟主句的 will 时间对不上",
+              "B": "现在完成时：已经更新完了，跟“同时进行”矛盾",
+              "C": "现在进行时：正在更新，while + 进行时 = 两件事同时做 ✓",
+              "D": "动词原形：更新，主语 assistant 是第三人称单数，至少也得 updates"
+            },
+            "vocab": [
+              {
+                "word": "prepare",
+                "zh": "准备"
+              },
+              {
+                "word": "summary",
+                "zh": "摘要、总结"
+              },
+              {
+                "word": "while",
+                "zh": "当……的同时"
+              },
+              {
+                "word": "assistant",
+                "zh": "助理"
+              },
+              {
+                "word": "chart",
+                "zh": "图表"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q6",
@@ -204,7 +339,34 @@
             }
           ],
           "answer": "A",
-          "explain": "consideration 前需要形容词 special。"
+          "explain": "consideration 前需要形容词 special。",
+          "zh": {
+            "stem": "有相关实验室经验的申请人将获得特别考虑（即优先考虑）。",
+            "options": {
+              "A": "形容词：特别的，修饰后面的名词 consideration ✓",
+              "B": "副词：特别地，修饰动词或形容词，不能修饰名词",
+              "C": "动词：专攻、专门从事，specialize in = 专攻……",
+              "D": "名词：专长、特色菜，两个名词不能直接叠"
+            },
+            "vocab": [
+              {
+                "word": "applicant",
+                "zh": "申请人"
+              },
+              {
+                "word": "relevant",
+                "zh": "相关的"
+              },
+              {
+                "word": "laboratory",
+                "zh": "实验室（缩写 lab）"
+              },
+              {
+                "word": "consideration",
+                "zh": "考虑、关照，receive special consideration = 被优先考虑"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q7",
@@ -233,7 +395,34 @@
             }
           ],
           "answer": "D",
-          "explain": "by + 时间点 = 最迟不晚于。"
+          "explain": "by + 时间点 = 最迟不晚于。",
+          "zh": {
+            "stem": "更换用的零件应该会在本周末之前到货。",
+            "options": {
+              "A": "介词：从……，from Monday = 从周一起",
+              "B": "介词：在（三者以上）之中，among the staff = 员工当中",
+              "C": "介词：在……期间，during the week = 这周期间，不表示截止",
+              "D": "介词：最迟在……之前，by Friday = 周五前 ✓"
+            },
+            "vocab": [
+              {
+                "word": "replacement",
+                "zh": "更换、替换，replacement parts = 替换零件"
+              },
+              {
+                "word": "part",
+                "zh": "零件、部件"
+              },
+              {
+                "word": "arrive",
+                "zh": "到货、到达"
+              },
+              {
+                "word": "the end of the week",
+                "zh": "本周结束时、周末前"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q8",
@@ -262,7 +451,34 @@
             }
           ],
           "answer": "B",
-          "explain": "closely 是副词"
+          "explain": "closely 是副词",
+          "zh": {
+            "stem": "研究团队在这个项目上与外部顾问密切合作。",
+            "options": {
+              "A": "形容词/副词：近的、靠近（作副词时指物理距离近，如 stand close）",
+              "B": "副词：密切地，work closely with = 与……密切合作 ✓",
+              "C": "过去分词/形容词：关闭的",
+              "D": "名词：亲近、接近"
+            },
+            "vocab": [
+              {
+                "word": "research team",
+                "zh": "研究团队"
+              },
+              {
+                "word": "external",
+                "zh": "外部的（反义 internal 内部的）"
+              },
+              {
+                "word": "consultant",
+                "zh": "顾问"
+              },
+              {
+                "word": "work with sb. on sth.",
+                "zh": "就某事与某人合作"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q9",
@@ -291,7 +507,30 @@
             }
           ],
           "answer": "C",
-          "explain": "neither...nor 的谓语通常跟靠近它的主语一致。"
+          "explain": "neither...nor 的谓语通常跟靠近它的主语一致。",
+          "zh": {
+            "stem": "昨天下午经理和助理们都没空。",
+            "options": {
+              "A": "现在时单数，时间是 yesterday，不能用现在时",
+              "B": "过去时单数，但离空格最近的主语 assistants 是复数",
+              "C": "过去时复数，就近原则跟 assistants 一致 ✓",
+              "D": "动词原形，不能直接做谓语"
+            },
+            "vocab": [
+              {
+                "word": "neither... nor...",
+                "zh": "既不……也不……（两者都不）"
+              },
+              {
+                "word": "available",
+                "zh": "有空的、可联系到的"
+              },
+              {
+                "word": "manager",
+                "zh": "经理"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q10",
@@ -320,7 +559,38 @@
             }
           ],
           "answer": "C",
-          "explain": ""
+          "explain": "Due to 后接名词短语，空格修饰名词 demand 需要形容词，过去分词 increased = 增加了的需求。",
+          "zh": {
+            "stem": "由于需求增加，已安排了一场额外的研讨会。",
+            "options": {
+              "A": "动词/名词：增加，an increase in demand = 需求的增加",
+              "B": "副词：越来越，increasingly popular = 越来越受欢迎",
+              "C": "过去分词作形容词：增加了的，increased demand = 增长的需求 ✓",
+              "D": "动词第三人称单数/名词复数，放在 demand 前面不通"
+            },
+            "vocab": [
+              {
+                "word": "due to",
+                "zh": "由于（后面接名词）"
+              },
+              {
+                "word": "demand",
+                "zh": "需求"
+              },
+              {
+                "word": "additional",
+                "zh": "额外的、追加的"
+              },
+              {
+                "word": "workshop",
+                "zh": "研讨会、工作坊"
+              },
+              {
+                "word": "schedule",
+                "zh": "安排（时间），has been scheduled = 已被安排"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q11",
@@ -349,7 +619,34 @@
             }
           ],
           "answer": "B",
-          "explain": "provided that = 只要/条件是。"
+          "explain": "provided that = 只要/条件是。",
+          "zh": {
+            "stem": "员工可以申请报销，前提是他们提供原始收据。",
+            "options": {
+              "A": "连词：尽管，表让步，even though it rained = 尽管下雨了",
+              "B": "连词：只要、前提是，相当于 if ✓",
+              "C": "而不是，rather than A = 而非 A",
+              "D": "介词：因为，后面接名词，because of the rain"
+            },
+            "vocab": [
+              {
+                "word": "request",
+                "zh": "请求、申请"
+              },
+              {
+                "word": "reimbursement",
+                "zh": "报销"
+              },
+              {
+                "word": "original",
+                "zh": "原始的、原件的"
+              },
+              {
+                "word": "receipt",
+                "zh": "收据、发票"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q12",
@@ -378,7 +675,34 @@
             }
           ],
           "answer": "A",
-          "explain": "maintenance 不可数，用 little"
+          "explain": "maintenance 不可数，用 little",
+          "zh": {
+            "stem": "这台新设备操作简单，几乎不需要维护。",
+            "options": {
+              "A": "很少的，修饰不可数名词，little maintenance ✓",
+              "B": "很少的，修饰可数名词复数，few people",
+              "C": "几个，修饰可数名词复数",
+              "D": "许多，修饰可数名词复数"
+            },
+            "vocab": [
+              {
+                "word": "device",
+                "zh": "设备、装置"
+              },
+              {
+                "word": "operate",
+                "zh": "操作"
+              },
+              {
+                "word": "require",
+                "zh": "需要"
+              },
+              {
+                "word": "maintenance",
+                "zh": "维护、保养（不可数名词）"
+              }
+            ]
+          }
         }
       ]
     },
@@ -390,7 +714,8 @@
       "passages": [
         {
           "title": "Internal Notice",
-          "text": "LABORATORY INVENTORY AUDIT\nThe annual inventory audit will be conducted on September 4. Team leaders must review their equipment lists and report any missing or damaged items [13] Wednesday. All equipment purchased during the past year should be [14] to the list. Employees who have borrowed portable devices must return them before the audit begins. [15] Questions should be directed to Ms. Owens, who is [16] for coordinating the audit. Thank you in advance for your [17]."
+          "text": "LABORATORY INVENTORY AUDIT\nThe annual inventory audit will be conducted on September 4. Team leaders must review their equipment lists and report any missing or damaged items [13] Wednesday. All equipment purchased during the past year should be [14] to the list. Employees who have borrowed portable devices must return them before the audit begins. [15] Questions should be directed to Ms. Owens, who is [16] for coordinating the audit. Thank you in advance for your [17].",
+          "zh": "实验室库存盘点\n年度库存盘点将于 9 月 4 日进行。各组组长必须检查各自的设备清单，并 [13] 在周三之前 上报所有丢失或损坏的物品。过去一年购买的所有设备都应 [14] 被添加 到清单上。借用了便携设备的员工必须在盘点开始前归还。[15] 这样审计人员就能核实每件物品的位置。 如有疑问请向 Owens 女士提出，她 [16] 负责 协调这次盘点。提前感谢您的 [17] 配合。"
         }
       ],
       "questions": [
@@ -421,7 +746,42 @@
             }
           ],
           "answer": "D",
-          "explain": ""
+          "explain": "report ... items [13] Wednesday：by + 时间点 = 最迟不晚于，与第 7 题同考点。",
+          "zh": {
+            "stem": "各组组长必须检查各自的设备清单，并在周三之前上报所有丢失或损坏的物品。",
+            "options": {
+              "A": "介词：自从……以来，since Monday = 从周一起",
+              "B": "介词：在……之中，among the items",
+              "C": "介词：在……期间，不表示截止",
+              "D": "介词：最迟在……之前，by Wednesday = 周三前 ✓"
+            },
+            "vocab": [
+              {
+                "word": "annual",
+                "zh": "年度的、每年一次的"
+              },
+              {
+                "word": "inventory audit",
+                "zh": "库存盘点"
+              },
+              {
+                "word": "conduct",
+                "zh": "进行、实施"
+              },
+              {
+                "word": "equipment",
+                "zh": "设备（不可数）"
+              },
+              {
+                "word": "missing",
+                "zh": "丢失的"
+              },
+              {
+                "word": "damaged",
+                "zh": "损坏的"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q14",
@@ -450,7 +810,30 @@
             }
           ],
           "answer": "C",
-          "explain": "be added to = 被添加到。"
+          "explain": "be added to = 被添加到。",
+          "zh": {
+            "stem": "过去一年购买的所有设备都应该被添加到清单上。",
+            "options": {
+              "A": "动词原形：添加，be 后面不能接原形",
+              "B": "现在分词：正在添加，设备不会自己“添加”",
+              "C": "过去分词：be added to = 被加到…… ✓",
+              "D": "名词：增加，in addition = 此外"
+            },
+            "vocab": [
+              {
+                "word": "purchase",
+                "zh": "购买（= buy，更正式）"
+              },
+              {
+                "word": "during the past year",
+                "zh": "过去一年里"
+              },
+              {
+                "word": "list",
+                "zh": "清单"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q15",
@@ -479,7 +862,34 @@
             }
           ],
           "answer": "B",
-          "explain": "B 承接归还设备的目的"
+          "explain": "B 承接归还设备的目的",
+          "zh": {
+            "stem": "前一句：借用了便携设备的员工必须在盘点开始前归还。后一句：如有疑问请向 Owens 女士提出。空格处要承接“归还设备”的目的——B 说“这样审计人员就能核实每件物品的位置”，This 指代前面的“归还”，逻辑最顺。A 讲去年取消、C 讲设备贵、D 讲有人喜欢纸质清单，都跟上下文没关系。",
+            "options": {
+              "A": "去年的盘点被取消了。",
+              "B": "这样审计人员就能核实每件物品的位置。✓",
+              "C": "便携设备通常很贵。",
+              "D": "有些员工更喜欢打印出来的清单。"
+            },
+            "vocab": [
+              {
+                "word": "borrow",
+                "zh": "借（借入）"
+              },
+              {
+                "word": "portable device",
+                "zh": "便携设备"
+              },
+              {
+                "word": "return",
+                "zh": "归还"
+              },
+              {
+                "word": "audit",
+                "zh": "盘点、审计"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q16",
@@ -508,7 +918,30 @@
             }
           ],
           "answer": "A",
-          "explain": "be responsible for = 负责"
+          "explain": "be responsible for = 负责",
+          "zh": {
+            "stem": "如有疑问请向 Owens 女士提出，她负责协调这次盘点。",
+            "options": {
+              "A": "形容词：负责的，be responsible for = 负责…… ✓",
+              "B": "副词：负责任地，act responsibly",
+              "C": "名词：责任，take responsibility for = 对……负责",
+              "D": "动词：回应，respond to = 回复"
+            },
+            "vocab": [
+              {
+                "word": "be directed to",
+                "zh": "被转给，questions should be directed to sb. = 有问题请找某人"
+              },
+              {
+                "word": "coordinate",
+                "zh": "协调"
+              },
+              {
+                "word": "audit",
+                "zh": "盘点、审计"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q17",
@@ -537,7 +970,26 @@
             }
           ],
           "answer": "D",
-          "explain": "cooperation 是名词。"
+          "explain": "cooperation 是名词。",
+          "zh": {
+            "stem": "提前感谢您的配合。",
+            "options": {
+              "A": "动词：合作，cooperate with = 与……合作",
+              "B": "形容词：合作的、配合的",
+              "C": "副词：合作地",
+              "D": "名词：合作、配合，your + 名词 ✓"
+            },
+            "vocab": [
+              {
+                "word": "in advance",
+                "zh": "提前、预先"
+              },
+              {
+                "word": "thank you for + 名词",
+                "zh": "感谢……"
+              }
+            ]
+          }
         }
       ]
     },
@@ -549,7 +1001,8 @@
       "passages": [
         {
           "title": "Questions 18-20 refer to the following e-mail.",
-          "text": "From: Facilities Office\nTo: Fourth-Floor Staff\nSubject: Printer Replacement\nA new high-capacity printer will be installed in Room 405 this Thursday. The existing printer will be unavailable from 1:00 to 4:00 P.M. Staff members who need to print urgent documents during that period may use the printer in Room 210. Employee identification cards will continue to work with the new machine. An optional demonstration of its features will be offered Friday at 9:00 A.M. in Room 405."
+          "text": "From: Facilities Office\nTo: Fourth-Floor Staff\nSubject: Printer Replacement\nA new high-capacity printer will be installed in Room 405 this Thursday. The existing printer will be unavailable from 1:00 to 4:00 P.M. Staff members who need to print urgent documents during that period may use the printer in Room 210. Employee identification cards will continue to work with the new machine. An optional demonstration of its features will be offered Friday at 9:00 A.M. in Room 405.",
+          "zh": "发件人：设施管理办公室\n收件人：四楼全体员工\n主题：打印机更换\n本周四将在 405 室安装一台新的大容量打印机。现有打印机在下午 1:00 至 4:00 期间无法使用。在此期间需要打印紧急文件的员工可以使用 210 室的打印机。员工工卡在新机器上仍可继续使用。周五上午 9:00 将在 405 室提供一场自愿参加的功能演示。"
         }
       ],
       "questions": [
@@ -580,7 +1033,38 @@
             }
           ],
           "answer": "B",
-          "explain": ""
+          "explain": "先看题干 purpose，再回邮件主题行 Printer Replacement 和首句 will be installed，即宣布设备更换。",
+          "zh": {
+            "stem": "这封邮件的目的是什么？",
+            "options": {
+              "A": "请求提供打印机耗材",
+              "B": "宣布一项设备更换 ✓",
+              "C": "预订一间会议室",
+              "D": "解释一项身份识别政策"
+            },
+            "vocab": [
+              {
+                "word": "purpose",
+                "zh": "目的"
+              },
+              {
+                "word": "high-capacity",
+                "zh": "大容量的"
+              },
+              {
+                "word": "install",
+                "zh": "安装"
+              },
+              {
+                "word": "existing",
+                "zh": "现有的"
+              },
+              {
+                "word": "facilities",
+                "zh": "设施，Facilities Office = 设施管理办公室"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q19",
@@ -609,7 +1093,38 @@
             }
           ],
           "answer": "C",
-          "explain": ""
+          "explain": "题干关键词 urgent documents，定位第三句 may use the printer in Room 210；别被 205/405 干扰。",
+          "zh": {
+            "stem": "安装期间，紧急文件应该在哪里打印？",
+            "options": {
+              "A": "205 室（文中根本没提到，纯干扰）",
+              "B": "405 室（是装新打印机的房间，安装期间不能用）",
+              "C": "210 室 ✓",
+              "D": "设施管理办公室（是发件人，不是打印地点）"
+            },
+            "vocab": [
+              {
+                "word": "urgent",
+                "zh": "紧急的"
+              },
+              {
+                "word": "installation",
+                "zh": "安装（install 的名词）"
+              },
+              {
+                "word": "unavailable",
+                "zh": "无法使用的"
+              },
+              {
+                "word": "period",
+                "zh": "时间段"
+              },
+              {
+                "word": "identification card",
+                "zh": "身份卡、工卡"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q20",
@@ -638,7 +1153,38 @@
             }
           ],
           "answer": "A",
-          "explain": ""
+          "explain": "题干 Friday's demonstration 定位末句 An optional demonstration，optional = 出席自愿。",
+          "zh": {
+            "stem": "关于周五的演示，文中说明了什么？",
+            "options": {
+              "A": "出席是自愿的 ✓",
+              "B": "下午 1:00 开始（实际是周五上午 9:00）",
+              "C": "需要提前付费（文中没提）",
+              "D": "将在线上举行（文中说在 405 室）"
+            },
+            "vocab": [
+              {
+                "word": "indicate",
+                "zh": "表明、说明"
+              },
+              {
+                "word": "demonstration",
+                "zh": "演示、示范"
+              },
+              {
+                "word": "optional",
+                "zh": "可选的、自愿参加的"
+              },
+              {
+                "word": "feature",
+                "zh": "功能、特点"
+              },
+              {
+                "word": "continue to do",
+                "zh": "继续做……"
+              }
+            ]
+          }
         }
       ]
     },
@@ -650,11 +1196,13 @@
       "passages": [
         {
           "title": "Questions 21-24: Notice",
-          "text": "UNIVERSITY PRINT CENTER\nResearch posters must be submitted as PDF files sized 90 x 120 centimeters. Orders received by noon Monday through Thursday will be ready by 4:00 P.M. the same day. Orders received after noon will be ready the next business day. Friday orders may be collected on Monday. Standard printing is free for faculty and students. Same-day rush service is available for an additional $15."
+          "text": "UNIVERSITY PRINT CENTER\nResearch posters must be submitted as PDF files sized 90 x 120 centimeters. Orders received by noon Monday through Thursday will be ready by 4:00 P.M. the same day. Orders received after noon will be ready the next business day. Friday orders may be collected on Monday. Standard printing is free for faculty and students. Same-day rush service is available for an additional $15.",
+          "zh": "大学打印中心\n研究海报必须以 PDF 文件提交，尺寸为 90 x 120 厘米。周一至周四中午前收到的订单，当天下午 4:00 前可取。中午之后收到的订单，下个工作日可取。周五的订单可在周一领取。教职员工和学生的标准打印免费。当天加急服务需额外支付 15 美元。"
         },
         {
           "title": "Questions 21-24: Message",
-          "text": "To: Hana Lee\nI plan to upload my research poster at about 1:30 P.M. on Monday. My presentation is Wednesday morning, so the normal service should be fast enough. I will be at an off-campus meeting until 5:00 P.M. on Tuesday. Could you collect the poster when it is ready and leave it in my office? I cannot use the rush option because the project budget has already been spent. - Marco"
+          "text": "To: Hana Lee\nI plan to upload my research poster at about 1:30 P.M. on Monday. My presentation is Wednesday morning, so the normal service should be fast enough. I will be at an off-campus meeting until 5:00 P.M. on Tuesday. Could you collect the poster when it is ready and leave it in my office? I cannot use the rush option because the project budget has already been spent. - Marco",
+          "zh": "收件人：Hana Lee\n我打算周一下午 1:30 左右上传我的研究海报。我的报告在周三上午，所以常规服务应该够快了。周二我要在校外开会，一直到下午 5:00。海报做好后你能帮我取一下，放到我办公室吗？我没法用加急选项，因为项目预算已经花完了。—— Marco"
         }
       ],
       "questions": [
@@ -685,7 +1233,38 @@
             }
           ],
           "answer": "B",
-          "explain": "要把通知的截单时间与邮件的提交时间对应起来，再判断取件日。"
+          "explain": "定位 Notice 首句 must be submitted as PDF files，原词对应 B。",
+          "zh": {
+            "stem": "海报必须以什么格式提交？",
+            "options": {
+              "A": "JPEG（一种图片格式）",
+              "B": "PDF ✓",
+              "C": "PNG（一种图片格式）",
+              "D": "PPT（演示文稿格式）"
+            },
+            "vocab": [
+              {
+                "word": "format",
+                "zh": "格式"
+              },
+              {
+                "word": "submit",
+                "zh": "提交"
+              },
+              {
+                "word": "poster",
+                "zh": "海报"
+              },
+              {
+                "word": "sized",
+                "zh": "尺寸为……"
+              },
+              {
+                "word": "centimeter",
+                "zh": "厘米"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q22",
@@ -714,7 +1293,38 @@
             }
           ],
           "answer": "C",
-          "explain": "要把通知的截单时间与邮件的提交时间对应起来，再判断取件日。"
+          "explain": "要把通知的截单时间与邮件的提交时间对应起来，再判断取件日。",
+          "zh": {
+            "stem": "不用加急服务的话，Marco 的海报最可能什么时候做好？",
+            "options": {
+              "A": "周一上午（他周一下午 1:30 才上传，不可能）",
+              "B": "周一下午 4:00（只有中午前的订单才当天可取，他中午后才交）",
+              "C": "周二 ✓（中午后收到的订单 = 下个工作日做好）",
+              "D": "周三（那是他做报告的日子，不是取件日）"
+            },
+            "vocab": [
+              {
+                "word": "most likely",
+                "zh": "最有可能"
+              },
+              {
+                "word": "rush service",
+                "zh": "加急服务"
+              },
+              {
+                "word": "business day",
+                "zh": "工作日"
+              },
+              {
+                "word": "the same day",
+                "zh": "当天"
+              },
+              {
+                "word": "upload",
+                "zh": "上传"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q23",
@@ -743,7 +1353,34 @@
             }
           ],
           "answer": "A",
-          "explain": "要把通知的截单时间与邮件的提交时间对应起来，再判断取件日。"
+          "explain": "定位 Message：I will be at an off-campus meeting until 5:00 P.M. on Tuesday，所以请人代取。",
+          "zh": {
+            "stem": "Marco 为什么请 Lee 女士帮忙领取海报？",
+            "options": {
+              "A": "他要去校外开会 ✓",
+              "B": "他没有身份证件",
+              "C": "他必须修改海报",
+              "D": "他即将离开这所大学"
+            },
+            "vocab": [
+              {
+                "word": "off-campus",
+                "zh": "校外的（campus = 校园）"
+              },
+              {
+                "word": "collect",
+                "zh": "领取"
+              },
+              {
+                "word": "leave sth. in",
+                "zh": "把……留在"
+              },
+              {
+                "word": "project budget",
+                "zh": "项目预算"
+              }
+            ]
+          }
         },
         {
           "id": "day2-q24",
@@ -772,7 +1409,38 @@
             }
           ],
           "answer": "D",
-          "explain": "要把通知的截单时间与邮件的提交时间对应起来，再判断取件日。"
+          "explain": "定位 Message：My presentation is Wednesday morning，对应 D。",
+          "zh": {
+            "stem": "周三安排了什么？",
+            "options": {
+              "A": "预算审查",
+              "B": "打印预约",
+              "C": "校外会议（那是周二的事）",
+              "D": "Marco 的报告 ✓"
+            },
+            "vocab": [
+              {
+                "word": "presentation",
+                "zh": "报告、演讲"
+              },
+              {
+                "word": "normal service",
+                "zh": "常规服务"
+              },
+              {
+                "word": "has already been spent",
+                "zh": "已经花光了"
+              },
+              {
+                "word": "faculty",
+                "zh": "教职员工"
+              },
+              {
+                "word": "rush option",
+                "zh": "加急选项"
+              }
+            ]
+          }
         }
       ]
     }

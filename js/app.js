@@ -294,7 +294,7 @@ function renderSet(setId) {
     ${set.source_pdf ? `<p class="small muted" style="margin:8px 0 0">对应打印版：${esc(set.source_pdf)}</p>` : ''}</div>`;
   for (const g of set.groups) {
     html += `<div class="card" style="margin-bottom:12px"><h3>${esc(g.title)}</h3>`;
-    for (const p of g.passages) html += `<details class="passage" open><summary>${esc(p.title)}</summary><div class="text">${esc(p.text).replace(/\[(\d+)\]/g, '<span class="blank">[$1]</span>')}</div></details>`;
+    for (const p of g.passages) html += `<details class="passage" open><summary>${esc(p.title)}</summary><div class="text">${esc(p.text).replace(/\[(\d+)\]/g, '<span class="blank">[$1]</span>')}</div>${passageZhHtml(p)}</details>`;
     html += `<ul class="qlist">`;
     for (const q of g.questions) html += questionRowHtml({ q, set, group: g }, latest.get(q.id), false);
     html += `</ul></div>`;
@@ -399,7 +399,7 @@ function passageHtml(p, q, r, groupId, fills) {
     const fill = fills.get(num);
     return `<span class="blank ${num === q.n ? 'cur' : ''}">[${n}]${fill ? ' ' + esc(fill) : ''}</span>`;
   });
-  return `<details class="passage" ${open ? 'open' : ''} data-passage="${esc(groupId)}"><summary>${esc(p.title)}</summary><div class="text">${body}</div></details>`;
+  return `<details class="passage" ${open ? 'open' : ''} data-passage="${esc(groupId)}"><summary>${esc(p.title)}</summary><div class="text">${body}</div>${passageZhHtml(p)}</details>`;
 }
 
 function stemHtml(q) {
@@ -428,6 +428,23 @@ function explainHtml(q, set) {
   return `<div class="explain small muted">本题暂无单独解析，可在套题详情页看本套关键解析。</div>`;
 }
 
+/** 翻译与生词（题库里有 zh 字段才显示）。 */
+function zhHtml(q, { open = false } = {}) {
+  const z = q.zh;
+  if (!z) return '';
+  let body = '';
+  if (z.stem) body += `<p class="zh-stem">${esc(z.stem)}</p>`;
+  if (z.options) body += `<ul class="zh-opts">${q.options.map((o) => `<li><b>${o.key}</b> ${esc(o.text)}<span class="zh-sep">—</span>${esc(z.options[o.key] || '')}</li>`).join('')}</ul>`;
+  if (z.vocab && z.vocab.length) body += `<div class="zh-vocab">${z.vocab.map((v) => `<span class="tag">${esc(v.word)}：${esc(v.zh)}</span>`).join(' ')}</div>`;
+  if (!body) return '';
+  return `<details class="zh" ${open ? 'open' : ''}><summary>翻译与生词</summary>${body}</details>`;
+}
+
+function passageZhHtml(p) {
+  if (!p.zh) return '';
+  return `<div class="zh-text" hidden>${esc(p.zh)}</div><button class="btn small ghost zh-btn" data-act="toggle-zh">显示中文</button>`;
+}
+
 function causesHtml(qid) {
   const cur = tagOf(state.progress, qid);
   return `<div class="causes"><span class="small muted" style="align-self:center">错因：</span>${Object.entries(CAUSES).map(([k, v]) => `<button class="cause ${cur === k ? 'on' : ''}" data-act="tag" data-qid="${esc(qid)}" data-cause="${k}">${v}</button>`).join('')}</div>`;
@@ -436,7 +453,7 @@ function causesHtml(qid) {
 function feedbackHtml(q, chosen, info, r) {
   const ok = chosen === q.answer;
   const undo = r.undo && r.undo.qid === q.id && r.undo.until > Date.now();
-  return `<div class="feedback ${ok ? 'good' : 'bad'}"><div class="row spread"><span>${ok ? '✓ 答对了' : `✗ 答错了，正确答案是 ${q.answer}`}</span>${undo ? `<button class="btn small ghost" data-act="undo">误触？撤销</button>` : ''}</div>${explainHtml(q, info.set)}${ok ? '' : causesHtml(q.id)}</div>`;
+  return `<div class="feedback ${ok ? 'good' : 'bad'}"><div class="row spread"><span>${ok ? '✓ 答对了' : `✗ 答错了，正确答案是 ${q.answer}`}</span>${undo ? `<button class="btn small ghost" data-act="undo">误触？撤销</button>` : ''}</div>${explainHtml(q, info.set)}${zhHtml(q, { open: !ok })}${ok ? '' : causesHtml(q.id)}</div>`;
 }
 
 function renderRunner(sid) {
@@ -493,7 +510,7 @@ function renderRunner(sid) {
       <div class="question">
         <div class="qhead"><b>${q.n}.</b><span>Part ${q.part}${q.bonus ? ' · BONUS 加练' : ''}${d.s ? '' : ' · ' + esc(info.set.title)}${q.kind === 'sentence' ? ' · 选句子' : ''}</span></div>
         <p class="stem">${stemHtml(q)}</p>
-        <div class="options">${q.options.map((o) => optionHtml(o, q, chosen, locked, isExam)).join('')}</div>
+        <div class="options ${q.options.every((o) => o.text.length <= 14) ? 'compact' : ''}">${q.options.map((o) => optionHtml(o, q, chosen, locked, isExam)).join('')}</div>
         ${locked ? feedbackHtml(q, chosen, info, r) : ''}
       </div>
       <div class="actions">
@@ -515,7 +532,15 @@ function renderRunner(sid) {
   </div>`;
 
   const $timer = document.getElementById('timer');
+  const $top = $app.querySelector('.runner-top');
+  const measureTop = () => {
+    // 做题顶栏可能换行，吸顶的文章区要跟着让位
+    const h = $top ? $top.offsetHeight : 46;
+    if (h && h !== r.topH) { r.topH = h; document.documentElement.style.setProperty('--runner-top-h', h + 'px'); }
+  };
+  measureTop();
   const tick = () => {
+    measureTop();
     const live = Math.min(Math.max(0, Date.now() - r.shownAt), MAX_Q_MS);
     const used = runnerSpentTotal(d) + live;
     if (isExam) {
@@ -668,6 +693,7 @@ function questionRowHtml(info, a, showCauses) {
     <div class="stem">${esc(stem)}</div>
     <div class="ans">${ok === false ? `你选 <s>${esc(mine)}</s> · ` : ''}答案 <b>${q.answer}</b>：${esc(q.options.find((o) => o.key === q.answer)?.text || '')}</div>
     ${explainHtml(q, info.set)}
+    ${zhHtml(q, { open: false })}
     ${showCauses && ok === false ? causesHtml(q.id) : ''}
   </li>`;
 }
@@ -954,6 +980,14 @@ $app.addEventListener('click', async (e) => {
   switch (act) {
     case 'choose': return runnerChoose(el.dataset.key);
     case 'undo': return runnerUndo();
+    case 'toggle-zh': {
+      const box = el.closest('.passage');
+      const zh = box && box.querySelector('.zh-text');
+      if (!zh) return;
+      zh.hidden = !zh.hidden;
+      el.textContent = zh.hidden ? '显示中文' : '隐藏中文';
+      return;
+    }
     case 'next': return runnerGoto(state.runner.draft.idx + 1);
     case 'prev': return runnerGoto(state.runner.draft.idx - 1);
     case 'goto': return runnerGoto(Number(el.dataset.i));
