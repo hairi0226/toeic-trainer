@@ -892,7 +892,8 @@ function renderSettings() {
   html += `</div>`;
 
   html += `<div class="card" style="margin-bottom:12px"><h3>备份与恢复 <span class="focus">本机 ${counts.attempts} 条作答 · ${counts.sessions} 次会话 · ${counts.tags} 个错因标签</span></h3>
-    <div class="btn-row"><button class="btn" data-act="export-file">下载进度文件</button><button class="btn" data-act="export-copy">复制到剪贴板</button></div>
+    <div class="btn-row">${state.isArtifact ? '' : '<button class="btn" data-act="export-file">下载进度文件</button>'}<button class="btn" data-act="export-copy">复制到剪贴板</button></div>
+    ${state.isArtifact ? '<p class="small muted">在 Claude 里运行时浏览器不允许直接下载，请用“复制到剪贴板”再粘贴到备忘录保存。</p>' : ''}
     <label class="field" style="margin-top:12px">导入（粘贴进度 JSON，或选择文件）。导入是<b>合并</b>，不会覆盖已有记录。<textarea id="import-text" placeholder='{"app":"toeic-trainer", ...}'></textarea></label>
     <div class="btn-row"><button class="btn primary" data-act="import-text">合并导入</button><label class="btn">选择文件<input type="file" accept="application/json,.json" data-act="import-file" hidden></label></div>
     ${bk ? `<p class="small muted" style="margin:12px 0 0">本机还有一份每日自动备份（${fmtDate(bk.ts)}）。<button class="btn small ghost" data-act="restore-backup">合并恢复</button></p>` : ''}
