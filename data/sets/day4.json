@@ -1,0 +1,779 @@
+{
+  "id": "day4",
+  "day": 4,
+  "title": "Day 4",
+  "focus": "商务词汇与条件关系",
+  "listening": "练 Part 3 对话 1-2 组，播放前先扫三道题，只抓人物、问题和下一步行动。",
+  "phrases": [
+    "ahead of schedule",
+    "obtain approval",
+    "be likely to",
+    "provided that",
+    "request a refund"
+  ],
+  "reviews": [
+    "1 plan to do；2 ahead of schedule = 提前；3 submitted 由副词 promptly 修饰。",
+    "4 obtain approval；5 since 引导的时间段常对应现在完成时。",
+    "6 主语 substitute 为单数；8 not...until = 直到……才。",
+    "10 be likely to do = 很可能；11 provided that = 条件是/只要。",
+    "13 unavailable 与延迟到货一致；14 expect something to arrive。",
+    "15 D 承接部分发货；16 by Friday = 最迟周五；17 understanding 是名词。",
+    "21-24 先算 12 x 18 = 216，再判断超过 200 可免配送费。"
+  ],
+  "source_pdf": "TOEIC_720_周末4套练习_Day3-6_v2.pdf",
+  "recommended_minutes": 27,
+  "note": "原创 TOEIC-style 仿真题，不是 ETS 官方真题。",
+  "groups": [
+    {
+      "id": "day4-p5",
+      "part": 5,
+      "title": "Part 5 | Incomplete Sentences 句子填空",
+      "minutes": 10,
+      "passages": [],
+      "questions": [
+        {
+          "id": "day4-q1",
+          "n": 1,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The company plans to ___ a new branch near the airport.",
+          "options": [
+            {
+              "key": "A",
+              "text": "opening"
+            },
+            {
+              "key": "B",
+              "text": "open"
+            },
+            {
+              "key": "C",
+              "text": "opened"
+            },
+            {
+              "key": "D",
+              "text": "openness"
+            }
+          ],
+          "answer": "B",
+          "explain": "plan to do"
+        },
+        {
+          "id": "day4-q2",
+          "n": 2,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The shipment arrived two days ___ schedule.",
+          "options": [
+            {
+              "key": "A",
+              "text": "next to"
+            },
+            {
+              "key": "B",
+              "text": "except for"
+            },
+            {
+              "key": "C",
+              "text": "ahead of"
+            },
+            {
+              "key": "D",
+              "text": "because of"
+            }
+          ],
+          "answer": "C",
+          "explain": "ahead of schedule = 提前"
+        },
+        {
+          "id": "day4-q3",
+          "n": 3,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The manager requested that the revised proposal be submitted ___.",
+          "options": [
+            {
+              "key": "A",
+              "text": "prompt"
+            },
+            {
+              "key": "B",
+              "text": "promptness"
+            },
+            {
+              "key": "C",
+              "text": "prompts"
+            },
+            {
+              "key": "D",
+              "text": "promptly"
+            }
+          ],
+          "answer": "D",
+          "explain": "submitted 由副词 promptly 修饰。"
+        },
+        {
+          "id": "day4-q4",
+          "n": 4,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Employees must obtain written ___ before traveling on company business.",
+          "options": [
+            {
+              "key": "A",
+              "text": "approval"
+            },
+            {
+              "key": "B",
+              "text": "approve"
+            },
+            {
+              "key": "C",
+              "text": "approved"
+            },
+            {
+              "key": "D",
+              "text": "approving"
+            }
+          ],
+          "answer": "A",
+          "explain": "obtain approval"
+        },
+        {
+          "id": "day4-q5",
+          "n": 5,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Since the laboratory opened, the number of projects ___ steadily.",
+          "options": [
+            {
+              "key": "A",
+              "text": "increased"
+            },
+            {
+              "key": "B",
+              "text": "has increased"
+            },
+            {
+              "key": "C",
+              "text": "will increase"
+            },
+            {
+              "key": "D",
+              "text": "is increasing yesterday"
+            }
+          ],
+          "answer": "B",
+          "explain": "since 引导的时间段常对应现在完成时。"
+        },
+        {
+          "id": "day4-q6",
+          "n": 6,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The requested item is unavailable, but a suitable substitute ___ recommended.",
+          "options": [
+            {
+              "key": "A",
+              "text": "have"
+            },
+            {
+              "key": "B",
+              "text": "are"
+            },
+            {
+              "key": "C",
+              "text": "is"
+            },
+            {
+              "key": "D",
+              "text": "be"
+            }
+          ],
+          "answer": "C",
+          "explain": "主语 substitute 为单数"
+        },
+        {
+          "id": "day4-q7",
+          "n": 7,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The annual budget includes funds ___ equipment maintenance.",
+          "options": [
+            {
+              "key": "A",
+              "text": "at"
+            },
+            {
+              "key": "B",
+              "text": "among"
+            },
+            {
+              "key": "C",
+              "text": "until"
+            },
+            {
+              "key": "D",
+              "text": "for"
+            }
+          ],
+          "answer": "D",
+          "explain": ""
+        },
+        {
+          "id": "day4-q8",
+          "n": 8,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The meeting will not begin ___ the committee chair arrives.",
+          "options": [
+            {
+              "key": "A",
+              "text": "until"
+            },
+            {
+              "key": "B",
+              "text": "during"
+            },
+            {
+              "key": "C",
+              "text": "despite"
+            },
+            {
+              "key": "D",
+              "text": "beside"
+            }
+          ],
+          "answer": "A",
+          "explain": "not...until = 直到……才。"
+        },
+        {
+          "id": "day4-q9",
+          "n": 9,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Applicants should describe their relevant qualifications ___.",
+          "options": [
+            {
+              "key": "A",
+              "text": "clear"
+            },
+            {
+              "key": "B",
+              "text": "clearly"
+            },
+            {
+              "key": "C",
+              "text": "clearness"
+            },
+            {
+              "key": "D",
+              "text": "cleared"
+            }
+          ],
+          "answer": "B",
+          "explain": ""
+        },
+        {
+          "id": "day4-q10",
+          "n": 10,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The documents are ___ to contain confidential information.",
+          "options": [
+            {
+              "key": "A",
+              "text": "like"
+            },
+            {
+              "key": "B",
+              "text": "likelihood"
+            },
+            {
+              "key": "C",
+              "text": "likely"
+            },
+            {
+              "key": "D",
+              "text": "likewise"
+            }
+          ],
+          "answer": "C",
+          "explain": "be likely to do = 很可能"
+        },
+        {
+          "id": "day4-q11",
+          "n": 11,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The company will reimburse the costs ___ original receipts are included.",
+          "options": [
+            {
+              "key": "A",
+              "text": "even though"
+            },
+            {
+              "key": "B",
+              "text": "rather than"
+            },
+            {
+              "key": "C",
+              "text": "because of"
+            },
+            {
+              "key": "D",
+              "text": "provided that"
+            }
+          ],
+          "answer": "D",
+          "explain": "provided that = 条件是/只要。"
+        },
+        {
+          "id": "day4-q12",
+          "n": 12,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The position requires both technical knowledge ___ strong communication skills.",
+          "options": [
+            {
+              "key": "A",
+              "text": "and"
+            },
+            {
+              "key": "B",
+              "text": "but"
+            },
+            {
+              "key": "C",
+              "text": "or"
+            },
+            {
+              "key": "D",
+              "text": "so"
+            }
+          ],
+          "answer": "A",
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "id": "day4-p6",
+      "part": 6,
+      "title": "Part 6 | Text Completion 短文填空",
+      "minutes": 7,
+      "passages": [
+        {
+          "title": "Questions 13-17",
+          "text": "ORDER STATUS UPDATE\nThank you for order 7842. Two items are temporarily [13] because a shipment from our supplier has been delayed. We expect the new stock [14] next Tuesday. [15] If you prefer not to wait, contact a customer service representative [16] Friday to request a substitute or a refund. We apologize for the inconvenience and appreciate your [17]."
+        }
+      ],
+      "questions": [
+        {
+          "id": "day4-q13",
+          "n": 13,
+          "part": 6,
+          "kind": "blank",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "availability"
+            },
+            {
+              "key": "B",
+              "text": "available"
+            },
+            {
+              "key": "C",
+              "text": "unavailable"
+            },
+            {
+              "key": "D",
+              "text": "availably"
+            }
+          ],
+          "answer": "C",
+          "explain": "unavailable 与延迟到货一致"
+        },
+        {
+          "id": "day4-q14",
+          "n": 14,
+          "part": 6,
+          "kind": "blank",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "to arrive"
+            },
+            {
+              "key": "B",
+              "text": "arrived"
+            },
+            {
+              "key": "C",
+              "text": "arrival"
+            },
+            {
+              "key": "D",
+              "text": "arriving at"
+            }
+          ],
+          "answer": "A",
+          "explain": "expect something to arrive。"
+        },
+        {
+          "id": "day4-q15",
+          "n": 15,
+          "part": 6,
+          "kind": "sentence",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Choose the best sentence for blank [15].",
+          "options": [
+            {
+              "key": "A",
+              "text": "The store opened five years ago."
+            },
+            {
+              "key": "B",
+              "text": "Our website has a new design."
+            },
+            {
+              "key": "C",
+              "text": "The supplier employs 50 people."
+            },
+            {
+              "key": "D",
+              "text": "The remaining items will be sent immediately."
+            }
+          ],
+          "answer": "D",
+          "explain": "D 承接部分发货"
+        },
+        {
+          "id": "day4-q16",
+          "n": 16,
+          "part": 6,
+          "kind": "blank",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "among"
+            },
+            {
+              "key": "B",
+              "text": "by"
+            },
+            {
+              "key": "C",
+              "text": "during"
+            },
+            {
+              "key": "D",
+              "text": "beside"
+            }
+          ],
+          "answer": "B",
+          "explain": "by Friday = 最迟周五"
+        },
+        {
+          "id": "day4-q17",
+          "n": 17,
+          "part": 6,
+          "kind": "blank",
+          "bonus": true,
+          "rev": 0,
+          "stem": "BONUS: Choose the best word for blank [17].",
+          "options": [
+            {
+              "key": "A",
+              "text": "understand"
+            },
+            {
+              "key": "B",
+              "text": "understood"
+            },
+            {
+              "key": "C",
+              "text": "understanding"
+            },
+            {
+              "key": "D",
+              "text": "understandably"
+            }
+          ],
+          "answer": "C",
+          "explain": "understanding 是名词。"
+        }
+      ]
+    },
+    {
+      "id": "day4-p7a",
+      "part": 7,
+      "title": "Part 7 | Reading Comprehension 阅读理解",
+      "minutes": 4,
+      "passages": [
+        {
+          "title": "Questions 18-20 refer to the following e-mail.",
+          "text": "From: Training Office\nTo: Workshop Participants\nSubject: Schedule Change\nThe project management workshop originally scheduled for August 22 has been moved to August 29. It will be held in Room 310 instead of Room 204, but the time remains 1:00 to 4:00 P.M. Course materials will be sent by e-mail. Anyone unable to attend should request the recorded session by August 25."
+        }
+      ],
+      "questions": [
+        {
+          "id": "day4-q18",
+          "n": 18,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Why was the e-mail sent?",
+          "options": [
+            {
+              "key": "A",
+              "text": "To cancel a workshop"
+            },
+            {
+              "key": "B",
+              "text": "To announce workshop changes"
+            },
+            {
+              "key": "C",
+              "text": "To request course payment"
+            },
+            {
+              "key": "D",
+              "text": "To hire a trainer"
+            }
+          ],
+          "answer": "B",
+          "explain": ""
+        },
+        {
+          "id": "day4-q19",
+          "n": 19,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Where will the workshop be held?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Room 204"
+            },
+            {
+              "key": "B",
+              "text": "Room 301"
+            },
+            {
+              "key": "C",
+              "text": "Room 310"
+            },
+            {
+              "key": "D",
+              "text": "The Training Office"
+            }
+          ],
+          "answer": "C",
+          "explain": ""
+        },
+        {
+          "id": "day4-q20",
+          "n": 20,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What should someone who cannot attend do?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Request a recording by August 25"
+            },
+            {
+              "key": "B",
+              "text": "Return the course materials"
+            },
+            {
+              "key": "C",
+              "text": "Attend on August 22"
+            },
+            {
+              "key": "D",
+              "text": "Call Room 204"
+            }
+          ],
+          "answer": "A",
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "id": "day4-p7b",
+      "part": 7,
+      "title": "Part 7 | Reading Comprehension 阅读理解",
+      "minutes": 6,
+      "passages": [
+        {
+          "title": "Questions 21-24: Notice",
+          "text": "CATERING SERVICE\nOrders must be placed at least 48 hours in advance, with a minimum of ten guests. The standard lunch costs $18 per person, and vegetarian meals are available at the same price. Delivery is free for orders over $200; otherwise, a $20 delivery charge applies."
+        },
+        {
+          "title": "Questions 21-24: Message",
+          "text": "To: Catering Team\nPlease prepare lunch for 12 researchers at noon this Wednesday. Three guests need vegetarian meals. I will place the final order on Monday morning. Our total budget is $250, and delivery should be made to Laboratory Building B. - Nari"
+        }
+      ],
+      "questions": [
+        {
+          "id": "day4-q21",
+          "n": 21,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is the latest time the order may be placed?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Sunday at noon"
+            },
+            {
+              "key": "B",
+              "text": "Monday at noon"
+            },
+            {
+              "key": "C",
+              "text": "Tuesday morning"
+            },
+            {
+              "key": "D",
+              "text": "Wednesday morning"
+            }
+          ],
+          "answer": "B",
+          "explain": "先算 12 x 18 = 216，再判断超过 200 可免配送费。"
+        },
+        {
+          "id": "day4-q22",
+          "n": 22,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What special meal is needed?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Gluten-free"
+            },
+            {
+              "key": "B",
+              "text": "Low-sodium"
+            },
+            {
+              "key": "C",
+              "text": "Vegetarian"
+            },
+            {
+              "key": "D",
+              "text": "Seafood"
+            }
+          ],
+          "answer": "C",
+          "explain": "先算 12 x 18 = 216，再判断超过 200 可免配送费。"
+        },
+        {
+          "id": "day4-q23",
+          "n": 23,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "How much will the lunches cost before any delivery charge?",
+          "options": [
+            {
+              "key": "A",
+              "text": "$216"
+            },
+            {
+              "key": "B",
+              "text": "$220"
+            },
+            {
+              "key": "C",
+              "text": "$236"
+            },
+            {
+              "key": "D",
+              "text": "$250"
+            }
+          ],
+          "answer": "A",
+          "explain": "先算 12 x 18 = 216，再判断超过 200 可免配送费。"
+        },
+        {
+          "id": "day4-q24",
+          "n": 24,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Why will the delivery most likely be free?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The order is for researchers"
+            },
+            {
+              "key": "B",
+              "text": "It includes vegetarian meals"
+            },
+            {
+              "key": "C",
+              "text": "It was placed on Monday"
+            },
+            {
+              "key": "D",
+              "text": "The food costs more than $200"
+            }
+          ],
+          "answer": "D",
+          "explain": "先算 12 x 18 = 216，再判断超过 200 可免配送费。"
+        }
+      ]
+    }
+  ]
+}

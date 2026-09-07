@@ -1,0 +1,13 @@
+{
+  "name": "toeic-trainer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "TOEIC 720 个人刷题 web app：手机做选择题、电脑做阅读题，进度本地保存 + 云同步",
+  "scripts": {
+    "test": "node --test",
+    "serve": "node tools/serve.mjs",
+    "build": "node tools/build_single.mjs",
+    "data": "py -3.11 tools/convert_questions.py"
+  }
+}

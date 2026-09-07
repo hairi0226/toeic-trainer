@@ -1,0 +1,779 @@
+{
+  "id": "day5",
+  "day": 5,
+  "title": "Day 5",
+  "focus": "阅读定位与流程判断",
+  "listening": "练 Part 4 独白 1-2 组，先看题干中的地点、目的、时间和 next step，再听同义替换。",
+  "phrases": [
+    "remain open",
+    "ask someone to do",
+    "make an announcement",
+    "product recall",
+    "final pickup"
+  ],
+  "reviews": [
+    "1 responses 是可数名词复数；2 tonight 对应将来时 will begin。",
+    "3 during + 名词；4 consistent 由副词 remarkably 修饰。",
+    "5 ask someone to do；6 not...until = 直到……才。",
+    "8 than 提示比较级 lower；9 所有格后需要名词 signature。",
+    "12 because of + 名词；because 后应接完整句。",
+    "14 C 提供排队时间信息；15 whose names；16 during all sessions。",
+    "21 申请在 3:30 前提交即可赶上 4:00 取件，3:20 符合条件。"
+  ],
+  "source_pdf": "TOEIC_720_周末4套练习_Day3-6_v2.pdf",
+  "recommended_minutes": 27,
+  "note": "原创 TOEIC-style 仿真题，不是 ETS 官方真题。",
+  "groups": [
+    {
+      "id": "day5-p5",
+      "part": 5,
+      "title": "Part 5 | Incomplete Sentences 句子填空",
+      "minutes": 10,
+      "passages": [],
+      "questions": [
+        {
+          "id": "day5-q1",
+          "n": 1,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The committee will meet to discuss the ___ to the employee survey.",
+          "options": [
+            {
+              "key": "A",
+              "text": "respond"
+            },
+            {
+              "key": "B",
+              "text": "responsive"
+            },
+            {
+              "key": "C",
+              "text": "responses"
+            },
+            {
+              "key": "D",
+              "text": "responding"
+            }
+          ],
+          "answer": "C",
+          "explain": "responses 是可数名词复数"
+        },
+        {
+          "id": "day5-q2",
+          "n": 2,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The software update ___ automatically at midnight tonight.",
+          "options": [
+            {
+              "key": "A",
+              "text": "will begin"
+            },
+            {
+              "key": "B",
+              "text": "began"
+            },
+            {
+              "key": "C",
+              "text": "beginning"
+            },
+            {
+              "key": "D",
+              "text": "has begun yesterday"
+            }
+          ],
+          "answer": "A",
+          "explain": "tonight 对应将来时 will begin。"
+        },
+        {
+          "id": "day5-q3",
+          "n": 3,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The laboratory remained open ___ the renovation.",
+          "options": [
+            {
+              "key": "A",
+              "text": "unless"
+            },
+            {
+              "key": "B",
+              "text": "beside"
+            },
+            {
+              "key": "C",
+              "text": "although"
+            },
+            {
+              "key": "D",
+              "text": "during"
+            }
+          ],
+          "answer": "D",
+          "explain": "during + 名词"
+        },
+        {
+          "id": "day5-q4",
+          "n": 4,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The results were ___ consistent across all three trials.",
+          "options": [
+            {
+              "key": "A",
+              "text": "remarkable"
+            },
+            {
+              "key": "B",
+              "text": "remarkably"
+            },
+            {
+              "key": "C",
+              "text": "remark"
+            },
+            {
+              "key": "D",
+              "text": "remarks"
+            }
+          ],
+          "answer": "B",
+          "explain": "consistent 由副词 remarkably 修饰。"
+        },
+        {
+          "id": "day5-q5",
+          "n": 5,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The supervisor asked the technicians ___ each device's serial number.",
+          "options": [
+            {
+              "key": "A",
+              "text": "recorded"
+            },
+            {
+              "key": "B",
+              "text": "recording"
+            },
+            {
+              "key": "C",
+              "text": "to record"
+            },
+            {
+              "key": "D",
+              "text": "record"
+            }
+          ],
+          "answer": "C",
+          "explain": "ask someone to do"
+        },
+        {
+          "id": "day5-q6",
+          "n": 6,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The equipment cannot be used ___ the safety check is completed.",
+          "options": [
+            {
+              "key": "A",
+              "text": "until"
+            },
+            {
+              "key": "B",
+              "text": "during"
+            },
+            {
+              "key": "C",
+              "text": "among"
+            },
+            {
+              "key": "D",
+              "text": "despite"
+            }
+          ],
+          "answer": "A",
+          "explain": "not...until = 直到……才。"
+        },
+        {
+          "id": "day5-q7",
+          "n": 7,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The announcement was made ___ all employees yesterday afternoon.",
+          "options": [
+            {
+              "key": "A",
+              "text": "at"
+            },
+            {
+              "key": "B",
+              "text": "among"
+            },
+            {
+              "key": "C",
+              "text": "with"
+            },
+            {
+              "key": "D",
+              "text": "to"
+            }
+          ],
+          "answer": "D",
+          "explain": ""
+        },
+        {
+          "id": "day5-q8",
+          "n": 8,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The new supplier offers prices that are ___ than those of the former supplier.",
+          "options": [
+            {
+              "key": "A",
+              "text": "low"
+            },
+            {
+              "key": "B",
+              "text": "lower"
+            },
+            {
+              "key": "C",
+              "text": "lowest"
+            },
+            {
+              "key": "D",
+              "text": "lowly"
+            }
+          ],
+          "answer": "B",
+          "explain": "than 提示比较级 lower"
+        },
+        {
+          "id": "day5-q9",
+          "n": 9,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "All reimbursement forms require the department manager's ___.",
+          "options": [
+            {
+              "key": "A",
+              "text": "sign"
+            },
+            {
+              "key": "B",
+              "text": "signed"
+            },
+            {
+              "key": "C",
+              "text": "signature"
+            },
+            {
+              "key": "D",
+              "text": "signing"
+            }
+          ],
+          "answer": "C",
+          "explain": "所有格后需要名词 signature。"
+        },
+        {
+          "id": "day5-q10",
+          "n": 10,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Please make sure that all doors are ___ before leaving.",
+          "options": [
+            {
+              "key": "A",
+              "text": "locked"
+            },
+            {
+              "key": "B",
+              "text": "locking"
+            },
+            {
+              "key": "C",
+              "text": "lock"
+            },
+            {
+              "key": "D",
+              "text": "locks"
+            }
+          ],
+          "answer": "A",
+          "explain": ""
+        },
+        {
+          "id": "day5-q11",
+          "n": 11,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The researcher spoke ___ about the preliminary findings.",
+          "options": [
+            {
+              "key": "A",
+              "text": "confidence"
+            },
+            {
+              "key": "B",
+              "text": "confident"
+            },
+            {
+              "key": "C",
+              "text": "confide"
+            },
+            {
+              "key": "D",
+              "text": "confidently"
+            }
+          ],
+          "answer": "D",
+          "explain": ""
+        },
+        {
+          "id": "day5-q12",
+          "n": 12,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The event was canceled ___ a lack of registrations.",
+          "options": [
+            {
+              "key": "A",
+              "text": "because"
+            },
+            {
+              "key": "B",
+              "text": "because of"
+            },
+            {
+              "key": "C",
+              "text": "although"
+            },
+            {
+              "key": "D",
+              "text": "unless"
+            }
+          ],
+          "answer": "B",
+          "explain": "because of + 名词；because 后应接完整句。"
+        }
+      ]
+    },
+    {
+      "id": "day5-p6",
+      "part": 6,
+      "title": "Part 6 | Text Completion 短文填空",
+      "minutes": 7,
+      "passages": [
+        {
+          "title": "Questions 13-17",
+          "text": "CONFERENCE CHECK-IN\nAttendees who registered online may collect badges in the main lobby beginning at 7:30 A.M. To receive a badge, present a registration e-mail or photo identification. Those who have not paid the full fee will be asked to do so [13] receiving a badge. [14] Self-service kiosks are available for attendees [15] names have not changed. Help desk staff can assist with corrections. Badges should be worn [16] all sessions. We appreciate your [17]."
+        }
+      ],
+      "questions": [
+        {
+          "id": "day5-q13",
+          "n": 13,
+          "part": 6,
+          "kind": "blank",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "before"
+            },
+            {
+              "key": "B",
+              "text": "during"
+            },
+            {
+              "key": "C",
+              "text": "unless"
+            },
+            {
+              "key": "D",
+              "text": "beside"
+            }
+          ],
+          "answer": "A",
+          "explain": ""
+        },
+        {
+          "id": "day5-q14",
+          "n": 14,
+          "part": 6,
+          "kind": "sentence",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Choose the best sentence for blank [14].",
+          "options": [
+            {
+              "key": "A",
+              "text": "The conference was held overseas last year."
+            },
+            {
+              "key": "B",
+              "text": "Most hotels offer free breakfast."
+            },
+            {
+              "key": "C",
+              "text": "Lines are expected to be longest between 8:00 and 9:00."
+            },
+            {
+              "key": "D",
+              "text": "The lobby was recently painted."
+            }
+          ],
+          "answer": "C",
+          "explain": "C 提供排队时间信息"
+        },
+        {
+          "id": "day5-q15",
+          "n": 15,
+          "part": 6,
+          "kind": "blank",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "who"
+            },
+            {
+              "key": "B",
+              "text": "whose"
+            },
+            {
+              "key": "C",
+              "text": "which"
+            },
+            {
+              "key": "D",
+              "text": "whom"
+            }
+          ],
+          "answer": "B",
+          "explain": "whose names"
+        },
+        {
+          "id": "day5-q16",
+          "n": 16,
+          "part": 6,
+          "kind": "blank",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "among"
+            },
+            {
+              "key": "B",
+              "text": "until"
+            },
+            {
+              "key": "C",
+              "text": "beside"
+            },
+            {
+              "key": "D",
+              "text": "during"
+            }
+          ],
+          "answer": "D",
+          "explain": "during all sessions。"
+        },
+        {
+          "id": "day5-q17",
+          "n": 17,
+          "part": 6,
+          "kind": "blank",
+          "bonus": true,
+          "rev": 0,
+          "stem": "BONUS: Choose the best word for blank [17].",
+          "options": [
+            {
+              "key": "A",
+              "text": "cooperation"
+            },
+            {
+              "key": "B",
+              "text": "cooperate"
+            },
+            {
+              "key": "C",
+              "text": "cooperative"
+            },
+            {
+              "key": "D",
+              "text": "cooperatively"
+            }
+          ],
+          "answer": "A",
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "id": "day5-p7a",
+      "part": 7,
+      "title": "Part 7 | Reading Comprehension 阅读理解",
+      "minutes": 4,
+      "passages": [
+        {
+          "title": "Questions 18-20 refer to the following e-mail.",
+          "text": "From: North City Electronics\nTo: Customers\nSubject: Product Recall\nWe are recalling model HN-20 portable heaters because of a possible problem with the power cord. Stop using the heater immediately and return it to any North City Electronics store. A receipt is not required. Customers may choose either a full refund or a replacement. Visit our website to check affected serial numbers."
+        }
+      ],
+      "questions": [
+        {
+          "id": "day5-q18",
+          "n": 18,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is the purpose of the e-mail?",
+          "options": [
+            {
+              "key": "A",
+              "text": "To advertise a heater"
+            },
+            {
+              "key": "B",
+              "text": "To change store hours"
+            },
+            {
+              "key": "C",
+              "text": "To announce a product recall"
+            },
+            {
+              "key": "D",
+              "text": "To request customer reviews"
+            }
+          ],
+          "answer": "C",
+          "explain": ""
+        },
+        {
+          "id": "day5-q19",
+          "n": 19,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What does the e-mail state about a receipt?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It must be original"
+            },
+            {
+              "key": "B",
+              "text": "It is not required"
+            },
+            {
+              "key": "C",
+              "text": "It can be obtained online"
+            },
+            {
+              "key": "D",
+              "text": "It is needed for a replacement"
+            }
+          ],
+          "answer": "B",
+          "explain": ""
+        },
+        {
+          "id": "day5-q20",
+          "n": 20,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What may customers receive?",
+          "options": [
+            {
+              "key": "A",
+              "text": "A power cord only"
+            },
+            {
+              "key": "B",
+              "text": "A store membership"
+            },
+            {
+              "key": "C",
+              "text": "Free delivery"
+            },
+            {
+              "key": "D",
+              "text": "A refund or replacement"
+            }
+          ],
+          "answer": "D",
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "id": "day5-p7b",
+      "part": 7,
+      "title": "Part 7 | Reading Comprehension 阅读理解",
+      "minutes": 6,
+      "passages": [
+        {
+          "title": "Questions 21-24: Notice",
+          "text": "LABORATORY COURIER SERVICE\nPickups are made at 9:00 A.M. and 4:00 P.M. on weekdays. Request forms received at least 30 minutes before a pickup will be included. Hazardous materials require special labels. The courier does not operate on weekends."
+        },
+        {
+          "title": "Questions 21-24: Message",
+          "text": "To: Courier Desk\nIt is Monday at 3:20 P.M., and our samples are ready. I have completed the request form. The samples are not hazardous and need to reach the central laboratory by Tuesday morning. Please confirm that they can be included in today's final pickup. - Leo"
+        }
+      ],
+      "questions": [
+        {
+          "id": "day5-q21",
+          "n": 21,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Which pickup can include Leo's samples?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Monday at 9:00 A.M."
+            },
+            {
+              "key": "B",
+              "text": "Monday at 4:00 P.M."
+            },
+            {
+              "key": "C",
+              "text": "Tuesday at 4:00 P.M."
+            },
+            {
+              "key": "D",
+              "text": "Saturday morning"
+            }
+          ],
+          "answer": "B",
+          "explain": "申请在 3:30 前提交即可赶上 4:00 取件，3:20 符合条件。"
+        },
+        {
+          "id": "day5-q22",
+          "n": 22,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Why are special labels unnecessary?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The form is complete"
+            },
+            {
+              "key": "B",
+              "text": "The samples are urgent"
+            },
+            {
+              "key": "C",
+              "text": "The samples are not hazardous"
+            },
+            {
+              "key": "D",
+              "text": "The courier knows Leo"
+            }
+          ],
+          "answer": "C",
+          "explain": ""
+        },
+        {
+          "id": "day5-q23",
+          "n": 23,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "When must the samples reach the central laboratory?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Tuesday morning"
+            },
+            {
+              "key": "B",
+              "text": "Tuesday afternoon"
+            },
+            {
+              "key": "C",
+              "text": "Friday"
+            },
+            {
+              "key": "D",
+              "text": "The weekend"
+            }
+          ],
+          "answer": "A",
+          "explain": ""
+        },
+        {
+          "id": "day5-q24",
+          "n": 24,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is indicated about the courier service?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It charges for forms"
+            },
+            {
+              "key": "B",
+              "text": "It has three daily pickups"
+            },
+            {
+              "key": "C",
+              "text": "It handles only hazardous materials"
+            },
+            {
+              "key": "D",
+              "text": "It is unavailable on weekends"
+            }
+          ],
+          "answer": "D",
+          "explain": ""
+        }
+      ]
+    }
+  ]
+}

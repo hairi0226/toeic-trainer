@@ -1,0 +1,16 @@
+{
+  "name": "TOEIC 720 刷题",
+  "short_name": "TOEIC 720",
+  "description": "TOEIC 720 稳过计划：Part 5/6/7 在线练习与进度记录",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f6f7",
+  "theme_color": "#147D78",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "./icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

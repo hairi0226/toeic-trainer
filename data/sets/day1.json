@@ -1,0 +1,780 @@
+{
+  "id": "day1",
+  "day": 1,
+  "title": "Day 1",
+  "focus": "",
+  "listening": null,
+  "phrases": [
+    "by Friday",
+    "within three days",
+    "responsible for doing",
+    "once approved",
+    "later than expected"
+  ],
+  "reviews": [
+    "1 by + 时间点 = 最迟不晚于；6 within + 时间长度 = 在这段时间内。",
+    "2 more 后接形容词 reliable；8 worked 需要副词 efficiently 修饰。",
+    "3 because 后接完整句；13 due to 后接名词 repairs。",
+    "4 responsible for doing；11 should 后接动词原形；12 later than expected 是固定省略结构。",
+    "7 once + 完整句 = 一经/一旦；14 until further notice = 另行通知前。",
+    "15 be encouraged to do = 被鼓励做；16 只有 B 能承接维修结束后的安排。",
+    "17 may 后接动词原形 cause；18-20 先看 purpose / who / conflict，再回邮件定位。",
+    "21-24 两篇材料共同定位；equipment cases 对应需要接应，beforehand 对应会前存放。"
+  ],
+  "source_pdf": "TOEIC_720_Day1_双面练习_v3.pdf",
+  "recommended_minutes": 27,
+  "note": "原创 TOEIC-style 仿真题，不是 ETS 官方真题。",
+  "groups": [
+    {
+      "id": "day1-p5",
+      "part": 5,
+      "title": "Part 5 | Incomplete Sentences 句子填空",
+      "minutes": 10,
+      "passages": [],
+      "questions": [
+        {
+          "id": "day1-q1",
+          "n": 1,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Applicants must submit all required documents ___ Friday.",
+          "options": [
+            {
+              "key": "A",
+              "text": "from"
+            },
+            {
+              "key": "B",
+              "text": "by"
+            },
+            {
+              "key": "C",
+              "text": "among"
+            },
+            {
+              "key": "D",
+              "text": "during"
+            }
+          ],
+          "answer": "B",
+          "explain": "by + 时间点 = 最迟不晚于"
+        },
+        {
+          "id": "day1-q2",
+          "n": 2,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The new laboratory instrument is more ___ than the previous model.",
+          "options": [
+            {
+              "key": "A",
+              "text": "rely"
+            },
+            {
+              "key": "B",
+              "text": "reliably"
+            },
+            {
+              "key": "C",
+              "text": "reliable"
+            },
+            {
+              "key": "D",
+              "text": "reliance"
+            }
+          ],
+          "answer": "C",
+          "explain": "more 后接形容词 reliable"
+        },
+        {
+          "id": "day1-q3",
+          "n": 3,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The seminar was postponed ___ the keynote speaker was unable to attend.",
+          "options": [
+            {
+              "key": "A",
+              "text": "because"
+            },
+            {
+              "key": "B",
+              "text": "despite"
+            },
+            {
+              "key": "C",
+              "text": "during"
+            },
+            {
+              "key": "D",
+              "text": "unless"
+            }
+          ],
+          "answer": "A",
+          "explain": "because 后接完整句"
+        },
+        {
+          "id": "day1-q4",
+          "n": 4,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Ms. Patel is responsible for ___ the equipment before delivery.",
+          "options": [
+            {
+              "key": "A",
+              "text": "inspect"
+            },
+            {
+              "key": "B",
+              "text": "inspected"
+            },
+            {
+              "key": "C",
+              "text": "inspection"
+            },
+            {
+              "key": "D",
+              "text": "inspecting"
+            }
+          ],
+          "answer": "D",
+          "explain": "responsible for doing"
+        },
+        {
+          "id": "day1-q5",
+          "n": 5,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Dr. Han ___ the revised manuscript before the meeting began.",
+          "options": [
+            {
+              "key": "A",
+              "text": "reviews"
+            },
+            {
+              "key": "B",
+              "text": "had reviewed"
+            },
+            {
+              "key": "C",
+              "text": "will review"
+            },
+            {
+              "key": "D",
+              "text": "is reviewing"
+            }
+          ],
+          "answer": "B",
+          "explain": ""
+        },
+        {
+          "id": "day1-q6",
+          "n": 6,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "All expense reports must be submitted ___ three days after the trip.",
+          "options": [
+            {
+              "key": "A",
+              "text": "within"
+            },
+            {
+              "key": "B",
+              "text": "beside"
+            },
+            {
+              "key": "C",
+              "text": "among"
+            },
+            {
+              "key": "D",
+              "text": "during"
+            }
+          ],
+          "answer": "A",
+          "explain": "within + 时间长度 = 在这段时间内。"
+        },
+        {
+          "id": "day1-q7",
+          "n": 7,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The final report will be distributed ___ it has been approved.",
+          "options": [
+            {
+              "key": "A",
+              "text": "during"
+            },
+            {
+              "key": "B",
+              "text": "despite"
+            },
+            {
+              "key": "C",
+              "text": "once"
+            },
+            {
+              "key": "D",
+              "text": "except"
+            }
+          ],
+          "answer": "C",
+          "explain": "once + 完整句 = 一经/一旦"
+        },
+        {
+          "id": "day1-q8",
+          "n": 8,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The technicians worked ___ to finish the repairs ahead of schedule.",
+          "options": [
+            {
+              "key": "A",
+              "text": "efficient"
+            },
+            {
+              "key": "B",
+              "text": "efficiency"
+            },
+            {
+              "key": "C",
+              "text": "more efficient"
+            },
+            {
+              "key": "D",
+              "text": "efficiently"
+            }
+          ],
+          "answer": "D",
+          "explain": "worked 需要副词 efficiently 修饰。"
+        },
+        {
+          "id": "day1-q9",
+          "n": 9,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Visitors must present ___ identification at the reception desk.",
+          "options": [
+            {
+              "key": "A",
+              "text": "they"
+            },
+            {
+              "key": "B",
+              "text": "their"
+            },
+            {
+              "key": "C",
+              "text": "them"
+            },
+            {
+              "key": "D",
+              "text": "theirs"
+            }
+          ],
+          "answer": "B",
+          "explain": ""
+        },
+        {
+          "id": "day1-q10",
+          "n": 10,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The samples were stored at a low temperature ___ prevent degradation.",
+          "options": [
+            {
+              "key": "A",
+              "text": "to"
+            },
+            {
+              "key": "B",
+              "text": "so"
+            },
+            {
+              "key": "C",
+              "text": "for"
+            },
+            {
+              "key": "D",
+              "text": "by"
+            }
+          ],
+          "answer": "A",
+          "explain": ""
+        },
+        {
+          "id": "day1-q11",
+          "n": 11,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Any employee who needs access to the archive should ___ the manager.",
+          "options": [
+            {
+              "key": "A",
+              "text": "contacted"
+            },
+            {
+              "key": "B",
+              "text": "contacts"
+            },
+            {
+              "key": "C",
+              "text": "contact"
+            },
+            {
+              "key": "D",
+              "text": "contacting"
+            }
+          ],
+          "answer": "C",
+          "explain": "should 后接动词原形"
+        },
+        {
+          "id": "day1-q12",
+          "n": 12,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Because of a shipping delay, the supplies arrived later than ___.",
+          "options": [
+            {
+              "key": "A",
+              "text": "expect"
+            },
+            {
+              "key": "B",
+              "text": "expected"
+            },
+            {
+              "key": "C",
+              "text": "expecting"
+            },
+            {
+              "key": "D",
+              "text": "expectation"
+            }
+          ],
+          "answer": "B",
+          "explain": "later than expected 是固定省略结构。"
+        }
+      ]
+    },
+    {
+      "id": "day1-p6",
+      "part": 6,
+      "title": "Part 6 | Text Completion 短文填空",
+      "minutes": 7,
+      "passages": [
+        {
+          "title": "Staff Notice",
+          "text": "NOTICE TO ALL STAFF\nBeginning next Monday, the west entrance of the Dalton Research Center will be closed [13] repairs. Employees should use the east entrance [14] further notice. Visitors must sign in at the reception desk, where they will receive temporary badges. Because parking spaces near the east entrance are limited, staff members are [15] to use public transportation whenever possible. The work is expected to take approximately two weeks. [16] The center apologizes for any inconvenience this may [17]."
+        }
+      ],
+      "questions": [
+        {
+          "id": "day1-q13",
+          "n": 13,
+          "part": 6,
+          "kind": "blank",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "among"
+            },
+            {
+              "key": "B",
+              "text": "although"
+            },
+            {
+              "key": "C",
+              "text": "from"
+            },
+            {
+              "key": "D",
+              "text": "due to"
+            }
+          ],
+          "answer": "D",
+          "explain": "due to 后接名词 repairs。"
+        },
+        {
+          "id": "day1-q14",
+          "n": 14,
+          "part": 6,
+          "kind": "blank",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "until"
+            },
+            {
+              "key": "B",
+              "text": "during"
+            },
+            {
+              "key": "C",
+              "text": "between"
+            },
+            {
+              "key": "D",
+              "text": "beside"
+            }
+          ],
+          "answer": "A",
+          "explain": "until further notice = 另行通知前。"
+        },
+        {
+          "id": "day1-q15",
+          "n": 15,
+          "part": 6,
+          "kind": "blank",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "encourage"
+            },
+            {
+              "key": "B",
+              "text": "encouraging"
+            },
+            {
+              "key": "C",
+              "text": "encouraged"
+            },
+            {
+              "key": "D",
+              "text": "encouragement"
+            }
+          ],
+          "answer": "C",
+          "explain": "be encouraged to do = 被鼓励做"
+        },
+        {
+          "id": "day1-q16",
+          "n": 16,
+          "part": 6,
+          "kind": "sentence",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Choose the best sentence for the blank.",
+          "options": [
+            {
+              "key": "A",
+              "text": "The center opened several years ago."
+            },
+            {
+              "key": "B",
+              "text": "A notice will be sent when the entrance reopens."
+            },
+            {
+              "key": "C",
+              "text": "Most visitors prefer to drive to the center."
+            },
+            {
+              "key": "D",
+              "text": "The reception desk is on the second floor."
+            }
+          ],
+          "answer": "B",
+          "explain": "只有 B 能承接维修结束后的安排。"
+        },
+        {
+          "id": "day1-q17",
+          "n": 17,
+          "part": 6,
+          "kind": "blank",
+          "bonus": true,
+          "rev": 0,
+          "stem": "BONUS: Choose the best word for blank [17].",
+          "options": [
+            {
+              "key": "A",
+              "text": "cause"
+            },
+            {
+              "key": "B",
+              "text": "causes"
+            },
+            {
+              "key": "C",
+              "text": "caused"
+            },
+            {
+              "key": "D",
+              "text": "causing"
+            }
+          ],
+          "answer": "A",
+          "explain": "may 后接动词原形 cause"
+        }
+      ]
+    },
+    {
+      "id": "day1-p7a",
+      "part": 7,
+      "title": "Part 7 | Reading Comprehension 阅读理解",
+      "minutes": 4,
+      "passages": [
+        {
+          "title": "Questions 18-20 refer to the following e-mail.",
+          "text": "From: Ava Lin <a.lin@northlab.org>\nTo: Research Team\nSubject: Centrifuge Training\nA required training session for the laboratory's new centrifuge will be held on Tuesday at 10:00 A.M. in Room B214. The session will last approximately one hour. Please bring your employee identification badge. Staff members who completed the manufacturer's online training last month do not need to attend. If you have a scheduling conflict, reply to this message by noon on Monday."
+        }
+      ],
+      "questions": [
+        {
+          "id": "day1-q18",
+          "n": 18,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is the purpose of the e-mail?",
+          "options": [
+            {
+              "key": "A",
+              "text": "To request new equipment"
+            },
+            {
+              "key": "B",
+              "text": "To change a room reservation"
+            },
+            {
+              "key": "C",
+              "text": "To announce required training"
+            },
+            {
+              "key": "D",
+              "text": "To report an accident"
+            }
+          ],
+          "answer": "C",
+          "explain": "先看 purpose / who / conflict，再回邮件定位。"
+        },
+        {
+          "id": "day1-q19",
+          "n": 19,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Who does NOT need to attend the session?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Staff who already completed online training"
+            },
+            {
+              "key": "B",
+              "text": "Employees who bring identification"
+            },
+            {
+              "key": "C",
+              "text": "People working in Room B214"
+            },
+            {
+              "key": "D",
+              "text": "New research team members"
+            }
+          ],
+          "answer": "A",
+          "explain": "先看 purpose / who / conflict，再回邮件定位。"
+        },
+        {
+          "id": "day1-q20",
+          "n": 20,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What should an employee with a scheduling conflict do?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Contact the manufacturer"
+            },
+            {
+              "key": "B",
+              "text": "Attend on Tuesday afternoon"
+            },
+            {
+              "key": "C",
+              "text": "Return an identification badge"
+            },
+            {
+              "key": "D",
+              "text": "Reply by Monday at noon"
+            }
+          ],
+          "answer": "D",
+          "explain": "先看 purpose / who / conflict，再回邮件定位。"
+        }
+      ]
+    },
+    {
+      "id": "day1-p7b",
+      "part": 7,
+      "title": "Part 7 | Reading Comprehension 阅读理解",
+      "minutes": 6,
+      "passages": [
+        {
+          "title": "Questions 21-24: Notice",
+          "text": "CAMPUS SHUTTLE NOTICE\nDue to roadwork, the shuttle stop in front of Science Hall will be unavailable from August 24 through August 28. During this period, passengers should use the temporary stop at East Library. Shuttles will run every 20 minutes from 7:00 A.M. to 7:00 P.M. Normal service will resume on August 31. Passengers who need mobility assistance should call the transportation office at least one day in advance."
+        },
+        {
+          "title": "Questions 21-24: Message",
+          "text": "To: Professor Kim\nMy train is scheduled to arrive at Central Station at 8:30 A.M. on Wednesday, August 26. I had planned to take the campus shuttle directly to Science Hall, but I saw the route notice. Since I will be carrying two equipment cases, could a laboratory member meet me at the East Library stop at about 9:00? I have an orientation meeting at 9:30 and would like to store the cases beforehand. - Leo Martin"
+        }
+      ],
+      "questions": [
+        {
+          "id": "day1-q21",
+          "n": 21,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Why was the shuttle stop moved?",
+          "options": [
+            {
+              "key": "A",
+              "text": "A conference is taking place"
+            },
+            {
+              "key": "B",
+              "text": "Roadwork is being done"
+            },
+            {
+              "key": "C",
+              "text": "The library is closed"
+            },
+            {
+              "key": "D",
+              "text": "A shuttle is being repaired"
+            }
+          ],
+          "answer": "B",
+          "explain": "两篇材料共同定位；equipment cases 对应需要接应，beforehand 对应会前存放。"
+        },
+        {
+          "id": "day1-q22",
+          "n": 22,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "When will normal shuttle service resume?",
+          "options": [
+            {
+              "key": "A",
+              "text": "August 24"
+            },
+            {
+              "key": "B",
+              "text": "August 26"
+            },
+            {
+              "key": "C",
+              "text": "August 31"
+            },
+            {
+              "key": "D",
+              "text": "September 1"
+            }
+          ],
+          "answer": "C",
+          "explain": "两篇材料共同定位；equipment cases 对应需要接应，beforehand 对应会前存放。"
+        },
+        {
+          "id": "day1-q23",
+          "n": 23,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Why does Mr. Martin request help?",
+          "options": [
+            {
+              "key": "A",
+              "text": "He will have equipment cases"
+            },
+            {
+              "key": "B",
+              "text": "He cannot find the station"
+            },
+            {
+              "key": "C",
+              "text": "He needs mobility assistance"
+            },
+            {
+              "key": "D",
+              "text": "He missed his train"
+            }
+          ],
+          "answer": "A",
+          "explain": "两篇材料共同定位；equipment cases 对应需要接应，beforehand 对应会前存放。"
+        },
+        {
+          "id": "day1-q24",
+          "n": 24,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What will Mr. Martin most likely do before orientation?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Call the transportation office"
+            },
+            {
+              "key": "B",
+              "text": "Visit Central Station"
+            },
+            {
+              "key": "C",
+              "text": "Repair laboratory equipment"
+            },
+            {
+              "key": "D",
+              "text": "Store his cases"
+            }
+          ],
+          "answer": "D",
+          "explain": "两篇材料共同定位；equipment cases 对应需要接应，beforehand 对应会前存放。"
+        }
+      ]
+    }
+  ]
+}

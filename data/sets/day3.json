@@ -1,0 +1,779 @@
+{
+  "id": "day3",
+  "day": 3,
+  "title": "Day 3",
+  "focus": "基础语法与日程信息",
+  "listening": "练 Part 2 质疑应答 10-15 分钟，重点分辨 Who / When / Where / Why 和间接回答。",
+  "phrases": [
+    "sign in",
+    "take effect on",
+    "at no additional cost",
+    "apply early",
+    "confirm attendance"
+  ],
+  "reviews": [
+    "1 before doing = 在做某事之前；3 since + 起始时间，常与现在完成时连用。",
+    "2 higher 需要副词 significantly 修饰；5 location 前用形容词 secure。",
+    "4 取消发生前已经报名，用过去完成时 had registered。",
+    "6 neither...nor 的谓语通常跟靠近它的主语一致；9 encourage someone to do。",
+    "12 unless = 如果不/除非；13 can be downloaded 是被动语态。",
+    "15 A 交代旧证有效期；16 apply early；17 your 后需要名词 patience。",
+    "21-24 同时核对房间规则、迟到时间、人数和会后安排。"
+  ],
+  "source_pdf": "TOEIC_720_周末4套练习_Day3-6_v2.pdf",
+  "recommended_minutes": 27,
+  "note": "原创 TOEIC-style 仿真题，不是 ETS 官方真题。",
+  "groups": [
+    {
+      "id": "day3-p5",
+      "part": 5,
+      "title": "Part 5 | Incomplete Sentences 句子填空",
+      "minutes": 10,
+      "passages": [],
+      "questions": [
+        {
+          "id": "day3-q1",
+          "n": 1,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "All visitors must sign in ___ entering the production area.",
+          "options": [
+            {
+              "key": "A",
+              "text": "before"
+            },
+            {
+              "key": "B",
+              "text": "between"
+            },
+            {
+              "key": "C",
+              "text": "beside"
+            },
+            {
+              "key": "D",
+              "text": "since"
+            }
+          ],
+          "answer": "A",
+          "explain": "before doing = 在做某事之前"
+        },
+        {
+          "id": "day3-q2",
+          "n": 2,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "This year's sales figures were ___ higher than expected.",
+          "options": [
+            {
+              "key": "A",
+              "text": "significance"
+            },
+            {
+              "key": "B",
+              "text": "signify"
+            },
+            {
+              "key": "C",
+              "text": "significant"
+            },
+            {
+              "key": "D",
+              "text": "significantly"
+            }
+          ],
+          "answer": "D",
+          "explain": "higher 需要副词 significantly 修饰"
+        },
+        {
+          "id": "day3-q3",
+          "n": 3,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Ms. Chen has worked for the company ___ 2019.",
+          "options": [
+            {
+              "key": "A",
+              "text": "for"
+            },
+            {
+              "key": "B",
+              "text": "since"
+            },
+            {
+              "key": "C",
+              "text": "during"
+            },
+            {
+              "key": "D",
+              "text": "until"
+            }
+          ],
+          "answer": "B",
+          "explain": "since + 起始时间，常与现在完成时连用。"
+        },
+        {
+          "id": "day3-q4",
+          "n": 4,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The workshop was canceled because too few people ___ registered.",
+          "options": [
+            {
+              "key": "A",
+              "text": "have"
+            },
+            {
+              "key": "B",
+              "text": "will have"
+            },
+            {
+              "key": "C",
+              "text": "had"
+            },
+            {
+              "key": "D",
+              "text": "are"
+            }
+          ],
+          "answer": "C",
+          "explain": "取消发生前已经报名，用过去完成时 had registered。"
+        },
+        {
+          "id": "day3-q5",
+          "n": 5,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Confidential documents must be stored in a ___ location.",
+          "options": [
+            {
+              "key": "A",
+              "text": "secure"
+            },
+            {
+              "key": "B",
+              "text": "securely"
+            },
+            {
+              "key": "C",
+              "text": "security"
+            },
+            {
+              "key": "D",
+              "text": "securedly"
+            }
+          ],
+          "answer": "A",
+          "explain": "location 前用形容词 secure。"
+        },
+        {
+          "id": "day3-q6",
+          "n": 6,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Neither the director nor her assistants ___ able to attend tomorrow.",
+          "options": [
+            {
+              "key": "A",
+              "text": "is"
+            },
+            {
+              "key": "B",
+              "text": "was"
+            },
+            {
+              "key": "C",
+              "text": "be"
+            },
+            {
+              "key": "D",
+              "text": "are"
+            }
+          ],
+          "answer": "D",
+          "explain": "neither...nor 的谓语通常跟靠近它的主语一致"
+        },
+        {
+          "id": "day3-q7",
+          "n": 7,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Please send the completed invoice ___ e-mail.",
+          "options": [
+            {
+              "key": "A",
+              "text": "at"
+            },
+            {
+              "key": "B",
+              "text": "by"
+            },
+            {
+              "key": "C",
+              "text": "among"
+            },
+            {
+              "key": "D",
+              "text": "until"
+            }
+          ],
+          "answer": "B",
+          "explain": ""
+        },
+        {
+          "id": "day3-q8",
+          "n": 8,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The revised safety policy will take effect ___ September 1.",
+          "options": [
+            {
+              "key": "A",
+              "text": "at"
+            },
+            {
+              "key": "B",
+              "text": "in"
+            },
+            {
+              "key": "C",
+              "text": "on"
+            },
+            {
+              "key": "D",
+              "text": "from"
+            }
+          ],
+          "answer": "C",
+          "explain": ""
+        },
+        {
+          "id": "day3-q9",
+          "n": 9,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Staff members are encouraged ___ suggestions for improving the process.",
+          "options": [
+            {
+              "key": "A",
+              "text": "to submit"
+            },
+            {
+              "key": "B",
+              "text": "submitted"
+            },
+            {
+              "key": "C",
+              "text": "submitting"
+            },
+            {
+              "key": "D",
+              "text": "submission"
+            }
+          ],
+          "answer": "A",
+          "explain": "encourage someone to do。"
+        },
+        {
+          "id": "day3-q10",
+          "n": 10,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The report contains ___ information about travel expenses.",
+          "options": [
+            {
+              "key": "A",
+              "text": "detail"
+            },
+            {
+              "key": "B",
+              "text": "details"
+            },
+            {
+              "key": "C",
+              "text": "detailing"
+            },
+            {
+              "key": "D",
+              "text": "detailed"
+            }
+          ],
+          "answer": "D",
+          "explain": ""
+        },
+        {
+          "id": "day3-q11",
+          "n": 11,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The manufacturer agreed to replace the component at no ___ cost.",
+          "options": [
+            {
+              "key": "A",
+              "text": "addition"
+            },
+            {
+              "key": "B",
+              "text": "additional"
+            },
+            {
+              "key": "C",
+              "text": "additionally"
+            },
+            {
+              "key": "D",
+              "text": "add"
+            }
+          ],
+          "answer": "B",
+          "explain": ""
+        },
+        {
+          "id": "day3-q12",
+          "n": 12,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "___ the weather improves, the outdoor inspection will be postponed.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Because"
+            },
+            {
+              "key": "B",
+              "text": "During"
+            },
+            {
+              "key": "C",
+              "text": "Unless"
+            },
+            {
+              "key": "D",
+              "text": "Despite"
+            }
+          ],
+          "answer": "C",
+          "explain": "unless = 如果不/除非"
+        }
+      ]
+    },
+    {
+      "id": "day3-p6",
+      "part": 6,
+      "title": "Part 6 | Text Completion 短文填空",
+      "minutes": 7,
+      "passages": [
+        {
+          "title": "Questions 13-17",
+          "text": "PARKING PERMIT RENEWAL\nEmployees may renew campus parking permits beginning September 1. The application form can be [13] from the Human Resources portal. Applications [14] after September 15 may require additional processing time. [15] Employees who no longer need a permit should return it to the security office. Staff members are advised to apply [16] to avoid delays. Thank you for your [17] during the renewal period."
+        }
+      ],
+      "questions": [
+        {
+          "id": "day3-q13",
+          "n": 13,
+          "part": 6,
+          "kind": "blank",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "download"
+            },
+            {
+              "key": "B",
+              "text": "downloaded"
+            },
+            {
+              "key": "C",
+              "text": "downloading"
+            },
+            {
+              "key": "D",
+              "text": "downloads"
+            }
+          ],
+          "answer": "B",
+          "explain": "can be downloaded 是被动语态。"
+        },
+        {
+          "id": "day3-q14",
+          "n": 14,
+          "part": 6,
+          "kind": "blank",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "submit"
+            },
+            {
+              "key": "B",
+              "text": "submission"
+            },
+            {
+              "key": "C",
+              "text": "submitting"
+            },
+            {
+              "key": "D",
+              "text": "submitted"
+            }
+          ],
+          "answer": "D",
+          "explain": ""
+        },
+        {
+          "id": "day3-q15",
+          "n": 15,
+          "part": 6,
+          "kind": "sentence",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Choose the best sentence for blank [15].",
+          "options": [
+            {
+              "key": "A",
+              "text": "Current permits remain valid through September 30."
+            },
+            {
+              "key": "B",
+              "text": "The cafeteria closes at 6:00 P.M."
+            },
+            {
+              "key": "C",
+              "text": "Several parking spaces were recently painted."
+            },
+            {
+              "key": "D",
+              "text": "Visitors may enter through the east gate."
+            }
+          ],
+          "answer": "A",
+          "explain": "A 交代旧证有效期"
+        },
+        {
+          "id": "day3-q16",
+          "n": 16,
+          "part": 6,
+          "kind": "blank",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "earlier"
+            },
+            {
+              "key": "B",
+              "text": "earliest"
+            },
+            {
+              "key": "C",
+              "text": "early"
+            },
+            {
+              "key": "D",
+              "text": "earliness"
+            }
+          ],
+          "answer": "C",
+          "explain": "apply early"
+        },
+        {
+          "id": "day3-q17",
+          "n": 17,
+          "part": 6,
+          "kind": "blank",
+          "bonus": true,
+          "rev": 0,
+          "stem": "BONUS: Choose the best word for blank [17].",
+          "options": [
+            {
+              "key": "A",
+              "text": "patient"
+            },
+            {
+              "key": "B",
+              "text": "patience"
+            },
+            {
+              "key": "C",
+              "text": "patiently"
+            },
+            {
+              "key": "D",
+              "text": "patients"
+            }
+          ],
+          "answer": "B",
+          "explain": "your 后需要名词 patience。"
+        }
+      ]
+    },
+    {
+      "id": "day3-p7a",
+      "part": 7,
+      "title": "Part 7 | Reading Comprehension 阅读理解",
+      "minutes": 4,
+      "passages": [
+        {
+          "title": "Questions 18-20 refer to the following e-mail.",
+          "text": "From: Event Coordinator\nTo: Laboratory Members\nSubject: Networking Breakfast\nOur department will host a research networking breakfast this Friday at 8:30 A.M. in the Conference Center. Ten seats have been reserved for laboratory members. Please confirm your attendance by noon on Wednesday. Anyone requesting a vegetarian meal should notify me no later than Tuesday afternoon."
+        }
+      ],
+      "questions": [
+        {
+          "id": "day3-q18",
+          "n": 18,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is the main purpose of the e-mail?",
+          "options": [
+            {
+              "key": "A",
+              "text": "To report a catering problem"
+            },
+            {
+              "key": "B",
+              "text": "To change a research deadline"
+            },
+            {
+              "key": "C",
+              "text": "To invite members to an event"
+            },
+            {
+              "key": "D",
+              "text": "To announce laboratory results"
+            }
+          ],
+          "answer": "C",
+          "explain": ""
+        },
+        {
+          "id": "day3-q19",
+          "n": 19,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "When must attendance be confirmed?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Wednesday at noon"
+            },
+            {
+              "key": "B",
+              "text": "Tuesday morning"
+            },
+            {
+              "key": "C",
+              "text": "Friday at 8:30 A.M."
+            },
+            {
+              "key": "D",
+              "text": "Friday afternoon"
+            }
+          ],
+          "answer": "A",
+          "explain": ""
+        },
+        {
+          "id": "day3-q20",
+          "n": 20,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What should a person with a dietary request do?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Contact the Conference Center"
+            },
+            {
+              "key": "B",
+              "text": "Bring food to the event"
+            },
+            {
+              "key": "C",
+              "text": "Arrive before 8:00 A.M."
+            },
+            {
+              "key": "D",
+              "text": "Notify the coordinator by Tuesday afternoon"
+            }
+          ],
+          "answer": "D",
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "id": "day3-p7b",
+      "part": 7,
+      "title": "Part 7 | Reading Comprehension 阅读理解",
+      "minutes": 6,
+      "passages": [
+        {
+          "title": "Questions 21-24: Notice",
+          "text": "LIBRARY STUDY ROOM POLICY\nRooms may be reserved for up to two hours on weekdays between 9:00 A.M. and 9:00 P.M. Groups must check in within 15 minutes of the reservation time or the room may be released. Each room holds no more than six people. Food is not permitted."
+        },
+        {
+          "title": "Questions 21-24: Message",
+          "text": "To: Mina\nI reserved Room 3 this Thursday from 3:00 to 5:00 P.M. for our group of five. The experiment meeting begins at 3:30, but I may be about ten minutes late. Could you check in for us? Please bring your laptop. We can go to the cafe after the meeting. - Sam"
+        }
+      ],
+      "questions": [
+        {
+          "id": "day3-q21",
+          "n": 21,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is the maximum reservation length?",
+          "options": [
+            {
+              "key": "A",
+              "text": "One hour"
+            },
+            {
+              "key": "B",
+              "text": "Two hours"
+            },
+            {
+              "key": "C",
+              "text": "Three hours"
+            },
+            {
+              "key": "D",
+              "text": "Four hours"
+            }
+          ],
+          "answer": "B",
+          "explain": "同时核对房间规则、迟到时间、人数和会后安排。"
+        },
+        {
+          "id": "day3-q22",
+          "n": 22,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Why does Sam ask Mina to check in?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The room number changed"
+            },
+            {
+              "key": "B",
+              "text": "The group has six people"
+            },
+            {
+              "key": "C",
+              "text": "He may arrive late"
+            },
+            {
+              "key": "D",
+              "text": "He forgot his laptop"
+            }
+          ],
+          "answer": "C",
+          "explain": "同时核对房间规则、迟到时间、人数和会后安排。"
+        },
+        {
+          "id": "day3-q23",
+          "n": 23,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "How many people are in Sam's group?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Five"
+            },
+            {
+              "key": "B",
+              "text": "Six"
+            },
+            {
+              "key": "C",
+              "text": "Seven"
+            },
+            {
+              "key": "D",
+              "text": "Eight"
+            }
+          ],
+          "answer": "A",
+          "explain": "同时核对房间规则、迟到时间、人数和会后安排。"
+        },
+        {
+          "id": "day3-q24",
+          "n": 24,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What will the group most likely do after the meeting?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Reserve another room"
+            },
+            {
+              "key": "B",
+              "text": "Visit a laboratory"
+            },
+            {
+              "key": "C",
+              "text": "Return a laptop"
+            },
+            {
+              "key": "D",
+              "text": "Go to a cafe"
+            }
+          ],
+          "answer": "D",
+          "explain": "同时核对房间规则、迟到时间、人数和会后安排。"
+        }
+      ]
+    }
+  ]
+}

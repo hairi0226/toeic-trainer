@@ -1,0 +1,780 @@
+{
+  "id": "day2",
+  "day": 2,
+  "title": "Day 2",
+  "focus": "",
+  "listening": null,
+  "phrases": [
+    "before doing",
+    "be reserved for",
+    "provided that",
+    "be added to",
+    "be responsible for"
+  ],
+  "reviews": [
+    "1 before doing = 在做某事之前；7 by + 时间点 = 最迟不晚于。",
+    "2 be reserved = 被预订；6 consideration 前需要形容词 special。",
+    "3 if + 完整句表示条件；11 provided that = 只要/条件是。",
+    "4 has not yet 后用过去分词 decided；5 while 表示两件事同时进行。",
+    "8 closely 是副词；9 neither...nor 的谓语通常跟靠近它的主语一致。",
+    "12 maintenance 不可数，用 little；14 be added to = 被添加到。",
+    "15 B 承接归还设备的目的；16 be responsible for = 负责；17 cooperation 是名词。",
+    "21-24 要把通知的截单时间与邮件的提交时间对应起来，再判断取件日。"
+  ],
+  "source_pdf": "TOEIC_720_Day2_双面练习_v1.pdf",
+  "recommended_minutes": 27,
+  "note": "原创 TOEIC-style 仿真题，不是 ETS 官方真题。",
+  "groups": [
+    {
+      "id": "day2-p5",
+      "part": 5,
+      "title": "Part 5 | Incomplete Sentences 句子填空",
+      "minutes": 10,
+      "passages": [],
+      "questions": [
+        {
+          "id": "day2-q1",
+          "n": 1,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The purchasing department will review all bids ___ making a final decision.",
+          "options": [
+            {
+              "key": "A",
+              "text": "before"
+            },
+            {
+              "key": "B",
+              "text": "between"
+            },
+            {
+              "key": "C",
+              "text": "beside"
+            },
+            {
+              "key": "D",
+              "text": "since"
+            }
+          ],
+          "answer": "A",
+          "explain": "before doing = 在做某事之前"
+        },
+        {
+          "id": "day2-q2",
+          "n": 2,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The conference room is currently ___ for a meeting at 2:00 P.M.",
+          "options": [
+            {
+              "key": "A",
+              "text": "reserve"
+            },
+            {
+              "key": "B",
+              "text": "reservation"
+            },
+            {
+              "key": "C",
+              "text": "reserved"
+            },
+            {
+              "key": "D",
+              "text": "reserving"
+            }
+          ],
+          "answer": "C",
+          "explain": "be reserved = 被预订"
+        },
+        {
+          "id": "day2-q3",
+          "n": 3,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Please notify your supervisor ___ you need to change your work schedule.",
+          "options": [
+            {
+              "key": "A",
+              "text": "despite"
+            },
+            {
+              "key": "B",
+              "text": "if"
+            },
+            {
+              "key": "C",
+              "text": "during"
+            },
+            {
+              "key": "D",
+              "text": "until"
+            }
+          ],
+          "answer": "B",
+          "explain": "if + 完整句表示条件"
+        },
+        {
+          "id": "day2-q4",
+          "n": 4,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The committee has not yet ___ whether to extend the application deadline.",
+          "options": [
+            {
+              "key": "A",
+              "text": "decide"
+            },
+            {
+              "key": "B",
+              "text": "decision"
+            },
+            {
+              "key": "C",
+              "text": "deciding"
+            },
+            {
+              "key": "D",
+              "text": "decided"
+            }
+          ],
+          "answer": "D",
+          "explain": "has not yet 后用过去分词 decided"
+        },
+        {
+          "id": "day2-q5",
+          "n": 5,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Ms. Rivera will prepare the summary while her assistant ___ the charts.",
+          "options": [
+            {
+              "key": "A",
+              "text": "updated"
+            },
+            {
+              "key": "B",
+              "text": "has updated"
+            },
+            {
+              "key": "C",
+              "text": "is updating"
+            },
+            {
+              "key": "D",
+              "text": "update"
+            }
+          ],
+          "answer": "C",
+          "explain": "while 表示两件事同时进行。"
+        },
+        {
+          "id": "day2-q6",
+          "n": 6,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Applicants with relevant laboratory experience will receive ___ consideration.",
+          "options": [
+            {
+              "key": "A",
+              "text": "special"
+            },
+            {
+              "key": "B",
+              "text": "specially"
+            },
+            {
+              "key": "C",
+              "text": "specialize"
+            },
+            {
+              "key": "D",
+              "text": "specialty"
+            }
+          ],
+          "answer": "A",
+          "explain": "consideration 前需要形容词 special。"
+        },
+        {
+          "id": "day2-q7",
+          "n": 7,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The replacement parts should arrive ___ the end of the week.",
+          "options": [
+            {
+              "key": "A",
+              "text": "from"
+            },
+            {
+              "key": "B",
+              "text": "among"
+            },
+            {
+              "key": "C",
+              "text": "during"
+            },
+            {
+              "key": "D",
+              "text": "by"
+            }
+          ],
+          "answer": "D",
+          "explain": "by + 时间点 = 最迟不晚于。"
+        },
+        {
+          "id": "day2-q8",
+          "n": 8,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The research team worked ___ with external consultants on the project.",
+          "options": [
+            {
+              "key": "A",
+              "text": "close"
+            },
+            {
+              "key": "B",
+              "text": "closely"
+            },
+            {
+              "key": "C",
+              "text": "closed"
+            },
+            {
+              "key": "D",
+              "text": "closeness"
+            }
+          ],
+          "answer": "B",
+          "explain": "closely 是副词"
+        },
+        {
+          "id": "day2-q9",
+          "n": 9,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Neither the manager nor the assistants ___ available yesterday afternoon.",
+          "options": [
+            {
+              "key": "A",
+              "text": "is"
+            },
+            {
+              "key": "B",
+              "text": "was"
+            },
+            {
+              "key": "C",
+              "text": "were"
+            },
+            {
+              "key": "D",
+              "text": "be"
+            }
+          ],
+          "answer": "C",
+          "explain": "neither...nor 的谓语通常跟靠近它的主语一致。"
+        },
+        {
+          "id": "day2-q10",
+          "n": 10,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Due to ___ demand, an additional workshop has been scheduled.",
+          "options": [
+            {
+              "key": "A",
+              "text": "increase"
+            },
+            {
+              "key": "B",
+              "text": "increasingly"
+            },
+            {
+              "key": "C",
+              "text": "increased"
+            },
+            {
+              "key": "D",
+              "text": "increases"
+            }
+          ],
+          "answer": "C",
+          "explain": ""
+        },
+        {
+          "id": "day2-q11",
+          "n": 11,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Employees may request reimbursement, ___ they provide the original receipts.",
+          "options": [
+            {
+              "key": "A",
+              "text": "even though"
+            },
+            {
+              "key": "B",
+              "text": "provided that"
+            },
+            {
+              "key": "C",
+              "text": "rather than"
+            },
+            {
+              "key": "D",
+              "text": "because of"
+            }
+          ],
+          "answer": "B",
+          "explain": "provided that = 只要/条件是。"
+        },
+        {
+          "id": "day2-q12",
+          "n": 12,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The new device is easy to operate and requires very ___ maintenance.",
+          "options": [
+            {
+              "key": "A",
+              "text": "little"
+            },
+            {
+              "key": "B",
+              "text": "few"
+            },
+            {
+              "key": "C",
+              "text": "several"
+            },
+            {
+              "key": "D",
+              "text": "many"
+            }
+          ],
+          "answer": "A",
+          "explain": "maintenance 不可数，用 little"
+        }
+      ]
+    },
+    {
+      "id": "day2-p6",
+      "part": 6,
+      "title": "Part 6 | Text Completion 短文填空",
+      "minutes": 7,
+      "passages": [
+        {
+          "title": "Internal Notice",
+          "text": "LABORATORY INVENTORY AUDIT\nThe annual inventory audit will be conducted on September 4. Team leaders must review their equipment lists and report any missing or damaged items [13] Wednesday. All equipment purchased during the past year should be [14] to the list. Employees who have borrowed portable devices must return them before the audit begins. [15] Questions should be directed to Ms. Owens, who is [16] for coordinating the audit. Thank you in advance for your [17]."
+        }
+      ],
+      "questions": [
+        {
+          "id": "day2-q13",
+          "n": 13,
+          "part": 6,
+          "kind": "blank",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "since"
+            },
+            {
+              "key": "B",
+              "text": "among"
+            },
+            {
+              "key": "C",
+              "text": "during"
+            },
+            {
+              "key": "D",
+              "text": "by"
+            }
+          ],
+          "answer": "D",
+          "explain": ""
+        },
+        {
+          "id": "day2-q14",
+          "n": 14,
+          "part": 6,
+          "kind": "blank",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "add"
+            },
+            {
+              "key": "B",
+              "text": "adding"
+            },
+            {
+              "key": "C",
+              "text": "added"
+            },
+            {
+              "key": "D",
+              "text": "addition"
+            }
+          ],
+          "answer": "C",
+          "explain": "be added to = 被添加到。"
+        },
+        {
+          "id": "day2-q15",
+          "n": 15,
+          "part": 6,
+          "kind": "sentence",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Choose the best sentence for the blank.",
+          "options": [
+            {
+              "key": "A",
+              "text": "The audit was canceled last year."
+            },
+            {
+              "key": "B",
+              "text": "This will allow auditors to verify each item's location."
+            },
+            {
+              "key": "C",
+              "text": "Portable devices are usually expensive."
+            },
+            {
+              "key": "D",
+              "text": "Some employees prefer printed lists."
+            }
+          ],
+          "answer": "B",
+          "explain": "B 承接归还设备的目的"
+        },
+        {
+          "id": "day2-q16",
+          "n": 16,
+          "part": 6,
+          "kind": "blank",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "responsible"
+            },
+            {
+              "key": "B",
+              "text": "responsibly"
+            },
+            {
+              "key": "C",
+              "text": "responsibility"
+            },
+            {
+              "key": "D",
+              "text": "respond"
+            }
+          ],
+          "answer": "A",
+          "explain": "be responsible for = 负责"
+        },
+        {
+          "id": "day2-q17",
+          "n": 17,
+          "part": 6,
+          "kind": "blank",
+          "bonus": true,
+          "rev": 0,
+          "stem": "BONUS: Choose the best word for blank [17].",
+          "options": [
+            {
+              "key": "A",
+              "text": "cooperate"
+            },
+            {
+              "key": "B",
+              "text": "cooperative"
+            },
+            {
+              "key": "C",
+              "text": "cooperatively"
+            },
+            {
+              "key": "D",
+              "text": "cooperation"
+            }
+          ],
+          "answer": "D",
+          "explain": "cooperation 是名词。"
+        }
+      ]
+    },
+    {
+      "id": "day2-p7a",
+      "part": 7,
+      "title": "Part 7 | Reading Comprehension 阅读理解",
+      "minutes": 4,
+      "passages": [
+        {
+          "title": "Questions 18-20 refer to the following e-mail.",
+          "text": "From: Facilities Office\nTo: Fourth-Floor Staff\nSubject: Printer Replacement\nA new high-capacity printer will be installed in Room 405 this Thursday. The existing printer will be unavailable from 1:00 to 4:00 P.M. Staff members who need to print urgent documents during that period may use the printer in Room 210. Employee identification cards will continue to work with the new machine. An optional demonstration of its features will be offered Friday at 9:00 A.M. in Room 405."
+        }
+      ],
+      "questions": [
+        {
+          "id": "day2-q18",
+          "n": 18,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is the purpose of the e-mail?",
+          "options": [
+            {
+              "key": "A",
+              "text": "To request printer supplies"
+            },
+            {
+              "key": "B",
+              "text": "To announce an equipment change"
+            },
+            {
+              "key": "C",
+              "text": "To reserve a meeting room"
+            },
+            {
+              "key": "D",
+              "text": "To explain an identification policy"
+            }
+          ],
+          "answer": "B",
+          "explain": ""
+        },
+        {
+          "id": "day2-q19",
+          "n": 19,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Where should urgent documents be printed during the installation?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Room 205"
+            },
+            {
+              "key": "B",
+              "text": "Room 405"
+            },
+            {
+              "key": "C",
+              "text": "Room 210"
+            },
+            {
+              "key": "D",
+              "text": "The Facilities Office"
+            }
+          ],
+          "answer": "C",
+          "explain": ""
+        },
+        {
+          "id": "day2-q20",
+          "n": 20,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is indicated about Friday's demonstration?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Attendance is optional"
+            },
+            {
+              "key": "B",
+              "text": "It begins at 1:00 P.M."
+            },
+            {
+              "key": "C",
+              "text": "It requires advance payment"
+            },
+            {
+              "key": "D",
+              "text": "It will be held online"
+            }
+          ],
+          "answer": "A",
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "id": "day2-p7b",
+      "part": 7,
+      "title": "Part 7 | Reading Comprehension 阅读理解",
+      "minutes": 6,
+      "passages": [
+        {
+          "title": "Questions 21-24: Notice",
+          "text": "UNIVERSITY PRINT CENTER\nResearch posters must be submitted as PDF files sized 90 x 120 centimeters. Orders received by noon Monday through Thursday will be ready by 4:00 P.M. the same day. Orders received after noon will be ready the next business day. Friday orders may be collected on Monday. Standard printing is free for faculty and students. Same-day rush service is available for an additional $15."
+        },
+        {
+          "title": "Questions 21-24: Message",
+          "text": "To: Hana Lee\nI plan to upload my research poster at about 1:30 P.M. on Monday. My presentation is Wednesday morning, so the normal service should be fast enough. I will be at an off-campus meeting until 5:00 P.M. on Tuesday. Could you collect the poster when it is ready and leave it in my office? I cannot use the rush option because the project budget has already been spent. - Marco"
+        }
+      ],
+      "questions": [
+        {
+          "id": "day2-q21",
+          "n": 21,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "In what format must posters be submitted?",
+          "options": [
+            {
+              "key": "A",
+              "text": "JPEG"
+            },
+            {
+              "key": "B",
+              "text": "PDF"
+            },
+            {
+              "key": "C",
+              "text": "PNG"
+            },
+            {
+              "key": "D",
+              "text": "PPT"
+            }
+          ],
+          "answer": "B",
+          "explain": "要把通知的截单时间与邮件的提交时间对应起来，再判断取件日。"
+        },
+        {
+          "id": "day2-q22",
+          "n": 22,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "When will Marco's poster most likely be ready without rush service?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Monday morning"
+            },
+            {
+              "key": "B",
+              "text": "Monday at 4:00 P.M."
+            },
+            {
+              "key": "C",
+              "text": "Tuesday"
+            },
+            {
+              "key": "D",
+              "text": "Wednesday"
+            }
+          ],
+          "answer": "C",
+          "explain": "要把通知的截单时间与邮件的提交时间对应起来，再判断取件日。"
+        },
+        {
+          "id": "day2-q23",
+          "n": 23,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Why does Marco ask Ms. Lee to collect the poster?",
+          "options": [
+            {
+              "key": "A",
+              "text": "He will be at an off-campus meeting"
+            },
+            {
+              "key": "B",
+              "text": "He does not have an identification card"
+            },
+            {
+              "key": "C",
+              "text": "He must revise the poster"
+            },
+            {
+              "key": "D",
+              "text": "He is leaving the university"
+            }
+          ],
+          "answer": "A",
+          "explain": "要把通知的截单时间与邮件的提交时间对应起来，再判断取件日。"
+        },
+        {
+          "id": "day2-q24",
+          "n": 24,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is scheduled for Wednesday?",
+          "options": [
+            {
+              "key": "A",
+              "text": "A budget review"
+            },
+            {
+              "key": "B",
+              "text": "A printing appointment"
+            },
+            {
+              "key": "C",
+              "text": "An off-campus meeting"
+            },
+            {
+              "key": "D",
+              "text": "Marco's presentation"
+            }
+          ],
+          "answer": "D",
+          "explain": "要把通知的截单时间与邮件的提交时间对应起来，再判断取件日。"
+        }
+      ]
+    }
+  ]
+}

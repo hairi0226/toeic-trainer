@@ -1,0 +1,779 @@
+{
+  "id": "day6",
+  "day": 6,
+  "title": "Day 6",
+  "focus": "综合推断与考场节奏",
+  "listening": "混合练 Part 2 + Part 3 共 15 分钟，全程只放一遍；漏题立刻猜，不回想上一题。",
+  "phrases": [
+    "subject to",
+    "upon request",
+    "be pleased with",
+    "remain connected",
+    "complete orientation"
+  ],
+  "reviews": [
+    "1 subject to = 以……为条件/经修改；2 should 后接动词原形 present。",
+    "3 to accommodate 表示目的；4 upon request = 应要求。",
+    "5 who 指代 applicants 并作从句主语；6 reviewed 由副词 carefully 修饰。",
+    "8 fee 为单数，谓语 includes；9 remain connected。",
+    "12 although + 完整句，表示让步；13 has been moved 是被动语态。",
+    "14 A 说明只有日期和时间改变；15 by October 10 = 最迟 10 月 10 日。",
+    "22 Eric 尚未完成强制培训，因此目前不能参加；24 预约截止到周一。"
+  ],
+  "source_pdf": "TOEIC_720_周末4套练习_Day3-6_v2.pdf",
+  "recommended_minutes": 27,
+  "note": "原创 TOEIC-style 仿真题，不是 ETS 官方真题。",
+  "groups": [
+    {
+      "id": "day6-p5",
+      "part": 5,
+      "title": "Part 5 | Incomplete Sentences 句子填空",
+      "minutes": 10,
+      "passages": [],
+      "questions": [
+        {
+          "id": "day6-q1",
+          "n": 1,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The board approved the proposal ___ several minor changes.",
+          "options": [
+            {
+              "key": "A",
+              "text": "except"
+            },
+            {
+              "key": "B",
+              "text": "among"
+            },
+            {
+              "key": "C",
+              "text": "during"
+            },
+            {
+              "key": "D",
+              "text": "subject to"
+            }
+          ],
+          "answer": "D",
+          "explain": "subject to = 以……为条件/经修改"
+        },
+        {
+          "id": "day6-q2",
+          "n": 2,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Customers wishing to return a product should ___ the original receipt.",
+          "options": [
+            {
+              "key": "A",
+              "text": "present"
+            },
+            {
+              "key": "B",
+              "text": "presented"
+            },
+            {
+              "key": "C",
+              "text": "presentation"
+            },
+            {
+              "key": "D",
+              "text": "presenting"
+            }
+          ],
+          "answer": "A",
+          "explain": "should 后接动词原形 present。"
+        },
+        {
+          "id": "day6-q3",
+          "n": 3,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The laboratory moved to a larger facility ___ accommodate its growing staff.",
+          "options": [
+            {
+              "key": "A",
+              "text": "for"
+            },
+            {
+              "key": "B",
+              "text": "to"
+            },
+            {
+              "key": "C",
+              "text": "by"
+            },
+            {
+              "key": "D",
+              "text": "so"
+            }
+          ],
+          "answer": "B",
+          "explain": "to accommodate 表示目的"
+        },
+        {
+          "id": "day6-q4",
+          "n": 4,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Additional training materials are available ___ request.",
+          "options": [
+            {
+              "key": "A",
+              "text": "between"
+            },
+            {
+              "key": "B",
+              "text": "beside"
+            },
+            {
+              "key": "C",
+              "text": "upon"
+            },
+            {
+              "key": "D",
+              "text": "until"
+            }
+          ],
+          "answer": "C",
+          "explain": "upon request = 应要求。"
+        },
+        {
+          "id": "day6-q5",
+          "n": 5,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Only applicants ___ meet all requirements will be contacted.",
+          "options": [
+            {
+              "key": "A",
+              "text": "which"
+            },
+            {
+              "key": "B",
+              "text": "whose"
+            },
+            {
+              "key": "C",
+              "text": "whom"
+            },
+            {
+              "key": "D",
+              "text": "who"
+            }
+          ],
+          "answer": "D",
+          "explain": "who 指代 applicants 并作从句主语"
+        },
+        {
+          "id": "day6-q6",
+          "n": 6,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The report must be ___ reviewed before publication.",
+          "options": [
+            {
+              "key": "A",
+              "text": "carefully"
+            },
+            {
+              "key": "B",
+              "text": "careful"
+            },
+            {
+              "key": "C",
+              "text": "care"
+            },
+            {
+              "key": "D",
+              "text": "caring"
+            }
+          ],
+          "answer": "A",
+          "explain": "reviewed 由副词 carefully 修饰。"
+        },
+        {
+          "id": "day6-q7",
+          "n": 7,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "No final decision has been made ___ the proposed expansion.",
+          "options": [
+            {
+              "key": "A",
+              "text": "during"
+            },
+            {
+              "key": "B",
+              "text": "regarding"
+            },
+            {
+              "key": "C",
+              "text": "although"
+            },
+            {
+              "key": "D",
+              "text": "unless"
+            }
+          ],
+          "answer": "B",
+          "explain": ""
+        },
+        {
+          "id": "day6-q8",
+          "n": 8,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The conference registration fee ___ lunch and printed materials.",
+          "options": [
+            {
+              "key": "A",
+              "text": "include"
+            },
+            {
+              "key": "B",
+              "text": "including"
+            },
+            {
+              "key": "C",
+              "text": "includes"
+            },
+            {
+              "key": "D",
+              "text": "included by"
+            }
+          ],
+          "answer": "C",
+          "explain": "fee 为单数，谓语 includes"
+        },
+        {
+          "id": "day6-q9",
+          "n": 9,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "All devices should remain ___ while the update is being installed.",
+          "options": [
+            {
+              "key": "A",
+              "text": "connect"
+            },
+            {
+              "key": "B",
+              "text": "connection"
+            },
+            {
+              "key": "C",
+              "text": "connecting"
+            },
+            {
+              "key": "D",
+              "text": "connected"
+            }
+          ],
+          "answer": "D",
+          "explain": "remain connected。"
+        },
+        {
+          "id": "day6-q10",
+          "n": 10,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The director was pleased ___ the team's performance.",
+          "options": [
+            {
+              "key": "A",
+              "text": "with"
+            },
+            {
+              "key": "B",
+              "text": "at"
+            },
+            {
+              "key": "C",
+              "text": "among"
+            },
+            {
+              "key": "D",
+              "text": "until"
+            }
+          ],
+          "answer": "A",
+          "explain": ""
+        },
+        {
+          "id": "day6-q11",
+          "n": 11,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The new product is expected to be ___ available next month.",
+          "options": [
+            {
+              "key": "A",
+              "text": "wide"
+            },
+            {
+              "key": "B",
+              "text": "widely"
+            },
+            {
+              "key": "C",
+              "text": "width"
+            },
+            {
+              "key": "D",
+              "text": "widen"
+            }
+          ],
+          "answer": "B",
+          "explain": ""
+        },
+        {
+          "id": "day6-q12",
+          "n": 12,
+          "part": 5,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "___ participation in the survey is optional, employees are encouraged to respond.",
+          "options": [
+            {
+              "key": "A",
+              "text": "During"
+            },
+            {
+              "key": "B",
+              "text": "Unless"
+            },
+            {
+              "key": "C",
+              "text": "Although"
+            },
+            {
+              "key": "D",
+              "text": "Because of"
+            }
+          ],
+          "answer": "C",
+          "explain": "although + 完整句，表示让步"
+        }
+      ]
+    },
+    {
+      "id": "day6-p6",
+      "part": 6,
+      "title": "Part 6 | Text Completion 短文填空",
+      "minutes": 7,
+      "passages": [
+        {
+          "title": "Questions 13-17",
+          "text": "PUBLIC HEALTH SEMINAR\nDue to an unforeseen scheduling conflict, the seminar originally planned for October 12 has been [13] to October 14. It will begin at 2:00 P.M. rather than 1:00 P.M. [14] Attendees who already registered do not need to register again. Anyone unable to attend on the new date may request a refund [15] October 10. The organizer will send an updated confirmation [16]. Thank you for your [17]."
+        }
+      ],
+      "questions": [
+        {
+          "id": "day6-q13",
+          "n": 13,
+          "part": 6,
+          "kind": "blank",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "move"
+            },
+            {
+              "key": "B",
+              "text": "moving"
+            },
+            {
+              "key": "C",
+              "text": "movement"
+            },
+            {
+              "key": "D",
+              "text": "moved"
+            }
+          ],
+          "answer": "D",
+          "explain": "has been moved 是被动语态。"
+        },
+        {
+          "id": "day6-q14",
+          "n": 14,
+          "part": 6,
+          "kind": "sentence",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Choose the best sentence for blank [14].",
+          "options": [
+            {
+              "key": "A",
+              "text": "The venue will remain Hall B."
+            },
+            {
+              "key": "B",
+              "text": "The speaker has written three books."
+            },
+            {
+              "key": "C",
+              "text": "Lunch is available near the station."
+            },
+            {
+              "key": "D",
+              "text": "The seminar was popular last year."
+            }
+          ],
+          "answer": "A",
+          "explain": "A 说明只有日期和时间改变"
+        },
+        {
+          "id": "day6-q15",
+          "n": 15,
+          "part": 6,
+          "kind": "blank",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "among"
+            },
+            {
+              "key": "B",
+              "text": "by"
+            },
+            {
+              "key": "C",
+              "text": "during"
+            },
+            {
+              "key": "D",
+              "text": "beside"
+            }
+          ],
+          "answer": "B",
+          "explain": "by October 10 = 最迟 10 月 10 日。"
+        },
+        {
+          "id": "day6-q16",
+          "n": 16,
+          "part": 6,
+          "kind": "blank",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "short"
+            },
+            {
+              "key": "B",
+              "text": "shortness"
+            },
+            {
+              "key": "C",
+              "text": "shortly"
+            },
+            {
+              "key": "D",
+              "text": "shorten"
+            }
+          ],
+          "answer": "C",
+          "explain": ""
+        },
+        {
+          "id": "day6-q17",
+          "n": 17,
+          "part": 6,
+          "kind": "blank",
+          "bonus": true,
+          "rev": 0,
+          "stem": "BONUS: Choose the best word for blank [17].",
+          "options": [
+            {
+              "key": "A",
+              "text": "flexible"
+            },
+            {
+              "key": "B",
+              "text": "flexibly"
+            },
+            {
+              "key": "C",
+              "text": "flex"
+            },
+            {
+              "key": "D",
+              "text": "flexibility"
+            }
+          ],
+          "answer": "D",
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "id": "day6-p7a",
+      "part": 7,
+      "title": "Part 7 | Reading Comprehension 阅读理解",
+      "minutes": 4,
+      "passages": [
+        {
+          "title": "Questions 18-20 refer to the following announcement.",
+          "text": "ANNUAL RESEARCH FORUM\nThe forum will take place at the Weston Hotel on November 8. Registration opens at 8:00 A.M., and the opening presentation begins at 9:00. Poster presenters must finish setting up by 8:45. Attendees should wear their name badges throughout the event. Lunch is included, and parking vouchers may be collected from the registration desk."
+        }
+      ],
+      "questions": [
+        {
+          "id": "day6-q18",
+          "n": 18,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is the purpose of the announcement?",
+          "options": [
+            {
+              "key": "A",
+              "text": "To advertise hotel rooms"
+            },
+            {
+              "key": "B",
+              "text": "To recruit forum speakers"
+            },
+            {
+              "key": "C",
+              "text": "To provide event information"
+            },
+            {
+              "key": "D",
+              "text": "To change a parking policy"
+            }
+          ],
+          "answer": "C",
+          "explain": ""
+        },
+        {
+          "id": "day6-q19",
+          "n": 19,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "By what time must posters be set up?",
+          "options": [
+            {
+              "key": "A",
+              "text": "8:00 A.M."
+            },
+            {
+              "key": "B",
+              "text": "8:45 A.M."
+            },
+            {
+              "key": "C",
+              "text": "9:00 A.M."
+            },
+            {
+              "key": "D",
+              "text": "Noon"
+            }
+          ],
+          "answer": "B",
+          "explain": ""
+        },
+        {
+          "id": "day6-q20",
+          "n": 20,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Where can parking vouchers be obtained?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At the registration desk"
+            },
+            {
+              "key": "B",
+              "text": "At the hotel entrance"
+            },
+            {
+              "key": "C",
+              "text": "In the poster area"
+            },
+            {
+              "key": "D",
+              "text": "During lunch"
+            }
+          ],
+          "answer": "A",
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "id": "day6-p7b",
+      "part": 7,
+      "title": "Part 7 | Reading Comprehension 阅读理解",
+      "minutes": 6,
+      "passages": [
+        {
+          "title": "Questions 21-24: Notice",
+          "text": "SPECTROMETER DEMONSTRATION\nA demonstration of the new spectrometer will be held Tuesday from 2:00 to 3:00 P.M. in Laboratory 12. Attendance is limited to eight people. Reserve a place by Monday. All participants must complete the online safety orientation before attending."
+        },
+        {
+          "title": "Questions 21-24: Message",
+          "text": "To: Clara\nI completed the safety orientation last month. Could you reserve two places for me and our visiting student, Eric? Eric has not completed the orientation yet, so please send him the link today. If he cannot finish it in time, I will attend alone. - Priya"
+        }
+      ],
+      "questions": [
+        {
+          "id": "day6-q21",
+          "n": 21,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is required before attending the demonstration?",
+          "options": [
+            {
+              "key": "A",
+              "text": "A printed report"
+            },
+            {
+              "key": "B",
+              "text": "A laboratory purchase"
+            },
+            {
+              "key": "C",
+              "text": "A hotel reservation"
+            },
+            {
+              "key": "D",
+              "text": "An online safety orientation"
+            }
+          ],
+          "answer": "D",
+          "explain": ""
+        },
+        {
+          "id": "day6-q22",
+          "n": 22,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is indicated about Eric?",
+          "options": [
+            {
+              "key": "A",
+              "text": "He attended last month"
+            },
+            {
+              "key": "B",
+              "text": "He is not yet eligible to attend"
+            },
+            {
+              "key": "C",
+              "text": "He works in Laboratory 12"
+            },
+            {
+              "key": "D",
+              "text": "He organized the demonstration"
+            }
+          ],
+          "answer": "B",
+          "explain": "Eric 尚未完成强制培训，因此目前不能参加"
+        },
+        {
+          "id": "day6-q23",
+          "n": 23,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "How many places does Priya initially request?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Two"
+            },
+            {
+              "key": "B",
+              "text": "Three"
+            },
+            {
+              "key": "C",
+              "text": "Eight"
+            },
+            {
+              "key": "D",
+              "text": "Twelve"
+            }
+          ],
+          "answer": "A",
+          "explain": ""
+        },
+        {
+          "id": "day6-q24",
+          "n": 24,
+          "part": 7,
+          "kind": "question",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What should Clara do by Monday?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Purchase a spectrometer"
+            },
+            {
+              "key": "B",
+              "text": "Complete Priya's orientation"
+            },
+            {
+              "key": "C",
+              "text": "Reserve places"
+            },
+            {
+              "key": "D",
+              "text": "Change the demonstration time"
+            }
+          ],
+          "answer": "C",
+          "explain": "预约截止到周一。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "note": "sets 里的顺序就是首页展示顺序；新增套题：把 id 追加到这里，并在 data/sets/<id>.json 放题目。",
+  "sets": [
+    "day1",
+    "day2",
+    "day3",
+    "day4",
+    "day5",
+    "day6"
+  ]
+}
