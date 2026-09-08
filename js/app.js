@@ -5,6 +5,7 @@ import {
   abandonDraft, deleteAttempt, deleteSession, addPaperSession, setTag, tagOf, latestAttempts, setSummary,
   partAccuracy, avgMsByPart, wrongQuestions, causeHistogram, studyStreak, sessionAttempts, pickRandom,
   exportPayload, importPayload, countProgress, mergeProgress, sameProgress, emptyProgress, liveSessions,
+  EXAM_TEMPLATES, examTemplateNumbers, addExamSession, examSessions, examPartTotals,
 } from './core.js';
 import {
   loadLocal, saveLocal, peekLocal, getMeta, setMeta, requestPersist, storageAvailable,
@@ -16,6 +17,13 @@ import { ArtifactSync } from './sync-artifact.js';
 import { SyncManager } from './sync.js';
 
 const OFFICIAL_LC_URL = 'https://exam.toeic.co.kr/content/common/realQuestion.php';
+/** 官方免费资料（2026-09-08 核实）。真题只在这些地方做，app 里不放它们的题目内容。 */
+const OFFICIAL_LINKS = [
+  { title: 'ETS 官方样题 PDF（七个 Part 全有，含听力原稿与答案）', url: 'https://www.ets.org/content/dam/ets-org/pdfs/toeic/toeic-listening-reading-sample-test.pdf', note: '阅读部分 30 题，可用「真题录入」里的 ETS 样题模板记成绩' },
+  { title: 'ETS 备考资源页', url: 'https://www.ets.org/toeic/test-takers/listening-reading/prepare.html', note: '样题、考生手册' },
+  { title: '韩国 TOEIC 委员会公开真题（每年上下半年各一次，免费，配 MP3 与讲解视频）', url: OFFICIAL_LC_URL, note: '在韩国用浏览器打开；下载 PDF 纸上做，成绩用「真题录入」的整卷模板记' },
+  { title: '日本 IIBC 官方样题（Part 5 起，每 Part 一页，带音频）', url: 'https://www.iibc-global.org/toeic/test/lr/about/format/sample05.html', note: '看题型长什么样' },
+];
 const MAX_Q_MS = 10 * 60 * 1000; // 单题计时上限：手机锁屏后回来不算超长
 const PART_LIMIT_MS = { 5: 25000, 6: 45000, 7: 60000 }; // 自定义题单的模考限时（每题）
 const UNDO_MS = 8000; // 练习模式误触撤销窗口
@@ -33,7 +41,7 @@ const state = {
   runner: null, // { draft, shownAt, mountedAt, passageOpen:{}, gridOpen, undo:{id,qid,until} }
   warnings: [],
   timer: null,
-  paper: { setId: null, wrong: new Set(), minutes: '', date: '', note: '', saving: false },
+  paper: { mode: 'set', setId: null, wrong: new Set(), minutes: '', date: '', note: '', saving: false, template: 'rc100', label: '', ewrong: new Set(), eminutes: '', enote: '' },
   settingsMsg: null,
   isArtifact: false,
 };
@@ -184,7 +192,7 @@ function route() {
     case 'run': return renderRunner(parts[1]);
     case 'result': return renderResult(parts[1]);
     case 'review': return renderReview();
-    case 'paper': return renderPaper();
+    case 'paper': state.paper.mode = parts[1] === 'exam' ? 'exam' : 'set'; return renderPaper();
     case 'settings': return renderSettings();
     case 'set': return renderSet(parts[1]);
     case 'key': return go('#/set/' + parts[1], { replace: true });
@@ -249,12 +257,15 @@ function renderHome() {
     <a class="btn" href="#/paper">录入纸面成绩</a>
   </div></div></div>`;
 
-  html += `<div class="page-title">练习套题 <small>每套 24 题：Part 5 ×12 · Part 6 ×5（含 1 题加练）· Part 7 ×7</small></div><div class="grid">`;
+  html += `<div class="grid" style="margin-bottom:12px">${examCardHtml(P)}${officialLinksHtml()}</div>`;
+
+  html += `<div class="page-title">原创练习题库 <small>Claude 出题、答案经独立核对；不是官方真题</small></div><div class="grid">`;
   for (const setId of idx.setOrder) {
     const set = idx.sets.get(setId);
     const s = setSummary(P, set, idx);
     const last = s.last;
     html += `<div class="card"><h3><a href="#/set/${set.id}" style="color:inherit">${esc(set.title)}</a>${set.focus ? `<span class="focus">${esc(set.focus)}</span>` : ''}</h3>
+      <div class="row" style="gap:6px">${setTagsHtml(set)}<span class="small muted">${setCompositionText(set)}</span></div>
       <div class="bar"><i style="width:${pct(s.answered, s.total)}%"></i></div>
       <div class="small muted">已做 ${s.answered}/${s.total} 题 · 当前答对 ${s.correctNow}${s.best ? ` · 最佳 ${s.best.score}/${s.best.total}` : ''}</div>
       ${last ? `<div class="small" style="margin-top:4px">最近：<b>${last.score}/${last.total}</b> · ${fmtDur(last.ms)} · ${fmtDate(last.end)} <span class="tag ${last.src === 'paper' ? 'paper' : last.m === 'exam' ? 'exam' : ''}">${last.src === 'paper' ? '纸面' : MODE_LABELS[last.m]}</span></div>` : ''}
@@ -263,8 +274,41 @@ function renderHome() {
         <a class="btn ghost small" href="#/set/${set.id}">详情/解析</a>
       </div></div>`;
   }
-  html += `</div><p class="small muted" style="margin-top:16px">所有题目均为原创 TOEIC-style 仿真题，不是 ETS 官方真题。练习模式：选完立刻看解析；模考模式：计时、交卷后统一看答案。</p>`;
+  html += `</div><p class="small muted" style="margin-top:16px">题库里所有题目均为原创 TOEIC-style 仿真题，不是 ETS 官方真题；官方真题只在「真题录入」里记成绩。练习模式：选完立刻看解析；模考模式：计时、交卷后统一看答案。</p>`;
   $app.innerHTML = html;
+}
+
+function setCompositionText(set) {
+  const c = {};
+  for (const g of set.groups) for (const q of g.questions) c[q.part] = (c[q.part] || 0) + 1;
+  const n = Object.values(c).reduce((a, b) => a + b, 0);
+  return `${n} 题：` + [5, 6, 7].filter((k) => c[k]).map((k) => `Part ${k} ×${c[k]}`).join(' · ');
+}
+
+function setTagsHtml(set) {
+  return `<span class="tag gen">原创仿真</span>${set.style === 'official-structure' ? '<span class="tag">真题结构</span>' : ''}`;
+}
+
+function examCardHtml(P) {
+  const list = examSessions(P);
+  const tot = examPartTotals(P);
+  let html = `<div class="card"><h3><span class="tag real">真题</span> 官方真题成绩 <span class="focus">纸上做官方题，这里只记成绩</span></h3>`;
+  if (!list.length) {
+    html += `<p class="small muted" style="margin:0 0 4px">还没有记录。下载官方真题（右边链接）做完后，到「录纸面 → 官方真题」点错题号即可，正确率按 Part 统计。</p>`;
+  } else {
+    html += `<div class="kv">`;
+    for (const k of [5, 6, 7]) {
+      if (!tot[k].total) continue;
+      html += `<span>Part ${k}</span><div class="bar acc"><i style="width:${pct(tot[k].right, tot[k].total)}%"></i></div><span class="small">${tot[k].right}/${tot[k].total} · ${pct(tot[k].right, tot[k].total)}%</span>`;
+    }
+    html += `</div><ul class="history">${list.slice(0, 3).map((s) => `<li><span class="tag real">真题</span><b>${esc(s.label)}</b> ${s.score}/${s.total} · ${fmtDur(s.ms)}<a class="small" href="#/result/${esc(s.id)}">详情</a><span class="when">${fmtDay(s.start)}</span></li>`).join('')}</ul>`;
+  }
+  html += `<div class="btn-row"><a class="btn primary" href="#/paper/exam">录入真题成绩</a></div></div>`;
+  return html;
+}
+
+function officialLinksHtml() {
+  return `<div class="card"><h3>官方免费资料 <span class="focus">真题在这些地方做</span></h3><ul class="links" style="margin:0;padding-left:18px">${OFFICIAL_LINKS.map((l) => `<li><a href="${l.url}" target="_blank" rel="noopener">${esc(l.title)} ↗</a><div class="small muted">${esc(l.note)}</div></li>`).join('')}</ul></div>`;
 }
 
 // ---------- 套题详情（开始选项 + 答案与解析） ----------
@@ -275,15 +319,19 @@ function renderSet(setId) {
   if (!set) return go('#/', { replace: true });
   const latest = latestAttempts(state.progress, idx);
   const sum = setSummary(state.progress, set, idx);
-  let html = `<div class="page-title">${esc(set.title)} ${set.focus ? `<small>${esc(set.focus)}</small>` : ''}</div>`;
+  const comp = {};
+  for (const qid of set._qids) { const pt = idx.questions.get(qid).q.part; comp[pt] = (comp[pt] || 0) + 1; }
+  const n5 = comp[5] || 0;
+  const n67 = (comp[6] || 0) + (comp[7] || 0);
+  let html = `<div class="page-title">${esc(set.title)} ${set.focus ? `<small>${esc(set.focus)}</small>` : ''}</div>
+  <div class="row" style="gap:6px;margin:-6px 0 12px">${setTagsHtml(set)}<span class="small muted">${setCompositionText(set)}</span></div>`;
   html += `<div class="card" style="margin-bottom:12px"><h3>开始</h3>
     <div class="btn-row">
       ${sum.draft ? `<a class="btn primary" href="#/run/${esc(sum.draft.sid)}">继续未完成的${MODE_LABELS[sum.draft.m]}</a>` : `
-      <a class="btn primary" href="#/start/practice/${set.id}">练习整套（24 题）</a>
-      <a class="btn" href="#/start/practice/${set.id}/p5">只练 Part 5（12 题）</a>
-      <a class="btn" href="#/start/practice/${set.id}/p67">只练 Part 6+7（12 题）</a>
+      <a class="btn primary" href="#/start/practice/${set.id}">练习整套（${set._qids.length} 题）</a>
+      ${n5 && n67 ? `<a class="btn" href="#/start/practice/${set.id}/p5">只练 Part 5（${n5} 题）</a><a class="btn" href="#/start/practice/${set.id}/p67">只练 Part 6+7（${n67} 题）</a>` : ''}
       <a class="btn" href="#/start/exam/${set.id}">模考整套（限时 ${set.recommended_minutes || 27} 分钟）</a>
-      <a class="btn" href="#/start/exam/${set.id}/p5">模考 Part 5（10 分钟）</a>`}
+      ${n5 && n67 ? `<a class="btn" href="#/start/exam/${set.id}/p5">模考 Part 5（10 分钟）</a>` : ''}`}
     </div>
     <p class="small muted" style="margin:10px 0 0">手机上适合 Part 5，电脑上做 Part 6/7 更舒服；进度会同步，可以换设备接着做。</p>
     ${sum.sessions.length ? `<h3 style="margin-top:14px">历史</h3><ul class="history">${sum.sessions.slice(0, 8).map((s) => `<li><span class="tag ${s.src === 'paper' ? 'paper' : s.m === 'exam' ? 'exam' : ''}">${s.src === 'paper' ? '纸面' : MODE_LABELS[s.m]}</span><b>${s.score}/${s.total}</b> · ${fmtDur(s.ms)}${s.answered < s.total ? ` · 做了 ${s.answered} 题` : ''}<a class="small" href="#/result/${esc(s.id)}">回顾</a><span class="when">${fmtDate(s.end)}</span></li>`).join('')}</ul>` : ''}
@@ -508,7 +556,7 @@ function renderRunner(sid) {
     ${passages.length ? `<div class="passage-col">${passages.map((p) => passageHtml(p, q, r, info.group.id, fills)).join('')}</div>` : ''}
     <div class="question-col">
       <div class="question">
-        <div class="qhead"><b>${q.n}.</b><span>Part ${q.part}${q.bonus ? ' · BONUS 加练' : ''}${d.s ? '' : ' · ' + esc(info.set.title)}${q.kind === 'sentence' ? ' · 选句子' : ''}</span></div>
+        <div class="qhead"><b>${q.n}.</b><span>Part ${q.part}${q.type ? ' · ' + esc(q.type) : ''}${q.bonus ? ' · BONUS 加练' : ''}${d.s ? '' : ' · ' + esc(info.set.title)}${q.kind === 'sentence' ? ' · 选句子' : ''}</span></div>
         <p class="stem">${stemHtml(q)}</p>
         <div class="options ${q.options.every((o) => o.text.length <= 14) ? 'compact' : ''}">${q.options.map((o) => optionHtml(o, q, chosen, locked, isExam)).join('')}</div>
         ${locked ? feedbackHtml(q, chosen, info, r) : ''}
@@ -689,7 +737,7 @@ function questionRowHtml(info, a, showCauses) {
   const mine = a ? (a.c || '未答') : '—';
   const stem = q.part === 6 && !q.stem ? `第 [${q.n}] 空` : q.stem.replace(/^BONUS:\s*/, '');
   return `<li>
-    <div class="row spread"><span><b>${q.n}.</b> <span class="small muted">${esc(info.set.title)} · Part ${q.part}</span></span><span class="small" style="color:${ok === null ? '' : ok ? 'var(--ok)' : 'var(--bad)'}">${ok === null ? '' : ok ? '✓ 对' : '✗ 错'}</span></div>
+    <div class="row spread"><span><b>${q.n}.</b> <span class="small muted">${esc(info.set.title)} · Part ${q.part}${q.type ? ' · ' + esc(q.type) : ''}</span></span><span class="small" style="color:${ok === null ? '' : ok ? 'var(--ok)' : 'var(--bad)'}">${ok === null ? '' : ok ? '✓ 对' : '✗ 错'}</span></div>
     <div class="stem">${esc(stem)}</div>
     <div class="ans">${ok === false ? `你选 <s>${esc(mine)}</s> · ` : ''}答案 <b>${q.answer}</b>：${esc(q.options.find((o) => o.key === q.answer)?.text || '')}</div>
     ${explainHtml(q, info.set)}
@@ -703,6 +751,7 @@ function renderResult(sid) {
   const idx = state.index;
   const s = P.sessions[sid];
   if (!s || s.deleted) return go('#/', { replace: true });
+  if (s.src === 'exam' && s.exam) return renderExamResult(s);
   const atts = sessionAttempts(P, sid);
   const byQ = new Map(atts.map((a) => [a.q, a]));
   const set = s.s ? idx.sets.get(s.s) : null;
@@ -742,6 +791,24 @@ function renderResult(sid) {
   window.scrollTo({ top: 0 });
 }
 
+function renderExamResult(s) {
+  const parts = s.exam.parts || {};
+  let html = `<div class="card" style="margin-bottom:12px">
+    <div class="row spread"><div><div class="page-title" style="margin:0"><span class="tag real">真题</span> ${esc(s.label)} <small>${fmtDay(s.start)}</small></div></div>
+    <div class="score">${s.score}<small> / ${s.total}</small></div></div>
+    <div class="kv" style="margin-top:8px">`;
+  for (const k of [5, 6, 7]) {
+    const v = parts[k];
+    if (!v) continue;
+    html += `<span>Part ${k}</span><div class="bar acc"><i style="width:${pct(v.right, v.total)}%"></i></div><span class="small">${v.right}/${v.total}${v.wrong.length ? ` · 错 ${v.wrong.join('、')}` : ''}</span>`;
+  }
+  html += `</div><p class="small muted" style="margin:10px 0 0">用时 ${fmtDur(s.ms)}${s.note ? ` · ${esc(s.note)}` : ''}</p>
+    <p class="small muted">错题请对照官方解析在纸上复盘；app 里不存官方题目内容。</p>
+    <div class="btn-row"><a class="btn" href="#/paper/exam">录入另一套</a><a class="btn ghost" href="#/">回首页</a></div></div>`;
+  $app.innerHTML = html;
+  window.scrollTo({ top: 0 });
+}
+
 // ---------- 错题本 ----------
 
 function renderReview() {
@@ -761,6 +828,11 @@ function renderReview() {
       ${wrong.length ? `<a class="btn primary" href="#/start/review">重做全部错题 (${wrong.length})</a>` : ''}
       ${[5, 6, 7].map((p) => byPart[p] ? `<a class="btn" href="#/start/review/p${p}">只重做 Part ${p} (${byPart[p]})</a>` : '').join('')}
     </div></div>`;
+
+  const exams = examSessions(P);
+  if (exams.length) {
+    html += `<div class="card" style="margin-bottom:12px"><h3><span class="tag real">真题</span> 真题错题号 <span class="focus">对着官方解析在纸上复盘</span></h3><ul class="history">${exams.slice(0, 6).map((s) => `<li><b>${esc(s.label)}</b> <span class="small">${[5, 6, 7].filter((k) => s.exam.parts[k] && s.exam.parts[k].wrong.length).map((k) => `Part ${k}：${s.exam.parts[k].wrong.join('、')}`).join('；') || '全对'}</span><span class="when">${fmtDay(s.start)}</span></li>`).join('')}</ul></div>`;
+  }
 
   if (!wrong.length) {
     html += `<div class="card"><p class="muted">目前没有错题。做几套题、或到“录纸面”把纸上做错的题号录进来，这里就会出现。</p></div>`;
@@ -782,7 +854,7 @@ function renderReview() {
 
 // ---------- 录入纸面成绩 ----------
 
-function renderPaper() {
+function renderPaperSetHtml() {
   const idx = state.index;
   const ps = state.paper;
   if (!ps.setId || !idx.sets.has(ps.setId)) ps.setId = idx.setOrder[0];
@@ -791,8 +863,7 @@ function renderPaper() {
   const n = set._qids.length;
   const paperSessions = liveSessions(state.progress).filter((s) => s.src === 'paper').sort((a, b) => b.upd - a.upd);
 
-  let html = `<div class="page-title">录入纸面成绩 <small>把打印版做完的结果记进来，错题会进错题本</small></div>
-  <div class="card" style="margin-bottom:12px">
+  let html = `<div class="card" style="margin-bottom:12px"><p class="small muted" style="margin:0 0 6px"><span class="tag gen">原创仿真</span> 这里录的是 app 题库的打印版（Day 1–6 等）。官方真题请切到「官方真题」tab。</p>
     <div class="row">
       <label class="field" style="flex:1;min-width:140px">套题<select data-paper="setId">${idx.setOrder.map((id) => `<option value="${id}" ${id === ps.setId ? 'selected' : ''}>${esc(idx.sets.get(id).title)}${idx.sets.get(id).focus ? ' · ' + esc(idx.sets.get(id).focus) : ''}</option>`).join('')}</select></label>
       <label class="field" style="flex:1;min-width:140px">日期<input type="date" data-paper="date" value="${esc(ps.date)}"></label>
@@ -816,7 +887,67 @@ function renderPaper() {
     html += `</ul>`;
   }
   html += `</div>`;
-  $app.innerHTML = html;
+  return html;
+}
+
+function renderPaperExamHtml() {
+  const ps = state.paper;
+  const tpl = EXAM_TEMPLATES[ps.template] || EXAM_TEMPLATES.rc100;
+  if (!ps.date) ps.date = todayStr();
+  const nums = examTemplateNumbers(tpl);
+  const wrongCount = nums.filter((k) => ps.ewrong.has(k)).length;
+  let html = `<div class="card" style="margin-bottom:12px"><p class="small" style="margin:0 0 8px"><span class="tag real">真题</span> 官方真题请在纸上做（下载链接见首页「官方免费资料」）。这里只记题号和用时，题目内容不会进 app。</p>
+    <div class="row">
+      <label class="field" style="flex:1;min-width:180px">题号模板<select data-paper="template">${Object.values(EXAM_TEMPLATES).map((t) => `<option value="${t.id}" ${t.id === tpl.id ? 'selected' : ''}>${esc(t.title)}</option>`).join('')}</select></label>
+      <label class="field" style="flex:1;min-width:180px">哪套真题<input type="text" data-paper="label" value="${esc(ps.label)}" placeholder="例如：YBM 2026 上半年公开真题"></label>
+      <label class="field" style="flex:1;min-width:120px">日期<input type="date" data-paper="date" value="${esc(ps.date)}"></label>
+      <label class="field" style="flex:1;min-width:120px">用时（分钟）<input type="number" inputmode="numeric" min="1" max="300" data-paper="eminutes" value="${esc(ps.eminutes)}" placeholder="如 68"></label>
+    </div>
+    <p class="small muted" style="margin:4px 0 0">点选<b>做错的题号</b>（再点一次取消）：</p>`;
+  for (const [part, list] of Object.entries(tpl.parts)) {
+    const w = list.filter((k) => ps.ewrong.has(k)).length;
+    html += `<div class="part-head"><b>Part ${part}</b><span class="small muted">${list.length - w}/${list.length}</span></div><div class="numgrid">${list.map((k) => `<button class="${ps.ewrong.has(k) ? 'on' : ''}" data-act="exam-toggle" data-n="${k}">${k}</button>`).join('')}</div>`;
+  }
+  html += `<p style="margin:12px 0 4px">得分 <b style="font-size:20px;color:var(--teal)">${nums.length - wrongCount}</b> / ${nums.length}${wrongCount ? ` · 错 ${wrongCount} 题` : ''}</p>
+    <label class="field">备注（可选）<input type="text" data-paper="enote" value="${esc(ps.enote)}" placeholder="例如：Part 7 最后 8 题没做完"></label>
+    <div class="btn-row"><button class="btn primary" data-act="exam-save" ${ps.saving ? 'disabled' : ''}>保存真题成绩</button><button class="btn ghost" data-act="exam-clear">清空选择</button></div></div>`;
+
+  const list = examSessions(state.progress);
+  html += `<div class="card"><h3>已录入的真题成绩</h3>`;
+  if (!list.length) html += `<p class="muted small">还没有记录。</p>`;
+  else html += `<ul class="history">${list.map((s) => `<li><span class="tag real">真题</span><b>${esc(s.label)}</b> ${s.score}/${s.total} · ${fmtDur(s.ms)} · ${[5, 6, 7].filter((k) => s.exam.parts[k]).map((k) => `P${k} ${s.exam.parts[k].right}/${s.exam.parts[k].total}`).join(' ')}${s.note ? ` · ${esc(s.note)}` : ''}<a class="small" href="#/result/${esc(s.id)}">详情</a><span class="when">${fmtDay(s.start)}</span><button class="btn small ghost" data-act="exam-delete" data-sid="${esc(s.id)}">删除</button></li>`).join('')}</ul>`;
+  html += `</div>`;
+  return html;
+}
+
+function renderPaper() {
+  const ps = state.paper;
+  const exam = ps.mode === 'exam';
+  const title = exam
+    ? `<div class="page-title">录入官方真题成绩 <small>只记题号，题目内容不进 app</small></div>`
+    : `<div class="page-title">录入纸面成绩 <small>打印版做完的结果，错题会进错题本</small></div>`;
+  const tabs = `<div class="subtabs"><a class="btn small ${exam ? '' : 'on'}" href="#/paper/set">app 练习题（纸质版）</a><a class="btn small ${exam ? 'on' : ''}" href="#/paper/exam">官方真题</a></div>`;
+  $app.innerHTML = title + tabs + (exam ? renderPaperExamHtml() : renderPaperSetHtml());
+}
+
+function examSave() {
+  const ps = state.paper;
+  if (ps.saving) return;
+  const tpl = EXAM_TEMPLATES[ps.template] || EXAM_TEMPLATES.rc100;
+  const minutes = Number(ps.eminutes);
+  if (!(minutes > 0)) { toast('请填写用时（分钟）'); return; }
+  const label = (ps.label || '').trim() || tpl.title;
+  const dateTs = ps.date ? new Date(ps.date + 'T12:00:00').getTime() : Date.now();
+  if (!Number.isFinite(dateTs)) { toast('日期格式不对'); return; }
+  const nums = examTemplateNumbers(tpl);
+  const wrong = nums.filter((k) => ps.ewrong.has(k));
+  if (!confirm(`记录「${label}」：${nums.length - wrong.length}/${nums.length}${wrong.length ? '，错 ' + wrong.join('、') : '，全对'}。确定？`)) return;
+  ps.saving = true;
+  addExamSession(state.progress, { template: tpl, label, wrongNumbers: wrong, minutes, dateTs, note: ps.enote });
+  save();
+  toast(`已记录真题成绩：${nums.length - wrong.length}/${nums.length}`);
+  Object.assign(state.paper, { ewrong: new Set(), eminutes: '', enote: '', date: todayStr(), saving: false });
+  renderPaper();
 }
 
 function paperSave() {
@@ -908,7 +1039,7 @@ function renderSettings() {
   html += `<div class="card" style="margin-bottom:12px"><h3>危险操作</h3><p class="small muted">清空本机进度不会删除云端里的数据，下次同步会再拉回来（清空前会自动放进回收站）。</p>
     <div class="btn-row"><button class="btn danger" data-act="wipe">清空本机进度</button></div></div>`;
 
-  html += `<div class="card"><h3>关于</h3><p class="small muted">TOEIC 720 刷题 v${VERSION} · 题库 ${state.bank.sets.length} 套 ${state.index.questions.size} 题（原创 TOEIC-style 仿真题，非 ETS 官方真题）· 本地存储：${storageAvailable() ? '可用' : '不可用'}${meta.persisted ? ' · 已申请持久化' : ''}</p>
+  html += `<div class="card"><h3>关于</h3><p class="small muted">TOEIC 720 刷题 v${VERSION} · 题库 ${state.bank.sets.length} 套 ${state.index.questions.size} 题（全部是原创 TOEIC-style 仿真题，非 ETS 官方真题；官方真题只记成绩、不存题目内容）· 本地存储：${storageAvailable() ? '可用' : '不可用'}${meta.persisted ? ' · 已申请持久化' : ''}</p>
     <p class="small muted">加到手机主屏幕：iPhone 用 Safari 打开 → 分享 → 添加到主屏幕；Android 用 Chrome 打开 → 菜单 → 安装应用。<b>注意</b>：iPhone 上主屏幕图标和 Safari 标签页是两份独立的本地存储，加到主屏幕后请在里面重新粘贴一次 token，进度会从云端拉回来。</p>
     <div class="btn-row"><button class="btn small" data-act="check-update">检查更新并刷新</button></div></div>`;
   $app.innerHTML = html;
@@ -1012,6 +1143,21 @@ $app.addEventListener('click', async (e) => {
     }
     case 'paper-clear': state.paper.wrong = new Set(); return renderPaper();
     case 'paper-save': return paperSave();
+    case 'exam-toggle': {
+      const k = Number(el.dataset.n);
+      if (state.paper.ewrong.has(k)) state.paper.ewrong.delete(k); else state.paper.ewrong.add(k);
+      return renderPaper();
+    }
+    case 'exam-clear': state.paper.ewrong = new Set(); return renderPaper();
+    case 'exam-save': return examSave();
+    case 'exam-delete': {
+      const s = state.progress.sessions[el.dataset.sid];
+      if (!s || !confirm(`删除这条真题记录（${s.label} ${s.score}/${s.total}）？`)) return;
+      deleteSession(state.progress, s.id);
+      save();
+      toast('已删除');
+      return renderPaper();
+    }
     case 'paper-delete': {
       const s = state.progress.sessions[el.dataset.sid];
       if (!s || !confirm(`删除这条纸面记录（${state.index.sets.get(s.s)?.title || ''} ${s.score}/${s.total}）？`)) return;
@@ -1087,6 +1233,7 @@ $app.addEventListener('change', (e) => {
   if (el.dataset.paper) {
     state.paper[el.dataset.paper] = el.value;
     if (el.dataset.paper === 'setId') { state.paper.wrong = new Set(); renderPaper(); }
+    if (el.dataset.paper === 'template') { state.paper.ewrong = new Set(); renderPaper(); }
     return;
   }
   if (el.dataset.pref) {

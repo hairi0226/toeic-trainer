@@ -7,6 +7,7 @@ import {
   deleteAttempt, deleteSession, liveAttempts,
   latestAttempts, setSummary, partAccuracy, wrongQuestions, causeHistogram,
   studyStreak, pickRandom, exportPayload, importPayload, countProgress, stableStringify,
+  EXAM_TEMPLATES, examTemplateNumbers, addExamSession, examSessions, examPartTotals, liveSessions,
 } from '../js/core.js';
 import { loadBankNode } from './helpers.mjs';
 
@@ -247,4 +248,27 @@ test('导出/导入：导入是合并而不是覆盖', () => {
 
 test('stableStringify 键序无关', () => {
   assert.equal(stableStringify({ b: 1, a: [{ d: 1, c: 2 }] }), stableStringify({ a: [{ c: 2, d: 1 }], b: 1 }));
+});
+
+test('真题成绩录入：按 Part 算分、只记题号、可删除、合并后保留', () => {
+  const p = emptyProgress();
+  assert.equal(examTemplateNumbers(EXAM_TEMPLATES.rc100).length, 100);
+  assert.equal(examTemplateNumbers(EXAM_TEMPLATES.ets).length, 30);
+  const s = addExamSession(p, { template: EXAM_TEMPLATES.rc100, label: 'YBM 2026 上半年', source: 'YBM', wrongNumbers: [101, 131, 150, 199, 200], minutes: 70, dateTs: T0, ts: T0 + 5 });
+  assert.equal(s.src, 'exam');
+  assert.equal(s.total, 100);
+  assert.equal(s.score, 95);
+  assert.deepEqual(s.exam.parts['5'], { total: 30, right: 29, wrong: [101] });
+  assert.deepEqual(s.exam.parts['7'].wrong, [150, 199, 200]);
+  assert.deepEqual(s.exam.wrongNums, [101, 131, 150, 199, 200]);
+  assert.equal(countProgress(p).attempts, 0, '真题不生成逐题作答记录');
+  assert.equal(examSessions(p).length, 1);
+  assert.deepEqual(examPartTotals(p)['6'], { right: 15, total: 16 });
+  // 合并后 exam 字段与 src 保留
+  const merged = mergeProgress(emptyProgress(), JSON.parse(JSON.stringify(p)));
+  assert.equal(merged.sessions[s.id].src, 'exam');
+  assert.deepEqual(merged.sessions[s.id].exam.wrongNums, [101, 131, 150, 199, 200]);
+  deleteSession(p, s.id, T0 + 99);
+  assert.equal(examSessions(p).length, 0);
+  assert.equal(liveSessions(p).length, 0);
 });

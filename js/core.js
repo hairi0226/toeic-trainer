@@ -83,7 +83,7 @@ export function normalize(input, report = null) {
       id,
       s: str(s.s),
       m: str(s.m, 'practice'),
-      src: s.src === 'paper' ? 'paper' : 'online',
+      src: s.src === 'paper' || s.src === 'exam' ? s.src : 'online',
       start: s.start,
       end: num(s.end, null),
       ms: num(s.ms, 0),
@@ -353,6 +353,65 @@ export function addPaperSession(p, { set, wrongNumbers, minutes, dateTs, ts = Da
   };
   void index;
   return p.sessions[sid];
+}
+
+// ---------- 官方真题成绩（只记题号，不存题目内容） ----------
+
+const range = (a, b) => Array.from({ length: b - a + 1 }, (_, i) => a + i);
+
+/** 真题题号模板：正式 TOEIC 阅读卷 101–200；ETS 官方样题阅读 31 题；只做 Part 5。 */
+export const EXAM_TEMPLATES = {
+  rc100: { id: 'rc100', title: 'TOEIC 阅读整卷（101–200，100 题）', parts: { 5: range(101, 130), 6: range(131, 146), 7: range(147, 200) } },
+  p5: { id: 'p5', title: '只做 Part 5（101–130）', parts: { 5: range(101, 130) } },
+  p67: { id: 'p67', title: '只做 Part 6+7（131–200）', parts: { 6: range(131, 146), 7: range(147, 200) } },
+  ets: { id: 'ets', title: 'ETS 官方样题阅读（30 题）', parts: { 5: range(101, 105), 6: range(131, 134), 7: [...range(147, 153), ...range(161, 164), ...range(176, 180), ...range(196, 200)] } },
+};
+
+export function examTemplateNumbers(template) {
+  return Object.values(template.parts).flat();
+}
+
+/**
+ * 录入一次官方真题（纸上做完）的成绩：只记题号，正确率按 Part 算。
+ * 不生成 attempts（没有题目内容可对应），单独存在 session.exam 里。
+ */
+export function addExamSession(p, { template, label, source = '', wrongNumbers, minutes, dateTs, ts = Date.now(), note = '' }) {
+  const sid = genId(ts);
+  const wrongSet = new Set(wrongNumbers.map(Number));
+  const parts = {};
+  let total = 0;
+  let score = 0;
+  for (const [part, nums] of Object.entries(template.parts)) {
+    const wrong = nums.filter((n) => wrongSet.has(n));
+    parts[part] = { total: nums.length, right: nums.length - wrong.length, wrong };
+    total += nums.length;
+    score += nums.length - wrong.length;
+  }
+  const ms = Math.max(0, Math.round(minutes * 60000));
+  p.sessions[sid] = {
+    id: sid, s: null, m: 'paper', src: 'exam', start: dateTs, end: dateTs + ms, ms,
+    score, total, answered: total, upd: ts, label: label || template.title, wrong: [], note, deleted: false,
+    exam: { template: template.id, source, parts, wrongNums: examTemplateNumbers(template).filter((n) => wrongSet.has(n)) },
+  };
+  return p.sessions[sid];
+}
+
+/** 所有有效的真题成绩，按时间倒序。 */
+export function examSessions(p) {
+  return liveSessions(p).filter((s) => s.src === 'exam' && s.exam).sort((a, b) => b.start - a.start || b.upd - a.upd);
+}
+
+/** 真题按 Part 汇总正确率。 */
+export function examPartTotals(p) {
+  const out = { 5: { right: 0, total: 0 }, 6: { right: 0, total: 0 }, 7: { right: 0, total: 0 } };
+  for (const s of examSessions(p)) {
+    for (const [part, v] of Object.entries(s.exam.parts || {})) {
+      if (!out[part]) continue;
+      out[part].right += v.right || 0;
+      out[part].total += v.total || 0;
+    }
+  }
+  return out;
 }
 
 /** 打/改/删错因标签。cause=null 表示删除（写墓碑）。 */
