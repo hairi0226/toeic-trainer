@@ -13,6 +13,9 @@
 
 ## 题库
 
+- **新题必须按 `docs/出题规范.md`（ETS 真题结构）写**，用 `node tools/validate_set.mjs <file>` 校验（要求 explain / zh / type 齐全），再由独立 agent 遮住答案重做核对。
+- 官方真题（ETS / YBM）**绝不复制进仓库**，只在「真题录入」（`session.src === 'exam'`，`session.exam.parts` 按 Part 记题号）里记成绩。
+
 - 真源：`data/sets.json`（清单，顺序 = 首页顺序）+ `data/sets/<id>.json`（每套一个文件）。
 - `tools/convert_questions.py` 只是从打印版 PDF 的出题脚本一次性迁移 Day 1–6 用的，默认不覆盖已存在的文件。**不要为了加新题去跑它。**
 - 新增一套：新建 `data/sets/<id>.json` + 清单加一行 + `node tools/freeze_qids.mjs` + `npm test`。
