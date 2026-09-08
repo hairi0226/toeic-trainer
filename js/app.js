@@ -229,7 +229,7 @@ function renderHome() {
     for (const d of drafts) {
       const done = d.m === 'exam' ? Object.keys(d.answers).length : d.locked.length;
       const name = d.label || (d.s ? idx.sets.get(d.s)?.title : '练习');
-      html += `<a class="btn primary" href="#/run/${esc(d.sid)}">▶ ${esc(name)} · ${MODE_LABELS[d.m]} ${done}/${d.qids.length}</a>`;
+      html += `<span class="row" style="gap:4px"><a class="btn primary" href="#/run/${esc(d.sid)}">▶ ${esc(name)} · ${MODE_LABELS[d.m]} ${done}/${d.qids.length}</a><button class="btn small ghost" data-act="abandon-draft" data-sid="${esc(d.sid)}" title="放弃这次，不计分">✕</button></span>`;
     }
     html += `</div></div>`;
   }
@@ -1136,6 +1136,13 @@ $app.addEventListener('click', async (e) => {
       return;
     }
     case 'hide-sync-hint': setMeta({ hideSyncHint: true }); return renderHome();
+    case 'abandon-draft': {
+      const d = state.progress.drafts[el.dataset.sid];
+      if (!d || !confirm('放弃这次未完成的练习？已作答的题仍保留在记录里。')) return;
+      abandonDraft(state.progress, d.sid);
+      save();
+      return renderHome();
+    }
     case 'paper-toggle': {
       const n = Number(el.dataset.n);
       if (state.paper.wrong.has(n)) state.paper.wrong.delete(n); else state.paper.wrong.add(n);
