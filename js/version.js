@@ -1,2 +1,2 @@
 // 唯一的版本号出处。日期式，一眼看出新旧。每次发布改这里。
-export const VERSION = '2026.09.07';
+export const VERSION = '2026.09.08';

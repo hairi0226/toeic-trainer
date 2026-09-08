@@ -1,0 +1,1857 @@
+{
+  "id": "p5b",
+  "title": "Part 5 专项 B",
+  "focus": "采购、物流、客服与市场场景",
+  "style": "official-structure",
+  "origin": "generated",
+  "recommended_minutes": 10,
+  "note": "原创 TOEIC-style 仿真题，不是 ETS 官方真题。",
+  "phrases": [
+    "place an order with",
+    "under the terms of",
+    "provided that",
+    "clear customs",
+    "with the exception of"
+  ],
+  "groups": [
+    {
+      "id": "p5b-p5",
+      "part": 5,
+      "title": "Part 5 | Incomplete Sentences 句子填空",
+      "minutes": 10,
+      "passages": [],
+      "questions": [
+        {
+          "id": "p5b-q1",
+          "n": 1,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Because the supplier could not guarantee ___ delivery of the brackets, Ms. Adeyemi placed the order with a local vendor instead.",
+          "options": [
+            {
+              "key": "A",
+              "text": "promptly"
+            },
+            {
+              "key": "B",
+              "text": "promptness"
+            },
+            {
+              "key": "C",
+              "text": "prompted"
+            },
+            {
+              "key": "D",
+              "text": "prompt"
+            }
+          ],
+          "answer": "D",
+          "explain": "名词 delivery 前用形容词 prompt 修饰；prompt delivery = 及时交货。",
+          "zh": {
+            "stem": "由于供应商无法保证支架能及时交货，Adeyemi 女士转而向本地卖家下了订单。",
+            "options": {
+              "A": "副词：及时地，修饰动词，reply promptly = 及时回复",
+              "B": "名词：及时、迅速，名词不能直接修饰 delivery",
+              "C": "动词过去式/过去分词：促使，prompt sb to do = 促使某人做",
+              "D": "形容词：及时的、迅速的，修饰名词 delivery，prompt delivery = 及时交货 ✓"
+            },
+            "vocab": [
+              {
+                "word": "supplier",
+                "zh": "供应商"
+              },
+              {
+                "word": "guarantee",
+                "zh": "保证"
+              },
+              {
+                "word": "bracket",
+                "zh": "支架、托架"
+              },
+              {
+                "word": "place an order with",
+                "zh": "向……下订单"
+              },
+              {
+                "word": "vendor",
+                "zh": "卖家、供货商"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q2",
+          "n": 2,
+          "part": 5,
+          "kind": "question",
+          "type": "介词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "All shipments leaving the Rotterdam warehouse must be inspected ___ 4:00 P.M. so that the carrier can load them the same evening.",
+          "options": [
+            {
+              "key": "A",
+              "text": "until"
+            },
+            {
+              "key": "B",
+              "text": "within"
+            },
+            {
+              "key": "C",
+              "text": "by"
+            },
+            {
+              "key": "D",
+              "text": "among"
+            }
+          ],
+          "answer": "C",
+          "explain": "by + 时间点 = 最迟不晚于；until 表持续到某时，检查是一次性动作，不搭。",
+          "zh": {
+            "stem": "所有从鹿特丹仓库发出的货物必须在下午 4 点前检查完毕，以便承运方当晚装车。",
+            "options": {
+              "A": "介词：持续到……为止，接持续性动作，wait until 4 = 一直等到 4 点",
+              "B": "介词：在……（一段时间）之内，within two days = 两天内，后面不接钟点",
+              "C": "介词：最迟在……之前（截止点），by 4:00 P.M. = 4 点前完成 ✓",
+              "D": "介词：在……之中（三者以上），among the boxes = 在箱子当中"
+            },
+            "vocab": [
+              {
+                "word": "shipment",
+                "zh": "货物、一批货"
+              },
+              {
+                "word": "warehouse",
+                "zh": "仓库"
+              },
+              {
+                "word": "inspect",
+                "zh": "检查、查验"
+              },
+              {
+                "word": "carrier",
+                "zh": "承运方、运输公司"
+              },
+              {
+                "word": "load",
+                "zh": "装载、装车"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q3",
+          "n": 3,
+          "part": 5,
+          "kind": "question",
+          "type": "动词形式",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Customers who ___ a defective item within 30 days of purchase will receive a full refund, including the original shipping charges.",
+          "options": [
+            {
+              "key": "A",
+              "text": "returns"
+            },
+            {
+              "key": "B",
+              "text": "returning"
+            },
+            {
+              "key": "C",
+              "text": "to return"
+            },
+            {
+              "key": "D",
+              "text": "return"
+            }
+          ],
+          "answer": "D",
+          "explain": "who 引导的定语从句谓语跟先行词 Customers（复数）一致，用原形 return。",
+          "zh": {
+            "stem": "在购买后 30 天内退回瑕疵商品的顾客将获得全额退款，包括原始运费。",
+            "options": {
+              "A": "第三人称单数：先行词 Customers 是复数，不能加 -s",
+              "B": "现在分词：从句里已有 who，需要一个完整的谓语动词，-ing 不能单独作谓语",
+              "C": "不定式：不能直接作 who 从句的谓语",
+              "D": "动词原形（复数一般现在时）：退回，主语 Customers 是复数，who return ✓"
+            },
+            "vocab": [
+              {
+                "word": "defective",
+                "zh": "有瑕疵的、有缺陷的"
+              },
+              {
+                "word": "purchase",
+                "zh": "购买"
+              },
+              {
+                "word": "full refund",
+                "zh": "全额退款"
+              },
+              {
+                "word": "shipping charges",
+                "zh": "运费"
+              },
+              {
+                "word": "within 30 days of",
+                "zh": "在……后 30 天内"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q4",
+          "n": 4,
+          "part": 5,
+          "kind": "question",
+          "type": "连词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "___ the advertising budget was reduced this quarter, the marketing team still managed to launch two regional campaigns on schedule.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Despite"
+            },
+            {
+              "key": "B",
+              "text": "Although"
+            },
+            {
+              "key": "C",
+              "text": "Because"
+            },
+            {
+              "key": "D",
+              "text": "Nevertheless"
+            }
+          ],
+          "answer": "B",
+          "explain": "空后是完整句子要用连词；still 提示让步，选 Although。Despite 只接名词。",
+          "zh": {
+            "stem": "尽管本季度广告预算被削减，市场团队仍然设法按计划推出了两场区域推广活动。",
+            "options": {
+              "A": "介词：尽管，后面只能接名词或动名词，despite the rain",
+              "B": "连词：尽管、虽然，后接完整句子，Although it rained, … ✓",
+              "C": "连词：因为，表原因；预算减少和'仍然推出'是转折不是因果",
+              "D": "副词：然而，只能连接两个独立句（前面要有句号或分号），不能引导从句"
+            },
+            "vocab": [
+              {
+                "word": "advertising budget",
+                "zh": "广告预算"
+              },
+              {
+                "word": "quarter",
+                "zh": "季度"
+              },
+              {
+                "word": "manage to do",
+                "zh": "设法做成某事"
+              },
+              {
+                "word": "campaign",
+                "zh": "（营销）活动、宣传攻势"
+              },
+              {
+                "word": "on schedule",
+                "zh": "按计划、按时"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q5",
+          "n": 5,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Please review the attached invoice ___ and notify our accounting department of any discrepancies before Friday.",
+          "options": [
+            {
+              "key": "A",
+              "text": "carefully"
+            },
+            {
+              "key": "B",
+              "text": "careful"
+            },
+            {
+              "key": "C",
+              "text": "carefulness"
+            },
+            {
+              "key": "D",
+              "text": "more careful"
+            }
+          ],
+          "answer": "A",
+          "explain": "修饰动词 review 用副词 carefully = 仔细地核对。",
+          "zh": {
+            "stem": "请仔细核对所附发票，并在周五之前将任何不符之处告知我们的会计部门。",
+            "options": {
+              "A": "副词：仔细地，修饰动词 review ✓",
+              "B": "形容词：仔细的，修饰名词，a careful review = 仔细的核对",
+              "C": "名词：仔细、谨慎，不能修饰动词",
+              "D": "形容词比较级：更仔细的，这里没有比较对象，也不能修饰动词"
+            },
+            "vocab": [
+              {
+                "word": "attached",
+                "zh": "附上的"
+              },
+              {
+                "word": "invoice",
+                "zh": "发票、账单"
+              },
+              {
+                "word": "notify sb of sth",
+                "zh": "把某事告知某人"
+              },
+              {
+                "word": "accounting department",
+                "zh": "会计部门"
+              },
+              {
+                "word": "discrepancy",
+                "zh": "不符之处、差异"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q6",
+          "n": 6,
+          "part": 5,
+          "kind": "question",
+          "type": "词汇",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Orders placed after 2:00 P.M. on Friday will not be ___ until the following Monday because the distribution center is closed on weekends.",
+          "options": [
+            {
+              "key": "A",
+              "text": "reminded"
+            },
+            {
+              "key": "B",
+              "text": "notified"
+            },
+            {
+              "key": "C",
+              "text": "processed"
+            },
+            {
+              "key": "D",
+              "text": "attended"
+            }
+          ],
+          "answer": "C",
+          "explain": "process an order = 处理订单；其余三个动词语义不合。not … until = 直到……才。",
+          "zh": {
+            "stem": "周五下午 2 点之后下的订单要到下周一才会处理，因为配送中心周末不营业。",
+            "options": {
+              "A": "动词：提醒，remind sb of sth，订单不能被'提醒'",
+              "B": "动词：通知，notify sb of sth，通知的对象是人不是订单",
+              "C": "动词：处理（订单、申请），process an order = 处理订单 ✓",
+              "D": "动词：出席、照料，attend a meeting = 参加会议"
+            },
+            "vocab": [
+              {
+                "word": "place an order",
+                "zh": "下订单"
+              },
+              {
+                "word": "process",
+                "zh": "处理"
+              },
+              {
+                "word": "the following Monday",
+                "zh": "下一个周一"
+              },
+              {
+                "word": "distribution center",
+                "zh": "配送中心"
+              },
+              {
+                "word": "not … until",
+                "zh": "直到……才"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q7",
+          "n": 7,
+          "part": 5,
+          "kind": "question",
+          "type": "代词关系词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Vendors ___ contracts are due for renewal in March should submit updated price lists to the purchasing office by February 15.",
+          "options": [
+            {
+              "key": "A",
+              "text": "who"
+            },
+            {
+              "key": "B",
+              "text": "which"
+            },
+            {
+              "key": "C",
+              "text": "whom"
+            },
+            {
+              "key": "D",
+              "text": "whose"
+            }
+          ],
+          "answer": "D",
+          "explain": "空后 contracts 是名词，需关系代词所有格 whose 表'供应商的合同'。",
+          "zh": {
+            "stem": "合同将于三月到期续签的供货商，应在 2 月 15 日前向采购办公室提交更新后的价目表。",
+            "options": {
+              "A": "关系代词主格：指人，后面直接接动词，Vendors who submit …",
+              "B": "关系代词：指物，先行词 Vendors 是人",
+              "C": "关系代词宾格：指人，在从句里作宾语，后面接\"主语+动词\"，如 vendors whom we contacted；这里后面直接是 contracts are，不成结构",
+              "D": "关系代词所有格：……的，后面接名词，Vendors whose contracts = 供货商的合同 ✓"
+            },
+            "vocab": [
+              {
+                "word": "vendor",
+                "zh": "供货商、卖家"
+              },
+              {
+                "word": "be due for",
+                "zh": "到了该……的时候"
+              },
+              {
+                "word": "renewal",
+                "zh": "续签、续期"
+              },
+              {
+                "word": "price list",
+                "zh": "价目表"
+              },
+              {
+                "word": "purchasing office",
+                "zh": "采购办公室"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q8",
+          "n": 8,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The new billboard design received a highly ___ response from focus group participants in both Manila and Jakarta.",
+          "options": [
+            {
+              "key": "A",
+              "text": "favor"
+            },
+            {
+              "key": "B",
+              "text": "favorable"
+            },
+            {
+              "key": "C",
+              "text": "favorably"
+            },
+            {
+              "key": "D",
+              "text": "favoring"
+            }
+          ],
+          "answer": "B",
+          "explain": "名词 response 前用形容词 favorable；副词 highly 修饰形容词。",
+          "zh": {
+            "stem": "新的广告牌设计在马尼拉和雅加达的焦点小组参与者中获得了非常好的反响。",
+            "options": {
+              "A": "名词/动词：好意、支持 / 偏爱，in favor of = 支持",
+              "B": "形容词：赞许的、有利的，a favorable response = 积极反响 ✓",
+              "C": "副词：赞许地，respond favorably = 反应积极，但不能修饰名词 response",
+              "D": "现在分词：偏袒……的，favoring one side，与 highly 搭不上"
+            },
+            "vocab": [
+              {
+                "word": "billboard",
+                "zh": "广告牌"
+              },
+              {
+                "word": "response",
+                "zh": "反响、回应"
+              },
+              {
+                "word": "focus group",
+                "zh": "焦点小组（市场调研时的小组访谈）"
+              },
+              {
+                "word": "participant",
+                "zh": "参与者"
+              },
+              {
+                "word": "highly",
+                "zh": "非常、高度地"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q9",
+          "n": 9,
+          "part": 5,
+          "kind": "question",
+          "type": "介词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "___ the terms of the contract, Kowalski Logistics will issue invoices at the end of each month rather than upon delivery.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Beyond"
+            },
+            {
+              "key": "B",
+              "text": "Between"
+            },
+            {
+              "key": "C",
+              "text": "Under"
+            },
+            {
+              "key": "D",
+              "text": "Toward"
+            }
+          ],
+          "answer": "C",
+          "explain": "固定搭配 under the terms of = 按照……的条款。",
+          "zh": {
+            "stem": "根据合同条款，Kowalski 物流公司将在每月月底而不是交货时开具发票。",
+            "options": {
+              "A": "介词：超出、在……之外，beyond the deadline = 超过期限；不表示\"根据\"",
+              "B": "介词：在（两者）之间，between March and May",
+              "C": "介词：按照、根据（条款/协议），under the terms of the contract = 按合同条款 ✓",
+              "D": "介词：朝着、临近，toward the end of the month = 临近月底；不能接 the terms of"
+            },
+            "vocab": [
+              {
+                "word": "terms",
+                "zh": "（合同）条款"
+              },
+              {
+                "word": "issue an invoice",
+                "zh": "开具发票"
+              },
+              {
+                "word": "rather than",
+                "zh": "而不是"
+              },
+              {
+                "word": "upon delivery",
+                "zh": "交货时"
+              },
+              {
+                "word": "logistics",
+                "zh": "物流"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q10",
+          "n": 10,
+          "part": 5,
+          "kind": "question",
+          "type": "动词形式",
+          "bonus": false,
+          "rev": 0,
+          "stem": "By the time the technician arrived, the customer ___ already contacted the help desk three times about the faulty printer.",
+          "options": [
+            {
+              "key": "A",
+              "text": "had"
+            },
+            {
+              "key": "B",
+              "text": "has"
+            },
+            {
+              "key": "C",
+              "text": "will have"
+            },
+            {
+              "key": "D",
+              "text": "having"
+            }
+          ],
+          "answer": "A",
+          "explain": "by the time + 过去时，主句用过去完成时 had contacted，表'过去的过去'。",
+          "zh": {
+            "stem": "技术人员到达时，这位顾客已经就故障打印机联系过服务台三次了。",
+            "options": {
+              "A": "had contacted 过去完成时：在过去某时（技术人员到达）之前已经完成 ✓",
+              "B": "has contacted 现在完成时：技术人员到达是过去，联系发生得更早，时态对不上",
+              "C": "will have contacted 将来完成时：与过去时 arrived 矛盾",
+              "D": "having contacted：分词形式，不能单独作谓语"
+            },
+            "vocab": [
+              {
+                "word": "by the time",
+                "zh": "到……的时候"
+              },
+              {
+                "word": "technician",
+                "zh": "技术人员"
+              },
+              {
+                "word": "help desk",
+                "zh": "服务台、技术支持台"
+              },
+              {
+                "word": "faulty",
+                "zh": "有故障的"
+              },
+              {
+                "word": "contact",
+                "zh": "联系"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q11",
+          "n": 11,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "To reduce ___ at the loading dock, Hanseong Freight has installed a digital scheduling system for all incoming trucks.",
+          "options": [
+            {
+              "key": "A",
+              "text": "congest"
+            },
+            {
+              "key": "B",
+              "text": "congested"
+            },
+            {
+              "key": "C",
+              "text": "congestion"
+            },
+            {
+              "key": "D",
+              "text": "congestive"
+            }
+          ],
+          "answer": "C",
+          "explain": "reduce 后接名词作宾语，congestion = 拥堵；reduce congestion 常见搭配。",
+          "zh": {
+            "stem": "为了减少装卸区的拥堵，Hanseong 货运公司为所有进场卡车安装了数字排程系统。",
+            "options": {
+              "A": "动词：使拥堵，congest the road",
+              "B": "形容词/过去分词：拥堵的，a congested area = 拥堵区域",
+              "C": "名词：拥堵，reduce congestion = 减少拥堵，作 reduce 的宾语 ✓",
+              "D": "形容词：充血性的（医学用语），与场景无关"
+            },
+            "vocab": [
+              {
+                "word": "loading dock",
+                "zh": "装卸区、装卸平台"
+              },
+              {
+                "word": "freight",
+                "zh": "货运"
+              },
+              {
+                "word": "install",
+                "zh": "安装"
+              },
+              {
+                "word": "scheduling system",
+                "zh": "排程系统"
+              },
+              {
+                "word": "incoming",
+                "zh": "进场的、驶入的"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q12",
+          "n": 12,
+          "part": 5,
+          "kind": "question",
+          "type": "连词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The purchasing manager will approve the bulk order ___ the supplier agrees to extend the warranty period to three years.",
+          "options": [
+            {
+              "key": "A",
+              "text": "in spite of"
+            },
+            {
+              "key": "B",
+              "text": "even so"
+            },
+            {
+              "key": "C",
+              "text": "whereas"
+            },
+            {
+              "key": "D",
+              "text": "provided that"
+            }
+          ],
+          "answer": "D",
+          "explain": "provided that = 只要、如果，引导条件从句；in spite of 是介词，even so 是副词。",
+          "zh": {
+            "stem": "只要供应商同意把保修期延长到三年，采购经理就会批准这笔大宗订单。",
+            "options": {
+              "A": "介词短语：尽管，后面只能接名词，in spite of the delay",
+              "B": "副词：即便如此，不能引导从句",
+              "C": "连词：然而（对比两者），批准订单和供应商延保之间不是对比关系",
+              "D": "连词：只要、如果（= if），后接完整句子 ✓"
+            },
+            "vocab": [
+              {
+                "word": "approve",
+                "zh": "批准"
+              },
+              {
+                "word": "bulk order",
+                "zh": "大宗订单"
+              },
+              {
+                "word": "extend",
+                "zh": "延长"
+              },
+              {
+                "word": "warranty period",
+                "zh": "保修期"
+              },
+              {
+                "word": "purchasing manager",
+                "zh": "采购经理"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q13",
+          "n": 13,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Our customer service representatives are trained to respond ___ to inquiries about late deliveries and damaged goods.",
+          "options": [
+            {
+              "key": "A",
+              "text": "courteous"
+            },
+            {
+              "key": "B",
+              "text": "courteously"
+            },
+            {
+              "key": "C",
+              "text": "courtesy"
+            },
+            {
+              "key": "D",
+              "text": "courtesies"
+            }
+          ],
+          "answer": "B",
+          "explain": "修饰动词 respond 用副词 courteously = 礼貌地回应。",
+          "zh": {
+            "stem": "我们的客服代表都经过培训，会礼貌地回应有关延迟交货和货物损坏的咨询。",
+            "options": {
+              "A": "形容词：有礼貌的，a courteous reply = 礼貌的回复，不能修饰动词",
+              "B": "副词：礼貌地，respond courteously = 礼貌地回应 ✓",
+              "C": "名词：礼貌、礼节，as a courtesy = 出于礼貌",
+              "D": "名词复数：礼节、客套话，不能修饰动词"
+            },
+            "vocab": [
+              {
+                "word": "customer service representative",
+                "zh": "客服代表"
+              },
+              {
+                "word": "respond to",
+                "zh": "回应"
+              },
+              {
+                "word": "inquiry",
+                "zh": "咨询、询问"
+              },
+              {
+                "word": "late delivery",
+                "zh": "延迟交货"
+              },
+              {
+                "word": "damaged goods",
+                "zh": "受损货物"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q14",
+          "n": 14,
+          "part": 5,
+          "kind": "question",
+          "type": "介词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The promotional video must be finalized ___ the next two weeks if it is to air before the holiday shopping season.",
+          "options": [
+            {
+              "key": "A",
+              "text": "within"
+            },
+            {
+              "key": "B",
+              "text": "until"
+            },
+            {
+              "key": "C",
+              "text": "from"
+            },
+            {
+              "key": "D",
+              "text": "at"
+            }
+          ],
+          "answer": "A",
+          "explain": "within + 一段时间 = 在……之内；until/from/at 不接'一段时间'表期限。",
+          "zh": {
+            "stem": "如果宣传视频要在假日购物季之前播出，就必须在接下来两周内定稿。",
+            "options": {
+              "A": "介词：在……（一段时间）之内，within two weeks = 两周内 ✓",
+              "B": "介词：直到……为止，接时间点，until Friday",
+              "C": "介词：从……起，from Monday，不表期限",
+              "D": "介词：在（钟点/地点），at 3 o'clock"
+            },
+            "vocab": [
+              {
+                "word": "promotional",
+                "zh": "宣传的、推广的"
+              },
+              {
+                "word": "finalize",
+                "zh": "定稿、最终确定"
+              },
+              {
+                "word": "air",
+                "zh": "动词：播出"
+              },
+              {
+                "word": "holiday shopping season",
+                "zh": "假日购物季"
+              },
+              {
+                "word": "be to do",
+                "zh": "要、将要（表计划或条件）"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q15",
+          "n": 15,
+          "part": 5,
+          "kind": "question",
+          "type": "词汇",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Because the store received several ___ about the checkout wait times, Mr. Petrov decided to open two additional registers during peak hours.",
+          "options": [
+            {
+              "key": "A",
+              "text": "purchases"
+            },
+            {
+              "key": "B",
+              "text": "receipts"
+            },
+            {
+              "key": "C",
+              "text": "discounts"
+            },
+            {
+              "key": "D",
+              "text": "complaints"
+            }
+          ],
+          "answer": "D",
+          "explain": "receive complaints about = 收到关于……的投诉；因投诉才加开收银台。",
+          "zh": {
+            "stem": "由于店里收到多起关于结账等候时间的投诉，Petrov 先生决定在高峰时段加开两个收银台。",
+            "options": {
+              "A": "名词：购买（的东西），make a purchase = 购物",
+              "B": "名词：收据，keep the receipt = 保留收据",
+              "C": "名词：折扣，a 10% discount = 九折",
+              "D": "名词：投诉，complaints about the wait = 关于等候的投诉 ✓"
+            },
+            "vocab": [
+              {
+                "word": "checkout",
+                "zh": "结账（处）"
+              },
+              {
+                "word": "wait time",
+                "zh": "等候时间"
+              },
+              {
+                "word": "register",
+                "zh": "收银台（cash register）"
+              },
+              {
+                "word": "peak hours",
+                "zh": "高峰时段"
+              },
+              {
+                "word": "additional",
+                "zh": "额外的"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q16",
+          "n": 16,
+          "part": 5,
+          "kind": "question",
+          "type": "动词形式",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Any invoice that ___ without a valid purchase order number will be returned to the supplier for correction.",
+          "options": [
+            {
+              "key": "A",
+              "text": "submits"
+            },
+            {
+              "key": "B",
+              "text": "is submitted"
+            },
+            {
+              "key": "C",
+              "text": "submitting"
+            },
+            {
+              "key": "D",
+              "text": "has submitted"
+            }
+          ],
+          "answer": "B",
+          "explain": "发票是'被提交'的，定语从句用被动语态 is submitted。",
+          "zh": {
+            "stem": "任何没有有效采购订单号就提交的发票，都会被退回给供应商更正。",
+            "options": {
+              "A": "一般现在时主动：invoice 自己'提交'，主被动关系不对",
+              "B": "一般现在时被动：（被）提交，invoice that is submitted ✓",
+              "C": "现在分词：that 后面需要完整谓语，-ing 不能单独作谓语",
+              "D": "现在完成时主动：invoice 不会主动提交，且语态错误"
+            },
+            "vocab": [
+              {
+                "word": "valid",
+                "zh": "有效的"
+              },
+              {
+                "word": "purchase order",
+                "zh": "采购订单（常缩写 PO）"
+              },
+              {
+                "word": "be returned to",
+                "zh": "被退回给"
+              },
+              {
+                "word": "correction",
+                "zh": "更正、修改"
+              },
+              {
+                "word": "without",
+                "zh": "没有、缺少"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q17",
+          "n": 17,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The finance department requires ___ of all travel expenses within ten business days of the employee's return.",
+          "options": [
+            {
+              "key": "A",
+              "text": "document"
+            },
+            {
+              "key": "B",
+              "text": "documented"
+            },
+            {
+              "key": "C",
+              "text": "documentation"
+            },
+            {
+              "key": "D",
+              "text": "documenting"
+            }
+          ],
+          "answer": "C",
+          "explain": "requires 后接名词作宾语，documentation（不可数）= 证明文件；后接 of。",
+          "zh": {
+            "stem": "财务部要求员工在返回后十个工作日内提交所有差旅费用的证明文件。",
+            "options": {
+              "A": "可数名词单数：文件，前面没有冠词，且 document of expenses 搭配不通",
+              "B": "过去分词/形容词：有记录的，documented cases，不能作 requires 的宾语",
+              "C": "不可数名词：证明文件、书面材料，documentation of expenses ✓",
+              "D": "动名词：记录，documenting expenses 后面直接接宾语，不用 of"
+            },
+            "vocab": [
+              {
+                "word": "finance department",
+                "zh": "财务部"
+              },
+              {
+                "word": "travel expenses",
+                "zh": "差旅费"
+              },
+              {
+                "word": "business day",
+                "zh": "工作日"
+              },
+              {
+                "word": "documentation",
+                "zh": "证明文件、书面材料"
+              },
+              {
+                "word": "require",
+                "zh": "要求"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q18",
+          "n": 18,
+          "part": 5,
+          "kind": "question",
+          "type": "代词关系词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Marketing associates who wish to attend the trade fair in Lisbon must familiarize ___ with the registration procedure on the online portal by June 3.",
+          "options": [
+            {
+              "key": "A",
+              "text": "they"
+            },
+            {
+              "key": "B",
+              "text": "their"
+            },
+            {
+              "key": "C",
+              "text": "themselves"
+            },
+            {
+              "key": "D",
+              "text": "them"
+            }
+          ],
+          "answer": "C",
+          "explain": "familiarize oneself with = 熟悉；主语和宾语是同一批人，用反身代词 themselves。",
+          "zh": {
+            "stem": "想参加里斯本贸易展的市场专员必须在 6 月 3 日前熟悉在线门户上的报名流程。",
+            "options": {
+              "A": "主格：他们，不能作 familiarize 的宾语",
+              "B": "形容词性物主代词：他们的，后面必须接名词",
+              "C": "反身代词：他们自己，familiarize oneself with = 让自己熟悉，主语和宾语是同一批人 ✓",
+              "D": "宾格：他们，指别人；这里要熟悉流程的是专员自己"
+            },
+            "vocab": [
+              {
+                "word": "associate",
+                "zh": "专员、同事（职位名）"
+              },
+              {
+                "word": "trade fair",
+                "zh": "贸易展、交易会"
+              },
+              {
+                "word": "familiarize oneself with",
+                "zh": "熟悉、了解（某流程/环境）"
+              },
+              {
+                "word": "online portal",
+                "zh": "在线门户网站"
+              },
+              {
+                "word": "by June 3",
+                "zh": "6 月 3 日前"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q19",
+          "n": 19,
+          "part": 5,
+          "kind": "question",
+          "type": "连词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "___ the shipment has cleared customs, the freight forwarder will send a tracking number to the customer's e-mail address.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Once"
+            },
+            {
+              "key": "B",
+              "text": "During"
+            },
+            {
+              "key": "C",
+              "text": "Unless"
+            },
+            {
+              "key": "D",
+              "text": "Whether"
+            }
+          ],
+          "answer": "A",
+          "explain": "Once = 一旦……就，引导时间条件从句；During 是介词不接句子。",
+          "zh": {
+            "stem": "货物一旦通过海关，货运代理就会把追踪号发送到客户的电子邮箱。",
+            "options": {
+              "A": "连词：一旦……（就），Once it clears customs, … ✓",
+              "B": "介词：在……期间，只能接名词，during the inspection",
+              "C": "连词：除非，'除非清关否则才发追踪号'逻辑颠倒",
+              "D": "连词：是否，Whether … or not，与句意不符"
+            },
+            "vocab": [
+              {
+                "word": "clear customs",
+                "zh": "清关、通过海关"
+              },
+              {
+                "word": "freight forwarder",
+                "zh": "货运代理"
+              },
+              {
+                "word": "tracking number",
+                "zh": "追踪号、快递单号"
+              },
+              {
+                "word": "shipment",
+                "zh": "货物、货运"
+              },
+              {
+                "word": "customs",
+                "zh": "海关"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q20",
+          "n": 20,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The centrifuge ordered from Meridian Labtech must be installed ___ by a certified technician before any samples are processed.",
+          "options": [
+            {
+              "key": "A",
+              "text": "proper"
+            },
+            {
+              "key": "B",
+              "text": "properly"
+            },
+            {
+              "key": "C",
+              "text": "property"
+            },
+            {
+              "key": "D",
+              "text": "properties"
+            }
+          ],
+          "answer": "B",
+          "explain": "修饰动词 installed 用副词 properly = 正确地安装；property 是'财产'，形近干扰。",
+          "zh": {
+            "stem": "从 Meridian Labtech 订购的离心机必须由持证技术人员正确安装后，才能处理任何样品。",
+            "options": {
+              "A": "形容词：恰当的，the proper way = 正确方法，不能修饰动词",
+              "B": "副词：正确地、妥善地，be installed properly ✓",
+              "C": "名词：财产、房产，形近词干扰，与句意无关",
+              "D": "名词复数：特性、房产，与句意无关"
+            },
+            "vocab": [
+              {
+                "word": "centrifuge",
+                "zh": "离心机"
+              },
+              {
+                "word": "certified",
+                "zh": "持证的、经认证的"
+              },
+              {
+                "word": "technician",
+                "zh": "技术人员"
+              },
+              {
+                "word": "sample",
+                "zh": "样品"
+              },
+              {
+                "word": "process",
+                "zh": "处理"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q21",
+          "n": 21,
+          "part": 5,
+          "kind": "question",
+          "type": "介词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Refunds for items returned ___ the original packaging will be reduced by a 15 percent restocking fee.",
+          "options": [
+            {
+              "key": "A",
+              "text": "except"
+            },
+            {
+              "key": "B",
+              "text": "against"
+            },
+            {
+              "key": "C",
+              "text": "beyond"
+            },
+            {
+              "key": "D",
+              "text": "without"
+            }
+          ],
+          "answer": "D",
+          "explain": "without the original packaging = 没带原包装；without 表'缺少'。",
+          "zh": {
+            "stem": "未带原包装退回的商品，退款将扣除 15% 的重新上架费。",
+            "options": {
+              "A": "介词：除了……之外，all items except one",
+              "B": "介词：反对、靠着，against the wall",
+              "C": "介词：超出，beyond the deadline",
+              "D": "介词：没有、不带，without the packaging = 没有包装 ✓"
+            },
+            "vocab": [
+              {
+                "word": "refund",
+                "zh": "退款"
+              },
+              {
+                "word": "original packaging",
+                "zh": "原包装"
+              },
+              {
+                "word": "be reduced by",
+                "zh": "减少……（幅度）"
+              },
+              {
+                "word": "restocking fee",
+                "zh": "重新上架费（退货手续费）"
+              },
+              {
+                "word": "return",
+                "zh": "退回"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q22",
+          "n": 22,
+          "part": 5,
+          "kind": "question",
+          "type": "动词形式",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Marketing director Sofia Duarte suggested ___ the product launch until the results of the consumer survey are available.",
+          "options": [
+            {
+              "key": "A",
+              "text": "postpone"
+            },
+            {
+              "key": "B",
+              "text": "postponing"
+            },
+            {
+              "key": "C",
+              "text": "to postpone"
+            },
+            {
+              "key": "D",
+              "text": "postponed"
+            }
+          ],
+          "answer": "B",
+          "explain": "suggest 后接动名词，不接不定式：suggest doing sth。",
+          "zh": {
+            "stem": "市场总监 Sofia Duarte 建议把产品发布推迟到消费者调查结果出来之后。",
+            "options": {
+              "A": "动词原形：句子已有谓语 suggested，不能再接原形",
+              "B": "动名词：suggest doing = 建议做某事，固定用法 ✓",
+              "C": "不定式：suggest 不接 to do，这是常考陷阱",
+              "D": "过去分词：suggested postponed 不成结构"
+            },
+            "vocab": [
+              {
+                "word": "suggest doing",
+                "zh": "建议做某事"
+              },
+              {
+                "word": "product launch",
+                "zh": "产品发布"
+              },
+              {
+                "word": "postpone",
+                "zh": "推迟"
+              },
+              {
+                "word": "consumer survey",
+                "zh": "消费者调查"
+              },
+              {
+                "word": "available",
+                "zh": "可获得的、（结果）出来了的"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q23",
+          "n": 23,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Invoices that do not match the purchase order will be flagged for ___ review by the accounts payable team.",
+          "options": [
+            {
+              "key": "A",
+              "text": "thorough"
+            },
+            {
+              "key": "B",
+              "text": "thoroughly"
+            },
+            {
+              "key": "C",
+              "text": "thoroughness"
+            },
+            {
+              "key": "D",
+              "text": "more thoroughly"
+            }
+          ],
+          "answer": "A",
+          "explain": "名词 review 前用形容词 thorough = 全面的、彻底的审核。",
+          "zh": {
+            "stem": "与采购订单不符的发票将被标记出来，由应付账款团队进行全面审核。",
+            "options": {
+              "A": "形容词：全面的、彻底的，a thorough review = 全面审核 ✓",
+              "B": "副词：彻底地，check thoroughly，不能修饰名词",
+              "C": "名词：彻底性，与 review 堆在一起不通",
+              "D": "副词比较级：更彻底地，不能修饰名词"
+            },
+            "vocab": [
+              {
+                "word": "match",
+                "zh": "与……一致"
+              },
+              {
+                "word": "flag",
+                "zh": "动词：标记出来"
+              },
+              {
+                "word": "accounts payable",
+                "zh": "应付账款（公司欠供应商的钱）"
+              },
+              {
+                "word": "review",
+                "zh": "审核"
+              },
+              {
+                "word": "purchase order",
+                "zh": "采购订单"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q24",
+          "n": 24,
+          "part": 5,
+          "kind": "question",
+          "type": "词汇",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Since copper prices have risen sharply, the supplier can no longer ___ the rates quoted in last year's catalog.",
+          "options": [
+            {
+              "key": "A",
+              "text": "remain"
+            },
+            {
+              "key": "B",
+              "text": "contain"
+            },
+            {
+              "key": "C",
+              "text": "maintain"
+            },
+            {
+              "key": "D",
+              "text": "obtain"
+            }
+          ],
+          "answer": "C",
+          "explain": "maintain the rates = 维持价格；remain 是不及物动词，不能接宾语。",
+          "zh": {
+            "stem": "由于铜价大幅上涨，供应商已无法再维持去年目录中报出的价格。",
+            "options": {
+              "A": "动词：保持（不变），不及物，remain the same，后面不能直接接宾语",
+              "B": "动词：包含、控制，contain costs = 控制成本，但不能'包含价格'",
+              "C": "动词：维持、保持，maintain prices = 维持价格 ✓",
+              "D": "动词：获得，obtain a permit = 取得许可，供应商不是'获得'自己的报价"
+            },
+            "vocab": [
+              {
+                "word": "copper",
+                "zh": "铜"
+              },
+              {
+                "word": "sharply",
+                "zh": "大幅地、急剧地"
+              },
+              {
+                "word": "rate",
+                "zh": "价格、费率"
+              },
+              {
+                "word": "quote",
+                "zh": "报价"
+              },
+              {
+                "word": "catalog",
+                "zh": "产品目录"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q25",
+          "n": 25,
+          "part": 5,
+          "kind": "question",
+          "type": "连词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The restaurant will keep its current produce supplier ___ the new vendor can offer the same quality at a lower price.",
+          "options": [
+            {
+              "key": "A",
+              "text": "unless"
+            },
+            {
+              "key": "B",
+              "text": "whereas"
+            },
+            {
+              "key": "C",
+              "text": "in case"
+            },
+            {
+              "key": "D",
+              "text": "rather than"
+            }
+          ],
+          "answer": "A",
+          "explain": "unless = 除非；'除非新供应商同样质量更便宜，否则继续用现在的'。",
+          "zh": {
+            "stem": "除非新供货商能以更低价格提供同等质量，否则这家餐厅将继续使用现在的农产品供应商。",
+            "options": {
+              "A": "连词：除非、如果不，unless = if not ✓",
+              "B": "连词：然而（对比），两边不是对比关系",
+              "C": "连词：以防万一，'以防新供货商更便宜'逻辑不通",
+              "D": "介词短语：而不是，后面接名词或动词，不能接完整句子"
+            },
+            "vocab": [
+              {
+                "word": "produce",
+                "zh": "名词：农产品（重音在前）"
+              },
+              {
+                "word": "supplier",
+                "zh": "供应商"
+              },
+              {
+                "word": "vendor",
+                "zh": "供货商"
+              },
+              {
+                "word": "quality",
+                "zh": "质量"
+              },
+              {
+                "word": "at a lower price",
+                "zh": "以更低的价格"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q26",
+          "n": 26,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Okafor Property Management has announced a ___ increase in rent for all commercial tenants beginning next January.",
+          "options": [
+            {
+              "key": "A",
+              "text": "slight"
+            },
+            {
+              "key": "B",
+              "text": "slightly"
+            },
+            {
+              "key": "C",
+              "text": "slightness"
+            },
+            {
+              "key": "D",
+              "text": "slighted"
+            }
+          ],
+          "answer": "A",
+          "explain": "名词 increase 前用形容词 slight = 小幅的；a slight increase 常见搭配。",
+          "zh": {
+            "stem": "Okafor 物业管理公司宣布，从明年一月起对所有商业租户小幅上调租金。",
+            "options": {
+              "A": "形容词：轻微的、小幅的，a slight increase = 小幅上涨 ✓",
+              "B": "副词：略微地，slightly higher = 略高，不能修饰名词",
+              "C": "名词：轻微，不能修饰名词 increase",
+              "D": "动词过去分词：怠慢、轻视，feel slighted = 觉得被怠慢，与句意无关"
+            },
+            "vocab": [
+              {
+                "word": "property management",
+                "zh": "物业管理"
+              },
+              {
+                "word": "announce",
+                "zh": "宣布"
+              },
+              {
+                "word": "increase in",
+                "zh": "在……方面的增加"
+              },
+              {
+                "word": "commercial tenant",
+                "zh": "商业租户"
+              },
+              {
+                "word": "rent",
+                "zh": "租金"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q27",
+          "n": 27,
+          "part": 5,
+          "kind": "question",
+          "type": "介词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "___ the exception of the glassware, all laboratory supplies ordered from Bertolini Scientific arrived in good condition.",
+          "options": [
+            {
+              "key": "A",
+              "text": "In"
+            },
+            {
+              "key": "B",
+              "text": "For"
+            },
+            {
+              "key": "C",
+              "text": "By"
+            },
+            {
+              "key": "D",
+              "text": "With"
+            }
+          ],
+          "answer": "D",
+          "explain": "固定搭配 with the exception of = 除……之外。",
+          "zh": {
+            "stem": "除玻璃器皿外，从 Bertolini Scientific 订购的所有实验室用品都完好无损地送达了。",
+            "options": {
+              "A": "介词：in the case of = 就……而言，但 in the exception of 不成搭配",
+              "B": "介词：for example = 例如，for the exception of 不成搭配",
+              "C": "介词：by the way = 顺便说，by the exception of 不成搭配",
+              "D": "介词：with the exception of = 除……之外，固定搭配 ✓"
+            },
+            "vocab": [
+              {
+                "word": "with the exception of",
+                "zh": "除……之外"
+              },
+              {
+                "word": "glassware",
+                "zh": "玻璃器皿"
+              },
+              {
+                "word": "laboratory supplies",
+                "zh": "实验室用品"
+              },
+              {
+                "word": "in good condition",
+                "zh": "状况良好、完好无损"
+              },
+              {
+                "word": "arrive",
+                "zh": "送达"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q28",
+          "n": 28,
+          "part": 5,
+          "kind": "question",
+          "type": "代词关系词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Customers can track orders online, but ___ who prefer to speak with a representative may call the hotline on weekdays.",
+          "options": [
+            {
+              "key": "A",
+              "text": "those"
+            },
+            {
+              "key": "B",
+              "text": "them"
+            },
+            {
+              "key": "C",
+              "text": "whoever"
+            },
+            {
+              "key": "D",
+              "text": "that"
+            }
+          ],
+          "answer": "A",
+          "explain": "those who = 那些……的人，those 作主语；them 是宾格不能作主语。",
+          "zh": {
+            "stem": "顾客可以在线追踪订单，但更愿意和客服代表通话的顾客可在工作日拨打热线。",
+            "options": {
+              "A": "指示代词：那些人，those who prefer = 更愿意……的人，作主语 ✓",
+              "B": "宾格：他们，不能作主语",
+              "C": "复合关系代词：无论谁，已含'谁'的意思，后面不能再接 who",
+              "D": "单数指示代词/关系代词：that who 不成结构"
+            },
+            "vocab": [
+              {
+                "word": "track",
+                "zh": "追踪"
+              },
+              {
+                "word": "representative",
+                "zh": "客服代表"
+              },
+              {
+                "word": "hotline",
+                "zh": "热线"
+              },
+              {
+                "word": "prefer to do",
+                "zh": "更愿意做"
+              },
+              {
+                "word": "on weekdays",
+                "zh": "在工作日"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q29",
+          "n": 29,
+          "part": 5,
+          "kind": "question",
+          "type": "动词形式",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The purchasing committee ___ three bids for the new packaging equipment before it selects a supplier next month.",
+          "options": [
+            {
+              "key": "A",
+              "text": "reviewed"
+            },
+            {
+              "key": "B",
+              "text": "is reviewing"
+            },
+            {
+              "key": "C",
+              "text": "has been reviewed"
+            },
+            {
+              "key": "D",
+              "text": "to review"
+            }
+          ],
+          "answer": "B",
+          "explain": "句子缺谓语，committee 主动审核用 is reviewing；has been reviewed 是被动。",
+          "zh": {
+            "stem": "采购委员会正在审核新包装设备的三份投标，下个月将选定一家供应商。",
+            "options": {
+              "A": "一般过去时：审核过了，与后半句 selects … next month（将来）时态冲突",
+              "B": "现在进行时主动：正在审核，committee 是审核者 ✓",
+              "C": "现在完成时被动：委员会不是'被审核'的对象",
+              "D": "不定式：不能作谓语"
+            },
+            "vocab": [
+              {
+                "word": "committee",
+                "zh": "委员会"
+              },
+              {
+                "word": "bid",
+                "zh": "投标、报价"
+              },
+              {
+                "word": "packaging equipment",
+                "zh": "包装设备"
+              },
+              {
+                "word": "select",
+                "zh": "选定"
+              },
+              {
+                "word": "supplier",
+                "zh": "供应商"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5b-q30",
+          "n": 30,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "According to the survey, most respondents found the radio advertisement more ___ than the print version.",
+          "options": [
+            {
+              "key": "A",
+              "text": "memory"
+            },
+            {
+              "key": "B",
+              "text": "memorably"
+            },
+            {
+              "key": "C",
+              "text": "memorize"
+            },
+            {
+              "key": "D",
+              "text": "memorable"
+            }
+          ],
+          "answer": "D",
+          "explain": "find + 宾语 + 形容词；more memorable than = 比……更令人难忘。",
+          "zh": {
+            "stem": "调查显示，大多数受访者认为广播广告比印刷版广告更令人印象深刻。",
+            "options": {
+              "A": "名词：记忆，find + 宾语后面要接形容词作补语，名词填不进去",
+              "B": "副词：令人难忘地，find 后面接形容词作宾语补足语，不接副词",
+              "C": "动词：记住、背诵，memorize a speech = 背演讲稿",
+              "D": "形容词：令人难忘的，find it memorable = 觉得它令人难忘 ✓"
+            },
+            "vocab": [
+              {
+                "word": "according to",
+                "zh": "根据"
+              },
+              {
+                "word": "respondent",
+                "zh": "受访者"
+              },
+              {
+                "word": "advertisement",
+                "zh": "广告"
+              },
+              {
+                "word": "print version",
+                "zh": "印刷版"
+              },
+              {
+                "word": "find sth + adj",
+                "zh": "觉得某物……"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

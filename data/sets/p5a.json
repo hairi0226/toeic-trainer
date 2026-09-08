@@ -1,0 +1,1785 @@
+{
+  "id": "p5a",
+  "title": "Part 5 专项 A",
+  "focus": "人事、办公与会议场景",
+  "style": "official-structure",
+  "origin": "generated",
+  "phrases": [
+    "in advance of",
+    "with the exception of",
+    "provided that",
+    "be entitled to",
+    "go ahead with"
+  ],
+  "recommended_minutes": 10,
+  "note": "原创 TOEIC-style 仿真题，不是 ETS 官方真题。",
+  "groups": [
+    {
+      "id": "p5a-p5",
+      "part": 5,
+      "title": "Part 5 | Incomplete Sentences 句子填空",
+      "minutes": 10,
+      "passages": [],
+      "questions": [
+        {
+          "id": "p5a-q1",
+          "n": 1,
+          "part": 5,
+          "kind": "question",
+          "type": "介词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "All travel expense reports for the Osaka trade show must be submitted ___ the end of the month to qualify for reimbursement.",
+          "options": [
+            {
+              "key": "A",
+              "text": "until"
+            },
+            {
+              "key": "B",
+              "text": "by"
+            },
+            {
+              "key": "C",
+              "text": "since"
+            },
+            {
+              "key": "D",
+              "text": "among"
+            }
+          ],
+          "answer": "B",
+          "explain": "submit + by + 时间点 = 最迟在……前提交；until 表持续到某时，不配一次性动作 submit。",
+          "zh": {
+            "stem": "大阪展会的所有差旅费用报销单必须在月底前提交，才能获得报销。",
+            "options": {
+              "A": "介词：直到……为止，强调持续状态，stay until Friday = 待到周五；submit 是一次性动作，不搭",
+              "B": "介词：最迟不晚于……，接截止时间点，submit by the end of the month = 月底前提交 ✓",
+              "C": "介词/连词：自……以来，接起始时间，常配现在完成时，since 2020 = 从 2020 年起",
+              "D": "介词：在……之中（三者以上），among the staff = 员工当中"
+            },
+            "vocab": [
+              {
+                "word": "travel expense report",
+                "zh": "差旅费用报销单"
+              },
+              {
+                "word": "trade show",
+                "zh": "展会、贸易展"
+              },
+              {
+                "word": "qualify for",
+                "zh": "有资格获得"
+              },
+              {
+                "word": "reimbursement",
+                "zh": "报销"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q2",
+          "n": 2,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Applicants who submit their documents ___ will be contacted by the recruiting team at Brightwell Logistics within five business days.",
+          "options": [
+            {
+              "key": "A",
+              "text": "prompt"
+            },
+            {
+              "key": "B",
+              "text": "promptness"
+            },
+            {
+              "key": "C",
+              "text": "promptly"
+            },
+            {
+              "key": "D",
+              "text": "prompted"
+            }
+          ],
+          "answer": "C",
+          "explain": "修饰动词 submit 要用副词 promptly（及时地）；prompt 是形容词或动词。",
+          "zh": {
+            "stem": "及时提交材料的申请人，将在五个工作日内收到 Brightwell 物流公司招聘团队的联系。",
+            "options": {
+              "A": "形容词：迅速的 / 动词：促使，a prompt reply = 及时的回复；这里要修饰动词 submit，形容词不行",
+              "B": "名词：迅速、及时；动词加宾语之后直接接名词说不通",
+              "C": "副词：及时地、迅速地，修饰动词 submit，submit promptly = 及时提交 ✓",
+              "D": "过去分词：被促使的，prompted by = 受……促使；放在这里不成句"
+            },
+            "vocab": [
+              {
+                "word": "applicant",
+                "zh": "申请人、求职者"
+              },
+              {
+                "word": "recruiting team",
+                "zh": "招聘团队"
+              },
+              {
+                "word": "business day",
+                "zh": "工作日"
+              },
+              {
+                "word": "within",
+                "zh": "在……之内"
+              },
+              {
+                "word": "logistics",
+                "zh": "物流"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q3",
+          "n": 3,
+          "part": 5,
+          "kind": "question",
+          "type": "动词形式",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Candidates selected for a second interview will be asked ___ a short presentation on a topic of their choice.",
+          "options": [
+            {
+              "key": "A",
+              "text": "give"
+            },
+            {
+              "key": "B",
+              "text": "giving"
+            },
+            {
+              "key": "C",
+              "text": "gave"
+            },
+            {
+              "key": "D",
+              "text": "to give"
+            }
+          ],
+          "answer": "D",
+          "explain": "ask sb to do 的被动是 be asked to do；后面不能直接接原形或 -ing。",
+          "zh": {
+            "stem": "被选中参加第二轮面试的候选人将被要求就自选主题做一个简短的演讲。",
+            "options": {
+              "A": "动词原形：做（演讲），be asked 后面不能直接接原形",
+              "B": "动名词/现在分词：ask 不接 doing 形式",
+              "C": "过去式：语法上接不上，前面已有谓语 will be asked",
+              "D": "不定式：ask sb to do → 被动 be asked to do = 被要求做某事 ✓"
+            },
+            "vocab": [
+              {
+                "word": "candidate",
+                "zh": "候选人"
+              },
+              {
+                "word": "second interview",
+                "zh": "第二轮面试"
+              },
+              {
+                "word": "presentation",
+                "zh": "演讲、汇报"
+              },
+              {
+                "word": "of their choice",
+                "zh": "自选的、自己挑的"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q4",
+          "n": 4,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The new performance review system is designed to give employees more ___ feedback on their quarterly goals.",
+          "options": [
+            {
+              "key": "A",
+              "text": "specific"
+            },
+            {
+              "key": "B",
+              "text": "specify"
+            },
+            {
+              "key": "C",
+              "text": "specifically"
+            },
+            {
+              "key": "D",
+              "text": "specification"
+            }
+          ],
+          "answer": "A",
+          "explain": "名词 feedback 前要形容词 specific，more specific = 更具体的；副词不能修饰名词。",
+          "zh": {
+            "stem": "新的绩效考核系统旨在就员工的季度目标给出更具体的反馈。",
+            "options": {
+              "A": "形容词：具体的、明确的，specific feedback = 具体的反馈，more specific = 更具体 ✓",
+              "B": "动词：明确说明，specify the date = 说明日期；名词前不能放动词",
+              "C": "副词：具体地、特别地，修饰动词或形容词，不能修饰名词 feedback",
+              "D": "名词：规格、说明书，product specifications = 产品规格；两个名词堆叠不通"
+            },
+            "vocab": [
+              {
+                "word": "performance review",
+                "zh": "绩效考核"
+              },
+              {
+                "word": "be designed to",
+                "zh": "旨在、被设计用来"
+              },
+              {
+                "word": "feedback",
+                "zh": "反馈"
+              },
+              {
+                "word": "quarterly",
+                "zh": "每季度的"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q5",
+          "n": 5,
+          "part": 5,
+          "kind": "question",
+          "type": "连词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "___ the new photocopier is more expensive than the previous model, it uses considerably less toner and requires fewer repairs.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Despite"
+            },
+            {
+              "key": "B",
+              "text": "Although"
+            },
+            {
+              "key": "C",
+              "text": "Because"
+            },
+            {
+              "key": "D",
+              "text": "Unless"
+            }
+          ],
+          "answer": "B",
+          "explain": "前后是让步关系且空格后是完整句子，用连词 Although；Despite 是介词只能接名词。",
+          "zh": {
+            "stem": "虽然新复印机比之前的型号贵，但它耗的碳粉少得多，也更少需要维修。",
+            "options": {
+              "A": "介词：尽管，后面只接名词短语，despite the cost；这里后面是完整句子，不行",
+              "B": "连词：虽然、尽管，引导让步从句，Although it is expensive, … ✓",
+              "C": "连词：因为，表因果；“因为贵所以省碳粉”逻辑不通",
+              "D": "连词：除非，表条件，语义不合"
+            },
+            "vocab": [
+              {
+                "word": "photocopier",
+                "zh": "复印机"
+              },
+              {
+                "word": "previous",
+                "zh": "之前的"
+              },
+              {
+                "word": "considerably",
+                "zh": "相当地、大大地"
+              },
+              {
+                "word": "toner",
+                "zh": "碳粉、墨粉"
+              },
+              {
+                "word": "repair",
+                "zh": "维修"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q6",
+          "n": 6,
+          "part": 5,
+          "kind": "question",
+          "type": "代词关系词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Staff members ___ parking permits expire this month should renew them online before visiting the security desk.",
+          "options": [
+            {
+              "key": "A",
+              "text": "who"
+            },
+            {
+              "key": "B",
+              "text": "which"
+            },
+            {
+              "key": "C",
+              "text": "whose"
+            },
+            {
+              "key": "D",
+              "text": "whom"
+            }
+          ],
+          "answer": "C",
+          "explain": "空格后直接接名词 parking permits，表所属关系，用关系代词 whose（……的）。",
+          "zh": {
+            "stem": "停车证本月到期的员工，应先在网上续期，再去保安台办理。",
+            "options": {
+              "A": "关系代词：作从句主语，指人，the man who called；后面不能直接接名词",
+              "B": "关系代词：指物，作主语或宾语，the report which I wrote",
+              "C": "关系代词：……的，表所属，后接名词，staff whose permits expire = 停车证到期的员工 ✓",
+              "D": "关系代词：指人，作宾语，the manager whom I met"
+            },
+            "vocab": [
+              {
+                "word": "parking permit",
+                "zh": "停车证"
+              },
+              {
+                "word": "expire",
+                "zh": "到期、过期"
+              },
+              {
+                "word": "renew",
+                "zh": "续期、更新"
+              },
+              {
+                "word": "security desk",
+                "zh": "保安台、安保前台"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q7",
+          "n": 7,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Please note that the ___ of the projector in Conference Room B has been scheduled for Thursday morning.",
+          "options": [
+            {
+              "key": "A",
+              "text": "install"
+            },
+            {
+              "key": "B",
+              "text": "installs"
+            },
+            {
+              "key": "C",
+              "text": "installed"
+            },
+            {
+              "key": "D",
+              "text": "installation"
+            }
+          ],
+          "answer": "D",
+          "explain": "the ___ of 中间要名词，installation（安装）作句子主语。",
+          "zh": {
+            "stem": "请注意，B 会议室投影仪的安装已安排在周四上午。",
+            "options": {
+              "A": "动词原形：安装，install the software；the 和 of 之间不能放动词原形",
+              "B": "动词第三人称单数：安装，he installs；同样不能作名词用",
+              "C": "过去式/过去分词：被安装的，the installed projector = 已安装好的投影仪；这里需要名词",
+              "D": "名词：安装，the installation of the projector = 投影仪的安装 ✓"
+            },
+            "vocab": [
+              {
+                "word": "projector",
+                "zh": "投影仪"
+              },
+              {
+                "word": "conference room",
+                "zh": "会议室"
+              },
+              {
+                "word": "be scheduled for",
+                "zh": "被安排在（某时间）"
+              },
+              {
+                "word": "please note that",
+                "zh": "请注意"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q8",
+          "n": 8,
+          "part": 5,
+          "kind": "question",
+          "type": "词汇",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The office manager ordered ___ toner cartridges so that the printers would not run out during the year-end reporting period.",
+          "options": [
+            {
+              "key": "A",
+              "text": "additional"
+            },
+            {
+              "key": "B",
+              "text": "temporary"
+            },
+            {
+              "key": "C",
+              "text": "equivalent"
+            },
+            {
+              "key": "D",
+              "text": "immediate"
+            }
+          ],
+          "answer": "A",
+          "explain": "语义题：为了防止打印机断粮，要订购“额外的”碳粉盒，additional 符合逻辑。",
+          "zh": {
+            "stem": "办公室主任订购了额外的碳粉盒，以免打印机在年末报告期间断粮。",
+            "options": {
+              "A": "形容词：额外的、附加的，additional cost = 额外费用 ✓",
+              "B": "形容词：临时的，a temporary badge = 临时工牌；订\"临时的\"碳粉盒说不通",
+              "C": "形容词：相等的、等同的，equivalent to = 相当于；语义不合",
+              "D": "形容词：立即的、直接的，immediate action = 立即行动；碳粉盒本身谈不上\"立即\""
+            },
+            "vocab": [
+              {
+                "word": "office manager",
+                "zh": "办公室主任、行政经理"
+              },
+              {
+                "word": "toner cartridge",
+                "zh": "碳粉盒、硒鼓"
+              },
+              {
+                "word": "run out",
+                "zh": "用完、耗尽"
+              },
+              {
+                "word": "year-end",
+                "zh": "年末的"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q9",
+          "n": 9,
+          "part": 5,
+          "kind": "question",
+          "type": "动词形式",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Since the videoconferencing system was upgraded last spring, the number of in-person meetings ___ by nearly 40 percent.",
+          "options": [
+            {
+              "key": "A",
+              "text": "decreases"
+            },
+            {
+              "key": "B",
+              "text": "had decreased"
+            },
+            {
+              "key": "C",
+              "text": "was decreasing"
+            },
+            {
+              "key": "D",
+              "text": "has decreased"
+            }
+          ],
+          "answer": "D",
+          "explain": "since + 过去时间点，主句用现在完成时 has decreased，表示从那时到现在的结果。",
+          "zh": {
+            "stem": "自从去年春天视频会议系统升级以来，线下会议的数量已减少了近 40%。",
+            "options": {
+              "A": "一般现在时：表经常性事实，不能表达“从过去到现在的变化”",
+              "B": "过去完成时：过去的过去，主句需要和现在关联，时态不对",
+              "C": "过去进行时：表过去某时正在进行，和 since 引导的起点不搭",
+              "D": "现在完成时：since + 过去时间 → 主句 has done，表从那时到现在的结果 ✓"
+            },
+            "vocab": [
+              {
+                "word": "videoconferencing",
+                "zh": "视频会议"
+              },
+              {
+                "word": "upgrade",
+                "zh": "升级"
+              },
+              {
+                "word": "in-person",
+                "zh": "面对面的、线下的"
+              },
+              {
+                "word": "nearly",
+                "zh": "将近"
+              },
+              {
+                "word": "percent",
+                "zh": "百分之……"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q10",
+          "n": 10,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Because the training room seats only twenty people, ___ at the laboratory safety workshop is limited to one representative per department.",
+          "options": [
+            {
+              "key": "A",
+              "text": "attend"
+            },
+            {
+              "key": "B",
+              "text": "attendance"
+            },
+            {
+              "key": "C",
+              "text": "attending"
+            },
+            {
+              "key": "D",
+              "text": "attendant"
+            }
+          ],
+          "answer": "B",
+          "explain": "主句缺主语，需名词 attendance（出席人数）；attend 是及物动词，attending at 不成立。",
+          "zh": {
+            "stem": "由于培训室只能坐二十人，实验室安全研讨会的出席名额限定为每个部门一名代表。",
+            "options": {
+              "A": "动词：出席，attend a meeting；动词不能作主语",
+              "B": "名词：出席、出席人数，attendance is limited = 出席名额有限 ✓",
+              "C": "动名词：出席，但 attend 是及物动词，后面直接接宾语不加 at，attending at 不成立",
+              "D": "名词：服务员、随员，flight attendant = 空乘；语义不合且缺冠词"
+            },
+            "vocab": [
+              {
+                "word": "seat",
+                "zh": "动词：可容纳（若干人）"
+              },
+              {
+                "word": "representative",
+                "zh": "代表"
+              },
+              {
+                "word": "per",
+                "zh": "每（一）"
+              },
+              {
+                "word": "be limited to",
+                "zh": "限定为"
+              },
+              {
+                "word": "workshop",
+                "zh": "研讨会、工作坊"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q11",
+          "n": 11,
+          "part": 5,
+          "kind": "question",
+          "type": "介词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "___ strong objections from several team leaders, the company went ahead with its plan to move the weekly staff meeting to Monday mornings.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Except"
+            },
+            {
+              "key": "B",
+              "text": "Among"
+            },
+            {
+              "key": "C",
+              "text": "Despite"
+            },
+            {
+              "key": "D",
+              "text": "Unlike"
+            }
+          ],
+          "answer": "C",
+          "explain": "有反对却照样推进，表让步用 Despite + 名词短语；后半句 went ahead with 是关键线索。",
+          "zh": {
+            "stem": "尽管几位团队负责人强烈反对，公司还是照原计划把每周员工会议改到了周一上午。",
+            "options": {
+              "A": "介词：除了……之外，except Sunday；“除了反对之外”逻辑不通",
+              "B": "介词：在……之中，among the objections 说不通",
+              "C": "介词：尽管，接名词短语，despite objections = 尽管有反对 ✓",
+              "D": "介词：不像、与……不同，unlike last year；语义不合"
+            },
+            "vocab": [
+              {
+                "word": "objection",
+                "zh": "反对、异议"
+              },
+              {
+                "word": "go ahead with",
+                "zh": "照计划推进"
+              },
+              {
+                "word": "weekly",
+                "zh": "每周的"
+              },
+              {
+                "word": "staff meeting",
+                "zh": "员工会议"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q12",
+          "n": 12,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Ms. Adeyemi's ___ handling of the client's complaint earned her a special mention in the monthly newsletter.",
+          "options": [
+            {
+              "key": "A",
+              "text": "professional"
+            },
+            {
+              "key": "B",
+              "text": "profession"
+            },
+            {
+              "key": "C",
+              "text": "professionally"
+            },
+            {
+              "key": "D",
+              "text": "professionalism"
+            }
+          ],
+          "answer": "A",
+          "explain": "handling 在此是名词（处理），前面要形容词 professional 修饰；副词不能修饰名词。",
+          "zh": {
+            "stem": "Adeyemi 女士对客户投诉的专业处理，为她在月度简报中赢得了特别表扬。",
+            "options": {
+              "A": "形容词：专业的，professional handling = 专业的处理 ✓",
+              "B": "名词：职业，the legal profession = 法律行业；两个名词堆在一起不通",
+              "C": "副词：专业地，修饰动词，handle it professionally；这里 handling 是名词",
+              "D": "名词：职业素养，show professionalism；同样不能修饰名词 handling"
+            },
+            "vocab": [
+              {
+                "word": "handling",
+                "zh": "处理（名词）"
+              },
+              {
+                "word": "complaint",
+                "zh": "投诉"
+              },
+              {
+                "word": "earn sb sth",
+                "zh": "为某人赢得"
+              },
+              {
+                "word": "special mention",
+                "zh": "特别表扬"
+              },
+              {
+                "word": "newsletter",
+                "zh": "简报、内部通讯"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q13",
+          "n": 13,
+          "part": 5,
+          "kind": "question",
+          "type": "连词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Employees may carry over up to five unused vacation days ___ they notify Human Resources before December 1.",
+          "options": [
+            {
+              "key": "A",
+              "text": "as if"
+            },
+            {
+              "key": "B",
+              "text": "whether"
+            },
+            {
+              "key": "C",
+              "text": "in spite of"
+            },
+            {
+              "key": "D",
+              "text": "provided that"
+            }
+          ],
+          "answer": "D",
+          "explain": "后半句是前半句成立的条件，用 provided that（只要、条件是）；in spite of 是介词。",
+          "zh": {
+            "stem": "只要员工在 12 月 1 日前通知人力资源部，最多可以把五天未休年假结转到下一年。",
+            "options": {
+              "A": "连词：好像，as if nothing happened；语义不合",
+              "B": "连词：是否，whether or not；这里不是在说“不管是否”",
+              "C": "介词短语：尽管，接名词，in spite of the rain；不能接句子",
+              "D": "连词：只要、条件是，= if / as long as，provided that you notify HR ✓"
+            },
+            "vocab": [
+              {
+                "word": "carry over",
+                "zh": "结转（到下一期）"
+              },
+              {
+                "word": "up to",
+                "zh": "最多"
+              },
+              {
+                "word": "unused",
+                "zh": "未使用的"
+              },
+              {
+                "word": "notify",
+                "zh": "通知"
+              },
+              {
+                "word": "Human Resources",
+                "zh": "人力资源部"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q14",
+          "n": 14,
+          "part": 5,
+          "kind": "question",
+          "type": "动词形式",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Any invoice ___ after the 25th of the month will be paid in the following billing cycle.",
+          "options": [
+            {
+              "key": "A",
+              "text": "receive"
+            },
+            {
+              "key": "B",
+              "text": "received"
+            },
+            {
+              "key": "C",
+              "text": "receiving"
+            },
+            {
+              "key": "D",
+              "text": "receives"
+            }
+          ],
+          "answer": "B",
+          "explain": "过去分词 received 作后置定语 = which is received；谓语是 will be paid。",
+          "zh": {
+            "stem": "每月 25 日之后收到的发票，将在下一个结算周期支付。",
+            "options": {
+              "A": "动词原形：收到；句子已有谓语 will be paid，不能再放原形动词",
+              "B": "过去分词作后置定语：被收到的，invoice (which is) received after… ✓",
+              "C": "现在分词：表主动“正在收”，但发票是被人收到的，语态不对",
+              "D": "第三人称单数：invoice receives（发票收到？）语义和结构都不通"
+            },
+            "vocab": [
+              {
+                "word": "invoice",
+                "zh": "发票、账单"
+              },
+              {
+                "word": "billing cycle",
+                "zh": "结算周期、账单周期"
+              },
+              {
+                "word": "following",
+                "zh": "接下来的、下一个"
+              },
+              {
+                "word": "pay",
+                "zh": "支付"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q15",
+          "n": 15,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The IT department will ___ replace all desktop computers older than five years during the first quarter.",
+          "options": [
+            {
+              "key": "A",
+              "text": "progressive"
+            },
+            {
+              "key": "B",
+              "text": "progress"
+            },
+            {
+              "key": "C",
+              "text": "progressively"
+            },
+            {
+              "key": "D",
+              "text": "progression"
+            }
+          ],
+          "answer": "C",
+          "explain": "will 和 replace 之间要副词 progressively（逐步地）修饰动词；形容词和名词都放不进去。",
+          "zh": {
+            "stem": "IT 部门将在第一季度逐步更换所有使用超过五年的台式电脑。",
+            "options": {
+              "A": "形容词：渐进的、进步的，a progressive approach = 循序渐进的办法；不能修饰动词 replace",
+              "B": "名词/动词：进展、进步，make progress = 取得进展；助动词和动词之间不能放名词",
+              "C": "副词：逐步地、渐进地，will progressively replace = 将逐步更换 ✓",
+              "D": "名词：进程、发展，career progression = 职业发展；放不进去"
+            },
+            "vocab": [
+              {
+                "word": "desktop computer",
+                "zh": "台式电脑"
+              },
+              {
+                "word": "replace",
+                "zh": "更换"
+              },
+              {
+                "word": "quarter",
+                "zh": "季度"
+              },
+              {
+                "word": "older than",
+                "zh": "使用超过……年的、比……旧的"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q16",
+          "n": 16,
+          "part": 5,
+          "kind": "question",
+          "type": "介词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The revised meeting agenda was distributed to all participants ___ advance of Tuesday's budget discussion.",
+          "options": [
+            {
+              "key": "A",
+              "text": "in"
+            },
+            {
+              "key": "B",
+              "text": "on"
+            },
+            {
+              "key": "C",
+              "text": "at"
+            },
+            {
+              "key": "D",
+              "text": "by"
+            }
+          ],
+          "answer": "A",
+          "explain": "固定搭配 in advance of = 在……之前；in advance 也可单独用，意为“提前”。",
+          "zh": {
+            "stem": "修订后的会议议程已在周二预算讨论之前分发给所有参会者。",
+            "options": {
+              "A": "介词：in advance (of) = 提前、在……之前，固定搭配 ✓",
+              "B": "介词：在……上/某天，on Tuesday；on advance 不成搭配",
+              "C": "介词：在某点，at 9 o'clock；at advance 不成搭配",
+              "D": "介词：最迟在……前 / 通过，by Friday、by e-mail；by advance 不成搭配"
+            },
+            "vocab": [
+              {
+                "word": "revised",
+                "zh": "修订后的"
+              },
+              {
+                "word": "agenda",
+                "zh": "议程"
+              },
+              {
+                "word": "distribute",
+                "zh": "分发"
+              },
+              {
+                "word": "participant",
+                "zh": "参会者"
+              },
+              {
+                "word": "budget",
+                "zh": "预算"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q17",
+          "n": 17,
+          "part": 5,
+          "kind": "question",
+          "type": "代词关系词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Employees with more than ten years of service are entitled to more paid leave than ___ hired more recently.",
+          "options": [
+            {
+              "key": "A",
+              "text": "them"
+            },
+            {
+              "key": "B",
+              "text": "they"
+            },
+            {
+              "key": "C",
+              "text": "whose"
+            },
+            {
+              "key": "D",
+              "text": "those"
+            }
+          ],
+          "answer": "D",
+          "explain": "those hired = 那些被雇用的人，those 代指前面的 employees，后接过去分词作定语。",
+          "zh": {
+            "stem": "工龄超过十年的员工比新近入职的员工享有更多的带薪假。",
+            "options": {
+              "A": "宾格代词：他们，后面不能再接分词短语作定语",
+              "B": "主格代词：他们，than they hired 意思变成“比他们雇的”，不通",
+              "C": "关系代词：……的，后面要接名词，不能接 hired",
+              "D": "指示代词：那些人，those (who were) hired more recently = 新近入职的那些人 ✓"
+            },
+            "vocab": [
+              {
+                "word": "years of service",
+                "zh": "工龄、服务年限"
+              },
+              {
+                "word": "be entitled to",
+                "zh": "有权享有"
+              },
+              {
+                "word": "paid leave",
+                "zh": "带薪假"
+              },
+              {
+                "word": "hire",
+                "zh": "雇用"
+              },
+              {
+                "word": "recently",
+                "zh": "最近"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q18",
+          "n": 18,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Staff members who wish to join the dental plan must complete the ___ form and return it to Ms. Nguyen by October 15.",
+          "options": [
+            {
+              "key": "A",
+              "text": "attached"
+            },
+            {
+              "key": "B",
+              "text": "attachment"
+            },
+            {
+              "key": "C",
+              "text": "attaching"
+            },
+            {
+              "key": "D",
+              "text": "attach"
+            }
+          ],
+          "answer": "A",
+          "explain": "名词 form 前用过去分词作形容词 attached（附上的）；the attached form = 随附的表格。",
+          "zh": {
+            "stem": "希望加入牙科保险计划的员工，须填写所附表格并在 10 月 15 日前交回给 Nguyen 女士。",
+            "options": {
+              "A": "过去分词作形容词：附上的、随附的，the attached form = 随附的表格 ✓",
+              "B": "名词：附件，see the attachment；attachment form 不是固定搭配",
+              "C": "现在分词：正在附上的，表主动，但表格是被附上的，不合",
+              "D": "动词原形：附上，attach a file；冠词 the 后面不能直接放动词"
+            },
+            "vocab": [
+              {
+                "word": "dental plan",
+                "zh": "牙科保险计划"
+              },
+              {
+                "word": "complete a form",
+                "zh": "填写表格"
+              },
+              {
+                "word": "return",
+                "zh": "交回"
+              },
+              {
+                "word": "by + 日期",
+                "zh": "最迟在……之前"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q19",
+          "n": 19,
+          "part": 5,
+          "kind": "question",
+          "type": "词汇",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Anyone who refers a successful candidate to Kowalski Engineering will receive a ___ of $500 after the new hire completes the probation period.",
+          "options": [
+            {
+              "key": "A",
+              "text": "receipt"
+            },
+            {
+              "key": "B",
+              "text": "bonus"
+            },
+            {
+              "key": "C",
+              "text": "salary"
+            },
+            {
+              "key": "D",
+              "text": "budget"
+            }
+          ],
+          "answer": "B",
+          "explain": "语义题：内推成功获得的一笔钱是 bonus（奖金）；receipt 是收据，salary 是工资。",
+          "zh": {
+            "stem": "向 Kowalski 工程公司推荐候选人成功的人，将在新员工通过试用期后获得 500 美元奖金。",
+            "options": {
+              "A": "名词：收据，keep the receipt = 保留收据；不是钱本身",
+              "B": "名词：奖金，a referral bonus = 内推奖金 ✓",
+              "C": "名词：工资、薪水，是定期发放的报酬，不是一次性的奖励",
+              "D": "名词：预算，within budget = 在预算内；语义不合"
+            },
+            "vocab": [
+              {
+                "word": "refer",
+                "zh": "推荐、介绍"
+              },
+              {
+                "word": "new hire",
+                "zh": "新员工"
+              },
+              {
+                "word": "probation period",
+                "zh": "试用期"
+              },
+              {
+                "word": "complete",
+                "zh": "完成、通过"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q20",
+          "n": 20,
+          "part": 5,
+          "kind": "question",
+          "type": "动词形式",
+          "bonus": false,
+          "rev": 0,
+          "stem": "By the time the new payroll software is launched next month, the accounting staff ___ three separate training sessions.",
+          "options": [
+            {
+              "key": "A",
+              "text": "complete"
+            },
+            {
+              "key": "B",
+              "text": "are completing"
+            },
+            {
+              "key": "C",
+              "text": "will have completed"
+            },
+            {
+              "key": "D",
+              "text": "had completed"
+            }
+          ],
+          "answer": "C",
+          "explain": "by the time + 将来时间 → 主句用将来完成时 will have done，表“到那时已经完成”。",
+          "zh": {
+            "stem": "到下个月新薪资软件上线时，会计人员将已经完成三次独立的培训课程。",
+            "options": {
+              "A": "一般现在时：表习惯或事实，没有“到那时已经”的含义",
+              "B": "现在进行时：正在完成，和“到某时为止”不搭",
+              "C": "将来完成时：by the time + 将来 → will have done = 到那时已经完成 ✓",
+              "D": "过去完成时：过去的过去，但事情发生在下个月，时态冲突"
+            },
+            "vocab": [
+              {
+                "word": "by the time",
+                "zh": "到……时候"
+              },
+              {
+                "word": "payroll",
+                "zh": "薪资、工资单"
+              },
+              {
+                "word": "launch",
+                "zh": "上线、推出"
+              },
+              {
+                "word": "accounting",
+                "zh": "会计"
+              },
+              {
+                "word": "training session",
+                "zh": "培训课程"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q21",
+          "n": 21,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The board expressed its ___ for the way Mr. Castellanos managed the merger negotiations under considerable pressure.",
+          "options": [
+            {
+              "key": "A",
+              "text": "appreciate"
+            },
+            {
+              "key": "B",
+              "text": "appreciative"
+            },
+            {
+              "key": "C",
+              "text": "appreciably"
+            },
+            {
+              "key": "D",
+              "text": "appreciation"
+            }
+          ],
+          "answer": "D",
+          "explain": "its 后面接名词 appreciation；express appreciation for = 对……表示赞赏。",
+          "zh": {
+            "stem": "董事会对 Castellanos 先生在巨大压力下处理并购谈判的方式表示赞赏。",
+            "options": {
+              "A": "动词：感激、欣赏，appreciate your help；物主代词后不能接动词",
+              "B": "形容词：感激的，be appreciative of；its 后面缺名词",
+              "C": "副词：明显地，appreciably higher；不能作 its 的中心词",
+              "D": "名词：赞赏、感谢，express its appreciation for = 对……表示赞赏 ✓"
+            },
+            "vocab": [
+              {
+                "word": "board",
+                "zh": "董事会"
+              },
+              {
+                "word": "merger",
+                "zh": "并购、合并"
+              },
+              {
+                "word": "negotiation",
+                "zh": "谈判"
+              },
+              {
+                "word": "considerable",
+                "zh": "相当大的"
+              },
+              {
+                "word": "under pressure",
+                "zh": "在压力之下"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q22",
+          "n": 22,
+          "part": 5,
+          "kind": "question",
+          "type": "连词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "___ the quarterly budget review has been approved, department heads may begin purchasing the equipment listed in their proposals.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Once"
+            },
+            {
+              "key": "B",
+              "text": "Following"
+            },
+            {
+              "key": "C",
+              "text": "Whereas"
+            },
+            {
+              "key": "D",
+              "text": "So that"
+            }
+          ],
+          "answer": "A",
+          "explain": "“一旦审批通过就可以采购”，用连词 Once（一旦……就）引导时间/条件从句。",
+          "zh": {
+            "stem": "一旦季度预算审核获批，各部门负责人即可开始采购提案中列出的设备。",
+            "options": {
+              "A": "连词：一旦……就，Once approved, … ✓",
+              "B": "介词：在……之后，following the meeting = 会后；只能接名词，不能接句子",
+              "C": "连词：然而，表对比，前后没有对比关系",
+              "D": "连词：以便，表目的，语义不通"
+            },
+            "vocab": [
+              {
+                "word": "quarterly",
+                "zh": "季度的"
+              },
+              {
+                "word": "budget review",
+                "zh": "预算审核"
+              },
+              {
+                "word": "approve",
+                "zh": "批准"
+              },
+              {
+                "word": "department head",
+                "zh": "部门负责人"
+              },
+              {
+                "word": "proposal",
+                "zh": "提案"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q23",
+          "n": 23,
+          "part": 5,
+          "kind": "question",
+          "type": "介词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "___ the two-week orientation period, new hires will rotate through each department to learn how the company operates.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Until"
+            },
+            {
+              "key": "B",
+              "text": "During"
+            },
+            {
+              "key": "C",
+              "text": "Beyond"
+            },
+            {
+              "key": "D",
+              "text": "Under"
+            }
+          ],
+          "answer": "B",
+          "explain": "during + 一段时间 = 在……期间；until 表“直到”，与轮岗动作不搭。",
+          "zh": {
+            "stem": "在为期两周的入职培训期间，新员工将轮流到各部门了解公司的运作方式。",
+            "options": {
+              "A": "介词：直到……为止，until Friday；“直到培训期”说不通",
+              "B": "介词：在……期间，during the orientation period = 入职培训期间 ✓",
+              "C": "介词：超出、在……之外，beyond the deadline = 超过期限；\"超出培训期轮岗\"语义不合",
+              "D": "介词：在……之下，under the desk；语义不合"
+            },
+            "vocab": [
+              {
+                "word": "orientation",
+                "zh": "入职培训、新人介绍"
+              },
+              {
+                "word": "new hire",
+                "zh": "新员工"
+              },
+              {
+                "word": "rotate through",
+                "zh": "轮流经过、轮岗"
+              },
+              {
+                "word": "operate",
+                "zh": "运作"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q24",
+          "n": 24,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Delegates attending the regional sales meeting in Nairobi will receive a printed agenda and a ___ list of hotel options near the venue.",
+          "options": [
+            {
+              "key": "A",
+              "text": "comprehension"
+            },
+            {
+              "key": "B",
+              "text": "comprehend"
+            },
+            {
+              "key": "C",
+              "text": "comprehensive"
+            },
+            {
+              "key": "D",
+              "text": "comprehensively"
+            }
+          ],
+          "answer": "C",
+          "explain": "冠词 a 和名词 list 之间要形容词 comprehensive（全面的、完整的）。",
+          "zh": {
+            "stem": "参加内罗毕地区销售会议的代表将收到一份印刷版议程和一份会场附近酒店的完整清单。",
+            "options": {
+              "A": "名词：理解，reading comprehension = 阅读理解；名词堆叠不通",
+              "B": "动词：理解，comprehend the text；冠词后面不能放动词",
+              "C": "形容词：全面的、详尽的，a comprehensive list = 完整清单 ✓",
+              "D": "副词：全面地，修饰动词；不能修饰名词 list"
+            },
+            "vocab": [
+              {
+                "word": "delegate",
+                "zh": "代表"
+              },
+              {
+                "word": "regional",
+                "zh": "地区的"
+              },
+              {
+                "word": "venue",
+                "zh": "会场、场地"
+              },
+              {
+                "word": "option",
+                "zh": "可选项、选择"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q25",
+          "n": 25,
+          "part": 5,
+          "kind": "question",
+          "type": "代词关系词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Rather than wait for the technician, Dr. Haddad recalibrated the microscope ___ and finished the sample analysis on schedule.",
+          "options": [
+            {
+              "key": "A",
+              "text": "her"
+            },
+            {
+              "key": "B",
+              "text": "she"
+            },
+            {
+              "key": "C",
+              "text": "hers"
+            },
+            {
+              "key": "D",
+              "text": "herself"
+            }
+          ],
+          "answer": "D",
+          "explain": "强调“亲自”做，用反身代词 herself；主语 Dr. Haddad 与之同指。",
+          "zh": {
+            "stem": "Haddad 博士没有等技术员，而是亲自重新校准了显微镜，按时完成了样品分析。",
+            "options": {
+              "A": "宾格：她，recalibrated the microscope her 多出一个宾语，不通",
+              "B": "主格：她，不能放在句中作强调",
+              "C": "名词性物主代词：她的（东西），语义不合",
+              "D": "反身代词：亲自、她自己，did it herself = 亲自做 ✓"
+            },
+            "vocab": [
+              {
+                "word": "rather than",
+                "zh": "而不是"
+              },
+              {
+                "word": "technician",
+                "zh": "技术员"
+              },
+              {
+                "word": "recalibrate",
+                "zh": "重新校准"
+              },
+              {
+                "word": "microscope",
+                "zh": "显微镜"
+              },
+              {
+                "word": "on schedule",
+                "zh": "按时、按计划"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q26",
+          "n": 26,
+          "part": 5,
+          "kind": "question",
+          "type": "动词形式",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Each of the candidates shortlisted for the marketing position ___ to complete a writing assessment before the final interview.",
+          "options": [
+            {
+              "key": "A",
+              "text": "require"
+            },
+            {
+              "key": "B",
+              "text": "is required"
+            },
+            {
+              "key": "C",
+              "text": "are required"
+            },
+            {
+              "key": "D",
+              "text": "requiring"
+            }
+          ],
+          "answer": "B",
+          "explain": "each of + 复数名词，谓语用单数；be required to do = 被要求做，需要被动。",
+          "zh": {
+            "stem": "入围市场营销职位的每位候选人都需要在终面前完成一项写作测评。",
+            "options": {
+              "A": "动词原形：要求，主语 each 是单数，且 require to do 缺被动",
+              "B": "单数被动：each … is required to do = 每位都被要求做 ✓",
+              "C": "复数被动：are 与单数主语 each 不一致",
+              "D": "现在分词：不能单独作谓语"
+            },
+            "vocab": [
+              {
+                "word": "shortlist",
+                "zh": "列入候选名单、入围"
+              },
+              {
+                "word": "position",
+                "zh": "职位"
+              },
+              {
+                "word": "assessment",
+                "zh": "测评、评估"
+              },
+              {
+                "word": "final interview",
+                "zh": "终面"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q27",
+          "n": 27,
+          "part": 5,
+          "kind": "question",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Ms. Larsson has been ___ involved in developing the mentoring program since its launch three years ago.",
+          "options": [
+            {
+              "key": "A",
+              "text": "act"
+            },
+            {
+              "key": "B",
+              "text": "active"
+            },
+            {
+              "key": "C",
+              "text": "actively"
+            },
+            {
+              "key": "D",
+              "text": "activity"
+            }
+          ],
+          "answer": "C",
+          "explain": "be involved in 是固定搭配，中间插入副词 actively 修饰形容词/分词 involved。",
+          "zh": {
+            "stem": "自导师计划三年前启动以来，Larsson 女士一直积极参与该计划的开发。",
+            "options": {
+              "A": "动词：行动 / 名词：法案，act quickly；不能修饰 involved",
+              "B": "形容词：积极的，an active member；形容词不能修饰形容词 involved",
+              "C": "副词：积极地，be actively involved in = 积极参与 ✓",
+              "D": "名词：活动，outdoor activities；放在 been 和 involved 之间不通"
+            },
+            "vocab": [
+              {
+                "word": "be involved in",
+                "zh": "参与"
+              },
+              {
+                "word": "mentoring program",
+                "zh": "导师计划"
+              },
+              {
+                "word": "launch",
+                "zh": "启动（名词）"
+              },
+              {
+                "word": "develop",
+                "zh": "开发、制定"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q28",
+          "n": 28,
+          "part": 5,
+          "kind": "question",
+          "type": "词汇",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Because the conference room was double-booked, the product design team had to ___ its planning session until the following week.",
+          "options": [
+            {
+              "key": "A",
+              "text": "extend"
+            },
+            {
+              "key": "B",
+              "text": "reserve"
+            },
+            {
+              "key": "C",
+              "text": "expire"
+            },
+            {
+              "key": "D",
+              "text": "postpone"
+            }
+          ],
+          "answer": "D",
+          "explain": "语义题：会议室撞档，只能把会议“推迟”到下周，postpone … until 是常见搭配。",
+          "zh": {
+            "stem": "由于会议室被重复预订，产品设计团队不得不把规划会议推迟到下一周。",
+            "options": {
+              "A": "动词：延长，extend the deadline = 延长期限；会议室撞档要的是推迟，不是延长",
+              "B": "动词：预订（会议室），reserve a room；\"把会议预订到下周\"说不通",
+              "C": "动词：到期、过期，不及物动词，后面不能接宾语",
+              "D": "动词：推迟，postpone the meeting until next week = 推迟到下周 ✓"
+            },
+            "vocab": [
+              {
+                "word": "double-booked",
+                "zh": "被重复预订的"
+              },
+              {
+                "word": "planning session",
+                "zh": "规划会议"
+              },
+              {
+                "word": "following",
+                "zh": "接下来的"
+              },
+              {
+                "word": "had to",
+                "zh": "不得不"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q29",
+          "n": 29,
+          "part": 5,
+          "kind": "question",
+          "type": "介词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The revised dress code applies to all employees ___ the exception of warehouse staff and delivery drivers.",
+          "options": [
+            {
+              "key": "A",
+              "text": "with"
+            },
+            {
+              "key": "B",
+              "text": "for"
+            },
+            {
+              "key": "C",
+              "text": "by"
+            },
+            {
+              "key": "D",
+              "text": "in"
+            }
+          ],
+          "answer": "A",
+          "explain": "固定搭配 with the exception of = 除……之外（= except for）。",
+          "zh": {
+            "stem": "修订后的着装规范适用于除仓库员工和送货司机之外的所有员工。",
+            "options": {
+              "A": "介词：with the exception of = 除……之外，固定搭配 ✓",
+              "B": "介词：为了、供……，for your reference = 供你参考；for the exception of 不成搭配",
+              "C": "介词：通过、最迟在，by e-mail；by the exception of 不成搭配",
+              "D": "介词：在……里，in exceptional cases；in the exception of 不成搭配"
+            },
+            "vocab": [
+              {
+                "word": "dress code",
+                "zh": "着装规范"
+              },
+              {
+                "word": "apply to",
+                "zh": "适用于"
+              },
+              {
+                "word": "exception",
+                "zh": "例外"
+              },
+              {
+                "word": "warehouse",
+                "zh": "仓库"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5a-q30",
+          "n": 30,
+          "part": 5,
+          "kind": "question",
+          "type": "连词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "The Lyon office prefers to schedule its progress meetings early in the morning, ___ the Marseille branch finds late afternoon more convenient.",
+          "options": [
+            {
+              "key": "A",
+              "text": "because"
+            },
+            {
+              "key": "B",
+              "text": "whereas"
+            },
+            {
+              "key": "C",
+              "text": "so that"
+            },
+            {
+              "key": "D",
+              "text": "in case"
+            }
+          ],
+          "answer": "B",
+          "explain": "前后两个办公室偏好相反，用 whereas（然而、而）表对比。",
+          "zh": {
+            "stem": "里昂办公室偏好把进度会议安排在清晨，而马赛分部觉得下午晚些时候更方便。",
+            "options": {
+              "A": "连词：因为，表因果；“因为马赛喜欢下午所以里昂选早上”不成立",
+              "B": "连词：然而、而，表两者对比，A prefers X, whereas B prefers Y ✓",
+              "C": "连词：以便，表目的，语义不通",
+              "D": "连词：以防、万一，in case it rains = 以防下雨；语义不通"
+            },
+            "vocab": [
+              {
+                "word": "prefer to do",
+                "zh": "更愿意做"
+              },
+              {
+                "word": "progress meeting",
+                "zh": "进度会议"
+              },
+              {
+                "word": "branch",
+                "zh": "分部、分公司"
+              },
+              {
+                "word": "convenient",
+                "zh": "方便的"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

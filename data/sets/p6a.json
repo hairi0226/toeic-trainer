@@ -1,0 +1,1010 @@
+{
+  "id": "p6a",
+  "title": "Part 6 专项 A",
+  "focus": "邮件、通知、新闻短讯、广告信函各一篇",
+  "style": "official-structure",
+  "origin": "generated",
+  "recommended_minutes": 8,
+  "note": "原创 TOEIC-style 仿真题，不是 ETS 官方真题。",
+  "phrases": [
+    "prompt reply",
+    "in advance",
+    "out of service",
+    "rather than",
+    "sign up"
+  ],
+  "groups": [
+    {
+      "id": "p6a-p6-1",
+      "part": 6,
+      "title": "Questions 1-4 refer to the following e-mail.",
+      "minutes": 2,
+      "passages": [
+        {
+          "title": "E-mail",
+          "text": "To: Farida Adeyemi <f.adeyemi@kestreloffice.co.ke>\nFrom: Tomasz Wierzbicki <t.wierzbicki@brightline-logistics.com>\nDate: April 3\nSubject: Order 5521-B\n\nDear Ms. Adeyemi,\n\nThank you for your [1] reply regarding our order of office chairs. As we discussed by phone this morning, we would like to increase the quantity from 20 to 32. [2] We would also like the order [3] to our Nairobi branch rather than to our head office in Mombasa. Please confirm the new delivery address by Wednesday. [4], the shipment will go to the original location, and we will have to arrange a transfer ourselves.\n\nI look forward to your confirmation.\n\nBest regards,\n\nTomasz Wierzbicki\nPurchasing Manager, Brightline Logistics",
+          "zh": "收件人：Farida Adeyemi <f.adeyemi@kestreloffice.co.ke>\n发件人：Tomasz Wierzbicki <t.wierzbicki@brightline-logistics.com>\n日期：4 月 3 日\n主题：订单 5521-B\n\nAdeyemi 女士，您好：\n\n感谢您就我们的办公椅订单 [1] 及时回复。正如今天上午电话里谈到的，我们想把数量从 20 把增加到 32 把。[2] 新增的椅子是给一间新培训室用的。我们还希望这批货 [3] 送到我们的内罗毕分公司，而不是蒙巴萨总部。请在周三之前确认新的送货地址。[4] 否则，货物将发往原地址，我们就得自己安排转运。\n\n期待您的确认。\n\n顺颂商祺\n\nTomasz Wierzbicki\nBrightline Logistics 采购经理"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p6a-q1",
+          "n": 1,
+          "part": 6,
+          "kind": "blank",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "prompt"
+            },
+            {
+              "key": "B",
+              "text": "promptly"
+            },
+            {
+              "key": "C",
+              "text": "promptness"
+            },
+            {
+              "key": "D",
+              "text": "prompted"
+            }
+          ],
+          "answer": "A",
+          "explain": "名词 reply 前要形容词 prompt 修饰，your prompt reply = 您的及时回复。",
+          "zh": {
+            "stem": "感谢您就我们的办公椅订单及时回复。",
+            "options": {
+              "A": "形容词：及时的、迅速的，a prompt reply = 及时回复 ✓",
+              "B": "副词：及时地，reply promptly = 及时回复，副词不能修饰名词 reply",
+              "C": "名词：及时、迅速，your promptness = 您的迅速，后面不能再接名词 reply",
+              "D": "动词过去式/过去分词：促使、提示，prompted a reply = 引发了回复，夹在 your 和 reply 之间不通"
+            },
+            "vocab": [
+              {
+                "word": "prompt reply",
+                "zh": "及时回复"
+              },
+              {
+                "word": "regarding",
+                "zh": "关于"
+              },
+              {
+                "word": "order",
+                "zh": "订单"
+              },
+              {
+                "word": "office chair",
+                "zh": "办公椅"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p6a-q2",
+          "n": 2,
+          "part": 6,
+          "kind": "sentence",
+          "type": "插句",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Choose the best sentence for blank [2].",
+          "options": [
+            {
+              "key": "A",
+              "text": "The additional chairs are needed for a new training room."
+            },
+            {
+              "key": "B",
+              "text": "We have decided to cancel the order entirely."
+            },
+            {
+              "key": "C",
+              "text": "Your catalog lists more than fifty desk models."
+            },
+            {
+              "key": "D",
+              "text": "Unfortunately, the chairs we received were damaged."
+            }
+          ],
+          "answer": "A",
+          "explain": "前句刚说数量从 20 增到 32，A 解释加订原因；B 取消订单、D 已收货都与前后文矛盾。",
+          "zh": {
+            "stem": "空格前一句：我们想把数量从 20 把增加到 32 把。空格后一句：我们还希望这批货送到内罗毕分公司。中间要补一句跟\"加订椅子\"直接相关的话。A 说\"新增的椅子是给一间新培训室用的\"，正好解释为什么要多订 12 把，后面再用 also 引出改送货地址的要求，衔接自然；B 说取消整个订单，跟前面加订、后面改地址完全矛盾；C 说目录里有五十多款办公桌，跟椅子订单无关；D 说收到的椅子坏了，可货还没发出去，前后对不上。",
+            "options": {
+              "A": "新增的椅子是给一间新培训室用的。✓",
+              "B": "我们已决定把订单全部取消。",
+              "C": "贵公司的目录列了五十多款办公桌。",
+              "D": "很遗憾，我们收到的椅子有损坏。"
+            },
+            "vocab": [
+              {
+                "word": "additional",
+                "zh": "额外的、新增的"
+              },
+              {
+                "word": "training room",
+                "zh": "培训室"
+              },
+              {
+                "word": "quantity",
+                "zh": "数量"
+              },
+              {
+                "word": "cancel",
+                "zh": "取消"
+              },
+              {
+                "word": "damaged",
+                "zh": "损坏的"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p6a-q3",
+          "n": 3,
+          "part": 6,
+          "kind": "blank",
+          "type": "动词形式",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "deliver"
+            },
+            {
+              "key": "B",
+              "text": "delivered"
+            },
+            {
+              "key": "C",
+              "text": "delivering"
+            },
+            {
+              "key": "D",
+              "text": "delivery"
+            }
+          ],
+          "answer": "B",
+          "explain": "would like + 宾语 + 过去分词 = 希望某物被……；货是被送的，用 delivered。",
+          "zh": {
+            "stem": "我们还希望这批货送到我们的内罗毕分公司，而不是蒙巴萨总部。",
+            "options": {
+              "A": "动词原形：递送，would like the order deliver 少了\"被\"的意思，语法不通",
+              "B": "过去分词：被递送，would like sth done = 希望某物被……，the order delivered = 货被送到 ✓",
+              "C": "现在分词：正在递送，货物是被人送而不是自己送，主动形式不对",
+              "D": "名词：递送、送货，the order delivery to… 两个名词堆在一起、没有谓语，不通"
+            },
+            "vocab": [
+              {
+                "word": "would like sth done",
+                "zh": "希望某物被（处理好）"
+              },
+              {
+                "word": "branch",
+                "zh": "分公司、分部"
+              },
+              {
+                "word": "rather than",
+                "zh": "而不是"
+              },
+              {
+                "word": "head office",
+                "zh": "总部"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p6a-q4",
+          "n": 4,
+          "part": 6,
+          "kind": "blank",
+          "type": "连接副词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "Therefore"
+            },
+            {
+              "key": "B",
+              "text": "Otherwise"
+            },
+            {
+              "key": "C",
+              "text": "For instance"
+            },
+            {
+              "key": "D",
+              "text": "Even so"
+            }
+          ],
+          "answer": "B",
+          "explain": "前句要求周三前确认地址，后句是不确认的后果，用 Otherwise（否则）。",
+          "zh": {
+            "stem": "请在周三之前确认新的送货地址。否则，货物将发往原地址，我们就得自己安排转运。",
+            "options": {
+              "A": "副词：因此，表因果，\"请确认地址，因此货会发到原地址\"逻辑不通",
+              "B": "副词：否则、不然，前面是要求，后面是不照做的后果 ✓",
+              "C": "副词短语：例如，后面要举例子，这里没有举例",
+              "D": "副词短语：即便如此，表让步转折，前后没有转折关系"
+            },
+            "vocab": [
+              {
+                "word": "confirm",
+                "zh": "确认"
+              },
+              {
+                "word": "delivery address",
+                "zh": "送货地址"
+              },
+              {
+                "word": "original",
+                "zh": "原来的"
+              },
+              {
+                "word": "arrange",
+                "zh": "安排"
+              },
+              {
+                "word": "transfer",
+                "zh": "转运、调拨"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6a-p6-2",
+      "part": 6,
+      "title": "Questions 5-8 refer to the following notice.",
+      "minutes": 2,
+      "passages": [
+        {
+          "title": "Notice",
+          "text": "NOTICE TO ALL TENANTS OF HARBORVIEW TOWER\n\nBeginning Monday, May 12, the two passenger elevators in the north wing will be modernized one at a time. Each elevator will be out of service for [5] three weeks. During this period, tenants are asked to allow extra time when moving between floors, particularly during the morning rush. Deliveries of large or heavy items must be arranged with the building office at least two business days [6] advance. [7] The freight elevator, however, [8] available throughout the project. We apologize for any inconvenience and thank you for your patience while the work is carried out. Questions may be directed to Ingrid Solberg, Property Manager, at extension 240.",
+          "zh": "致 HARBORVIEW 大厦全体租户的通知\n\n自 5 月 12 日（周一）起，北翼的两部客梯将轮流进行现代化改造，一次改造一部。每部电梯将停用 [5] 大约三周。在此期间，请租户在楼层之间往来时预留额外时间，尤其是早高峰时段。大件或重物的运送必须至少两个工作日 [6] 提前与大厦办公室安排好。[7] 仍在运行的那部客梯不得用于搬运家具或设备。不过，货梯在整个工程期间 [8] 将继续可用。给您带来不便，我们深表歉意，并感谢您在施工期间的耐心配合。如有疑问，请联系物业经理 Ingrid Solberg，分机 240。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p6a-q5",
+          "n": 5,
+          "part": 6,
+          "kind": "blank",
+          "type": "词汇",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "eventually"
+            },
+            {
+              "key": "B",
+              "text": "approximately"
+            },
+            {
+              "key": "C",
+              "text": "previously"
+            },
+            {
+              "key": "D",
+              "text": "occasionally"
+            }
+          ],
+          "answer": "B",
+          "explain": "语境说每部电梯停用多久，只有 approximately（大约）能修饰 three weeks 这个时长。",
+          "zh": {
+            "stem": "每部电梯将停用大约三周。",
+            "options": {
+              "A": "副词：最终、终于，eventually agreed = 最终同意；不能表示\"大约三周\"",
+              "B": "副词：大约、约，approximately three weeks = 大约三周 ✓",
+              "C": "副词：以前、先前，previously announced = 先前宣布的；与时长无关",
+              "D": "副词：偶尔，occasionally late = 偶尔迟到；放在这里说不通"
+            },
+            "vocab": [
+              {
+                "word": "out of service",
+                "zh": "停用、停止服务"
+              },
+              {
+                "word": "modernize",
+                "zh": "现代化改造"
+              },
+              {
+                "word": "passenger elevator",
+                "zh": "客梯"
+              },
+              {
+                "word": "one at a time",
+                "zh": "一次一个、轮流"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p6a-q6",
+          "n": 6,
+          "part": 6,
+          "kind": "blank",
+          "type": "介词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "at"
+            },
+            {
+              "key": "B",
+              "text": "on"
+            },
+            {
+              "key": "C",
+              "text": "in"
+            },
+            {
+              "key": "D",
+              "text": "by"
+            }
+          ],
+          "answer": "C",
+          "explain": "in advance = 提前，固定搭配；two business days in advance = 提前两个工作日。",
+          "zh": {
+            "stem": "大件或重物的运送必须提前至少两个工作日与大厦办公室安排好。",
+            "options": {
+              "A": "介词：在（某个点/时刻），at noon = 中午；at advance 不成搭配",
+              "B": "介词：在（某天/表面上），on Monday = 周一；on advance 不成搭配",
+              "C": "介词：在……之内，in advance = 提前，固定搭配 ✓",
+              "D": "介词：最迟不晚于/通过，by Friday = 周五前；by advance 不成搭配"
+            },
+            "vocab": [
+              {
+                "word": "in advance",
+                "zh": "提前"
+              },
+              {
+                "word": "business day",
+                "zh": "工作日"
+              },
+              {
+                "word": "arrange",
+                "zh": "安排"
+              },
+              {
+                "word": "delivery",
+                "zh": "运送、交货"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p6a-q7",
+          "n": 7,
+          "part": 6,
+          "kind": "sentence",
+          "type": "插句",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Choose the best sentence for blank [7].",
+          "options": [
+            {
+              "key": "A",
+              "text": "Both passenger elevators will be shut down at the same time to shorten the project."
+            },
+            {
+              "key": "B",
+              "text": "The new elevators were installed last year."
+            },
+            {
+              "key": "C",
+              "text": "The passenger elevator that stays in operation may not be used to move furniture or equipment."
+            },
+            {
+              "key": "D",
+              "text": "Tenants may renew their parking permits at the building office."
+            }
+          ],
+          "answer": "C",
+          "explain": "后句 however 表转折：客梯不能搬东西，货梯却一直可用，正确句正好与之对照。",
+          "zh": {
+            "stem": "空格前一句：大件或重物的运送必须提前至少两个工作日与大厦办公室安排好。空格后一句：不过，货梯在整个工程期间将继续可用。后句开头的 however（不过）说明空格里要有一句和\"货梯可以用\"形成对比的话：\"仍在运行的那部客梯不得用于搬运家具或设备\"正好相对，也解释了为什么大件要提前安排。\"两部客梯同时停用\"与开头\"一次改造一部\"矛盾；\"新电梯去年装好\"与正在改造矛盾；\"续办停车证\"与电梯无关。",
+            "options": {
+              "A": "两部客梯将同时停用以缩短工期。（与开头\"一次改造一部\"矛盾）",
+              "B": "新电梯去年就已经安装好了。",
+              "C": "仍在运行的那部客梯不得用于搬运家具或设备。✓",
+              "D": "租户可以在大厦办公室续办停车证。"
+            },
+            "vocab": [
+              {
+                "word": "stay in operation",
+                "zh": "继续运行"
+              },
+              {
+                "word": "furniture",
+                "zh": "家具"
+              },
+              {
+                "word": "equipment",
+                "zh": "设备"
+              },
+              {
+                "word": "freight elevator",
+                "zh": "货梯"
+              },
+              {
+                "word": "however",
+                "zh": "然而、不过"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p6a-q8",
+          "n": 8,
+          "part": 6,
+          "kind": "blank",
+          "type": "动词形式",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "remaining"
+            },
+            {
+              "key": "B",
+              "text": "remained"
+            },
+            {
+              "key": "C",
+              "text": "will remain"
+            },
+            {
+              "key": "D",
+              "text": "has remained"
+            }
+          ],
+          "answer": "C",
+          "explain": "通知讲的是 5 月 12 日以后的安排，用将来时 will remain；过去时、完成时都对不上。",
+          "zh": {
+            "stem": "不过，货梯在整个工程期间将继续可用。",
+            "options": {
+              "A": "现在分词：不能单独做谓语，句子缺动词",
+              "B": "一般过去时：过去一直可用，但工程还没开始，时间对不上",
+              "C": "一般将来时：将继续可用，与 Beginning May 12 的将来安排一致 ✓",
+              "D": "现在完成时：从过去到现在一直可用，说的不是工程期间"
+            },
+            "vocab": [
+              {
+                "word": "remain available",
+                "zh": "保持可用"
+              },
+              {
+                "word": "throughout",
+                "zh": "贯穿、在整个……期间"
+              },
+              {
+                "word": "inconvenience",
+                "zh": "不便"
+              },
+              {
+                "word": "be directed to",
+                "zh": "（问题）转交给、请联系"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6a-p6-3",
+      "part": 6,
+      "title": "Questions 9-12 refer to the following article.",
+      "minutes": 2,
+      "passages": [
+        {
+          "title": "Article",
+          "text": "Rosario Cycles to Add Three Repair Centers\n\nVALENCIA (June 8)—Rosario Cycles, a bicycle retailer based in Valencia, announced yesterday that it plans [9] three new repair centers in Alicante, Murcia, and Castellón by the end of the year. The company currently operates twelve stores across eastern Spain, but only four of them offer full repair services. \"Demand for maintenance has grown steadily as more commuters switch to cycling, and several of our workshops are now booked a week ahead,\" said founder Lucía Rosario. \"[10], we decided to add capacity where it is needed most.\" Each new center will employ about eight [11] trained technicians and will be open seven days a week. [12]",
+          "zh": "Rosario Cycles 将新增三家维修中心\n\n巴伦西亚（6 月 8 日）——总部位于巴伦西亚的自行车零售商 Rosario Cycles 昨天宣布，计划在年底前于阿利坎特、穆尔西亚和卡斯特利翁 [9] 开设三家新的维修中心。该公司目前在西班牙东部经营十二家门店，但其中只有四家提供全套维修服务。\"随着越来越多的通勤者改骑自行车，维护需求稳步增长，我们有几家维修点现在都要提前一周预约，\"创始人 Lucía Rosario 说，\"[10] 因此，我们决定在最需要的地方增加产能。\"每家新中心将雇用约八名 [11] 受过全面培训的技师，且一周七天营业。[12] 位于阿利坎特的第一家中心定于 8 月动工。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p6a-q9",
+          "n": 9,
+          "part": 6,
+          "kind": "blank",
+          "type": "动词形式",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "to open"
+            },
+            {
+              "key": "B",
+              "text": "opening"
+            },
+            {
+              "key": "C",
+              "text": "opened"
+            },
+            {
+              "key": "D",
+              "text": "opens"
+            }
+          ],
+          "answer": "A",
+          "explain": "plan to do = 计划做某事，plans 后接不定式 to open。",
+          "zh": {
+            "stem": "Rosario Cycles 昨天宣布，计划在年底前于阿利坎特、穆尔西亚和卡斯特利翁开设三家新的维修中心。",
+            "options": {
+              "A": "不定式：plan to do sth = 计划做某事，plans to open = 计划开设 ✓",
+              "B": "动名词/现在分词：plan 后面不接 -ing 形式",
+              "C": "过去式/过去分词：plans opened 两个动词撞在一起，不通",
+              "D": "第三人称单数：plans opens 两个谓语连用，不通"
+            },
+            "vocab": [
+              {
+                "word": "retailer",
+                "zh": "零售商"
+              },
+              {
+                "word": "based in",
+                "zh": "总部位于"
+              },
+              {
+                "word": "repair center",
+                "zh": "维修中心"
+              },
+              {
+                "word": "by the end of the year",
+                "zh": "到年底前"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p6a-q10",
+          "n": 10,
+          "part": 6,
+          "kind": "blank",
+          "type": "连接副词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "Even so"
+            },
+            {
+              "key": "B",
+              "text": "As a result"
+            },
+            {
+              "key": "C",
+              "text": "Instead"
+            },
+            {
+              "key": "D",
+              "text": "In the meantime"
+            }
+          ],
+          "answer": "B",
+          "explain": "前句讲需求增长、预约排满，后句是由此做出的决定，因果用 As a result。",
+          "zh": {
+            "stem": "\"随着越来越多的通勤者改骑自行车，维护需求稳步增长，我们有几家维修点现在都要提前一周预约，\"创始人 Lucía Rosario 说，\"因此，我们决定在最需要的地方增加产能。\"",
+            "options": {
+              "A": "副词短语：即便如此，表转折让步，前后不是转折关系",
+              "B": "副词短语：因此、结果是，前面是原因（需求大、排不过来），后面是结果（增加产能）✓",
+              "C": "副词：反而、取而代之，表示用另一件事代替，这里不是替代关系",
+              "D": "副词短语：与此同时，只表示时间上同时发生，没有因果"
+            },
+            "vocab": [
+              {
+                "word": "demand",
+                "zh": "需求"
+              },
+              {
+                "word": "maintenance",
+                "zh": "维护、保养"
+              },
+              {
+                "word": "commuter",
+                "zh": "通勤者"
+              },
+              {
+                "word": "booked a week ahead",
+                "zh": "预约已排到一周之后"
+              },
+              {
+                "word": "capacity",
+                "zh": "产能、容量"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p6a-q11",
+          "n": 11,
+          "part": 6,
+          "kind": "blank",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "full"
+            },
+            {
+              "key": "B",
+              "text": "fully"
+            },
+            {
+              "key": "C",
+              "text": "fullness"
+            },
+            {
+              "key": "D",
+              "text": "fuller"
+            }
+          ],
+          "answer": "B",
+          "explain": "trained 是分词形容词，前面用副词 fully 修饰 = 受过全面培训的。",
+          "zh": {
+            "stem": "每家新中心将雇用约八名受过全面培训的技师，且一周七天营业。",
+            "options": {
+              "A": "形容词：满的、完整的，a full day = 一整天；形容词不能修饰分词 trained",
+              "B": "副词：完全地、充分地，fully trained = 受过全面培训的 ✓",
+              "C": "名词：充实、丰满，很少用，也不能放在 trained 前面",
+              "D": "形容词比较级：更满的，需要比较对象，这里没有"
+            },
+            "vocab": [
+              {
+                "word": "employ",
+                "zh": "雇用"
+              },
+              {
+                "word": "technician",
+                "zh": "技师、技术员"
+              },
+              {
+                "word": "fully trained",
+                "zh": "受过全面培训的"
+              },
+              {
+                "word": "seven days a week",
+                "zh": "一周七天（全周营业）"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p6a-q12",
+          "n": 12,
+          "part": 6,
+          "kind": "sentence",
+          "type": "插句",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Choose the best sentence for blank [12].",
+          "options": [
+            {
+              "key": "A",
+              "text": "All twelve of the company's stores currently offer full repair services."
+            },
+            {
+              "key": "B",
+              "text": "The repairs were completed ahead of schedule."
+            },
+            {
+              "key": "C",
+              "text": "Ms. Rosario has not yet decided whether to sell bicycles."
+            },
+            {
+              "key": "D",
+              "text": "Construction of the first center, in Alicante, is scheduled to begin in August."
+            }
+          ],
+          "answer": "D",
+          "explain": "文末交代下一步：首家中心 8 月动工；其余选项与\"只有四家能修\"\"中心尚未建成\"\"自行车零售商\"矛盾。",
+          "zh": {
+            "stem": "空格在文章最后。前一句：每家新中心将雇用约八名受过全面培训的技师，且一周七天营业。新闻短讯结尾通常交代下一步安排：\"位于阿利坎特的第一家中心定于 8 月动工\"自然收尾，也呼应开头\"年底前开三家\"。\"全部 12 家门店都提供完整维修\"与文中\"只有四家能修\"矛盾；\"维修已提前完成\"可中心还没建；\"还没决定是否卖自行车\"与\"自行车零售商\"的身份矛盾。",
+            "options": {
+              "A": "公司全部 12 家门店目前都提供完整的维修服务。（与文中\"只有四家能修\"矛盾）",
+              "B": "维修工作提前完成了。",
+              "C": "Rosario 女士还没决定是否要销售自行车。",
+              "D": "位于阿利坎特的第一家中心定于 8 月动工。✓"
+            },
+            "vocab": [
+              {
+                "word": "construction",
+                "zh": "施工、建设"
+              },
+              {
+                "word": "be scheduled to",
+                "zh": "定于、计划"
+              },
+              {
+                "word": "ahead of schedule",
+                "zh": "比计划提前"
+              },
+              {
+                "word": "founder",
+                "zh": "创始人"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6a-p6-4",
+      "part": 6,
+      "title": "Questions 13-16 refer to the following letter.",
+      "minutes": 2,
+      "passages": [
+        {
+          "title": "Letter",
+          "text": "Marisol Bay Resort\n14 Paseo del Mar, Cartagena, Colombia\n\nMarch 2\n\nDear Ms. Tanaka,\n\nThank you for staying with us last December. As one of our returning guests, you are invited to join Marisol Rewards, our new loyalty program. Members earn one point for every dollar [13] spend on rooms, dining, and spa treatments, and 500 points can be exchanged for a free night. [14] Simply present the enclosed card at the front desk during your next visit. You may join at any time, and there is no [15] to enroll right away. [16], we recommend signing up before June 30, when the welcome bonus of 200 points will no longer be offered.\n\nWe hope to welcome you back soon.\n\nSincerely,\n\nDiego Fuentes\nGuest Relations Manager",
+          "zh": "Marisol Bay 度假酒店\n哥伦比亚卡塔赫纳 海滨大道 14 号\n\n3 月 2 日\n\nTanaka 女士，您好：\n\n感谢您去年 12 月入住本酒店。作为回头客，我们诚邀您加入我们新推出的会员积分计划 Marisol Rewards。会员 [13] 他们在客房、餐饮和水疗上每消费一美元，即可获得一个积分，500 分可兑换免费住宿一晚。[14] 不需要填写申请表。只需在下次入住时把随信附上的卡片出示给前台即可。您可以随时加入，没有 [15] 要求必须马上入会。[16] 尽管如此，我们仍建议您在 6 月 30 日之前报名，因为届时 200 分的欢迎奖励将不再提供。\n\n期待您再次光临。\n\n此致\n\nDiego Fuentes\n宾客关系经理"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p6a-q13",
+          "n": 13,
+          "part": 6,
+          "kind": "blank",
+          "type": "代词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "they"
+            },
+            {
+              "key": "B",
+              "text": "them"
+            },
+            {
+              "key": "C",
+              "text": "their"
+            },
+            {
+              "key": "D",
+              "text": "themselves"
+            }
+          ],
+          "answer": "A",
+          "explain": "every dollar (that) ___ spend：定语从句缺主语，用主格 they 指代 Members。",
+          "zh": {
+            "stem": "会员在客房、餐饮和水疗上每消费一美元即可获得一个积分，500 分可兑换免费住宿一晚。",
+            "options": {
+              "A": "主格：他们，作 spend 的主语，every dollar (that) they spend = 他们花的每一美元 ✓",
+              "B": "宾格：他们，只能作宾语，不能作 spend 的主语",
+              "C": "形容词性物主代词：他们的，后面要接名词，their spend 不通",
+              "D": "反身代词：他们自己，不能单独作主语"
+            },
+            "vocab": [
+              {
+                "word": "loyalty program",
+                "zh": "会员积分计划、忠诚计划"
+              },
+              {
+                "word": "earn points",
+                "zh": "赚取积分"
+              },
+              {
+                "word": "spa treatment",
+                "zh": "水疗项目"
+              },
+              {
+                "word": "be exchanged for",
+                "zh": "兑换成"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p6a-q14",
+          "n": 14,
+          "part": 6,
+          "kind": "sentence",
+          "type": "插句",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Choose the best sentence for blank [14].",
+          "options": [
+            {
+              "key": "A",
+              "text": "The spa will be closed for maintenance in April."
+            },
+            {
+              "key": "B",
+              "text": "There is no application form to fill out."
+            },
+            {
+              "key": "C",
+              "text": "Your reservation for next December has been confirmed."
+            },
+            {
+              "key": "D",
+              "text": "Our restaurant received a regional award last year."
+            }
+          ],
+          "answer": "B",
+          "explain": "后句 Simply present the enclosed card 说明入会很简单，\"不用填申请表\"正好引出。",
+          "zh": {
+            "stem": "空格前一句：500 分可兑换免费住宿一晚。空格后一句：只需在下次入住时把随信附上的卡片出示给前台即可。后句开头的 Simply（只需）暗示前面在说\"入会很简单\"：\"不需要填写申请表\"正好引出\"只要出示卡片\"这个简单步骤。\"水疗中心 4 月关闭维护\"和\"餐厅去年获奖\"都跟入会无关；\"您 12 月的预订已确认\"与这封推广信的目的不符。",
+            "options": {
+              "A": "水疗中心将于 4 月关闭维护。",
+              "B": "不需要填写申请表。✓",
+              "C": "您今年 12 月的预订已经确认。",
+              "D": "我们的餐厅去年获得了地区大奖。"
+            },
+            "vocab": [
+              {
+                "word": "application form",
+                "zh": "申请表"
+              },
+              {
+                "word": "fill out",
+                "zh": "填写"
+              },
+              {
+                "word": "enclosed",
+                "zh": "随信附上的"
+              },
+              {
+                "word": "front desk",
+                "zh": "前台"
+              },
+              {
+                "word": "present",
+                "zh": "动词：出示"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p6a-q15",
+          "n": 15,
+          "part": 6,
+          "kind": "blank",
+          "type": "词性",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "require"
+            },
+            {
+              "key": "B",
+              "text": "required"
+            },
+            {
+              "key": "C",
+              "text": "requiring"
+            },
+            {
+              "key": "D",
+              "text": "requirement"
+            }
+          ],
+          "answer": "D",
+          "explain": "no 后面接名词 requirement，no requirement to enroll = 不必马上入会。",
+          "zh": {
+            "stem": "您可以随时加入，没有要求必须马上入会。",
+            "options": {
+              "A": "动词原形：要求、需要，require sth = 需要某物；no 后面不能直接接动词原形",
+              "B": "过去分词/形容词：被要求的，there is no required to… 不成句",
+              "C": "现在分词：正在要求，no requiring to… 不成句",
+              "D": "名词：要求、规定，there is no requirement to do = 没有必须做……的要求 ✓"
+            },
+            "vocab": [
+              {
+                "word": "at any time",
+                "zh": "随时"
+              },
+              {
+                "word": "enroll",
+                "zh": "登记加入、注册"
+              },
+              {
+                "word": "right away",
+                "zh": "立刻"
+              },
+              {
+                "word": "requirement",
+                "zh": "要求"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p6a-q16",
+          "n": 16,
+          "part": 6,
+          "kind": "blank",
+          "type": "连接副词",
+          "bonus": false,
+          "rev": 0,
+          "stem": "",
+          "options": [
+            {
+              "key": "A",
+              "text": "Therefore"
+            },
+            {
+              "key": "B",
+              "text": "For instance"
+            },
+            {
+              "key": "C",
+              "text": "Nevertheless"
+            },
+            {
+              "key": "D",
+              "text": "Similarly"
+            }
+          ],
+          "answer": "C",
+          "explain": "前句说不必马上入会，后句却建议 6 月 30 日前报名，转折用 Nevertheless（尽管如此）。",
+          "zh": {
+            "stem": "尽管如此，我们仍建议您在 6 月 30 日之前报名，因为届时 200 分的欢迎奖励将不再提供。",
+            "options": {
+              "A": "副词：因此，\"不必马上入会，因此建议尽早入会\"逻辑不通",
+              "B": "副词短语：例如，后面不是在举例",
+              "C": "副词：尽管如此、然而，前面说不急，后面却建议尽早，表转折 ✓",
+              "D": "副词：同样地，表示与前面情况相似，这里前后是相反的"
+            },
+            "vocab": [
+              {
+                "word": "even so",
+                "zh": "即便如此"
+              },
+              {
+                "word": "sign up",
+                "zh": "报名、注册"
+              },
+              {
+                "word": "welcome bonus",
+                "zh": "欢迎奖励、新人奖励"
+              },
+              {
+                "word": "no longer",
+                "zh": "不再"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

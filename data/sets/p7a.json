@@ -1,0 +1,1211 @@
+{
+  "id": "p7a",
+  "title": "Part 7 真题题型 A",
+  "focus": "短信对话、新闻、插句定位、双篇与三篇联读",
+  "style": "official-structure",
+  "origin": "generated",
+  "recommended_minutes": 25,
+  "note": "原创 TOEIC-style 仿真题，不是 ETS 官方真题。",
+  "phrases": [
+    "go with (a plan)",
+    "by appointment only",
+    "sold as seen",
+    "account for",
+    "at no extra cost"
+  ],
+  "groups": [
+    {
+      "id": "p7a-tm",
+      "part": 7,
+      "title": "Questions 1-2 refer to the following text-message chain.",
+      "minutes": 3,
+      "passages": [
+        {
+          "title": "Questions 1-2: Text-message chain",
+          "text": "Lena Fischer (10:35): Hi Daniel, the caterer just called. They can't deliver lunch for tomorrow's training session until 12:45.\nDaniel Okafor (10:37): That's a problem. The morning session ends at 12:00, and the afternoon speakers start at 1:00.\nLena Fischer (10:39): Could we push the afternoon start to 1:30? I can let the speakers know.\nDaniel Okafor (10:42): I'd rather not. Two of them have flights in the evening.\nLena Fischer (10:44): Understood. Then I'll ask the caterer for sandwiches instead of the hot buffet. They said cold items could arrive by 11:30.\nDaniel Okafor (10:46): Good idea. Let's go with that. And please order twenty extra bottles of water—it's supposed to be hot tomorrow.\nLena Fischer (10:47): Will do. I'll confirm with them now and send you the updated invoice.",
+          "zh": "Lena Fischer (10:35): 嗨 Daniel，餐饮公司刚打电话来。明天培训的午餐他们要到 12:45 才能送到。\nDaniel Okafor (10:37): 这就麻烦了。上午的环节 12:00 结束，下午的讲者 1:00 就开始。\nLena Fischer (10:39): 我们能把下午的开始时间推到 1:30 吗？我可以去通知讲者。\nDaniel Okafor (10:42): 我看还是别了。他们中有两位晚上要赶飞机。\nLena Fischer (10:44): 明白。那我让餐饮公司改送三明治，不要热食自助了。他们说冷餐 11:30 之前能送到。\nDaniel Okafor (10:46): 好主意。就这么办。另外请多订二十瓶水——明天据说会很热。\nLena Fischer (10:47): 没问题。我现在就跟他们确认，然后把更新后的账单发给你。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7a-q1",
+          "n": 1,
+          "part": 7,
+          "kind": "question",
+          "type": "目的",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Why did Ms. Fischer contact Mr. Okafor?",
+          "options": [
+            {
+              "key": "A",
+              "text": "To report a change in a delivery time"
+            },
+            {
+              "key": "B",
+              "text": "To confirm a speaker's flight"
+            },
+            {
+              "key": "C",
+              "text": "To ask for a copy of an invoice"
+            },
+            {
+              "key": "D",
+              "text": "To request more bottles of water"
+            }
+          ],
+          "answer": "A",
+          "explain": "首行 caterer just called… can't deliver until 12:45，通报送餐时间变了。",
+          "zh": {
+            "stem": "Fischer 女士为什么联系 Okafor 先生？",
+            "options": {
+              "A": "通报送餐时间的变动 ✓",
+              "B": "确认一位讲者的航班",
+              "C": "索要一份账单副本",
+              "D": "要求多订几瓶水"
+            },
+            "vocab": [
+              {
+                "word": "caterer",
+                "zh": "餐饮承办商、送餐公司"
+              },
+              {
+                "word": "deliver",
+                "zh": "送货、送达"
+              },
+              {
+                "word": "training session",
+                "zh": "培训课、培训环节"
+              },
+              {
+                "word": "invoice",
+                "zh": "账单、发票"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p7a-q2",
+          "n": 2,
+          "part": 7,
+          "kind": "question",
+          "type": "意图",
+          "bonus": false,
+          "rev": 0,
+          "stem": "At 10:42, what does Mr. Okafor most likely mean when he writes, \"I'd rather not\"?",
+          "options": [
+            {
+              "key": "A",
+              "text": "He does not want to delay the afternoon session."
+            },
+            {
+              "key": "B",
+              "text": "He prefers not to contact the speakers himself."
+            },
+            {
+              "key": "C",
+              "text": "He would rather have a hot meal than sandwiches."
+            },
+            {
+              "key": "D",
+              "text": "He cannot attend the morning session."
+            }
+          ],
+          "answer": "A",
+          "explain": "回应上一行 push the afternoon start to 1:30，理由是讲者晚上要赶飞机，即不想推迟。",
+          "zh": {
+            "stem": "在 10:42，Okafor 先生写 \"I'd rather not\" 最可能是什么意思？",
+            "options": {
+              "A": "他不想推迟下午的环节 ✓",
+              "B": "他不想亲自去联系讲者",
+              "C": "他宁愿吃热食也不要三明治",
+              "D": "他无法参加上午的环节"
+            },
+            "vocab": [
+              {
+                "word": "I'd rather not",
+                "zh": "我宁愿不、还是别了（委婉拒绝）"
+              },
+              {
+                "word": "push … to",
+                "zh": "把……推迟到"
+              },
+              {
+                "word": "go with",
+                "zh": "采用、就按（某方案）办"
+              },
+              {
+                "word": "be supposed to",
+                "zh": "据说会、按说应该"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7a-art",
+      "part": 7,
+      "title": "Questions 3-5 refer to the following article.",
+      "minutes": 4,
+      "passages": [
+        {
+          "title": "Questions 3-5: Article",
+          "text": "VALENCIA (3 June)—Marisol Textiles, a maker of bed and bath linens, will open a new distribution center in Valencia in September, the company announced on Tuesday. The 12,000-square-meter facility will replace a smaller warehouse in Castellón that the company has leased since 2015. According to chief operating officer Ines Barreto, the move will allow orders from online customers to be shipped within one business day instead of three.\nMarisol was founded in Alicante in 1998 by brothers Joan and Marc Soler, who still run the company. It sells its products in more than 300 department stores across Spain and Portugal and began selling directly to consumers through its Web site two years ago. Online sales now account for nearly a quarter of the company's revenue. The new center is expected to create about 80 jobs, and the company plans to begin hiring warehouse staff in July.",
+          "zh": "瓦伦西亚（6 月 3 日）——床上用品及浴室织品生产商 Marisol Textiles 周二宣布，将于 9 月在瓦伦西亚启用一座新的配送中心。这座 12,000 平方米的设施将取代公司自 2015 年起在卡斯特利翁租用的一座较小的仓库。据首席运营官 Ines Barreto 介绍，此次搬迁将使网上顾客的订单在一个工作日内发出，而不是原来的三天。\nMarisol 于 1998 年由 Joan 和 Marc Soler 兄弟俩在阿利坎特创立，两人至今仍经营着公司。其产品在西班牙和葡萄牙的 300 多家百货商店销售，两年前开始通过自家网站直接面向消费者销售。目前网上销售额已接近公司总收入的四分之一。新中心预计将创造约 80 个工作岗位，公司计划 7 月开始招聘仓库员工。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7a-q3",
+          "n": 3,
+          "part": 7,
+          "kind": "question",
+          "type": "目的",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is the purpose of the article?",
+          "options": [
+            {
+              "key": "A",
+              "text": "To announce the opening of a new department store"
+            },
+            {
+              "key": "B",
+              "text": "To report on a company's expansion plans"
+            },
+            {
+              "key": "C",
+              "text": "To describe a change in a company's ownership"
+            },
+            {
+              "key": "D",
+              "text": "To promote a new line of bed linens"
+            }
+          ],
+          "answer": "B",
+          "explain": "首句 will open a new distribution center，末句增聘 80 人，报道的是公司扩张计划。",
+          "zh": {
+            "stem": "这篇文章的目的是什么？",
+            "options": {
+              "A": "宣布一家新百货商店开业",
+              "B": "报道一家公司的扩张计划 ✓",
+              "C": "描述一家公司所有权的变更",
+              "D": "推广一个新的床上用品系列"
+            },
+            "vocab": [
+              {
+                "word": "distribution center",
+                "zh": "配送中心"
+              },
+              {
+                "word": "announce",
+                "zh": "宣布"
+              },
+              {
+                "word": "facility",
+                "zh": "设施、场所"
+              },
+              {
+                "word": "lease",
+                "zh": "租用、租赁"
+              },
+              {
+                "word": "expansion",
+                "zh": "扩张、扩大"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p7a-q4",
+          "n": 4,
+          "part": 7,
+          "kind": "question",
+          "type": "推断",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is indicated about Marisol Textiles?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It was founded by two brothers."
+            },
+            {
+              "key": "B",
+              "text": "It has sold online for more than five years."
+            },
+            {
+              "key": "C",
+              "text": "It earns most of its revenue from online sales."
+            },
+            {
+              "key": "D",
+              "text": "It operates its own department stores."
+            }
+          ],
+          "answer": "A",
+          "explain": "第二段 founded by brothers Joan and Marc Soler；网售仅两年、占近四分之一。",
+          "zh": {
+            "stem": "关于 Marisol Textiles，文中表明了什么？",
+            "options": {
+              "A": "它由兄弟俩创立 ✓",
+              "B": "它在网上销售已超过五年",
+              "C": "它的大部分收入来自网上销售",
+              "D": "它经营自己的百货商店"
+            },
+            "vocab": [
+              {
+                "word": "found",
+                "zh": "创立、创办（过去式 founded）"
+              },
+              {
+                "word": "account for",
+                "zh": "占（比例）"
+              },
+              {
+                "word": "revenue",
+                "zh": "收入、营业额"
+              },
+              {
+                "word": "department store",
+                "zh": "百货商店"
+              },
+              {
+                "word": "consumer",
+                "zh": "消费者"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p7a-q5",
+          "n": 5,
+          "part": 7,
+          "kind": "question",
+          "type": "定位",
+          "bonus": false,
+          "rev": 0,
+          "stem": "According to the article, what will happen in July?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The new distribution center will open."
+            },
+            {
+              "key": "B",
+              "text": "The Castellón warehouse will be sold."
+            },
+            {
+              "key": "C",
+              "text": "The company will begin hiring warehouse staff."
+            },
+            {
+              "key": "D",
+              "text": "Delivery times for online orders will be shortened."
+            }
+          ],
+          "answer": "C",
+          "explain": "末句 plans to begin hiring warehouse staff in July；新中心 9 月才启用。",
+          "zh": {
+            "stem": "根据文章，7 月将发生什么？",
+            "options": {
+              "A": "新配送中心将启用",
+              "B": "卡斯特利翁的仓库将被出售",
+              "C": "公司将开始招聘仓库员工 ✓",
+              "D": "网上订单的送货时间将缩短"
+            },
+            "vocab": [
+              {
+                "word": "hire",
+                "zh": "招聘、雇用"
+              },
+              {
+                "word": "warehouse",
+                "zh": "仓库"
+              },
+              {
+                "word": "be expected to",
+                "zh": "预计会……"
+              },
+              {
+                "word": "create jobs",
+                "zh": "创造工作岗位"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7a-notice",
+      "part": 7,
+      "title": "Questions 6-9 refer to the following notice.",
+      "minutes": 5,
+      "passages": [
+        {
+          "title": "Questions 6-9: Notice",
+          "text": "ATRIUM EVENT SPACE — BOOKING GUIDELINES\nThe ground-floor atrium of Corvin Tower may be reserved by tenant companies for product launches, receptions, and staff events. Bookings are handled by the building management office on the second floor and must be made at least ten business days in advance. [1] The space holds a maximum of 120 guests for standing receptions and 80 for seated dinners.\nTenants are responsible for arranging their own catering. [2] Because the atrium is open to the public during the day, weekday events may begin only after 6:00 P.M. Weekend bookings are available from 9:00 A.M. to 10:00 P.M. Amplified music must end by 9:30 P.M. so that residents of the neighbouring apartment building are not disturbed.\nA refundable cleaning deposit of €300 is required with every booking. [3] The cost of repairing any damage to the floor or planters will be deducted from this amount. [4] To check availability, e-mail atrium@corvintower.hu or call extension 2210.",
+          "zh": "中庭活动场地——预订须知\nCorvin 大厦一层中庭可供租户公司预订，用于产品发布会、招待会和员工活动。预订由二楼的物业管理办公室受理，须至少提前十个工作日办理。[1] 该场地站立式招待会最多可容纳 120 位来宾，坐席晚宴最多 80 位。\n餐饮由租户自行安排。[2] 由于中庭在白天对公众开放，工作日的活动只能在下午 6:00 之后开始。周末可预订时段为上午 9:00 至晚上 10:00。扩音音乐必须在晚上 9:30 之前结束，以免打扰隔壁公寓楼的住户。\n每次预订须缴纳 300 欧元可退还的清洁押金。[3] 地面或花箱如有损坏，修理费用将从该押金中扣除。[4] 如需查询场地空闲情况，请发邮件至 atrium@corvintower.hu 或拨打分机 2210。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7a-q6",
+          "n": 6,
+          "part": 7,
+          "kind": "question",
+          "type": "目的",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is the purpose of the notice?",
+          "options": [
+            {
+              "key": "A",
+              "text": "To announce the renovation of a building lobby"
+            },
+            {
+              "key": "B",
+              "text": "To explain how to reserve an event space"
+            },
+            {
+              "key": "C",
+              "text": "To invite tenants to a product launch"
+            },
+            {
+              "key": "D",
+              "text": "To introduce a new building manager"
+            }
+          ],
+          "answer": "B",
+          "explain": "标题 BOOKING GUIDELINES，首句 may be reserved by tenants，全文讲预订规则。",
+          "zh": {
+            "stem": "这则通知的目的是什么？",
+            "options": {
+              "A": "宣布大楼大堂翻新",
+              "B": "说明如何预订活动场地 ✓",
+              "C": "邀请租户参加产品发布会",
+              "D": "介绍新任大楼经理"
+            },
+            "vocab": [
+              {
+                "word": "atrium",
+                "zh": "中庭（大楼里挑高的公共大厅）"
+              },
+              {
+                "word": "tenant",
+                "zh": "租户"
+              },
+              {
+                "word": "reserve",
+                "zh": "预订"
+              },
+              {
+                "word": "reception",
+                "zh": "招待会、酒会"
+              },
+              {
+                "word": "guidelines",
+                "zh": "须知、指南"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p7a-q7",
+          "n": 7,
+          "part": 7,
+          "kind": "question",
+          "type": "NOT",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is NOT mentioned as a requirement for using the atrium?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Booking at least ten business days ahead"
+            },
+            {
+              "key": "B",
+              "text": "Paying a cleaning deposit"
+            },
+            {
+              "key": "C",
+              "text": "Ending amplified music by a certain time"
+            },
+            {
+              "key": "D",
+              "text": "Submitting a guest list to the management office"
+            }
+          ],
+          "answer": "D",
+          "explain": "A 见 ten business days，B 见 €300 deposit，C 见 end by 9:30；名单未提。",
+          "zh": {
+            "stem": "下列哪项不是文中提到的使用中庭的要求？",
+            "options": {
+              "A": "至少提前十个工作日预订",
+              "B": "缴纳清洁押金",
+              "C": "在规定时间前停止扩音音乐",
+              "D": "向管理办公室提交来宾名单 ✓"
+            },
+            "vocab": [
+              {
+                "word": "requirement",
+                "zh": "要求、条件"
+              },
+              {
+                "word": "deposit",
+                "zh": "押金"
+              },
+              {
+                "word": "refundable",
+                "zh": "可退还的"
+              },
+              {
+                "word": "amplified",
+                "zh": "经扩音器放大的"
+              },
+              {
+                "word": "in advance",
+                "zh": "提前"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p7a-q8",
+          "n": 8,
+          "part": 7,
+          "kind": "question",
+          "type": "定位",
+          "bonus": false,
+          "rev": 0,
+          "stem": "According to the notice, why must music stop by 9:30 P.M.?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The building closes at 10:00 P.M."
+            },
+            {
+              "key": "B",
+              "text": "People living nearby might be disturbed."
+            },
+            {
+              "key": "C",
+              "text": "Cleaning staff begin work at that time."
+            },
+            {
+              "key": "D",
+              "text": "The atrium is open to the public."
+            }
+          ],
+          "answer": "B",
+          "explain": "定位第二段末 so that residents… are not disturbed，怕吵到邻楼住户。",
+          "zh": {
+            "stem": "根据通知，为什么音乐必须在晚上 9:30 前停止？",
+            "options": {
+              "A": "大楼晚上 10:00 关门",
+              "B": "附近的居民可能会被打扰 ✓",
+              "C": "清洁人员那时开始工作",
+              "D": "中庭对公众开放"
+            },
+            "vocab": [
+              {
+                "word": "disturb",
+                "zh": "打扰"
+              },
+              {
+                "word": "resident",
+                "zh": "住户、居民"
+              },
+              {
+                "word": "neighbouring",
+                "zh": "相邻的、隔壁的"
+              },
+              {
+                "word": "open to the public",
+                "zh": "对公众开放"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p7a-q9",
+          "n": 9,
+          "part": 7,
+          "kind": "question",
+          "type": "插句",
+          "bonus": false,
+          "rev": 0,
+          "stem": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Tenants may choose any provider, but a list of caterers familiar with the building's loading dock is available on request.\"",
+          "options": [
+            {
+              "key": "A",
+              "text": "[1]"
+            },
+            {
+              "key": "B",
+              "text": "[2]"
+            },
+            {
+              "key": "C",
+              "text": "[3]"
+            },
+            {
+              "key": "D",
+              "text": "[4]"
+            }
+          ],
+          "answer": "B",
+          "explain": "provider / caterers 承接 [2] 前句 arranging their own catering。",
+          "zh": {
+            "stem": "下面这句话最适合放在标记 [1]、[2]、[3]、[4] 中的哪个位置？\"租户可以选择任何供应商，但我们也可应要求提供一份熟悉本大楼装卸区的餐饮承办商名单。\"",
+            "options": {
+              "A": "[1]",
+              "B": "[2] ✓",
+              "C": "[3]",
+              "D": "[4]"
+            },
+            "vocab": [
+              {
+                "word": "provider",
+                "zh": "供应商、服务提供方"
+              },
+              {
+                "word": "caterer",
+                "zh": "餐饮承办商"
+              },
+              {
+                "word": "loading dock",
+                "zh": "装卸区、卸货平台"
+              },
+              {
+                "word": "on request",
+                "zh": "应要求（索取即可提供）"
+              },
+              {
+                "word": "be responsible for",
+                "zh": "负责……"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7a-double",
+      "part": 7,
+      "title": "Questions 10-14 refer to the following advertisement and e-mail.",
+      "minutes": 6,
+      "passages": [
+        {
+          "title": "Questions 10-14: Advertisement",
+          "text": "OFFICE FURNITURE CLEARANCE — EVERYTHING MUST GO\nBrightwater Consulting is moving to smaller premises and is selling the entire contents of its office at 44 Harbour Road, Auckland.\n• 30 adjustable office chairs (black, three years old) — $60 each\n• 12 height-adjustable desks (160 cm × 80 cm) — $180 each\n• 6 four-drawer filing cabinets (lockable, keys included) — $90 each\n• 1 boardroom table (seats 14) with chairs — $950 for the set\n• Whiteboards, bookshelves, and coat stands — make an offer\nAll items are sold as seen. Viewing is by appointment only on Thursday, 10 October, between 2:00 and 5:00 P.M. Buyers must collect their purchases between Monday, 14 October, and Friday, 18 October; we cannot hold items after that date. A discount is available on purchases of ten or more of the same item.\nTo arrange a viewing, contact Sione Tuilagi at s.tuilagi@brightwaterconsult.co.nz.",
+          "zh": "办公家具清仓——全部出清\nBrightwater Consulting 即将搬到更小的办公场所，现出售位于奥克兰 Harbour Road 44 号办公室内的全部物品。\n• 可调节办公椅 30 把（黑色，用了三年）——每把 60 纽元\n• 高度可调办公桌 12 张（160 厘米 × 80 厘米）——每张 180 纽元\n• 四抽屉文件柜 6 个（可上锁，附钥匙）——每个 90 纽元\n• 会议桌 1 张（可坐 14 人）含椅子——整套 950 纽元\n• 白板、书架、衣帽架——价格面议\n所有物品按现状出售。看货须预约，仅限 10 月 10 日（周四）下午 2:00 至 5:00。买家须在 10 月 14 日（周一）至 10 月 18 日（周五）之间取走所购物品；逾期我们无法代为保管。同一物品购买十件及以上可享折扣。\n如需预约看货，请联系 Sione Tuilagi：s.tuilagi@brightwaterconsult.co.nz。"
+        },
+        {
+          "title": "Questions 10-14: E-mail",
+          "text": "From: Marta Kowalczyk <m.kowalczyk@lindenlanguage.co.nz>\nTo: Sione Tuilagi <s.tuilagi@brightwaterconsult.co.nz>\nDate: 8 October\nSubject: Furniture advertisement\n\nDear Mr. Tuilagi,\n\nI saw your advertisement in the Harbour Business Weekly. Our language school is opening a second branch in Ponsonby next month, and we need to furnish four classrooms and a small staff room. I would like to take all twelve of the height-adjustable desks, along with the same number of chairs. Could you tell me what price you could offer for that quantity? I would also like to see the boardroom table, as it may suit our teachers' room.\n\nI am free at any time on the viewing date. However, I will be out of the country from 14 October until the end of the month, so I will not be able to collect the items myself. Would it be possible for our driver to pick them up on the 14th? He will bring a signed authorisation letter with him.\n\nThank you, and I look forward to hearing from you.\n\nMarta Kowalczyk\nLinden Language Centre",
+          "zh": "发件人：Marta Kowalczyk <m.kowalczyk@lindenlanguage.co.nz>\n收件人：Sione Tuilagi <s.tuilagi@brightwaterconsult.co.nz>\n日期：10 月 8 日\n主题：家具广告\n\nTuilagi 先生您好：\n\n我在《Harbour Business Weekly》上看到了贵公司的广告。我们语言学校下个月将在 Ponsonby 开设第二家分校，需要为四间教室和一间小教师休息室配置家具。我想把十二张高度可调办公桌全部买下，再配同样数量的椅子。请问这个数量您能给出什么价格？我还想看看那张会议桌，它可能适合我们的教师办公室。\n\n看货当天我任何时间都有空。不过，我从 10 月 14 日起到月底都会在国外，因此无法亲自来取货。能否让我们的司机在 14 日来取？他会带上签字的授权书。\n\n谢谢，期待您的回复。\n\nMarta Kowalczyk\nLinden 语言中心"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7a-q10",
+          "n": 10,
+          "part": 7,
+          "kind": "question",
+          "type": "目的",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is the purpose of the advertisement?",
+          "options": [
+            {
+              "key": "A",
+              "text": "To announce a company's move to a larger office"
+            },
+            {
+              "key": "B",
+              "text": "To sell furniture that a company no longer needs"
+            },
+            {
+              "key": "C",
+              "text": "To promote a newly opened furniture store"
+            },
+            {
+              "key": "D",
+              "text": "To recruit staff for an office relocation"
+            }
+          ],
+          "answer": "B",
+          "explain": "标题 CLEARANCE，首句 moving to smaller premises and is selling…。",
+          "zh": {
+            "stem": "这则广告的目的是什么？",
+            "options": {
+              "A": "宣布公司搬到更大的办公室",
+              "B": "出售公司不再需要的家具 ✓",
+              "C": "推广一家新开的家具店",
+              "D": "为办公室搬迁招聘人手"
+            },
+            "vocab": [
+              {
+                "word": "clearance",
+                "zh": "清仓（甩卖）"
+              },
+              {
+                "word": "premises",
+                "zh": "办公场所、房产（常用复数）"
+              },
+              {
+                "word": "contents",
+                "zh": "内部的物品、里面装的东西"
+              },
+              {
+                "word": "entire",
+                "zh": "全部的、整个的"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p7a-q11",
+          "n": 11,
+          "part": 7,
+          "kind": "question",
+          "type": "推断",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Who most likely is Ms. Kowalczyk?",
+          "options": [
+            {
+              "key": "A",
+              "text": "A furniture delivery driver"
+            },
+            {
+              "key": "B",
+              "text": "A manager at a language school"
+            },
+            {
+              "key": "C",
+              "text": "A newspaper advertising agent"
+            },
+            {
+              "key": "D",
+              "text": "An employee of Brightwater Consulting"
+            }
+          ],
+          "answer": "B",
+          "explain": "邮件 Our language school is opening a second branch…，她替语言学校采购。",
+          "zh": {
+            "stem": "Kowalczyk 女士最可能是谁？",
+            "options": {
+              "A": "家具送货司机",
+              "B": "一所语言学校的管理人员 ✓",
+              "C": "报社广告业务员",
+              "D": "Brightwater Consulting 的员工"
+            },
+            "vocab": [
+              {
+                "word": "branch",
+                "zh": "分校、分店、分部"
+              },
+              {
+                "word": "furnish",
+                "zh": "为（房间）配置家具"
+              },
+              {
+                "word": "staff room",
+                "zh": "教师休息室、员工休息室"
+              },
+              {
+                "word": "quantity",
+                "zh": "数量"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p7a-q12",
+          "n": 12,
+          "part": 7,
+          "kind": "question",
+          "type": "联读",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is suggested about the desks Ms. Kowalczyk wants to buy?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They qualify for a discount."
+            },
+            {
+              "key": "B",
+              "text": "They are three years old."
+            },
+            {
+              "key": "C",
+              "text": "They have already been sold."
+            },
+            {
+              "key": "D",
+              "text": "They are included with the boardroom table."
+            }
+          ],
+          "answer": "A",
+          "explain": "邮件要 all twelve desks，广告 ten or more of the same item 有折扣。",
+          "zh": {
+            "stem": "关于 Kowalczyk 女士想买的办公桌，文中暗示了什么？",
+            "options": {
+              "A": "可以享受折扣 ✓",
+              "B": "已经用了三年",
+              "C": "已经卖掉了",
+              "D": "与会议桌一起打包出售"
+            },
+            "vocab": [
+              {
+                "word": "discount",
+                "zh": "折扣"
+              },
+              {
+                "word": "the same item",
+                "zh": "同一种物品"
+              },
+              {
+                "word": "height-adjustable",
+                "zh": "高度可调的"
+              },
+              {
+                "word": "qualify for",
+                "zh": "符合……的条件、有资格享受"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p7a-q13",
+          "n": 13,
+          "part": 7,
+          "kind": "question",
+          "type": "联读",
+          "bonus": false,
+          "rev": 0,
+          "stem": "When will Ms. Kowalczyk most likely visit Brightwater Consulting's office?",
+          "options": [
+            {
+              "key": "A",
+              "text": "On 8 October"
+            },
+            {
+              "key": "B",
+              "text": "On 10 October"
+            },
+            {
+              "key": "C",
+              "text": "On 14 October"
+            },
+            {
+              "key": "D",
+              "text": "On 18 October"
+            }
+          ],
+          "answer": "B",
+          "explain": "邮件 free at any time on the viewing date，广告定 10 October。",
+          "zh": {
+            "stem": "Kowalczyk 女士最可能在哪一天去 Brightwater Consulting 的办公室？",
+            "options": {
+              "A": "10 月 8 日",
+              "B": "10 月 10 日 ✓",
+              "C": "10 月 14 日",
+              "D": "10 月 18 日"
+            },
+            "vocab": [
+              {
+                "word": "viewing",
+                "zh": "看货、看房（实地查看）"
+              },
+              {
+                "word": "by appointment only",
+                "zh": "仅限预约"
+              },
+              {
+                "word": "arrange",
+                "zh": "安排"
+              },
+              {
+                "word": "be free",
+                "zh": "有空"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p7a-q14",
+          "n": 14,
+          "part": 7,
+          "kind": "question",
+          "type": "定位",
+          "bonus": false,
+          "rev": 0,
+          "stem": "Why will Ms. Kowalczyk be unable to collect the furniture herself?",
+          "options": [
+            {
+              "key": "A",
+              "text": "She will be traveling abroad."
+            },
+            {
+              "key": "B",
+              "text": "She does not have a suitable vehicle."
+            },
+            {
+              "key": "C",
+              "text": "She will be busy opening a new branch."
+            },
+            {
+              "key": "D",
+              "text": "She has not yet received an authorisation letter."
+            }
+          ],
+          "answer": "A",
+          "explain": "定位邮件第二段 out of the country… not able to collect myself。",
+          "zh": {
+            "stem": "Kowalczyk 女士为什么无法亲自取家具？",
+            "options": {
+              "A": "她将出国 ✓",
+              "B": "她没有合适的车辆",
+              "C": "她将忙于开设新分校",
+              "D": "她还没收到授权书"
+            },
+            "vocab": [
+              {
+                "word": "out of the country",
+                "zh": "在国外、出国"
+              },
+              {
+                "word": "collect",
+                "zh": "取（货）、领取"
+              },
+              {
+                "word": "pick up",
+                "zh": "取走、接"
+              },
+              {
+                "word": "authorisation letter",
+                "zh": "授权书"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7a-triple",
+      "part": 7,
+      "title": "Questions 15-19 refer to the following advertisement, order confirmation, and e-mail.",
+      "minutes": 7,
+      "passages": [
+        {
+          "title": "Questions 15-19: Advertisement",
+          "text": "HARVEST TABLE CATERING — Office Lunch Packages\n\nFeeding a busy team has never been easier.\nOur lunch packages cover everything from a quick working lunch to a full-day training session, and every order is delivered fresh to your office door.\n\nPackage A (Sandwich Lunch): assorted sandwiches, fruit, and a soft drink — $12 per person\nPackage B (Hot Lunch): choice of two hot dishes, rice or salad, and dessert — $19 per person\nPackage C (Executive Lunch): three-course plated meal with staff service — $34 per person\nMinimum order: 10 people. Orders placed online before 3:00 P.M. can be delivered the next business day. Delivery is free within the city centre; a $25 charge applies to all other areas. Vegetarian and gluten-free meals are available for every package at no extra cost—simply enter the number of special meals when you order.",
+          "zh": "HARVEST TABLE 餐饮——办公午餐套餐\n\n让忙碌的团队吃上饭，从未如此简单。\n我们的午餐套餐涵盖从快速工作餐到全天培训的各种需求，每一份订单都新鲜送到您的办公室门口。\n\nA 套餐（三明治午餐）：什锦三明治、水果和一杯软饮——每人 12 纽元\nB 套餐（热食午餐）：两道热菜任选、米饭或沙拉，另配甜点——每人 19 纽元\nC 套餐（行政午餐）：三道式餐盘上菜，含服务人员——每人 34 纽元\n最低起订量：10 人。下午 3:00 前在线下单可于下一个工作日送达。市中心范围内免费配送；其他区域收取 25 纽元配送费。所有套餐均提供素食和无麸质餐，不额外收费——下单时填写特殊餐份数即可。"
+        },
+        {
+          "title": "Questions 15-19: Order confirmation",
+          "text": "HARVEST TABLE CATERING — Order Confirmation\nOrder number: HT-20873\nOrder placed: Monday, 4 March, 4:20 P.M.\nCustomer: Yusuf Demir, Pelican Insurance\nDelivery address: Level 9, 210 Queen Street (city centre)\nDelivery date and time: Wednesday, 6 March, 11:45 A.M.\n\nPackage B (Hot Lunch) × 24 (including 3 vegetarian) — $456.00\nPackage A (Sandwich Lunch) × 10 — $120.00\nDelivery charge — $0.00\nTotal — $576.00",
+          "zh": "HARVEST TABLE 餐饮——订单确认\n订单号：HT-20873\n下单时间：3 月 4 日（周一）下午 4:20\n客户：Yusuf Demir，Pelican 保险公司\n送餐地址：Queen Street 210 号 9 层（市中心）\n送餐日期和时间：3 月 6 日（周三）上午 11:45\n\nB 套餐（热食午餐）× 24（其中素食 3 份）——456.00 纽元\nA 套餐（三明治午餐）× 10——120.00 纽元\n配送费——0.00 纽元\n合计——576.00 纽元"
+        },
+        {
+          "title": "Questions 15-19: E-mail",
+          "text": "From: Yusuf Demir <y.demir@pelicaninsurance.com>\nTo: orders@harvesttable.com\nDate: Tuesday, 5 March\nSubject: Order HT-20873\n\nHello,\n\nI placed the above order yesterday for our claims team's training day tomorrow. Since then, four more people have registered, and two of them have asked for gluten-free meals. Could you please increase the hot lunch to 28 people, including two gluten-free? The number of sandwich lunches stays the same.\n\nAlso, the training will now start at 9:00 instead of 10:00, so we would like the food to arrive at 11:30 rather than 11:45, if that can be arranged. Please send me a revised confirmation so that I can forward it to our accounts department.\n\nThank you,\nYusuf Demir\nOffice Coordinator, Pelican Insurance",
+          "zh": "发件人：Yusuf Demir <y.demir@pelicaninsurance.com>\n收件人：orders@harvesttable.com\n日期：3 月 5 日（周二）\n主题：订单 HT-20873\n\n您好：\n\n我昨天为我们理赔团队明天的培训日下了上述订单。此后又有四个人报名，其中两人要求无麸质餐。能否请把热食午餐增加到 28 人份，其中含两份无麸质？三明治午餐的份数不变。\n\n另外，培训现在改为 9:00 开始而不是 10:00，所以如果可以安排的话，我们希望餐食 11:30 送到，而不是 11:45。请给我发一份修改后的订单确认，以便我转给财务部。\n\n谢谢！\nYusuf Demir\nPelican 保险公司 办公室协调员"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7a-q15",
+          "n": 15,
+          "part": 7,
+          "kind": "question",
+          "type": "词义",
+          "bonus": false,
+          "rev": 0,
+          "stem": "In the advertisement, the word \"cover\" in paragraph 1, line 2, is closest in meaning to",
+          "options": [
+            {
+              "key": "A",
+              "text": "protect"
+            },
+            {
+              "key": "B",
+              "text": "include"
+            },
+            {
+              "key": "C",
+              "text": "hide"
+            },
+            {
+              "key": "D",
+              "text": "pay for"
+            }
+          ],
+          "answer": "B",
+          "explain": "cover everything from A to B = 涵盖/包括从…到…的各种情况，故选 include。",
+          "zh": {
+            "stem": "广告中第一段第二行的单词 \"cover\" 意思最接近于：",
+            "options": {
+              "A": "保护",
+              "B": "包括、涵盖 ✓",
+              "C": "遮盖、隐藏",
+              "D": "支付（费用）"
+            },
+            "vocab": [
+              {
+                "word": "cover",
+                "zh": "涵盖、包括（此处义）；另有遮盖、支付等义"
+              },
+              {
+                "word": "package",
+                "zh": "套餐、套装"
+              },
+              {
+                "word": "working lunch",
+                "zh": "工作餐（边吃边开会）"
+              },
+              {
+                "word": "fresh",
+                "zh": "新鲜的"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p7a-q16",
+          "n": 16,
+          "part": 7,
+          "kind": "question",
+          "type": "定位",
+          "bonus": false,
+          "rev": 0,
+          "stem": "According to the advertisement, what is true about gluten-free meals?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They are available only with Package C."
+            },
+            {
+              "key": "B",
+              "text": "They must be requested by telephone."
+            },
+            {
+              "key": "C",
+              "text": "They are offered at no additional charge."
+            },
+            {
+              "key": "D",
+              "text": "They are limited to ten per order."
+            }
+          ],
+          "answer": "C",
+          "explain": "定位广告末句 gluten-free meals… at no extra cost。",
+          "zh": {
+            "stem": "根据广告，关于无麸质餐哪项正确？",
+            "options": {
+              "A": "只有 C 套餐提供",
+              "B": "必须通过电话预订",
+              "C": "不额外收费 ✓",
+              "D": "每份订单最多十份"
+            },
+            "vocab": [
+              {
+                "word": "gluten-free",
+                "zh": "无麸质的（不含小麦蛋白）"
+              },
+              {
+                "word": "vegetarian",
+                "zh": "素食的"
+              },
+              {
+                "word": "at no extra cost",
+                "zh": "不额外收费"
+              },
+              {
+                "word": "minimum order",
+                "zh": "最低起订量"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p7a-q17",
+          "n": 17,
+          "part": 7,
+          "kind": "question",
+          "type": "联读",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What is suggested about order HT-20873?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It was placed too late for next-day delivery."
+            },
+            {
+              "key": "B",
+              "text": "It included a delivery charge."
+            },
+            {
+              "key": "C",
+              "text": "It was below the minimum order size."
+            },
+            {
+              "key": "D",
+              "text": "It will be delivered outside the city centre."
+            }
+          ],
+          "answer": "A",
+          "explain": "订单 Monday 4:20 P.M. 下单，晚于广告 before 3:00 P.M. 的截止，不符合次日送达条件。",
+          "zh": {
+            "stem": "关于订单 HT-20873，文中暗示了什么？",
+            "options": {
+              "A": "下单太晚，赶不上次日送达 ✓",
+              "B": "收取了配送费",
+              "C": "低于最低起订量",
+              "D": "将送到市中心以外的地方"
+            },
+            "vocab": [
+              {
+                "word": "place an order",
+                "zh": "下单"
+              },
+              {
+                "word": "business day",
+                "zh": "工作日"
+              },
+              {
+                "word": "delivery charge",
+                "zh": "配送费"
+              },
+              {
+                "word": "apply to",
+                "zh": "适用于"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p7a-q18",
+          "n": 18,
+          "part": 7,
+          "kind": "question",
+          "type": "联读",
+          "bonus": false,
+          "rev": 0,
+          "stem": "By how much will the cost of the hot lunches most likely increase?",
+          "options": [
+            {
+              "key": "A",
+              "text": "$19"
+            },
+            {
+              "key": "B",
+              "text": "$57"
+            },
+            {
+              "key": "C",
+              "text": "$76"
+            },
+            {
+              "key": "D",
+              "text": "$652"
+            }
+          ],
+          "answer": "C",
+          "explain": "订单 24 份，邮件改为 28 份，多 4 份；广告 Package B 每人 $19，4 × 19 = $76。",
+          "zh": {
+            "stem": "热食午餐的费用最可能增加多少？",
+            "options": {
+              "A": "19 纽元",
+              "B": "57 纽元",
+              "C": "76 纽元 ✓",
+              "D": "652 纽元"
+            },
+            "vocab": [
+              {
+                "word": "increase",
+                "zh": "增加"
+              },
+              {
+                "word": "register",
+                "zh": "报名、登记"
+              },
+              {
+                "word": "per person",
+                "zh": "每人"
+              },
+              {
+                "word": "revised",
+                "zh": "修改后的、修订过的"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p7a-q19",
+          "n": 19,
+          "part": 7,
+          "kind": "question",
+          "type": "定位",
+          "bonus": false,
+          "rev": 0,
+          "stem": "What does Mr. Demir ask Harvest Table Catering to do?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Cancel the sandwich lunches"
+            },
+            {
+              "key": "B",
+              "text": "Deliver the food earlier than planned"
+            },
+            {
+              "key": "C",
+              "text": "Add a delivery charge to the invoice"
+            },
+            {
+              "key": "D",
+              "text": "Contact the accounts department directly"
+            }
+          ],
+          "answer": "B",
+          "explain": "定位邮件第二段 arrive at 11:30 rather than 11:45，即比原计划提前送达。",
+          "zh": {
+            "stem": "Demir 先生请 Harvest Table 餐饮做什么？",
+            "options": {
+              "A": "取消三明治午餐",
+              "B": "比原计划提前送餐 ✓",
+              "C": "在账单上加配送费",
+              "D": "直接联系财务部"
+            },
+            "vocab": [
+              {
+                "word": "rather than",
+                "zh": "而不是"
+              },
+              {
+                "word": "arrange",
+                "zh": "安排"
+              },
+              {
+                "word": "forward",
+                "zh": "转发"
+              },
+              {
+                "word": "accounts department",
+                "zh": "财务部、账务部"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

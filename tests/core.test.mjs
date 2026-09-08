@@ -223,7 +223,8 @@ test('随机抽题：只抽 Part 5、可排除、不重复、跳过下架题', (
     assert.equal(index.questions.get(qid).q.part, 5);
     assert.notEqual(qid, 'day1-q1');
   }
-  assert.equal(pickRandom(index, { part: 6, count: 100 }).length, 30);
+  const p6total = [...index.questions.values()].filter((x) => x.q.part === 6).length;
+  assert.equal(pickRandom(index, { part: 6, count: 1000 }).length, p6total);
   const bank2 = JSON.parse(JSON.stringify(bank));
   for (const s of bank2.sets) for (const g of s.groups) for (const q of g.questions) if (q.part === 6) q.retired = true;
   assert.equal(pickRandom(indexBank(bank2), { part: 6, count: 100 }).length, 0);
